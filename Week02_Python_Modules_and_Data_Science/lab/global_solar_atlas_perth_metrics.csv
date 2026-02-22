@@ -1,0 +1,9 @@
+source,point,lon,lat,metric,value,units
+Global Solar Atlas,Perth_onshore,115.8605,-31.9505,PVOUT_csi,1750.9793701171875,kWh/kWp/year
+Global Solar Atlas,Perth_onshore,115.8605,-31.9505,DNI,2369.2578125,kWh/m2/year
+Global Solar Atlas,Perth_onshore,115.8605,-31.9505,GHI,1979.9375,kWh/m2/year
+Global Solar Atlas,Perth_onshore,115.8605,-31.9505,DIF,529.3515625,kWh/m2/year
+Global Solar Atlas,Perth_onshore,115.8605,-31.9505,GTI_opta,2194.2265625,kWh/m2/year
+Global Solar Atlas,Perth_onshore,115.8605,-31.9505,OPTA,28.0,deg
+Global Solar Atlas,Perth_onshore,115.8605,-31.9505,TEMP,18.625,degC
+Global Solar Atlas,Perth_onshore,115.8605,-31.9505,ELE,26.0,m

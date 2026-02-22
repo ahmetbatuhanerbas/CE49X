@@ -1,0 +1,10 @@
+source,point,lon,lat,metric,value,units
+Global Wind Atlas,Perth_onshore,115.8605,-31.9505,wind_speed_100m_mps,6.275644302368164,m/s
+Global Wind Atlas,Perth_offshore_20km,115.62,-31.95,wind_speed_100m_mps,8.181456565856934,m/s
+Global Wind Atlas,Perth_offshore_40km,115.38,-31.95,wind_speed_100m_mps,8.519031524658203,m/s
+Global Wind Atlas,Perth_onshore,115.8605,-31.9505,wind_speed_150m_mps,6.881877899169922,m/s
+Global Wind Atlas,Perth_offshore_20km,115.62,-31.95,wind_speed_150m_mps,8.431944847106934,m/s
+Global Wind Atlas,Perth_offshore_40km,115.38,-31.95,wind_speed_150m_mps,8.741944313049316,m/s
+Global Wind Atlas,Perth_onshore,115.8605,-31.9505,capacity_factor_IEC2,0.28417083621025085,fraction
+Global Wind Atlas,Perth_offshore_20km,115.62,-31.95,capacity_factor_IEC2,0.49080219864845276,fraction
+Global Wind Atlas,Perth_offshore_40km,115.38,-31.95,capacity_factor_IEC2,0.5259255766868591,fraction

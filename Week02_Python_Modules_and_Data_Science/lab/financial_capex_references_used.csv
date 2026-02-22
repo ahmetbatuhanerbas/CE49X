@@ -1,0 +1,4 @@
+technology,capex_used_usd_per_kw,selection_method,source_name,source_link,notes
+Solar PV,1551.27,"NREL ATB 2024, UtilityPV, CAPEX, Market/Moderate, 2024 value",NREL ATB 2024 ATBe.csv,https://oedi-data-lake.s3.amazonaws.com/ATB/electricity/csv/2024/v3.0.0/ATBe.csv,Used in Part 3 financial model
+Onshore Wind,1676.09,"NREL ATB 2024, LandbasedWind representative class, CAPEX, Market/Moderate, 2024 value",NREL ATB 2024 ATBe.csv,https://oedi-data-lake.s3.amazonaws.com/ATB/electricity/csv/2024/v3.0.0/ATBe.csv,Used in Part 3 financial model
+Wave,5900.00,"Midpoint of commercial-scale CAPEX range (2700 to 9100 USD/kW)",IEA-OES 2015 Table 1,https://www.ocean-energy-systems.org/documents/65931-cost-of-energy-for-ocean-energy-technologies-may-2015-final.pdf/,Used in Part 3 financial model
