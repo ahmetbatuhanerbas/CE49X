@@ -1,0 +1,1517 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_121fc2b917d4668194995ae5ea10f6e3 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+<div style="position: fixed;
+            bottom: 35px; left: 35px; width: 310px; z-index: 9999;
+            background-color: white; border: 2px solid #666;
+            border-radius: 6px; padding: 12px; font-size: 13px;
+            line-height: 1.8;">
+  <b>Top 20 Underserved High-Demand Locations</b><br>
+  <i style="font-size:11px;">Ranked by nearest station distance (top 100 demand)</i><br><br>
+  <span style="display:inline-block;width:14px;height:14px;background:#D73027;border:1px solid #444;
+               border-radius:50%;vertical-align:middle;"></span> Top 3 (most underserved)<br>
+  <span style="display:inline-block;width:14px;height:14px;background:#FC8D59;border:1px solid #444;
+               border-radius:50%;vertical-align:middle;"></span> Rank 4 – 10<br>
+  <span style="display:inline-block;width:14px;height:14px;background:#4575B4;border:1px solid #444;
+               border-radius:50%;vertical-align:middle;"></span> Rank 11 – 20<br>
+  <span style="display:inline-block;width:14px;height:14px;background:#222222;border:1px solid #444;
+               border-radius:50%;vertical-align:middle;"></span> Nearest existing station<br>
+  <span style="display:inline-block;width:22px;height:0;border-top:2px dashed #888;vertical-align:middle;"></span> Distance line to nearest station
+</div>
+    
+            <div class="folium-map" id="map_121fc2b917d4668194995ae5ea10f6e3" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_121fc2b917d4668194995ae5ea10f6e3 = L.map(
+                "map_121fc2b917d4668194995ae5ea10f6e3",
+                {
+                    center: [41.06395651053683, 28.88713090622117],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 10,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+            L.control.scale().addTo(map_121fc2b917d4668194995ae5ea10f6e3);
+
+            
+
+        
+    
+            var tile_layer_416748c2c7c70a12dbf44b8d77143bae = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 18,
+  "maxNativeZoom": 18,
+  "noWrap": false,
+  "attribution": "\u0026copy; OpenStreetMap contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_416748c2c7c70a12dbf44b8d77143bae.addTo(map_121fc2b917d4668194995ae5ea10f6e3);
+        
+    
+            var tile_layer_10d3559cb8f2ef135df0eeff148dfd8f = L.tileLayer(
+                "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 20,
+  "maxNativeZoom": 20,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e",
+  "subdomains": "abcd",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            var circle_marker_877b7fe7a94e439d0fdd59d0c1d8151c = L.circleMarker(
+                [41.0421752929688, 29.0093994140625],
+                {"bubblingMouseEvents": true, "color": "#D73027", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#D73027", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 2}
+            ).addTo(map_121fc2b917d4668194995ae5ea10f6e3);
+        
+    
+        var popup_48d979f884d90ffe67fb5fd30ce98eaf = L.popup({
+  "maxWidth": 340,
+});
+
+        
+            
+                var html_6643a182526f676aa303dce77b7dd7c2 = $(`<div id="html_6643a182526f676aa303dce77b7dd7c2" style="width: 100.0%; height: 100.0%;"><b>Rank:</b> 1<br><b>GEOHASH:</b> sxk9kp<br><b>Demand score:</b> 107<br><b>Total vehicles:</b> 18,589<br><b>Mean speed:</b> 19.2 km/h<br><b>Nearest station:</b> 1.495 km<br><b>Station:</b> Best House rental of apartment (Best)</div>`)[0];
+                popup_48d979f884d90ffe67fb5fd30ce98eaf.setContent(html_6643a182526f676aa303dce77b7dd7c2);
+            
+        
+
+        circle_marker_877b7fe7a94e439d0fdd59d0c1d8151c.bindPopup(popup_48d979f884d90ffe67fb5fd30ce98eaf)
+        ;
+
+        
+    
+    
+            var marker_3ca630b467336cd3f23157a84b4edef0 = L.marker(
+                [41.0421752929688, 29.0093994140625],
+                {
+}
+            ).addTo(map_121fc2b917d4668194995ae5ea10f6e3);
+        
+    
+            var div_icon_10d2f65c93e6b584f0259474295b9537 = L.divIcon({
+  "html": "\u003cdiv style=\"font-size:11px;font-weight:bold;color:#D73027;text-shadow:1px 1px 1px white;margin-left:12px;margin-top:-5px;\"\u003e1\u003c/div\u003e",
+  "className": "empty",
+});
+        
+    
+                marker_3ca630b467336cd3f23157a84b4edef0.setIcon(div_icon_10d2f65c93e6b584f0259474295b9537);
+            
+    
+            var poly_line_b50916d375ae5f748855901f354dc371 = L.polyline(
+                [[41.0421752929688, 29.0093994140625], [41.0501819, 29.0237229]],
+                {"bubblingMouseEvents": true, "color": "#D73027", "dashArray": "6", "dashOffset": null, "fill": false, "fillColor": "#D73027", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_121fc2b917d4668194995ae5ea10f6e3);
+        
+    
+            var circle_marker_a04c1d736e74e1b892ec9bd0a27bdc19 = L.circleMarker(
+                [41.0501819, 29.0237229],
+                {"bubblingMouseEvents": true, "color": "#222222", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#222222", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 1}
+            ).addTo(map_121fc2b917d4668194995ae5ea10f6e3);
+        
+    
+        var popup_450acca2301ad9d84a83698aa643148d = L.popup({
+  "maxWidth": 280,
+});
+
+        
+            
+                var html_9b91eaa245745c9a96c24ccacf12f86d = $(`<div id="html_9b91eaa245745c9a96c24ccacf12f86d" style="width: 100.0%; height: 100.0%;"><b>Nearest station to Rank 1</b><br><b>Name:</b> Best House rental of apartment<br><b>Brand:</b> Best<br><b>Distance:</b> 1.495 km</div>`)[0];
+                popup_450acca2301ad9d84a83698aa643148d.setContent(html_9b91eaa245745c9a96c24ccacf12f86d);
+            
+        
+
+        circle_marker_a04c1d736e74e1b892ec9bd0a27bdc19.bindPopup(popup_450acca2301ad9d84a83698aa643148d)
+        ;
+
+        
+    
+    
+            var circle_marker_fba4f218c996ff03731141fff0ac5f5c = L.circleMarker(
+                [41.0366821289063, 29.0423583984375],
+                {"bubblingMouseEvents": true, "color": "#D73027", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#D73027", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 2}
+            ).addTo(map_121fc2b917d4668194995ae5ea10f6e3);
+        
+    
+        var popup_43e3e80f76b8a0298a6ed6ff9235e163 = L.popup({
+  "maxWidth": 340,
+});
+
+        
+            
+                var html_01878da01dade4930402ab0709cc56cc = $(`<div id="html_01878da01dade4930402ab0709cc56cc" style="width: 100.0%; height: 100.0%;"><b>Rank:</b> 2<br><b>GEOHASH:</b> sxk9ky<br><b>Demand score:</b> 97<br><b>Total vehicles:</b> 41,736<br><b>Mean speed:</b> 48.4 km/h<br><b>Nearest station:</b> 1.443 km<br><b>Station:</b> Opet Üsküdar (Opet)</div>`)[0];
+                popup_43e3e80f76b8a0298a6ed6ff9235e163.setContent(html_01878da01dade4930402ab0709cc56cc);
+            
+        
+
+        circle_marker_fba4f218c996ff03731141fff0ac5f5c.bindPopup(popup_43e3e80f76b8a0298a6ed6ff9235e163)
+        ;
+
+        
+    
+    
+            var marker_12b72c3ee46f1dd507ff63fea5b65f9f = L.marker(
+                [41.0366821289063, 29.0423583984375],
+                {
+}
+            ).addTo(map_121fc2b917d4668194995ae5ea10f6e3);
+        
+    
+            var div_icon_4570e8efd26024303f18e4f71d86b45d = L.divIcon({
+  "html": "\u003cdiv style=\"font-size:11px;font-weight:bold;color:#D73027;text-shadow:1px 1px 1px white;margin-left:12px;margin-top:-5px;\"\u003e2\u003c/div\u003e",
+  "className": "empty",
+});
+        
+    
+                marker_12b72c3ee46f1dd507ff63fea5b65f9f.setIcon(div_icon_4570e8efd26024303f18e4f71d86b45d);
+            
+    
+            var poly_line_951d6da545e9a7a49956798ee7d5d0be = L.polyline(
+                [[41.0366821289063, 29.0423583984375], [41.009864, 29.012243]],
+                {"bubblingMouseEvents": true, "color": "#D73027", "dashArray": "6", "dashOffset": null, "fill": false, "fillColor": "#D73027", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_121fc2b917d4668194995ae5ea10f6e3);
+        
+    
+            var circle_marker_11ded41d19e08b41a1a66e01c34c7bc1 = L.circleMarker(
+                [41.009864, 29.012243],
+                {"bubblingMouseEvents": true, "color": "#222222", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#222222", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 1}
+            ).addTo(map_121fc2b917d4668194995ae5ea10f6e3);
+        
+    
+        var popup_b6d048d41b44f4fe005cdd883210edf8 = L.popup({
+  "maxWidth": 280,
+});
+
+        
+            
+                var html_5af1cf3aebf98dc4bd11f90ffffaca20 = $(`<div id="html_5af1cf3aebf98dc4bd11f90ffffaca20" style="width: 100.0%; height: 100.0%;"><b>Nearest station to Rank 2</b><br><b>Name:</b> Opet Üsküdar<br><b>Brand:</b> Opet<br><b>Distance:</b> 1.443 km</div>`)[0];
+                popup_b6d048d41b44f4fe005cdd883210edf8.setContent(html_5af1cf3aebf98dc4bd11f90ffffaca20);
+            
+        
+
+        circle_marker_11ded41d19e08b41a1a66e01c34c7bc1.bindPopup(popup_b6d048d41b44f4fe005cdd883210edf8)
+        ;
+
+        
+    
+    
+            var circle_marker_43b0949d7538b64811bed5c6d57d8c2a = L.circleMarker(
+                [41.0641479492188, 28.7457275390625],
+                {"bubblingMouseEvents": true, "color": "#D73027", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#D73027", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 2}
+            ).addTo(map_121fc2b917d4668194995ae5ea10f6e3);
+        
+    
+        var popup_53eb3e015da8d466dd37f02bd88b3a5d = L.popup({
+  "maxWidth": 340,
+});
+
+        
+            
+                var html_92fb6a1f0527c7457bb71aad22c830f6 = $(`<div id="html_92fb6a1f0527c7457bb71aad22c830f6" style="width: 100.0%; height: 100.0%;"><b>Rank:</b> 3<br><b>GEOHASH:</b> sxk3w5<br><b>Demand score:</b> 101<br><b>Total vehicles:</b> 10,066<br><b>Mean speed:</b> 46.0 km/h<br><b>Nearest station:</b> 1.422 km<br><b>Station:</b> Aytemiz (Aytemiz)</div>`)[0];
+                popup_53eb3e015da8d466dd37f02bd88b3a5d.setContent(html_92fb6a1f0527c7457bb71aad22c830f6);
+            
+        
+
+        circle_marker_43b0949d7538b64811bed5c6d57d8c2a.bindPopup(popup_53eb3e015da8d466dd37f02bd88b3a5d)
+        ;
+
+        
+    
+    
+            var marker_4459e2b573236758f05eede33e8e11a1 = L.marker(
+                [41.0641479492188, 28.7457275390625],
+                {
+}
+            ).addTo(map_121fc2b917d4668194995ae5ea10f6e3);
+        
+    
+            var div_icon_7afa18e30908959bf042e6a7b5c092e4 = L.divIcon({
+  "html": "\u003cdiv style=\"font-size:11px;font-weight:bold;color:#D73027;text-shadow:1px 1px 1px white;margin-left:12px;margin-top:-5px;\"\u003e3\u003c/div\u003e",
+  "className": "empty",
+});
+        
+    
+                marker_4459e2b573236758f05eede33e8e11a1.setIcon(div_icon_7afa18e30908959bf042e6a7b5c092e4);
+            
+    
+            var poly_line_e660ba982cfcadd1206b26973c31bda2 = L.polyline(
+                [[41.0641479492188, 28.7457275390625], [40.8968375, 29.2249513]],
+                {"bubblingMouseEvents": true, "color": "#D73027", "dashArray": "6", "dashOffset": null, "fill": false, "fillColor": "#D73027", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_121fc2b917d4668194995ae5ea10f6e3);
+        
+    
+            var circle_marker_f1446cd656bc57825928c0c79eb00be8 = L.circleMarker(
+                [40.8968375, 29.2249513],
+                {"bubblingMouseEvents": true, "color": "#222222", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#222222", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 1}
+            ).addTo(map_121fc2b917d4668194995ae5ea10f6e3);
+        
+    
+        var popup_ccf69af83ec67239ebcd663058f3c137 = L.popup({
+  "maxWidth": 280,
+});
+
+        
+            
+                var html_6b967776a36f6037a3f75bbf2e64acc6 = $(`<div id="html_6b967776a36f6037a3f75bbf2e64acc6" style="width: 100.0%; height: 100.0%;"><b>Nearest station to Rank 3</b><br><b>Name:</b> Aytemiz<br><b>Brand:</b> Aytemiz<br><b>Distance:</b> 1.422 km</div>`)[0];
+                popup_ccf69af83ec67239ebcd663058f3c137.setContent(html_6b967776a36f6037a3f75bbf2e64acc6);
+            
+        
+
+        circle_marker_f1446cd656bc57825928c0c79eb00be8.bindPopup(popup_ccf69af83ec67239ebcd663058f3c137)
+        ;
+
+        
+    
+    
+            var circle_marker_117ea880eb61c883994a3e9757cdc91e = L.circleMarker(
+                [41.0421752929688, 29.0423583984375],
+                {"bubblingMouseEvents": true, "color": "#FC8D59", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FC8D59", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 2}
+            ).addTo(map_121fc2b917d4668194995ae5ea10f6e3);
+        
+    
+        var popup_1b9779cc75e0262ef54aa168b2b5364d = L.popup({
+  "maxWidth": 340,
+});
+
+        
+            
+                var html_b132e242b0dae29799e0b4f3beaf4089 = $(`<div id="html_b132e242b0dae29799e0b4f3beaf4089" style="width: 100.0%; height: 100.0%;"><b>Rank:</b> 4<br><b>GEOHASH:</b> sxk9kz<br><b>Demand score:</b> 98<br><b>Total vehicles:</b> 36,477<br><b>Mean speed:</b> 45.0 km/h<br><b>Nearest station:</b> 1.269 km<br><b>Station:</b> Opet (Opet)</div>`)[0];
+                popup_1b9779cc75e0262ef54aa168b2b5364d.setContent(html_b132e242b0dae29799e0b4f3beaf4089);
+            
+        
+
+        circle_marker_117ea880eb61c883994a3e9757cdc91e.bindPopup(popup_1b9779cc75e0262ef54aa168b2b5364d)
+        ;
+
+        
+    
+    
+            var marker_1a4e5f596f18847a44e1d02ad8ece483 = L.marker(
+                [41.0421752929688, 29.0423583984375],
+                {
+}
+            ).addTo(map_121fc2b917d4668194995ae5ea10f6e3);
+        
+    
+            var div_icon_df90990e34c0a2da5382a6a33d65e451 = L.divIcon({
+  "html": "\u003cdiv style=\"font-size:11px;font-weight:bold;color:#FC8D59;text-shadow:1px 1px 1px white;margin-left:12px;margin-top:-5px;\"\u003e4\u003c/div\u003e",
+  "className": "empty",
+});
+        
+    
+                marker_1a4e5f596f18847a44e1d02ad8ece483.setIcon(div_icon_df90990e34c0a2da5382a6a33d65e451);
+            
+    
+            var poly_line_b58e703571497a217b150255c752145a = L.polyline(
+                [[41.0421752929688, 29.0423583984375], [41.0260804, 28.9797859]],
+                {"bubblingMouseEvents": true, "color": "#FC8D59", "dashArray": "6", "dashOffset": null, "fill": false, "fillColor": "#FC8D59", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_121fc2b917d4668194995ae5ea10f6e3);
+        
+    
+            var circle_marker_2866a7d507b03a55d4726ca5c82933f0 = L.circleMarker(
+                [41.0260804, 28.9797859],
+                {"bubblingMouseEvents": true, "color": "#222222", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#222222", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 1}
+            ).addTo(map_121fc2b917d4668194995ae5ea10f6e3);
+        
+    
+        var popup_7f2d68108e50e52f7ec7a9a2eaffa304 = L.popup({
+  "maxWidth": 280,
+});
+
+        
+            
+                var html_396a249675fd685cb4a4dec94bb2ea4c = $(`<div id="html_396a249675fd685cb4a4dec94bb2ea4c" style="width: 100.0%; height: 100.0%;"><b>Nearest station to Rank 4</b><br><b>Name:</b> Opet<br><b>Brand:</b> Opet<br><b>Distance:</b> 1.269 km</div>`)[0];
+                popup_7f2d68108e50e52f7ec7a9a2eaffa304.setContent(html_396a249675fd685cb4a4dec94bb2ea4c);
+            
+        
+
+        circle_marker_2866a7d507b03a55d4726ca5c82933f0.bindPopup(popup_7f2d68108e50e52f7ec7a9a2eaffa304)
+        ;
+
+        
+    
+    
+            var circle_marker_ef766e162c34a5b20e15d28ca99fe925 = L.circleMarker(
+                [40.9103393554688, 29.3170166015625],
+                {"bubblingMouseEvents": true, "color": "#FC8D59", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FC8D59", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 2}
+            ).addTo(map_121fc2b917d4668194995ae5ea10f6e3);
+        
+    
+        var popup_d6f164ad6250a0890c9eb83fad8fb4b2 = L.popup({
+  "maxWidth": 340,
+});
+
+        
+            
+                var html_2b9859fab624785f6316da7e8509f7c6 = $(`<div id="html_2b9859fab624785f6316da7e8509f7c6" style="width: 100.0%; height: 100.0%;"><b>Rank:</b> 5<br><b>GEOHASH:</b> sxkbep<br><b>Demand score:</b> 108<br><b>Total vehicles:</b> 4,290<br><b>Mean speed:</b> 28.8 km/h<br><b>Nearest station:</b> 1.235 km<br><b>Station:</b> Petrol Ofisi (Petrol Ofisi)</div>`)[0];
+                popup_d6f164ad6250a0890c9eb83fad8fb4b2.setContent(html_2b9859fab624785f6316da7e8509f7c6);
+            
+        
+
+        circle_marker_ef766e162c34a5b20e15d28ca99fe925.bindPopup(popup_d6f164ad6250a0890c9eb83fad8fb4b2)
+        ;
+
+        
+    
+    
+            var marker_89a9e918b18c5bf0d1a9ea8e892af952 = L.marker(
+                [40.9103393554688, 29.3170166015625],
+                {
+}
+            ).addTo(map_121fc2b917d4668194995ae5ea10f6e3);
+        
+    
+            var div_icon_f4101b28f6594d10a6f92cd91f05f5a5 = L.divIcon({
+  "html": "\u003cdiv style=\"font-size:11px;font-weight:bold;color:#FC8D59;text-shadow:1px 1px 1px white;margin-left:12px;margin-top:-5px;\"\u003e5\u003c/div\u003e",
+  "className": "empty",
+});
+        
+    
+                marker_89a9e918b18c5bf0d1a9ea8e892af952.setIcon(div_icon_f4101b28f6594d10a6f92cd91f05f5a5);
+            
+    
+            var poly_line_0074073a58c44089b18435d4dd6005e2 = L.polyline(
+                [[40.9103393554688, 29.3170166015625], [41.0288378, 29.0174396]],
+                {"bubblingMouseEvents": true, "color": "#FC8D59", "dashArray": "6", "dashOffset": null, "fill": false, "fillColor": "#FC8D59", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_121fc2b917d4668194995ae5ea10f6e3);
+        
+    
+            var circle_marker_672fa110b5a01779af16257efd58356e = L.circleMarker(
+                [41.0288378, 29.0174396],
+                {"bubblingMouseEvents": true, "color": "#222222", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#222222", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 1}
+            ).addTo(map_121fc2b917d4668194995ae5ea10f6e3);
+        
+    
+        var popup_f812a40bc0faabb9ecad576a87d2381d = L.popup({
+  "maxWidth": 280,
+});
+
+        
+            
+                var html_7e187aa2ca3abed7086b2e7c4512b477 = $(`<div id="html_7e187aa2ca3abed7086b2e7c4512b477" style="width: 100.0%; height: 100.0%;"><b>Nearest station to Rank 5</b><br><b>Name:</b> Petrol Ofisi<br><b>Brand:</b> Petrol Ofisi<br><b>Distance:</b> 1.235 km</div>`)[0];
+                popup_f812a40bc0faabb9ecad576a87d2381d.setContent(html_7e187aa2ca3abed7086b2e7c4512b477);
+            
+        
+
+        circle_marker_672fa110b5a01779af16257efd58356e.bindPopup(popup_f812a40bc0faabb9ecad576a87d2381d)
+        ;
+
+        
+    
+    
+            var circle_marker_5de8e901a7a2a34371c98c3b37778745 = L.circleMarker(
+                [41.0256958007813, 28.9654541015625],
+                {"bubblingMouseEvents": true, "color": "#FC8D59", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FC8D59", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 2}
+            ).addTo(map_121fc2b917d4668194995ae5ea10f6e3);
+        
+    
+        var popup_87450ae6d7f93cd6e5118da648ed4581 = L.popup({
+  "maxWidth": 340,
+});
+
+        
+            
+                var html_735c9ad143a9026a35c4ca9bcc394b29 = $(`<div id="html_735c9ad143a9026a35c4ca9bcc394b29" style="width: 100.0%; height: 100.0%;"><b>Rank:</b> 6<br><b>GEOHASH:</b> sxk97h<br><b>Demand score:</b> 100<br><b>Total vehicles:</b> 4,678<br><b>Mean speed:</b> 34.8 km/h<br><b>Nearest station:</b> 1.192 km<br><b>Station:</b> Opet Tahtakale (Opet)</div>`)[0];
+                popup_87450ae6d7f93cd6e5118da648ed4581.setContent(html_735c9ad143a9026a35c4ca9bcc394b29);
+            
+        
+
+        circle_marker_5de8e901a7a2a34371c98c3b37778745.bindPopup(popup_87450ae6d7f93cd6e5118da648ed4581)
+        ;
+
+        
+    
+    
+            var marker_1e405c101d2f6f8023feeb0ed1ece4ba = L.marker(
+                [41.0256958007813, 28.9654541015625],
+                {
+}
+            ).addTo(map_121fc2b917d4668194995ae5ea10f6e3);
+        
+    
+            var div_icon_c2bd2d83a09c472867016f58fd2a10b8 = L.divIcon({
+  "html": "\u003cdiv style=\"font-size:11px;font-weight:bold;color:#FC8D59;text-shadow:1px 1px 1px white;margin-left:12px;margin-top:-5px;\"\u003e6\u003c/div\u003e",
+  "className": "empty",
+});
+        
+    
+                marker_1e405c101d2f6f8023feeb0ed1ece4ba.setIcon(div_icon_c2bd2d83a09c472867016f58fd2a10b8);
+            
+    
+            var poly_line_77bc2aa9fdfb097bccc985d9309d2014 = L.polyline(
+                [[41.0256958007813, 28.9654541015625], [41.0151886, 28.968297]],
+                {"bubblingMouseEvents": true, "color": "#FC8D59", "dashArray": "6", "dashOffset": null, "fill": false, "fillColor": "#FC8D59", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_121fc2b917d4668194995ae5ea10f6e3);
+        
+    
+            var circle_marker_9a5a26415f890082b9275ec7f7b02a93 = L.circleMarker(
+                [41.0151886, 28.968297],
+                {"bubblingMouseEvents": true, "color": "#222222", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#222222", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 1}
+            ).addTo(map_121fc2b917d4668194995ae5ea10f6e3);
+        
+    
+        var popup_821d0d8f2ec0e5f24cb50ef68d0b3d2d = L.popup({
+  "maxWidth": 280,
+});
+
+        
+            
+                var html_f682c4f1ce385c3b69e32671a18c4f42 = $(`<div id="html_f682c4f1ce385c3b69e32671a18c4f42" style="width: 100.0%; height: 100.0%;"><b>Nearest station to Rank 6</b><br><b>Name:</b> Opet Tahtakale<br><b>Brand:</b> Opet<br><b>Distance:</b> 1.192 km</div>`)[0];
+                popup_821d0d8f2ec0e5f24cb50ef68d0b3d2d.setContent(html_f682c4f1ce385c3b69e32671a18c4f42);
+            
+        
+
+        circle_marker_9a5a26415f890082b9275ec7f7b02a93.bindPopup(popup_821d0d8f2ec0e5f24cb50ef68d0b3d2d)
+        ;
+
+        
+    
+    
+            var circle_marker_8b411888f1b8bac450d4f05fbf7b4b6b = L.circleMarker(
+                [41.0476684570313, 29.0093994140625],
+                {"bubblingMouseEvents": true, "color": "#FC8D59", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FC8D59", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 2}
+            ).addTo(map_121fc2b917d4668194995ae5ea10f6e3);
+        
+    
+        var popup_107f389720772029271a1f81411fe3c9 = L.popup({
+  "maxWidth": 340,
+});
+
+        
+            
+                var html_3eb33337e65bb88c15a36a9acf2635eb = $(`<div id="html_3eb33337e65bb88c15a36a9acf2635eb" style="width: 100.0%; height: 100.0%;"><b>Rank:</b> 7<br><b>GEOHASH:</b> sxk9s0<br><b>Demand score:</b> 100<br><b>Total vehicles:</b> 15,609<br><b>Mean speed:</b> 26.4 km/h<br><b>Nearest station:</b> 1.183 km<br><b>Station:</b> Opet (Opet)</div>`)[0];
+                popup_107f389720772029271a1f81411fe3c9.setContent(html_3eb33337e65bb88c15a36a9acf2635eb);
+            
+        
+
+        circle_marker_8b411888f1b8bac450d4f05fbf7b4b6b.bindPopup(popup_107f389720772029271a1f81411fe3c9)
+        ;
+
+        
+    
+    
+            var marker_58a9acb7889c519956dfc290699ed3ff = L.marker(
+                [41.0476684570313, 29.0093994140625],
+                {
+}
+            ).addTo(map_121fc2b917d4668194995ae5ea10f6e3);
+        
+    
+            var div_icon_36d9805a2e4bcde1dcebc96a874dfddf = L.divIcon({
+  "html": "\u003cdiv style=\"font-size:11px;font-weight:bold;color:#FC8D59;text-shadow:1px 1px 1px white;margin-left:12px;margin-top:-5px;\"\u003e7\u003c/div\u003e",
+  "className": "empty",
+});
+        
+    
+                marker_58a9acb7889c519956dfc290699ed3ff.setIcon(div_icon_36d9805a2e4bcde1dcebc96a874dfddf);
+            
+    
+            var poly_line_22847b53860ca1235bda197a17662b69 = L.polyline(
+                [[41.0476684570313, 29.0093994140625], [41.0260804, 28.9797859]],
+                {"bubblingMouseEvents": true, "color": "#FC8D59", "dashArray": "6", "dashOffset": null, "fill": false, "fillColor": "#FC8D59", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_121fc2b917d4668194995ae5ea10f6e3);
+        
+    
+            var circle_marker_8213cc816f7db4a70fed3000baa632d5 = L.circleMarker(
+                [41.0260804, 28.9797859],
+                {"bubblingMouseEvents": true, "color": "#222222", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#222222", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 1}
+            ).addTo(map_121fc2b917d4668194995ae5ea10f6e3);
+        
+    
+        var popup_f8e4361e17c0c3e2893b1a14d8e58173 = L.popup({
+  "maxWidth": 280,
+});
+
+        
+            
+                var html_7f366fced9f8014d705e0021995deeed = $(`<div id="html_7f366fced9f8014d705e0021995deeed" style="width: 100.0%; height: 100.0%;"><b>Nearest station to Rank 7</b><br><b>Name:</b> Opet<br><b>Brand:</b> Opet<br><b>Distance:</b> 1.183 km</div>`)[0];
+                popup_f8e4361e17c0c3e2893b1a14d8e58173.setContent(html_7f366fced9f8014d705e0021995deeed);
+            
+        
+
+        circle_marker_8213cc816f7db4a70fed3000baa632d5.bindPopup(popup_f8e4361e17c0c3e2893b1a14d8e58173)
+        ;
+
+        
+    
+    
+            var circle_marker_b371dc1859972dcfe12271f5118bc6df = L.circleMarker(
+                [41.0037231445313, 29.1082763671875],
+                {"bubblingMouseEvents": true, "color": "#FC8D59", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FC8D59", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 2}
+            ).addTo(map_121fc2b917d4668194995ae5ea10f6e3);
+        
+    
+        var popup_0913a2e448e11a13258bb6442a15efdb = L.popup({
+  "maxWidth": 340,
+});
+
+        
+            
+                var html_62bfae78fe3e6e5d65eaca92648f9e14 = $(`<div id="html_62bfae78fe3e6e5d65eaca92648f9e14" style="width: 100.0%; height: 100.0%;"><b>Rank:</b> 8<br><b>GEOHASH:</b> sxk9q2<br><b>Demand score:</b> 101<br><b>Total vehicles:</b> 4,094<br><b>Mean speed:</b> 36.1 km/h<br><b>Nearest station:</b> 1.064 km<br><b>Station:</b> Petrol Ofisi (Petrol Ofisi)</div>`)[0];
+                popup_0913a2e448e11a13258bb6442a15efdb.setContent(html_62bfae78fe3e6e5d65eaca92648f9e14);
+            
+        
+
+        circle_marker_b371dc1859972dcfe12271f5118bc6df.bindPopup(popup_0913a2e448e11a13258bb6442a15efdb)
+        ;
+
+        
+    
+    
+            var marker_0ee91130b594ef919d5acb0eb5c4e37f = L.marker(
+                [41.0037231445313, 29.1082763671875],
+                {
+}
+            ).addTo(map_121fc2b917d4668194995ae5ea10f6e3);
+        
+    
+            var div_icon_5a386c91e207adf019edd782bb7fe9b7 = L.divIcon({
+  "html": "\u003cdiv style=\"font-size:11px;font-weight:bold;color:#FC8D59;text-shadow:1px 1px 1px white;margin-left:12px;margin-top:-5px;\"\u003e8\u003c/div\u003e",
+  "className": "empty",
+});
+        
+    
+                marker_0ee91130b594ef919d5acb0eb5c4e37f.setIcon(div_icon_5a386c91e207adf019edd782bb7fe9b7);
+            
+    
+            var poly_line_83d3573c4adfa762dc8c0ffc82005e53 = L.polyline(
+                [[41.0037231445313, 29.1082763671875], [41.0288378, 29.0174396]],
+                {"bubblingMouseEvents": true, "color": "#FC8D59", "dashArray": "6", "dashOffset": null, "fill": false, "fillColor": "#FC8D59", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_121fc2b917d4668194995ae5ea10f6e3);
+        
+    
+            var circle_marker_c255bac419592a470cea3341d71c3edc = L.circleMarker(
+                [41.0288378, 29.0174396],
+                {"bubblingMouseEvents": true, "color": "#222222", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#222222", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 1}
+            ).addTo(map_121fc2b917d4668194995ae5ea10f6e3);
+        
+    
+        var popup_15d4a568244d2e8608498a288726d40a = L.popup({
+  "maxWidth": 280,
+});
+
+        
+            
+                var html_59d758bdeba1b68389bf47b054ff6c6e = $(`<div id="html_59d758bdeba1b68389bf47b054ff6c6e" style="width: 100.0%; height: 100.0%;"><b>Nearest station to Rank 8</b><br><b>Name:</b> Petrol Ofisi<br><b>Brand:</b> Petrol Ofisi<br><b>Distance:</b> 1.064 km</div>`)[0];
+                popup_15d4a568244d2e8608498a288726d40a.setContent(html_59d758bdeba1b68389bf47b054ff6c6e);
+            
+        
+
+        circle_marker_c255bac419592a470cea3341d71c3edc.bindPopup(popup_15d4a568244d2e8608498a288726d40a)
+        ;
+
+        
+    
+    
+            var circle_marker_faefa711a74d693c720ef48ebb11ea48 = L.circleMarker(
+                [41.0751342773438, 28.9544677734375],
+                {"bubblingMouseEvents": true, "color": "#FC8D59", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FC8D59", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 2}
+            ).addTo(map_121fc2b917d4668194995ae5ea10f6e3);
+        
+    
+        var popup_a5935b94e0d8223b3fb1fdfb32a0b1fa = L.popup({
+  "maxWidth": 340,
+});
+
+        
+            
+                var html_a4fc41dc4e96f8b2150ff66aee4f8597 = $(`<div id="html_a4fc41dc4e96f8b2150ff66aee4f8597" style="width: 100.0%; height: 100.0%;"><b>Rank:</b> 9<br><b>GEOHASH:</b> sxk9dv<br><b>Demand score:</b> 97<br><b>Total vehicles:</b> 8,225<br><b>Mean speed:</b> 41.7 km/h<br><b>Nearest station:</b> 1.038 km<br><b>Station:</b> Türkiye Petrolleri (Türkiye Petrolleri)</div>`)[0];
+                popup_a5935b94e0d8223b3fb1fdfb32a0b1fa.setContent(html_a4fc41dc4e96f8b2150ff66aee4f8597);
+            
+        
+
+        circle_marker_faefa711a74d693c720ef48ebb11ea48.bindPopup(popup_a5935b94e0d8223b3fb1fdfb32a0b1fa)
+        ;
+
+        
+    
+    
+            var marker_5336a7c434e59c1e97c566c7b80c4ab0 = L.marker(
+                [41.0751342773438, 28.9544677734375],
+                {
+}
+            ).addTo(map_121fc2b917d4668194995ae5ea10f6e3);
+        
+    
+            var div_icon_9624bc68f2791f2c990e817d3aed4ef8 = L.divIcon({
+  "html": "\u003cdiv style=\"font-size:11px;font-weight:bold;color:#FC8D59;text-shadow:1px 1px 1px white;margin-left:12px;margin-top:-5px;\"\u003e9\u003c/div\u003e",
+  "className": "empty",
+});
+        
+    
+                marker_5336a7c434e59c1e97c566c7b80c4ab0.setIcon(div_icon_9624bc68f2791f2c990e817d3aed4ef8);
+            
+    
+            var poly_line_5daba374277673c47e84e7044d6c172c = L.polyline(
+                [[41.0751342773438, 28.9544677734375], [40.8988275, 29.3692152]],
+                {"bubblingMouseEvents": true, "color": "#FC8D59", "dashArray": "6", "dashOffset": null, "fill": false, "fillColor": "#FC8D59", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_121fc2b917d4668194995ae5ea10f6e3);
+        
+    
+            var circle_marker_9005fd9ef6925cd043558c985b1dcac5 = L.circleMarker(
+                [40.8988275, 29.3692152],
+                {"bubblingMouseEvents": true, "color": "#222222", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#222222", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 1}
+            ).addTo(map_121fc2b917d4668194995ae5ea10f6e3);
+        
+    
+        var popup_01d29c872e848b9a3fd00bb2554efa38 = L.popup({
+  "maxWidth": 280,
+});
+
+        
+            
+                var html_fdec271ff9da9760e0942266578ba66f = $(`<div id="html_fdec271ff9da9760e0942266578ba66f" style="width: 100.0%; height: 100.0%;"><b>Nearest station to Rank 9</b><br><b>Name:</b> Türkiye Petrolleri<br><b>Brand:</b> Türkiye Petrolleri<br><b>Distance:</b> 1.038 km</div>`)[0];
+                popup_01d29c872e848b9a3fd00bb2554efa38.setContent(html_fdec271ff9da9760e0942266578ba66f);
+            
+        
+
+        circle_marker_9005fd9ef6925cd043558c985b1dcac5.bindPopup(popup_01d29c872e848b9a3fd00bb2554efa38)
+        ;
+
+        
+    
+    
+            var circle_marker_1a6c74828a581f0b2b93180fdb1730e6 = L.circleMarker(
+                [40.9927368164063, 29.1632080078125],
+                {"bubblingMouseEvents": true, "color": "#FC8D59", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FC8D59", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 2}
+            ).addTo(map_121fc2b917d4668194995ae5ea10f6e3);
+        
+    
+        var popup_b29550e23c94002616a5dec4851fff70 = L.popup({
+  "maxWidth": 340,
+});
+
+        
+            
+                var html_1f8ed297cb0c490cd1c5ef36cc18bafa = $(`<div id="html_1f8ed297cb0c490cd1c5ef36cc18bafa" style="width: 100.0%; height: 100.0%;"><b>Rank:</b> 10<br><b>GEOHASH:</b> sxk9pw<br><b>Demand score:</b> 97<br><b>Total vehicles:</b> 10,196<br><b>Mean speed:</b> 48.0 km/h<br><b>Nearest station:</b> 0.983 km<br><b>Station:</b> Shell (Shell)</div>`)[0];
+                popup_b29550e23c94002616a5dec4851fff70.setContent(html_1f8ed297cb0c490cd1c5ef36cc18bafa);
+            
+        
+
+        circle_marker_1a6c74828a581f0b2b93180fdb1730e6.bindPopup(popup_b29550e23c94002616a5dec4851fff70)
+        ;
+
+        
+    
+    
+            var marker_6455b2f72914ab355e4369f3b8695a0d = L.marker(
+                [40.9927368164063, 29.1632080078125],
+                {
+}
+            ).addTo(map_121fc2b917d4668194995ae5ea10f6e3);
+        
+    
+            var div_icon_15d3c7f3942bea63452cff74153905bb = L.divIcon({
+  "html": "\u003cdiv style=\"font-size:11px;font-weight:bold;color:#FC8D59;text-shadow:1px 1px 1px white;margin-left:12px;margin-top:-5px;\"\u003e10\u003c/div\u003e",
+  "className": "empty",
+});
+        
+    
+                marker_6455b2f72914ab355e4369f3b8695a0d.setIcon(div_icon_15d3c7f3942bea63452cff74153905bb);
+            
+    
+            var poly_line_bf4948db62898b557bce427e8cd508da = L.polyline(
+                [[40.9927368164063, 29.1632080078125], [40.9989931, 29.1549337]],
+                {"bubblingMouseEvents": true, "color": "#FC8D59", "dashArray": "6", "dashOffset": null, "fill": false, "fillColor": "#FC8D59", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_121fc2b917d4668194995ae5ea10f6e3);
+        
+    
+            var circle_marker_e3a53f3646aecb050f1749aa5e3bfb28 = L.circleMarker(
+                [40.9989931, 29.1549337],
+                {"bubblingMouseEvents": true, "color": "#222222", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#222222", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 1}
+            ).addTo(map_121fc2b917d4668194995ae5ea10f6e3);
+        
+    
+        var popup_16947db3fa4c92004786178ca788ce7c = L.popup({
+  "maxWidth": 280,
+});
+
+        
+            
+                var html_556aed209ba2417a407d13cd18c6926e = $(`<div id="html_556aed209ba2417a407d13cd18c6926e" style="width: 100.0%; height: 100.0%;"><b>Nearest station to Rank 10</b><br><b>Name:</b> Shell<br><b>Brand:</b> Shell<br><b>Distance:</b> 0.983 km</div>`)[0];
+                popup_16947db3fa4c92004786178ca788ce7c.setContent(html_556aed209ba2417a407d13cd18c6926e);
+            
+        
+
+        circle_marker_e3a53f3646aecb050f1749aa5e3bfb28.bindPopup(popup_16947db3fa4c92004786178ca788ce7c)
+        ;
+
+        
+    
+    
+            var circle_marker_96abff1942925b007f00c23226cea5e3 = L.circleMarker(
+                [40.9927368164063, 29.0313720703125],
+                {"bubblingMouseEvents": true, "color": "#4575B4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4575B4", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 2}
+            ).addTo(map_121fc2b917d4668194995ae5ea10f6e3);
+        
+    
+        var popup_572e5f73e17f15188696f101d8e15899 = L.popup({
+  "maxWidth": 340,
+});
+
+        
+            
+                var html_259ec82342ac351342dce7cdd777485d = $(`<div id="html_259ec82342ac351342dce7cdd777485d" style="width: 100.0%; height: 100.0%;"><b>Rank:</b> 11<br><b>GEOHASH:</b> sxk9hw<br><b>Demand score:</b> 98<br><b>Total vehicles:</b> 3,726<br><b>Mean speed:</b> 25.5 km/h<br><b>Nearest station:</b> 0.978 km<br><b>Station:</b> BP (BP)</div>`)[0];
+                popup_572e5f73e17f15188696f101d8e15899.setContent(html_259ec82342ac351342dce7cdd777485d);
+            
+        
+
+        circle_marker_96abff1942925b007f00c23226cea5e3.bindPopup(popup_572e5f73e17f15188696f101d8e15899)
+        ;
+
+        
+    
+    
+            var marker_9fc4dcd4b95561b5b34ad4fd327dc965 = L.marker(
+                [40.9927368164063, 29.0313720703125],
+                {
+}
+            ).addTo(map_121fc2b917d4668194995ae5ea10f6e3);
+        
+    
+            var div_icon_851d73f7ecd0c8f3ea24996caf3b9263 = L.divIcon({
+  "html": "\u003cdiv style=\"font-size:11px;font-weight:bold;color:#4575B4;text-shadow:1px 1px 1px white;margin-left:12px;margin-top:-5px;\"\u003e11\u003c/div\u003e",
+  "className": "empty",
+});
+        
+    
+                marker_9fc4dcd4b95561b5b34ad4fd327dc965.setIcon(div_icon_851d73f7ecd0c8f3ea24996caf3b9263);
+            
+    
+            var poly_line_fbdcc09e5e1204db3ce52e9a13566b99 = L.polyline(
+                [[40.9927368164063, 29.0313720703125], [40.9664225, 29.1033193]],
+                {"bubblingMouseEvents": true, "color": "#4575B4", "dashArray": "6", "dashOffset": null, "fill": false, "fillColor": "#4575B4", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_121fc2b917d4668194995ae5ea10f6e3);
+        
+    
+            var circle_marker_5639cab828c8a0e7a7e7520e72170874 = L.circleMarker(
+                [40.9664225, 29.1033193],
+                {"bubblingMouseEvents": true, "color": "#222222", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#222222", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 1}
+            ).addTo(map_121fc2b917d4668194995ae5ea10f6e3);
+        
+    
+        var popup_c77b590be6b09d5381b51d9bb9666e1a = L.popup({
+  "maxWidth": 280,
+});
+
+        
+            
+                var html_df7ed4cb44d5415ab36880b5a767b80f = $(`<div id="html_df7ed4cb44d5415ab36880b5a767b80f" style="width: 100.0%; height: 100.0%;"><b>Nearest station to Rank 11</b><br><b>Name:</b> BP<br><b>Brand:</b> BP<br><b>Distance:</b> 0.978 km</div>`)[0];
+                popup_c77b590be6b09d5381b51d9bb9666e1a.setContent(html_df7ed4cb44d5415ab36880b5a767b80f);
+            
+        
+
+        circle_marker_5639cab828c8a0e7a7e7520e72170874.bindPopup(popup_c77b590be6b09d5381b51d9bb9666e1a)
+        ;
+
+        
+    
+    
+            var circle_marker_b83ce5d1a6466f2776c387ac62f747ae = L.circleMarker(
+                [41.0641479492188, 28.8006591796875],
+                {"bubblingMouseEvents": true, "color": "#4575B4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4575B4", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 2}
+            ).addTo(map_121fc2b917d4668194995ae5ea10f6e3);
+        
+    
+        var popup_3f75e082cbc439920c0ad4170297673c = L.popup({
+  "maxWidth": 340,
+});
+
+        
+            
+                var html_ddeb3a87d2ca2250758ed258708ed0d4 = $(`<div id="html_ddeb3a87d2ca2250758ed258708ed0d4" style="width: 100.0%; height: 100.0%;"><b>Rank:</b> 12<br><b>GEOHASH:</b> sxk3x7<br><b>Demand score:</b> 97<br><b>Total vehicles:</b> 15,984<br><b>Mean speed:</b> 46.3 km/h<br><b>Nearest station:</b> 0.963 km<br><b>Station:</b> Petrol Ofisi (Petrol Ofisi)</div>`)[0];
+                popup_3f75e082cbc439920c0ad4170297673c.setContent(html_ddeb3a87d2ca2250758ed258708ed0d4);
+            
+        
+
+        circle_marker_b83ce5d1a6466f2776c387ac62f747ae.bindPopup(popup_3f75e082cbc439920c0ad4170297673c)
+        ;
+
+        
+    
+    
+            var marker_04bfe542d357e530c5c736d7837a20f2 = L.marker(
+                [41.0641479492188, 28.8006591796875],
+                {
+}
+            ).addTo(map_121fc2b917d4668194995ae5ea10f6e3);
+        
+    
+            var div_icon_3dcc25f2ec4b6696cb6b2f019f00690f = L.divIcon({
+  "html": "\u003cdiv style=\"font-size:11px;font-weight:bold;color:#4575B4;text-shadow:1px 1px 1px white;margin-left:12px;margin-top:-5px;\"\u003e12\u003c/div\u003e",
+  "className": "empty",
+});
+        
+    
+                marker_04bfe542d357e530c5c736d7837a20f2.setIcon(div_icon_3dcc25f2ec4b6696cb6b2f019f00690f);
+            
+    
+            var poly_line_a5eb864c1f5b198281e0c0e013c0fcb0 = L.polyline(
+                [[41.0641479492188, 28.8006591796875], [41.0288378, 29.0174396]],
+                {"bubblingMouseEvents": true, "color": "#4575B4", "dashArray": "6", "dashOffset": null, "fill": false, "fillColor": "#4575B4", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_121fc2b917d4668194995ae5ea10f6e3);
+        
+    
+            var circle_marker_b26a91b06408bf39ef8d252f4c47b317 = L.circleMarker(
+                [41.0288378, 29.0174396],
+                {"bubblingMouseEvents": true, "color": "#222222", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#222222", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 1}
+            ).addTo(map_121fc2b917d4668194995ae5ea10f6e3);
+        
+    
+        var popup_4a64dd753fd3480c58c20d2330a8e777 = L.popup({
+  "maxWidth": 280,
+});
+
+        
+            
+                var html_bc73e2d18045710dbacfb3120463281b = $(`<div id="html_bc73e2d18045710dbacfb3120463281b" style="width: 100.0%; height: 100.0%;"><b>Nearest station to Rank 12</b><br><b>Name:</b> Petrol Ofisi<br><b>Brand:</b> Petrol Ofisi<br><b>Distance:</b> 0.963 km</div>`)[0];
+                popup_4a64dd753fd3480c58c20d2330a8e777.setContent(html_bc73e2d18045710dbacfb3120463281b);
+            
+        
+
+        circle_marker_b26a91b06408bf39ef8d252f4c47b317.bindPopup(popup_4a64dd753fd3480c58c20d2330a8e777)
+        ;
+
+        
+    
+    
+            var circle_marker_01a7aad9600dfce666ef0f2eed30f055 = L.circleMarker(
+                [41.0861206054688, 29.0972900390625],
+                {"bubblingMouseEvents": true, "color": "#4575B4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4575B4", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 2}
+            ).addTo(map_121fc2b917d4668194995ae5ea10f6e3);
+        
+    
+        var popup_726391fda355d39a5ba9ef4d924633ad = L.popup({
+  "maxWidth": 340,
+});
+
+        
+            
+                var html_52fd7f2173490678bf1d92858f6fa049 = $(`<div id="html_52fd7f2173490678bf1d92858f6fa049" style="width: 100.0%; height: 100.0%;"><b>Rank:</b> 13<br><b>GEOHASH:</b> sxk9wp<br><b>Demand score:</b> 97<br><b>Total vehicles:</b> 6,544<br><b>Mean speed:</b> 55.2 km/h<br><b>Nearest station:</b> 0.957 km<br><b>Station:</b> BP (BP)</div>`)[0];
+                popup_726391fda355d39a5ba9ef4d924633ad.setContent(html_52fd7f2173490678bf1d92858f6fa049);
+            
+        
+
+        circle_marker_01a7aad9600dfce666ef0f2eed30f055.bindPopup(popup_726391fda355d39a5ba9ef4d924633ad)
+        ;
+
+        
+    
+    
+            var marker_a10295e8e9118d59eae3c5c515ae2b3f = L.marker(
+                [41.0861206054688, 29.0972900390625],
+                {
+}
+            ).addTo(map_121fc2b917d4668194995ae5ea10f6e3);
+        
+    
+            var div_icon_7a320fbe17fa00a9965f2b162ee07f4b = L.divIcon({
+  "html": "\u003cdiv style=\"font-size:11px;font-weight:bold;color:#4575B4;text-shadow:1px 1px 1px white;margin-left:12px;margin-top:-5px;\"\u003e13\u003c/div\u003e",
+  "className": "empty",
+});
+        
+    
+                marker_a10295e8e9118d59eae3c5c515ae2b3f.setIcon(div_icon_7a320fbe17fa00a9965f2b162ee07f4b);
+            
+    
+            var poly_line_92686f5676a4f2af48708962f4129957 = L.polyline(
+                [[41.0861206054688, 29.0972900390625], [40.9664225, 29.1033193]],
+                {"bubblingMouseEvents": true, "color": "#4575B4", "dashArray": "6", "dashOffset": null, "fill": false, "fillColor": "#4575B4", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_121fc2b917d4668194995ae5ea10f6e3);
+        
+    
+            var circle_marker_8165fbf5eea1a7c5758110e010c80ff2 = L.circleMarker(
+                [40.9664225, 29.1033193],
+                {"bubblingMouseEvents": true, "color": "#222222", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#222222", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 1}
+            ).addTo(map_121fc2b917d4668194995ae5ea10f6e3);
+        
+    
+        var popup_4263435f5eae66ebf63e08feb3d323ea = L.popup({
+  "maxWidth": 280,
+});
+
+        
+            
+                var html_7b4bbfa760a4644ec48030aa628f399a = $(`<div id="html_7b4bbfa760a4644ec48030aa628f399a" style="width: 100.0%; height: 100.0%;"><b>Nearest station to Rank 13</b><br><b>Name:</b> BP<br><b>Brand:</b> BP<br><b>Distance:</b> 0.957 km</div>`)[0];
+                popup_4263435f5eae66ebf63e08feb3d323ea.setContent(html_7b4bbfa760a4644ec48030aa628f399a);
+            
+        
+
+        circle_marker_8165fbf5eea1a7c5758110e010c80ff2.bindPopup(popup_4263435f5eae66ebf63e08feb3d323ea)
+        ;
+
+        
+    
+    
+            var circle_marker_d3e59084cd4d2d865b0b5726f15fb43f = L.circleMarker(
+                [41.0586547851563, 28.8116455078125],
+                {"bubblingMouseEvents": true, "color": "#4575B4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4575B4", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 2}
+            ).addTo(map_121fc2b917d4668194995ae5ea10f6e3);
+        
+    
+        var popup_308bfa5ce6ff22bc6b138369bc65c70a = L.popup({
+  "maxWidth": 340,
+});
+
+        
+            
+                var html_5e2cdd30783f8e9aefb88fae74c5cddb = $(`<div id="html_5e2cdd30783f8e9aefb88fae74c5cddb" style="width: 100.0%; height: 100.0%;"><b>Rank:</b> 14<br><b>GEOHASH:</b> sxk3xd<br><b>Demand score:</b> 103<br><b>Total vehicles:</b> 15,530<br><b>Mean speed:</b> 40.7 km/h<br><b>Nearest station:</b> 0.949 km<br><b>Station:</b> Opet Bağcılar (Opet)</div>`)[0];
+                popup_308bfa5ce6ff22bc6b138369bc65c70a.setContent(html_5e2cdd30783f8e9aefb88fae74c5cddb);
+            
+        
+
+        circle_marker_d3e59084cd4d2d865b0b5726f15fb43f.bindPopup(popup_308bfa5ce6ff22bc6b138369bc65c70a)
+        ;
+
+        
+    
+    
+            var marker_5fe672d839ccb9130361b3f91140af72 = L.marker(
+                [41.0586547851563, 28.8116455078125],
+                {
+}
+            ).addTo(map_121fc2b917d4668194995ae5ea10f6e3);
+        
+    
+            var div_icon_d0389737ae6ac363240562ad21b801f2 = L.divIcon({
+  "html": "\u003cdiv style=\"font-size:11px;font-weight:bold;color:#4575B4;text-shadow:1px 1px 1px white;margin-left:12px;margin-top:-5px;\"\u003e14\u003c/div\u003e",
+  "className": "empty",
+});
+        
+    
+                marker_5fe672d839ccb9130361b3f91140af72.setIcon(div_icon_d0389737ae6ac363240562ad21b801f2);
+            
+    
+            var poly_line_cc295b5eb4b3afa8fb7a54afa5cf4733 = L.polyline(
+                [[41.0586547851563, 28.8116455078125], [41.0547206, 28.8405747]],
+                {"bubblingMouseEvents": true, "color": "#4575B4", "dashArray": "6", "dashOffset": null, "fill": false, "fillColor": "#4575B4", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_121fc2b917d4668194995ae5ea10f6e3);
+        
+    
+            var circle_marker_d66179d9b7a2a70bf018cd73ca29dad5 = L.circleMarker(
+                [41.0547206, 28.8405747],
+                {"bubblingMouseEvents": true, "color": "#222222", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#222222", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 1}
+            ).addTo(map_121fc2b917d4668194995ae5ea10f6e3);
+        
+    
+        var popup_d3f54dfb5668e6f30821ee3b0c7e4634 = L.popup({
+  "maxWidth": 280,
+});
+
+        
+            
+                var html_54312b1a61450c1ae009cb715980e348 = $(`<div id="html_54312b1a61450c1ae009cb715980e348" style="width: 100.0%; height: 100.0%;"><b>Nearest station to Rank 14</b><br><b>Name:</b> Opet Bağcılar<br><b>Brand:</b> Opet<br><b>Distance:</b> 0.949 km</div>`)[0];
+                popup_d3f54dfb5668e6f30821ee3b0c7e4634.setContent(html_54312b1a61450c1ae009cb715980e348);
+            
+        
+
+        circle_marker_d66179d9b7a2a70bf018cd73ca29dad5.bindPopup(popup_d3f54dfb5668e6f30821ee3b0c7e4634)
+        ;
+
+        
+    
+    
+            var circle_marker_91d7d8520137a76ccb57a328e95c4ee6 = L.circleMarker(
+                [40.9707641601563, 29.1192626953125],
+                {"bubblingMouseEvents": true, "color": "#4575B4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4575B4", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 2}
+            ).addTo(map_121fc2b917d4668194995ae5ea10f6e3);
+        
+    
+        var popup_c8b4486a86b8b579904ad3373b9ea88d = L.popup({
+  "maxWidth": 340,
+});
+
+        
+            
+                var html_9a4777ebafe163f502f1526ade1810fc = $(`<div id="html_9a4777ebafe163f502f1526ade1810fc" style="width: 100.0%; height: 100.0%;"><b>Rank:</b> 15<br><b>GEOHASH:</b> sxk9nd<br><b>Demand score:</b> 97<br><b>Total vehicles:</b> 2,861<br><b>Mean speed:</b> 22.7 km/h<br><b>Nearest station:</b> 0.915 km<br><b>Station:</b> Opet (Opet)</div>`)[0];
+                popup_c8b4486a86b8b579904ad3373b9ea88d.setContent(html_9a4777ebafe163f502f1526ade1810fc);
+            
+        
+
+        circle_marker_91d7d8520137a76ccb57a328e95c4ee6.bindPopup(popup_c8b4486a86b8b579904ad3373b9ea88d)
+        ;
+
+        
+    
+    
+            var marker_fe5ce2184a4bef72ab6abd8f97ecc92e = L.marker(
+                [40.9707641601563, 29.1192626953125],
+                {
+}
+            ).addTo(map_121fc2b917d4668194995ae5ea10f6e3);
+        
+    
+            var div_icon_981efc4855dc1db758864ed8d54b38e4 = L.divIcon({
+  "html": "\u003cdiv style=\"font-size:11px;font-weight:bold;color:#4575B4;text-shadow:1px 1px 1px white;margin-left:12px;margin-top:-5px;\"\u003e15\u003c/div\u003e",
+  "className": "empty",
+});
+        
+    
+                marker_fe5ce2184a4bef72ab6abd8f97ecc92e.setIcon(div_icon_981efc4855dc1db758864ed8d54b38e4);
+            
+    
+            var poly_line_f62b90a7607499594ddae272ec741ea8 = L.polyline(
+                [[40.9707641601563, 29.1192626953125], [41.0260804, 28.9797859]],
+                {"bubblingMouseEvents": true, "color": "#4575B4", "dashArray": "6", "dashOffset": null, "fill": false, "fillColor": "#4575B4", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_121fc2b917d4668194995ae5ea10f6e3);
+        
+    
+            var circle_marker_de6f0ed2287aba1faa022595d5b6b936 = L.circleMarker(
+                [41.0260804, 28.9797859],
+                {"bubblingMouseEvents": true, "color": "#222222", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#222222", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 1}
+            ).addTo(map_121fc2b917d4668194995ae5ea10f6e3);
+        
+    
+        var popup_1ec60c840d113db9e14478151ca53dcf = L.popup({
+  "maxWidth": 280,
+});
+
+        
+            
+                var html_0e94fd2253e416b2503515e85a644ae7 = $(`<div id="html_0e94fd2253e416b2503515e85a644ae7" style="width: 100.0%; height: 100.0%;"><b>Nearest station to Rank 15</b><br><b>Name:</b> Opet<br><b>Brand:</b> Opet<br><b>Distance:</b> 0.915 km</div>`)[0];
+                popup_1ec60c840d113db9e14478151ca53dcf.setContent(html_0e94fd2253e416b2503515e85a644ae7);
+            
+        
+
+        circle_marker_de6f0ed2287aba1faa022595d5b6b936.bindPopup(popup_1ec60c840d113db9e14478151ca53dcf)
+        ;
+
+        
+    
+    
+            var circle_marker_103ac1523295e4ee310eab117084bf5e = L.circleMarker(
+                [40.9982299804688, 28.8446044921875],
+                {"bubblingMouseEvents": true, "color": "#4575B4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4575B4", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 2}
+            ).addTo(map_121fc2b917d4668194995ae5ea10f6e3);
+        
+    
+        var popup_a9cfe1c4fe3c9e6a11ddc4330bff88e6 = L.popup({
+  "maxWidth": 340,
+});
+
+        
+            
+                var html_e4894020a180c81b13abbac02f875dd3 = $(`<div id="html_e4894020a180c81b13abbac02f875dd3" style="width: 100.0%; height: 100.0%;"><b>Rank:</b> 16<br><b>GEOHASH:</b> sxk90r<br><b>Demand score:</b> 101<br><b>Total vehicles:</b> 2,027<br><b>Mean speed:</b> 17.6 km/h<br><b>Nearest station:</b> 0.914 km<br><b>Station:</b> Petrol Ofisi (Petrol Ofisi)</div>`)[0];
+                popup_a9cfe1c4fe3c9e6a11ddc4330bff88e6.setContent(html_e4894020a180c81b13abbac02f875dd3);
+            
+        
+
+        circle_marker_103ac1523295e4ee310eab117084bf5e.bindPopup(popup_a9cfe1c4fe3c9e6a11ddc4330bff88e6)
+        ;
+
+        
+    
+    
+            var marker_847d30e1f406f2307299ffe89ea336ab = L.marker(
+                [40.9982299804688, 28.8446044921875],
+                {
+}
+            ).addTo(map_121fc2b917d4668194995ae5ea10f6e3);
+        
+    
+            var div_icon_6d26ccd96bdc3eff7ac0add1090126d5 = L.divIcon({
+  "html": "\u003cdiv style=\"font-size:11px;font-weight:bold;color:#4575B4;text-shadow:1px 1px 1px white;margin-left:12px;margin-top:-5px;\"\u003e16\u003c/div\u003e",
+  "className": "empty",
+});
+        
+    
+                marker_847d30e1f406f2307299ffe89ea336ab.setIcon(div_icon_6d26ccd96bdc3eff7ac0add1090126d5);
+            
+    
+            var poly_line_8c2b3ed159021eee5507672048bff566 = L.polyline(
+                [[40.9982299804688, 28.8446044921875], [41.0288378, 29.0174396]],
+                {"bubblingMouseEvents": true, "color": "#4575B4", "dashArray": "6", "dashOffset": null, "fill": false, "fillColor": "#4575B4", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_121fc2b917d4668194995ae5ea10f6e3);
+        
+    
+            var circle_marker_22f937ba2520dfea9fc77c213d107cd1 = L.circleMarker(
+                [41.0288378, 29.0174396],
+                {"bubblingMouseEvents": true, "color": "#222222", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#222222", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 1}
+            ).addTo(map_121fc2b917d4668194995ae5ea10f6e3);
+        
+    
+        var popup_cdb43054da808f1f493301e896a6a374 = L.popup({
+  "maxWidth": 280,
+});
+
+        
+            
+                var html_d369982901980cb0ca0a3790c295a86a = $(`<div id="html_d369982901980cb0ca0a3790c295a86a" style="width: 100.0%; height: 100.0%;"><b>Nearest station to Rank 16</b><br><b>Name:</b> Petrol Ofisi<br><b>Brand:</b> Petrol Ofisi<br><b>Distance:</b> 0.914 km</div>`)[0];
+                popup_cdb43054da808f1f493301e896a6a374.setContent(html_d369982901980cb0ca0a3790c295a86a);
+            
+        
+
+        circle_marker_22f937ba2520dfea9fc77c213d107cd1.bindPopup(popup_cdb43054da808f1f493301e896a6a374)
+        ;
+
+        
+    
+    
+            var circle_marker_4dffeb89e269340c5047f7922cbcec2f = L.circleMarker(
+                [41.0531616210938, 29.0093994140625],
+                {"bubblingMouseEvents": true, "color": "#4575B4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4575B4", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 2}
+            ).addTo(map_121fc2b917d4668194995ae5ea10f6e3);
+        
+    
+        var popup_b374dad140abd2b964ce390a28e98543 = L.popup({
+  "maxWidth": 340,
+});
+
+        
+            
+                var html_cc21d07eb0577a4e5d9ac0afd8f441dc = $(`<div id="html_cc21d07eb0577a4e5d9ac0afd8f441dc" style="width: 100.0%; height: 100.0%;"><b>Rank:</b> 17<br><b>GEOHASH:</b> sxk9s1<br><b>Demand score:</b> 100<br><b>Total vehicles:</b> 23,397<br><b>Mean speed:</b> 33.6 km/h<br><b>Nearest station:</b> 0.874 km<br><b>Station:</b> Opet (Opet)</div>`)[0];
+                popup_b374dad140abd2b964ce390a28e98543.setContent(html_cc21d07eb0577a4e5d9ac0afd8f441dc);
+            
+        
+
+        circle_marker_4dffeb89e269340c5047f7922cbcec2f.bindPopup(popup_b374dad140abd2b964ce390a28e98543)
+        ;
+
+        
+    
+    
+            var marker_ae0cf137e8104925a7d576488a437f41 = L.marker(
+                [41.0531616210938, 29.0093994140625],
+                {
+}
+            ).addTo(map_121fc2b917d4668194995ae5ea10f6e3);
+        
+    
+            var div_icon_db1c52cefac3e4103a5db971e2478bed = L.divIcon({
+  "html": "\u003cdiv style=\"font-size:11px;font-weight:bold;color:#4575B4;text-shadow:1px 1px 1px white;margin-left:12px;margin-top:-5px;\"\u003e17\u003c/div\u003e",
+  "className": "empty",
+});
+        
+    
+                marker_ae0cf137e8104925a7d576488a437f41.setIcon(div_icon_db1c52cefac3e4103a5db971e2478bed);
+            
+    
+            var poly_line_5cd15607903e41bd6857b06a32230819 = L.polyline(
+                [[41.0531616210938, 29.0093994140625], [41.0260804, 28.9797859]],
+                {"bubblingMouseEvents": true, "color": "#4575B4", "dashArray": "6", "dashOffset": null, "fill": false, "fillColor": "#4575B4", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_121fc2b917d4668194995ae5ea10f6e3);
+        
+    
+            var circle_marker_67822f290b7bb85a99bab95a6d15e12d = L.circleMarker(
+                [41.0260804, 28.9797859],
+                {"bubblingMouseEvents": true, "color": "#222222", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#222222", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 1}
+            ).addTo(map_121fc2b917d4668194995ae5ea10f6e3);
+        
+    
+        var popup_5474ba1b271acd4388693b9f6c6cf61f = L.popup({
+  "maxWidth": 280,
+});
+
+        
+            
+                var html_5f775cbf3329485fc8f60f739ed53035 = $(`<div id="html_5f775cbf3329485fc8f60f739ed53035" style="width: 100.0%; height: 100.0%;"><b>Nearest station to Rank 17</b><br><b>Name:</b> Opet<br><b>Brand:</b> Opet<br><b>Distance:</b> 0.874 km</div>`)[0];
+                popup_5474ba1b271acd4388693b9f6c6cf61f.setContent(html_5f775cbf3329485fc8f60f739ed53035);
+            
+        
+
+        circle_marker_67822f290b7bb85a99bab95a6d15e12d.bindPopup(popup_5474ba1b271acd4388693b9f6c6cf61f)
+        ;
+
+        
+    
+    
+            var circle_marker_2f93213853d64c9df6dfb6002a430ad8 = L.circleMarker(
+                [41.0421752929688, 28.9984130859375],
+                {"bubblingMouseEvents": true, "color": "#4575B4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4575B4", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 2}
+            ).addTo(map_121fc2b917d4668194995ae5ea10f6e3);
+        
+    
+        var popup_1343a0eb8186d836d56987e5dc3159f7 = L.popup({
+  "maxWidth": 340,
+});
+
+        
+            
+                var html_a4095757e1509d9f04a39bc3fe5e729e = $(`<div id="html_a4095757e1509d9f04a39bc3fe5e729e" style="width: 100.0%; height: 100.0%;"><b>Rank:</b> 18<br><b>GEOHASH:</b> sxk97z<br><b>Demand score:</b> 106<br><b>Total vehicles:</b> 4,994<br><b>Mean speed:</b> 23.8 km/h<br><b>Nearest station:</b> 0.862 km<br><b>Station:</b> Türkiye Petrolleri (Türkiye Petrolleri)</div>`)[0];
+                popup_1343a0eb8186d836d56987e5dc3159f7.setContent(html_a4095757e1509d9f04a39bc3fe5e729e);
+            
+        
+
+        circle_marker_2f93213853d64c9df6dfb6002a430ad8.bindPopup(popup_1343a0eb8186d836d56987e5dc3159f7)
+        ;
+
+        
+    
+    
+            var marker_3bb421b07b555be033ad8e90afd21a5f = L.marker(
+                [41.0421752929688, 28.9984130859375],
+                {
+}
+            ).addTo(map_121fc2b917d4668194995ae5ea10f6e3);
+        
+    
+            var div_icon_b70734691bd556338f43d8778aa78791 = L.divIcon({
+  "html": "\u003cdiv style=\"font-size:11px;font-weight:bold;color:#4575B4;text-shadow:1px 1px 1px white;margin-left:12px;margin-top:-5px;\"\u003e18\u003c/div\u003e",
+  "className": "empty",
+});
+        
+    
+                marker_3bb421b07b555be033ad8e90afd21a5f.setIcon(div_icon_b70734691bd556338f43d8778aa78791);
+            
+    
+            var poly_line_093a8b447c26a156a757ce6d0ffedb65 = L.polyline(
+                [[41.0421752929688, 28.9984130859375], [40.8988275, 29.3692152]],
+                {"bubblingMouseEvents": true, "color": "#4575B4", "dashArray": "6", "dashOffset": null, "fill": false, "fillColor": "#4575B4", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_121fc2b917d4668194995ae5ea10f6e3);
+        
+    
+            var circle_marker_ddc98246579f1f46d766e4efdb4c6977 = L.circleMarker(
+                [40.8988275, 29.3692152],
+                {"bubblingMouseEvents": true, "color": "#222222", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#222222", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 1}
+            ).addTo(map_121fc2b917d4668194995ae5ea10f6e3);
+        
+    
+        var popup_7dd69481e9f4e8cf1c079469d9b2d150 = L.popup({
+  "maxWidth": 280,
+});
+
+        
+            
+                var html_6197f46514530e63485e3c111da6a69c = $(`<div id="html_6197f46514530e63485e3c111da6a69c" style="width: 100.0%; height: 100.0%;"><b>Nearest station to Rank 18</b><br><b>Name:</b> Türkiye Petrolleri<br><b>Brand:</b> Türkiye Petrolleri<br><b>Distance:</b> 0.862 km</div>`)[0];
+                popup_7dd69481e9f4e8cf1c079469d9b2d150.setContent(html_6197f46514530e63485e3c111da6a69c);
+            
+        
+
+        circle_marker_ddc98246579f1f46d766e4efdb4c6977.bindPopup(popup_7dd69481e9f4e8cf1c079469d9b2d150)
+        ;
+
+        
+    
+    
+            var circle_marker_b88f118e68f2e17740bceeca8c461b2c = L.circleMarker(
+                [41.0586547851563, 29.0203857421875],
+                {"bubblingMouseEvents": true, "color": "#4575B4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4575B4", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 2}
+            ).addTo(map_121fc2b917d4668194995ae5ea10f6e3);
+        
+    
+        var popup_0b154d1fc02113a1ece292d2901f10fa = L.popup({
+  "maxWidth": 340,
+});
+
+        
+            
+                var html_93f3529fa3e30c7b0cc1e9c08967c7ae = $(`<div id="html_93f3529fa3e30c7b0cc1e9c08967c7ae" style="width: 100.0%; height: 100.0%;"><b>Rank:</b> 19<br><b>GEOHASH:</b> sxk9s6<br><b>Demand score:</b> 99<br><b>Total vehicles:</b> 43,815<br><b>Mean speed:</b> 45.0 km/h<br><b>Nearest station:</b> 0.839 km<br><b>Station:</b> Shell (Shell)</div>`)[0];
+                popup_0b154d1fc02113a1ece292d2901f10fa.setContent(html_93f3529fa3e30c7b0cc1e9c08967c7ae);
+            
+        
+
+        circle_marker_b88f118e68f2e17740bceeca8c461b2c.bindPopup(popup_0b154d1fc02113a1ece292d2901f10fa)
+        ;
+
+        
+    
+    
+            var marker_a153cd134c42adf44e6b598632a6121a = L.marker(
+                [41.0586547851563, 29.0203857421875],
+                {
+}
+            ).addTo(map_121fc2b917d4668194995ae5ea10f6e3);
+        
+    
+            var div_icon_679a39faaae2c1648695a612d3dc9a5c = L.divIcon({
+  "html": "\u003cdiv style=\"font-size:11px;font-weight:bold;color:#4575B4;text-shadow:1px 1px 1px white;margin-left:12px;margin-top:-5px;\"\u003e19\u003c/div\u003e",
+  "className": "empty",
+});
+        
+    
+                marker_a153cd134c42adf44e6b598632a6121a.setIcon(div_icon_679a39faaae2c1648695a612d3dc9a5c);
+            
+    
+            var poly_line_a1fe11dea46aa192ba09d438aad44896 = L.polyline(
+                [[41.0586547851563, 29.0203857421875], [40.9989931, 29.1549337]],
+                {"bubblingMouseEvents": true, "color": "#4575B4", "dashArray": "6", "dashOffset": null, "fill": false, "fillColor": "#4575B4", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_121fc2b917d4668194995ae5ea10f6e3);
+        
+    
+            var circle_marker_7f47bea95983fc69a244612f14de6cf3 = L.circleMarker(
+                [40.9989931, 29.1549337],
+                {"bubblingMouseEvents": true, "color": "#222222", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#222222", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 1}
+            ).addTo(map_121fc2b917d4668194995ae5ea10f6e3);
+        
+    
+        var popup_d83d68fd1910a8a3946e460236f8fc2e = L.popup({
+  "maxWidth": 280,
+});
+
+        
+            
+                var html_860dd0cac3057d6562facc093fc43fd6 = $(`<div id="html_860dd0cac3057d6562facc093fc43fd6" style="width: 100.0%; height: 100.0%;"><b>Nearest station to Rank 19</b><br><b>Name:</b> Shell<br><b>Brand:</b> Shell<br><b>Distance:</b> 0.839 km</div>`)[0];
+                popup_d83d68fd1910a8a3946e460236f8fc2e.setContent(html_860dd0cac3057d6562facc093fc43fd6);
+            
+        
+
+        circle_marker_7f47bea95983fc69a244612f14de6cf3.bindPopup(popup_d83d68fd1910a8a3946e460236f8fc2e)
+        ;
+
+        
+    
+    
+            var circle_marker_687b60391e5c3b3447c40ba5a0e91c33 = L.circleMarker(
+                [40.9817504882813, 28.7237548828125],
+                {"bubblingMouseEvents": true, "color": "#4575B4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4575B4", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 2}
+            ).addTo(map_121fc2b917d4668194995ae5ea10f6e3);
+        
+    
+        var popup_3875beec6733a712832d8d514d01f3e2 = L.popup({
+  "maxWidth": 340,
+});
+
+        
+            
+                var html_8b4957e8ae8900febcdec87f5596f1aa = $(`<div id="html_8b4957e8ae8900febcdec87f5596f1aa" style="width: 100.0%; height: 100.0%;"><b>Rank:</b> 20<br><b>GEOHASH:</b> sxk3js<br><b>Demand score:</b> 103<br><b>Total vehicles:</b> 11,701<br><b>Mean speed:</b> 34.9 km/h<br><b>Nearest station:</b> 0.838 km<br><b>Station:</b> Shell Avcılar (Shell)</div>`)[0];
+                popup_3875beec6733a712832d8d514d01f3e2.setContent(html_8b4957e8ae8900febcdec87f5596f1aa);
+            
+        
+
+        circle_marker_687b60391e5c3b3447c40ba5a0e91c33.bindPopup(popup_3875beec6733a712832d8d514d01f3e2)
+        ;
+
+        
+    
+    
+            var marker_b14f72586fafd6ceb110eee965a6d4a4 = L.marker(
+                [40.9817504882813, 28.7237548828125],
+                {
+}
+            ).addTo(map_121fc2b917d4668194995ae5ea10f6e3);
+        
+    
+            var div_icon_c7fb477b2bac23cdbb4e2cc2f34cddd1 = L.divIcon({
+  "html": "\u003cdiv style=\"font-size:11px;font-weight:bold;color:#4575B4;text-shadow:1px 1px 1px white;margin-left:12px;margin-top:-5px;\"\u003e20\u003c/div\u003e",
+  "className": "empty",
+});
+        
+    
+                marker_b14f72586fafd6ceb110eee965a6d4a4.setIcon(div_icon_c7fb477b2bac23cdbb4e2cc2f34cddd1);
+            
+    
+            var poly_line_b5d842bf6a295aff6c1f789a34aa421c = L.polyline(
+                [[40.9817504882813, 28.7237548828125], [40.9882554, 28.7187248]],
+                {"bubblingMouseEvents": true, "color": "#4575B4", "dashArray": "6", "dashOffset": null, "fill": false, "fillColor": "#4575B4", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_121fc2b917d4668194995ae5ea10f6e3);
+        
+    
+            var circle_marker_42d9402d30f0c78102b4e4d0ba00439e = L.circleMarker(
+                [40.9882554, 28.7187248],
+                {"bubblingMouseEvents": true, "color": "#222222", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#222222", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 1}
+            ).addTo(map_121fc2b917d4668194995ae5ea10f6e3);
+        
+    
+        var popup_506d57fab47860aef5c1ff0ac7e72c44 = L.popup({
+  "maxWidth": 280,
+});
+
+        
+            
+                var html_33aedfdb1fa5feb80dca5416954081de = $(`<div id="html_33aedfdb1fa5feb80dca5416954081de" style="width: 100.0%; height: 100.0%;"><b>Nearest station to Rank 20</b><br><b>Name:</b> Shell Avcılar<br><b>Brand:</b> Shell<br><b>Distance:</b> 0.838 km</div>`)[0];
+                popup_506d57fab47860aef5c1ff0ac7e72c44.setContent(html_33aedfdb1fa5feb80dca5416954081de);
+            
+        
+
+        circle_marker_42d9402d30f0c78102b4e4d0ba00439e.bindPopup(popup_506d57fab47860aef5c1ff0ac7e72c44)
+        ;
+
+        
+    
+    
+            var layer_control_e84620b26c2eb75b8f88aeb5ff028f29_layers = {
+                base_layers : {
+                    "OpenStreetMap" : tile_layer_416748c2c7c70a12dbf44b8d77143bae,
+                    "CartoDB Positron" : tile_layer_10d3559cb8f2ef135df0eeff148dfd8f,
+                },
+                overlays :  {
+                },
+            };
+            let layer_control_e84620b26c2eb75b8f88aeb5ff028f29 = L.control.layers(
+                layer_control_e84620b26c2eb75b8f88aeb5ff028f29_layers.base_layers,
+                layer_control_e84620b26c2eb75b8f88aeb5ff028f29_layers.overlays,
+                {
+  "position": "topright",
+  "collapsed": false,
+  "autoZIndex": true,
+}
+            ).addTo(map_121fc2b917d4668194995ae5ea10f6e3);
+
+        
+</script>
+</html>

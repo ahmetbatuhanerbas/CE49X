@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_d2755fbcc6bb169fdf5d9419378c266c {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+<div style="position: fixed;
+            bottom: 35px; left: 35px; width: 270px; z-index: 9999;
+            background-color: white; border: 2px solid #666;
+            border-radius: 6px; padding: 12px; font-size: 13px;
+            line-height: 1.8;">
+  <b>Top 20 Highest-Traffic Locations</b><br>
+  <i style="font-size:11px;">Ranked by weekly total vehicle count</i><br><br>
+  <span style="display:inline-block;width:14px;height:14px;background:purple;border:1px solid #444;
+               border-radius:50%;vertical-align:middle;"></span> Top-20 location (click for details)
+</div>
+    
+            <div class="folium-map" id="map_d2755fbcc6bb169fdf5d9419378c266c" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_d2755fbcc6bb169fdf5d9419378c266c = L.map(
+                "map_d2755fbcc6bb169fdf5d9419378c266c",
+                {
+                    center: [41.06395651053683, 28.88713090622117],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 11,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+            L.control.scale().addTo(map_d2755fbcc6bb169fdf5d9419378c266c);
+
+            
+
+        
+    
+            var tile_layer_50798a9f6518b166c5a7490aba97c427 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_50798a9f6518b166c5a7490aba97c427.addTo(map_d2755fbcc6bb169fdf5d9419378c266c);
+        
+    
+            var circle_marker_8d9e6e838d76aab54ed87e949d8ed215 = L.circleMarker(
+                [41.0916137695313, 29.0863037109375],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_d2755fbcc6bb169fdf5d9419378c266c);
+        
+    
+        var popup_f23ed2f5fdad7d68d11eb3ebd758d610 = L.popup({
+  "maxWidth": 320,
+});
+
+        
+            
+                var html_0f19b02d60709f46dc608731bfbd72c6 = $(`<div id="html_0f19b02d60709f46dc608731bfbd72c6" style="width: 100.0%; height: 100.0%;"><b>Rank:</b> 1<br><b>GEOHASH:</b> sxk9vb<br><b>Total vehicles (week):</b> 79,395<br><b>Mean speed:</b> 54.6 km/h<br><b>Peak-hour vehicles:</b> 985</div>`)[0];
+                popup_f23ed2f5fdad7d68d11eb3ebd758d610.setContent(html_0f19b02d60709f46dc608731bfbd72c6);
+            
+        
+
+        circle_marker_8d9e6e838d76aab54ed87e949d8ed215.bindPopup(popup_f23ed2f5fdad7d68d11eb3ebd758d610)
+        ;
+
+        
+    
+    
+            var circle_marker_32074697b83dd0c175b0df5e7a9e6308 = L.circleMarker(
+                [41.0916137695313, 29.0423583984375],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_d2755fbcc6bb169fdf5d9419378c266c);
+        
+    
+        var popup_cf676098a3f0625298ad025c62a86a0d = L.popup({
+  "maxWidth": 320,
+});
+
+        
+            
+                var html_618a4f83e01081d2192f71d09920db86 = $(`<div id="html_618a4f83e01081d2192f71d09920db86" style="width: 100.0%; height: 100.0%;"><b>Rank:</b> 2<br><b>GEOHASH:</b> sxk9ub<br><b>Total vehicles (week):</b> 69,174<br><b>Mean speed:</b> 61.4 km/h<br><b>Peak-hour vehicles:</b> 909</div>`)[0];
+                popup_cf676098a3f0625298ad025c62a86a0d.setContent(html_618a4f83e01081d2192f71d09920db86);
+            
+        
+
+        circle_marker_32074697b83dd0c175b0df5e7a9e6308.bindPopup(popup_cf676098a3f0625298ad025c62a86a0d)
+        ;
+
+        
+    
+    
+            var circle_marker_177572bb4441b21c8605ffea980a97b2 = L.circleMarker(
+                [41.0916137695313, 29.0533447265625],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_d2755fbcc6bb169fdf5d9419378c266c);
+        
+    
+        var popup_a07e21b98657e7f8f6bb4c80c98dfa59 = L.popup({
+  "maxWidth": 320,
+});
+
+        
+            
+                var html_62e496d2a84dc3eaa417c1b335c95d08 = $(`<div id="html_62e496d2a84dc3eaa417c1b335c95d08" style="width: 100.0%; height: 100.0%;"><b>Rank:</b> 3<br><b>GEOHASH:</b> sxk9v0<br><b>Total vehicles (week):</b> 62,832<br><b>Mean speed:</b> 69.7 km/h<br><b>Peak-hour vehicles:</b> 756</div>`)[0];
+                popup_a07e21b98657e7f8f6bb4c80c98dfa59.setContent(html_62e496d2a84dc3eaa417c1b335c95d08);
+            
+        
+
+        circle_marker_177572bb4441b21c8605ffea980a97b2.bindPopup(popup_a07e21b98657e7f8f6bb4c80c98dfa59)
+        ;
+
+        
+    
+    
+            var circle_marker_0b50ab07f3e30c3006641418a872fce2 = L.circleMarker(
+                [41.0916137695313, 29.0313720703125],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_d2755fbcc6bb169fdf5d9419378c266c);
+        
+    
+        var popup_d4f72908a99aa97837e9bd7eedd9ba69 = L.popup({
+  "maxWidth": 320,
+});
+
+        
+            
+                var html_cfd82e1d95c92614eea4e761918e4be2 = $(`<div id="html_cfd82e1d95c92614eea4e761918e4be2" style="width: 100.0%; height: 100.0%;"><b>Rank:</b> 4<br><b>GEOHASH:</b> sxk9u8<br><b>Total vehicles (week):</b> 62,566<br><b>Mean speed:</b> 58.3 km/h<br><b>Peak-hour vehicles:</b> 840</div>`)[0];
+                popup_d4f72908a99aa97837e9bd7eedd9ba69.setContent(html_cfd82e1d95c92614eea4e761918e4be2);
+            
+        
+
+        circle_marker_0b50ab07f3e30c3006641418a872fce2.bindPopup(popup_d4f72908a99aa97837e9bd7eedd9ba69)
+        ;
+
+        
+    
+    
+            var circle_marker_0e9b8c5f210d85857be46223521239df = L.circleMarker(
+                [41.0916137695313, 29.0753173828125],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_d2755fbcc6bb169fdf5d9419378c266c);
+        
+    
+        var popup_ad215b7fe892b4089c520ae3fdab41e0 = L.popup({
+  "maxWidth": 320,
+});
+
+        
+            
+                var html_7b102c38833f8912dbb92db894b894aa = $(`<div id="html_7b102c38833f8912dbb92db894b894aa" style="width: 100.0%; height: 100.0%;"><b>Rank:</b> 5<br><b>GEOHASH:</b> sxk9v8<br><b>Total vehicles (week):</b> 61,223<br><b>Mean speed:</b> 67.0 km/h<br><b>Peak-hour vehicles:</b> 734</div>`)[0];
+                popup_ad215b7fe892b4089c520ae3fdab41e0.setContent(html_7b102c38833f8912dbb92db894b894aa);
+            
+        
+
+        circle_marker_0e9b8c5f210d85857be46223521239df.bindPopup(popup_ad215b7fe892b4089c520ae3fdab41e0)
+        ;
+
+        
+    
+    
+            var circle_marker_f2cf8d6f9c532fe49248e50ba570f9e4 = L.circleMarker(
+                [41.0916137695313, 29.0643310546875],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_d2755fbcc6bb169fdf5d9419378c266c);
+        
+    
+        var popup_07c369d5573b0e1f814ed44f021a3a80 = L.popup({
+  "maxWidth": 320,
+});
+
+        
+            
+                var html_e9432cc034cc67f7d738f0369a318b2b = $(`<div id="html_e9432cc034cc67f7d738f0369a318b2b" style="width: 100.0%; height: 100.0%;"><b>Rank:</b> 6<br><b>GEOHASH:</b> sxk9v2<br><b>Total vehicles (week):</b> 59,363<br><b>Mean speed:</b> 69.8 km/h<br><b>Peak-hour vehicles:</b> 689</div>`)[0];
+                popup_07c369d5573b0e1f814ed44f021a3a80.setContent(html_e9432cc034cc67f7d738f0369a318b2b);
+            
+        
+
+        circle_marker_f2cf8d6f9c532fe49248e50ba570f9e4.bindPopup(popup_07c369d5573b0e1f814ed44f021a3a80)
+        ;
+
+        
+    
+    
+            var circle_marker_e3cabd30ac286c5141ae16787afe0347 = L.circleMarker(
+                [41.0256958007813, 29.0423583984375],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_d2755fbcc6bb169fdf5d9419378c266c);
+        
+    
+        var popup_d2f637f89a931e070de1aa37e3f9cca3 = L.popup({
+  "maxWidth": 320,
+});
+
+        
+            
+                var html_291e4d35306bbf5f0afc19761e18d6ec = $(`<div id="html_291e4d35306bbf5f0afc19761e18d6ec" style="width: 100.0%; height: 100.0%;"><b>Rank:</b> 7<br><b>GEOHASH:</b> sxk9ku<br><b>Total vehicles (week):</b> 57,254<br><b>Mean speed:</b> 37.2 km/h<br><b>Peak-hour vehicles:</b> 876</div>`)[0];
+                popup_d2f637f89a931e070de1aa37e3f9cca3.setContent(html_291e4d35306bbf5f0afc19761e18d6ec);
+            
+        
+
+        circle_marker_e3cabd30ac286c5141ae16787afe0347.bindPopup(popup_d2f637f89a931e070de1aa37e3f9cca3)
+        ;
+
+        
+    
+    
+            var circle_marker_14ad0a24fcf1bed625f8fc304a1f0e71 = L.circleMarker(
+                [41.0641479492188, 29.0093994140625],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_d2755fbcc6bb169fdf5d9419378c266c);
+        
+    
+        var popup_2c97e65b1e098d858db07e7780767d5c = L.popup({
+  "maxWidth": 320,
+});
+
+        
+            
+                var html_202a780687946f3abe1b05cdc7bad9a4 = $(`<div id="html_202a780687946f3abe1b05cdc7bad9a4" style="width: 100.0%; height: 100.0%;"><b>Rank:</b> 8<br><b>GEOHASH:</b> sxk9s5<br><b>Total vehicles (week):</b> 53,333<br><b>Mean speed:</b> 38.7 km/h<br><b>Peak-hour vehicles:</b> 778</div>`)[0];
+                popup_2c97e65b1e098d858db07e7780767d5c.setContent(html_202a780687946f3abe1b05cdc7bad9a4);
+            
+        
+
+        circle_marker_14ad0a24fcf1bed625f8fc304a1f0e71.bindPopup(popup_2c97e65b1e098d858db07e7780767d5c)
+        ;
+
+        
+    
+    
+            var circle_marker_c71ae0736e0a452f4b87900c99517f92 = L.circleMarker(
+                [41.0696411132813, 29.0093994140625],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_d2755fbcc6bb169fdf5d9419378c266c);
+        
+    
+        var popup_1417fbbac0cf6787195adcf7e50d39ed = L.popup({
+  "maxWidth": 320,
+});
+
+        
+            
+                var html_078ca3c3a4beb72645867cdd5bef840a = $(`<div id="html_078ca3c3a4beb72645867cdd5bef840a" style="width: 100.0%; height: 100.0%;"><b>Rank:</b> 9<br><b>GEOHASH:</b> sxk9sh<br><b>Total vehicles (week):</b> 50,627<br><b>Mean speed:</b> 36.6 km/h<br><b>Peak-hour vehicles:</b> 719</div>`)[0];
+                popup_1417fbbac0cf6787195adcf7e50d39ed.setContent(html_078ca3c3a4beb72645867cdd5bef840a);
+            
+        
+
+        circle_marker_c71ae0736e0a452f4b87900c99517f92.bindPopup(popup_1417fbbac0cf6787195adcf7e50d39ed)
+        ;
+
+        
+    
+    
+            var circle_marker_536be2aadd327a6322e71902bad754a1 = L.circleMarker(
+                [41.0202026367188, 29.0533447265625],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_d2755fbcc6bb169fdf5d9419378c266c);
+        
+    
+        var popup_d57c86d971ee3e1f50c27f8905b23795 = L.popup({
+  "maxWidth": 320,
+});
+
+        
+            
+                var html_693efa3d6cd822b60822ef4e79c49b32 = $(`<div id="html_693efa3d6cd822b60822ef4e79c49b32" style="width: 100.0%; height: 100.0%;"><b>Rank:</b> 10<br><b>GEOHASH:</b> sxk9m5<br><b>Total vehicles (week):</b> 45,778<br><b>Mean speed:</b> 45.2 km/h<br><b>Peak-hour vehicles:</b> 602</div>`)[0];
+                popup_d57c86d971ee3e1f50c27f8905b23795.setContent(html_693efa3d6cd822b60822ef4e79c49b32);
+            
+        
+
+        circle_marker_536be2aadd327a6322e71902bad754a1.bindPopup(popup_d57c86d971ee3e1f50c27f8905b23795)
+        ;
+
+        
+    
+    
+            var circle_marker_e04e27602435893953ba0db708c008f8 = L.circleMarker(
+                [41.0586547851563, 29.0203857421875],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_d2755fbcc6bb169fdf5d9419378c266c);
+        
+    
+        var popup_a77b78a0fb30281fd3fe11ce8d4b3550 = L.popup({
+  "maxWidth": 320,
+});
+
+        
+            
+                var html_ec23a4a34f245ef725af17dc91bf53a4 = $(`<div id="html_ec23a4a34f245ef725af17dc91bf53a4" style="width: 100.0%; height: 100.0%;"><b>Rank:</b> 11<br><b>GEOHASH:</b> sxk9s6<br><b>Total vehicles (week):</b> 43,815<br><b>Mean speed:</b> 45.0 km/h<br><b>Peak-hour vehicles:</b> 615</div>`)[0];
+                popup_a77b78a0fb30281fd3fe11ce8d4b3550.setContent(html_ec23a4a34f245ef725af17dc91bf53a4);
+            
+        
+
+        circle_marker_e04e27602435893953ba0db708c008f8.bindPopup(popup_a77b78a0fb30281fd3fe11ce8d4b3550)
+        ;
+
+        
+    
+    
+            var circle_marker_66977ae6b7e8bfebc24f48640f8ca9a9 = L.circleMarker(
+                [41.0366821289063, 29.0423583984375],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_d2755fbcc6bb169fdf5d9419378c266c);
+        
+    
+        var popup_96269b24af9a966dac2a8b1530d7a06b = L.popup({
+  "maxWidth": 320,
+});
+
+        
+            
+                var html_3745a730e72e39883abbb3261c0f1f3e = $(`<div id="html_3745a730e72e39883abbb3261c0f1f3e" style="width: 100.0%; height: 100.0%;"><b>Rank:</b> 12<br><b>GEOHASH:</b> sxk9ky<br><b>Total vehicles (week):</b> 41,736<br><b>Mean speed:</b> 48.4 km/h<br><b>Peak-hour vehicles:</b> 598</div>`)[0];
+                popup_96269b24af9a966dac2a8b1530d7a06b.setContent(html_3745a730e72e39883abbb3261c0f1f3e);
+            
+        
+
+        circle_marker_66977ae6b7e8bfebc24f48640f8ca9a9.bindPopup(popup_96269b24af9a966dac2a8b1530d7a06b)
+        ;
+
+        
+    
+    
+            var circle_marker_df6c2e07df6319b25132a0faaa8687aa = L.circleMarker(
+                [41.0311889648438, 29.0423583984375],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_d2755fbcc6bb169fdf5d9419378c266c);
+        
+    
+        var popup_e6684eb34a9fbb5ec07acbe15ba0c532 = L.popup({
+  "maxWidth": 320,
+});
+
+        
+            
+                var html_42cd200e6b16f6c45afac8c4d48ba78a = $(`<div id="html_42cd200e6b16f6c45afac8c4d48ba78a" style="width: 100.0%; height: 100.0%;"><b>Rank:</b> 13<br><b>GEOHASH:</b> sxk9kv<br><b>Total vehicles (week):</b> 39,126<br><b>Mean speed:</b> 48.5 km/h<br><b>Peak-hour vehicles:</b> 591</div>`)[0];
+                popup_e6684eb34a9fbb5ec07acbe15ba0c532.setContent(html_42cd200e6b16f6c45afac8c4d48ba78a);
+            
+        
+
+        circle_marker_df6c2e07df6319b25132a0faaa8687aa.bindPopup(popup_e6684eb34a9fbb5ec07acbe15ba0c532)
+        ;
+
+        
+    
+    
+            var circle_marker_f1ef359f832ca5d015b0a7ab2e4a71a0 = L.circleMarker(
+                [41.0696411132813, 29.0203857421875],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_d2755fbcc6bb169fdf5d9419378c266c);
+        
+    
+        var popup_2578d5ab74f94f57e6ffee02c32f15ab = L.popup({
+  "maxWidth": 320,
+});
+
+        
+            
+                var html_02232dd688dfea4f1e516e08661ed0a9 = $(`<div id="html_02232dd688dfea4f1e516e08661ed0a9" style="width: 100.0%; height: 100.0%;"><b>Rank:</b> 14<br><b>GEOHASH:</b> sxk9sk<br><b>Total vehicles (week):</b> 37,496<br><b>Mean speed:</b> 40.5 km/h<br><b>Peak-hour vehicles:</b> 525</div>`)[0];
+                popup_2578d5ab74f94f57e6ffee02c32f15ab.setContent(html_02232dd688dfea4f1e516e08661ed0a9);
+            
+        
+
+        circle_marker_f1ef359f832ca5d015b0a7ab2e4a71a0.bindPopup(popup_2578d5ab74f94f57e6ffee02c32f15ab)
+        ;
+
+        
+    
+    
+            var circle_marker_8109a6aefab7eece555ef4ef91672ca9 = L.circleMarker(
+                [41.0476684570313, 29.0313720703125],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_d2755fbcc6bb169fdf5d9419378c266c);
+        
+    
+        var popup_8cdb83d3c66bc80b18cacdc58e07ff33 = L.popup({
+  "maxWidth": 320,
+});
+
+        
+            
+                var html_d5fdd555cc7755b92debce44900da17b = $(`<div id="html_d5fdd555cc7755b92debce44900da17b" style="width: 100.0%; height: 100.0%;"><b>Rank:</b> 15<br><b>GEOHASH:</b> sxk9s8<br><b>Total vehicles (week):</b> 36,838<br><b>Mean speed:</b> 51.0 km/h<br><b>Peak-hour vehicles:</b> 435</div>`)[0];
+                popup_8cdb83d3c66bc80b18cacdc58e07ff33.setContent(html_d5fdd555cc7755b92debce44900da17b);
+            
+        
+
+        circle_marker_8109a6aefab7eece555ef4ef91672ca9.bindPopup(popup_8cdb83d3c66bc80b18cacdc58e07ff33)
+        ;
+
+        
+    
+    
+            var circle_marker_c43c09453de7d704b178cb399c637450 = L.circleMarker(
+                [41.0421752929688, 29.0423583984375],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_d2755fbcc6bb169fdf5d9419378c266c);
+        
+    
+        var popup_b09ac76d2ef78f69d016c90adcb5344c = L.popup({
+  "maxWidth": 320,
+});
+
+        
+            
+                var html_309fb2defa0e4bc7b12ad452b78fbdd8 = $(`<div id="html_309fb2defa0e4bc7b12ad452b78fbdd8" style="width: 100.0%; height: 100.0%;"><b>Rank:</b> 16<br><b>GEOHASH:</b> sxk9kz<br><b>Total vehicles (week):</b> 36,477<br><b>Mean speed:</b> 45.0 km/h<br><b>Peak-hour vehicles:</b> 518</div>`)[0];
+                popup_b09ac76d2ef78f69d016c90adcb5344c.setContent(html_309fb2defa0e4bc7b12ad452b78fbdd8);
+            
+        
+
+        circle_marker_c43c09453de7d704b178cb399c637450.bindPopup(popup_b09ac76d2ef78f69d016c90adcb5344c)
+        ;
+
+        
+    
+    
+            var circle_marker_62a8c673a60d47b9df2d20bf7a40eb3f = L.circleMarker(
+                [41.0531616210938, 29.0203857421875],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_d2755fbcc6bb169fdf5d9419378c266c);
+        
+    
+        var popup_b2eadb98139f94639e51fb338046ab65 = L.popup({
+  "maxWidth": 320,
+});
+
+        
+            
+                var html_ea5aea3839e06dafc78305b1f622131b = $(`<div id="html_ea5aea3839e06dafc78305b1f622131b" style="width: 100.0%; height: 100.0%;"><b>Rank:</b> 17<br><b>GEOHASH:</b> sxk9s3<br><b>Total vehicles (week):</b> 34,448<br><b>Mean speed:</b> 45.0 km/h<br><b>Peak-hour vehicles:</b> 451</div>`)[0];
+                popup_b2eadb98139f94639e51fb338046ab65.setContent(html_ea5aea3839e06dafc78305b1f622131b);
+            
+        
+
+        circle_marker_62a8c673a60d47b9df2d20bf7a40eb3f.bindPopup(popup_b2eadb98139f94639e51fb338046ab65)
+        ;
+
+        
+    
+    
+            var circle_marker_43fc88cb8ee8f36fcf0dad535693f4f4 = L.circleMarker(
+                [41.0202026367188, 29.0423583984375],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_d2755fbcc6bb169fdf5d9419378c266c);
+        
+    
+        var popup_692e8d148ac7d47f9b8036b1a9dd1937 = L.popup({
+  "maxWidth": 320,
+});
+
+        
+            
+                var html_dbb851113b22f3b703f4626c3330bacc = $(`<div id="html_dbb851113b22f3b703f4626c3330bacc" style="width: 100.0%; height: 100.0%;"><b>Rank:</b> 18<br><b>GEOHASH:</b> sxk9kg<br><b>Total vehicles (week):</b> 33,779<br><b>Mean speed:</b> 29.0 km/h<br><b>Peak-hour vehicles:</b> 504</div>`)[0];
+                popup_692e8d148ac7d47f9b8036b1a9dd1937.setContent(html_dbb851113b22f3b703f4626c3330bacc);
+            
+        
+
+        circle_marker_43fc88cb8ee8f36fcf0dad535693f4f4.bindPopup(popup_692e8d148ac7d47f9b8036b1a9dd1937)
+        ;
+
+        
+    
+    
+            var circle_marker_b32bd776b2ace9829f3e0a2eb8e978c2 = L.circleMarker(
+                [41.0531616210938, 29.0313720703125],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_d2755fbcc6bb169fdf5d9419378c266c);
+        
+    
+        var popup_f96a32307f561c267a44a4cea06b36a8 = L.popup({
+  "maxWidth": 320,
+});
+
+        
+            
+                var html_044b5366937a4815f0526bd552fa26f9 = $(`<div id="html_044b5366937a4815f0526bd552fa26f9" style="width: 100.0%; height: 100.0%;"><b>Rank:</b> 19<br><b>GEOHASH:</b> sxk9s9<br><b>Total vehicles (week):</b> 32,860<br><b>Mean speed:</b> 50.7 km/h<br><b>Peak-hour vehicles:</b> 389</div>`)[0];
+                popup_f96a32307f561c267a44a4cea06b36a8.setContent(html_044b5366937a4815f0526bd552fa26f9);
+            
+        
+
+        circle_marker_b32bd776b2ace9829f3e0a2eb8e978c2.bindPopup(popup_f96a32307f561c267a44a4cea06b36a8)
+        ;
+
+        
+    
+    
+            var circle_marker_71c530445cd59cbf8a7a2bd18e7290e0 = L.circleMarker(
+                [41.1959838867188, 29.1412353515625],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_d2755fbcc6bb169fdf5d9419378c266c);
+        
+    
+        var popup_c42fe2837c1c146631885162c2d5f10a = L.popup({
+  "maxWidth": 320,
+});
+
+        
+            
+                var html_c58066b9358a7ccfb87eb222e2903b0e = $(`<div id="html_c58066b9358a7ccfb87eb222e2903b0e" style="width: 100.0%; height: 100.0%;"><b>Rank:</b> 20<br><b>GEOHASH:</b> sxkdr5<br><b>Total vehicles (week):</b> 31,454<br><b>Mean speed:</b> 93.4 km/h<br><b>Peak-hour vehicles:</b> 364</div>`)[0];
+                popup_c42fe2837c1c146631885162c2d5f10a.setContent(html_c58066b9358a7ccfb87eb222e2903b0e);
+            
+        
+
+        circle_marker_71c530445cd59cbf8a7a2bd18e7290e0.bindPopup(popup_c42fe2837c1c146631885162c2d5f10a)
+        ;
+
+        
+    
+</script>
+</html>

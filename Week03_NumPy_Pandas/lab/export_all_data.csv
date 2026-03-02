@@ -1,0 +1,789 @@
+﻿center.lat,center.lon,id,lat,lon,nodes,tags.addr:city,tags.addr:country,tags.addr:district,tags.addr:housenumber,tags.addr:neighbourhood,tags.addr:place,tags.addr:postcode,tags.addr:province,tags.addr:street,tags.addr:subdistrict,tags.amenity,tags.amenity_1,tags.branch,tags.brand,tags.brand:wikidata,tags.brand:wikipedia,tags.building,tags.check_date,tags.check_date:compressed_air,tags.compressed_air,tags.contact:email,tags.contact:fax,tags.contact:phone,tags.description,tags.email,tags.fax,tags.fixme,tags.fuel:HGV_diesel,tags.fuel:adblue,tags.fuel:diesel,tags.fuel:e5,tags.fuel:euro_diesel,tags.fuel:gasoline,tags.fuel:lpg,tags.fuel:octane_95,tags.fuel:octane_98,tags.internet_access,tags.internet_access:fee,tags.landuse,tags.layer,tags.mapillary,tags.name,tags.name:ar,tags.name:en,tags.name:tr,tags.opening_hours,tags.operator,tags.operator:type,tags.operator:wikidata,tags.panoramax,tags.payment:cash,tags.payment:credit_cards,tags.payment:debit_cards,tags.payment:maestro,tags.payment:mastercard,tags.payment:visa,tags.phone,tags.self_service,tags.shop,tags.smoking,tags.source,tags.stars,tags.survey:date,tags.toilets,tags.toilets:wheelchair,tags.tourism,tags.website,tags.wheelchair,type
+,,2861685236,41.0948934,27.996901,,,,,,,,,,,,fuel,,,Shell,Q110716465,en:Royal Dutch Shell,,,,,,,,,,,,,,,,,,,,,,,,,,Shell,,,,,,,,,,,,,,,,,,,mapbox,,,,,,,,node
+,,9295133709,41.0436104,28.0358371,,,,,,,,,,,,fuel,,,Total,Q154037,fr:TotalEnergies,,,,,,,,,,,,,,,,,,,,,,,,,,Total Gümüşyaka,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,11329071121,41.0508416,28.0555739,,,,,,,,,,,,fuel,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,9283174693,41.0603926,28.0843218,,,,,,,,,,,,fuel,,,Shell,Q110716465,en:Royal Dutch Shell,,,,,,,,,,,,,,,,,,,,,,,,,,Shell Gümüşyaka,,,,,,,,,,,,,,,,,,,bing,,,,,,,,node
+,,4699018911,41.083953,28.036584,,İstanbul,TR,Silivri,93,Gümüşyaka Merkez Mahallesi,Gümüşyaka Mah.,34570,,Edirne Asfaltı Aslanağzı Sokak,,fuel,,,Opet,Q7072824,tr:Opet,,,,,,+90 2127353920,+90 2127353922,,,,,,,yes,,,,yes,,,,,,,,Opet Silivri,,,,,Opet Petrolcülük A.Ş.,,,,,,,,,,,,,,Yellow Pages Türkiye,,,,,,https://www.opet.com.tr/,,node
+,,9308327027,41.0845731,28.0373748,,,TR,Silivri,,,,34580,İstanbul,İstanbul Çorlu Yolu,Seymen,fuel,,,Energy,,,,,,,,,,,,,,,,,,,,,,,,,,,,Energy Çantaköy Petrol,,,,,Energy - Can Holding Petrol,,,,,,,,,,,,,,,,,,,,,,node
+,,2861685291,41.0957083,27.9997462,,,,,,,,,,,,fuel,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,mapbox,,,,,,,,node
+,,9283174694,41.0711053,28.1128047,,,,,,,,,,,,fuel,,,Petrol Ofisi,Q1278087,en:Petrol Ofisi,,,,,,,,,,,,,,,,,,,,,,,,,,Petrol Ofisi Silivri Sancaktepe,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,9283174695,41.0753209,28.1328825,,,,,,,,,,,,fuel,,,BP,Q152057,en:BP,,,,,,,,,,,"check brand, BP in Turkey is acquired by Petrol Ofisi. Don't delete fixme if still BP please.",,,,,,,,,,,,,,,BP Silivri Semizkumlar,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,9283174696,41.0756559,28.1447099,,,,,,,,,,,,fuel,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,8653866315,41.1072326,28.112179,,,,,,,,,,,,fuel,,,Petrol Ofisi,Q1278087,,,,,,,,,,,,,,,,,,,,,,,,,,,Petrol Ofisi,,,,,Petrol Ofisi,,,,,,,,,,,,,,,,,,,,,,node
+,,6490736044,41.0809351,28.2055117,,,,,,,,,,,,fuel,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,6490736043,41.0801433,28.2088456,,,,,,,,,,,,fuel,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,9164950406,41.0799552,28.2069482,,,,,,,,,,,,fuel,,,Petrol Ofisi,Q1278087,en:Petrol Ofisi,,,,,,,,,,,,,,,,,,,,,,,,,,Petrol Ofisi Silivri Mimarsinan,,,,,,,,,,,,,,,,,,,bing,,,,,,,,node
+,,9283174697,41.0819117,28.2184142,,,,,,,,,,,,fuel,,,Shell,Q110716465,en:Royal Dutch Shell,,,,,,,,,,,,,,,,,,,,,,,,,,Shell Silivri Kuzey,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,9283174698,41.0814435,28.220857,,,,,,,,,,,,fuel,,,Shell,Q110716465,en:Royal Dutch Shell,,,,yes,,,,,,,,,,,,,,,,,,,,,,Shell Silivri Güney,,,,,,,,,,,,,,,,,,,bing,,,,,,,,node
+,,9164863236,41.0769052,28.2464107,,,,,,,,,,,,fuel,,,BP,Q152057,en:BP,,,,,,,,,,,"check brand, BP in Turkey is acquired by Petrol Ofisi. Don't delete fixme if still BP please.",,,,,,,,,,,,,,,BP Silivri Piri Mehmet Paşa,,,,,,,,,,,,,,,,,,,bing,,,,,,,,node
+,,6822711739,41.1037347,28.2194058,,,,,,,,,,,,fuel,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,6822711738,41.1073107,28.2217768,,,,,,,,,,,,fuel,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,9283174699,41.0745974,28.2617667,,,,,,,,,,,,fuel,,,Aytemiz,Q62274352,,,,,,,,,,,,,,,,,,,,,,,,,,,Aytemiz Silivri Yeni,,,,,,,,,,,,,,,,,,,bing,,,,,,,,node
+,,9283174700,41.0723206,28.2740187,,,,,,,,,,,,fuel,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Çekoil Onur Petrol,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,9283174701,41.0718014,28.2769366,,,,,,,,,,,,fuel,,,Türkiye Petrolleri,Q15946806,en:BP,,,,,,,,,,,"check brand, BP in Turkey is acquired by Petrol Ofisi. Don't delete fixme if still BP please.",,,,,,,,,,,,,,,Türkiye Petrolleri,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,9283174702,41.0709492,28.2767925,,,,,,,,,,,,fuel,,,Petrol Ofisi,Q1278087,en:Petrol Ofisi,,,,,,,,,,,,,,,,,,,,,,,,,,Petrol Ofisi Silivri Murat Çeşme,,,,,,,,,,,,,,,,,,,bing,,,,,,,,node
+,,9283174703,41.0705065,28.2788449,,,,,,,,,,,,fuel,,,Shell,Q110716465,en:Royal Dutch Shell,,,,,,,,,,,,,,,,,,,,,,,,,,Shell Silivri Alibey,,,,,,,,,,,,,,,,,,,bing,,,,,,,,node
+,,9283174704,41.0696818,28.2926283,,,,,,,,,,,,fuel,,,Opet,Q7072824,en:Opet,,,,,,,,,,,,,,,,,,,,,,,,,,Opet Silivri Alibey,,,,,,,,,,,,,,,,,,,bing,,,,,,,,node
+,,8851221156,41.0643318,28.3207631,,,,,,,,,,,,fuel,,,BP,Q152057,en:BP,,,,,,,,,,,"check brand, BP in Turkey is acquired by Petrol Ofisi. Don't delete fixme if still BP please.",,,,,,,,,,,,,,,BP Silivri Araptepe,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,8851221157,41.0649785,28.3209172,,,,,,,,,,,,fuel,,,Petrol Ofisi,Q1278087,en:Petrol Ofisi,,,,,,,,,,,,,,,,,,,,,,,,,,Petrol Ofisi Silivri Selimpaşa,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,8851221158,41.063846,28.322914,,,,,,,,,,,,fuel,,,Opet,Q7072824,en:Opet,,,,,,,,,,,,,,,,,,,,,,,,,,Opet Silivri Selimpaşa,,,,,,,,,,,,,,,,,,,bing,,,,,,,,node
+,,9299860547,41.0516552,28.3869997,,,,,,,,,,,,fuel,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Energy Süperpet,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,6642219171,41.0498134,28.3909638,,,,,,,,,,,,fuel,,,Energy,,,,,,,,,,,,,,,,,,,,,,,,,,,,Energy Petrol Selimpaşa,,,,,Energy Petrol Selimpaşa,,,,,,,,,,,,,,,,,,,,,,node
+,,5636543103,41.0910958,28.3282396,,,,,,,,,,,,fuel,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,9299860549,41.0834328,28.3683074,,,,,,,,,,,,fuel,,,Petrol Ofisi,Q1278087,,,,,,,,,,,,,,,,,,,,,,,,,,,Petrol Ofisi,,,,,,,,,,,,,,,,,,,bing,,,,,,,,node
+,,9299860550,41.0834475,28.3708143,,,,,,,,,,,,fuel,,,Petrol Ofisi,Q1278087,,,,,,,,,,,,,,,,,,,,,,,,,,,Petrol Ofisi,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,5636543105,41.0948838,28.3719064,,,,,,,,,,,,fuel,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,5636543106,41.096003,28.3741293,,,,,,,,,,,,fuel,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,8785545975,41.0402471,28.4284738,,,,,,,,,,,,fuel,,,Petrol Ofisi,Q1278087,en:Petrol Ofisi,,,,,,,,,,,,,,,,,,,,,,,,,,Petrol Ofisi Büyükçekmece Kamiloba,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,8785545916,41.0378019,28.4372572,,,,,,,,,,,,fuel,,,BP,Q152057,en:BP,,,,,,,,,,,"check brand, BP in Turkey is acquired by Petrol Ofisi. Don't delete fixme if still BP please.",,,,,,,,,,,,,,,BP Büyükçekmece Kamiloba,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,12441887647,41.0283824,28.4598276,,İstanbul,,Büyükçekmece,662,Kumburgaz,,34530,,İstanbul Caddesi,,fuel,,Kumburgaz,BP,Q152057,en:BP,,,,,,,,,,,"check brand, BP in Turkey is acquired by Petrol Ofisi. Don't delete fixme if still BP please.",,,,,,,,,,,,,,,BP,,,,24/7,Neve Petrol,,,,,,,,,,+90 212 885 10 70,,,,,,,,,,,,node
+,,6332664122,41.0265141,28.4656456,,,,,,,,,,,,fuel,,,Alpet,Q62131561,,,,,,,,,,,,,,,,,,,,,,,,,,,Alpet Ayar Petrol,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,4699023920,41.0353809,28.4457793,,İstanbul,TR,Büyükçekmece,753/A,Kamiloba Mahallesi,,34584,,E-5 Karayolu,,fuel,,,Opet,Q7072824,tr:Opet,,,,,,,+90 2126051122,,,,,,,yes,,yes,,yes,,,,,,,,Opet Büyükçekmece Kamiloba,,,,,Opet Petrolcülük A.Ş.,,,,,,,,,,,,,,Yellow Pages Türkiye,,,,,,https://www.opet.com.tr/,,node
+,,9128770763,41.0178124,28.4830719,,,,,,,,,,,,fuel,,,Petrol Ofisi,Q1278087,,,,,,,,,,,,,,,,,,,,,,,,,,,Petrol Ofisi,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,8403505436,41.1045077,28.4248468,,,,,,,,,,,,fuel,,,Petrol Ofisi,Q1278087,,,,,,,,,,,,,,,,,,,,,,,,,,,Petrol Ofisi,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,9308416863,41.2038763,28.0768099,,,,,,,,,,,,fuel,,,Opet,,,,,,,,,,,,,,,,,,,,,,,,,,,,Opet Erdağı Petrol,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,4699018931,41.2493765,28.0378966,,İstanbul,TR,Silivri,,Büyükçavuşlu Merkez Mahallesi,Büyükçavuşlu Beldesi,34570,,Çerkezköy Tem Bağlantı Yolu,,fuel,,,Opet,Q7072824,tr:Opet,,,,,,+90 2127416506,+90 2127416500,,,,,,,yes,,,,yes,,,,,,,,Opet Silivri Büyükçavuşlu Rüya Petrol,,,,,Opet Petrolcülük A.Ş.,,,,,,,,,,,,,,Yellow Pages Türkiye,,,,,,https://www.opet.com.tr/,,node
+,,10907090065,41.2558857,28.0363503,,,,,,,,,,,,fuel,,,Shell,Q110716465,,,,,,,,,,,,,,,,,,,,,,,,,,,Shell,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,9308416862,41.226284,28.06388,,,,,,,,,,,,fuel,,,Petrol Ofisi,Q1278087,en:Petrol Ofisi,,,,,,,,,,,,,,,,,,,,,,,,,,Petrol Ofisi,,,,,Petrol Ofisi,,,,,,,,,,,,,,,,,,,,,,node
+,,7026502640,41.1556297,28.1699404,,,,,,,,,,,,fuel,,,Petrol Ofisi,Q1278087,en:Petrol Ofisi,,,,,,,,,,,,,,,,,,,,,,,,,,Petrol Ofisi,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,7026502641,41.1540912,28.1682492,,,,,,,,,,,,fuel,,,Opet,Q7072824,en:Opet,,,,,,,,,,,,,,,,,,,,,,,,,,Opet,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,10817053541,41.1317235,28.2300993,,,,,,,,,,,,fuel,,,BP,Q152057,,,,,,,,,,,,"check brand, BP in Turkey is acquired by Petrol Ofisi. Don't delete fixme if still BP please.",,,,,,,,,,,,,,,BP,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,11091390421,41.1331951,28.2313504,,,,,,,,,,,,fuel,,,BP,Q152057,,,,,,,,,,,,"check brand, BP in Turkey is acquired by Petrol Ofisi. Don't delete fixme if still BP please.",,,,,,,,,,,,,,,BP,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,8974667683,41.1505849,28.233321,,,,,,,,,,,,fuel,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,9308416864,41.2306434,28.1142936,,,,,,,,,,,,fuel,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,7874190976,41.316977,28.1749441,,,,,,,,,,,,fuel,,,Teco,,,,,,,,,,,,,,,,,,,,,,,,,,,,Teco,,,,,Teco,,,,,,,,,,,,,,,,,,,,,,node
+,,12009680069,41.305529,28.2418501,,,,,,,,,,,,fuel,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,9657144610,41.1911652,28.3997145,,,,,,,,,,,,fuel,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,2392806044,41.1351115,28.4656276,,,,,,,,,,,,fuel,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,bing,,,,,,,,node
+,,5613678003,41.1510071,28.4527997,,,,,,,,,,,,fuel,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,2392806726,41.1579646,28.4545528,,,,,,,,,,,,fuel,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,bing,,,,,,,,node
+,,2392806728,41.1580163,28.4540224,,,,,,,,,,,,fuel,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,bing,,,,,,,,node
+,,4719094364,41.1327928,28.4703103,,,,,,,,,,,,fuel,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,5610931982,41.1721549,28.5026895,,,,,,,,,,,,fuel,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,5708543081,41.1972545,28.4455672,,,,,,,,,,,,fuel,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,4771613236,41.223032,28.4551489,,,,,,,,,,,,fuel,,,Opet,Q7072824,en:Opet,,,,,,,,,,,,,,,,,,,,,,,,,,Opet,,,,,Opet,,,,,,,,,,,,,,,,,,,,,,node
+,,8403439423,41.2236389,28.4551746,,,,,,,,,,,,fuel,,,Moil,,,,,,,,,,,,,,,,,,,,,,,,,,,,Moil Milan Petrol,,,,,Milan Petrol,,,,,,,,,,,,,,,,,,,,,,node
+,,1830235496,41.2275004,28.4916451,,,,,,,,,,,,fuel,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,5613729478,41.2512907,28.4924105,,,,,,,,,,,,fuel,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,6011826010,41.3905203,28.4514292,,,,,,,,,,,,fuel,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,9283105742,41.0095046,28.523367,,,,,,,,,,,,fuel,,,Aytemiz,Q62274352,,,,,,,,,,,,,,,,,,,,,,,,,,,Aytemiz Büyükçekmece Güzelce,,,,,,,,,,,,,,,,,,,bing,,,,,,,,node
+,,9283105743,41.0103957,28.5316044,,,,,,,,,,,,fuel,,,TotalEnergies,Q154037,fr:TotalEnergies,,,,,,,,,,,,,,,,,,,,,,,,,,Total Gas Station,,Total Gas Station,Total Gas Station,,,,,,,,,,,,,,,,bing,,,,,,,,node
+,,4527983519,41.0079948,28.5374571,,,,,,,,,,,,fuel,,,Shell,Q110716465,,,,,,,,,,,,,,,,,,,,,,,,,,,Shell-Arpet Petrol,,Shell-Arpet Patrol Station,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,9283105744,41.0126432,28.53724,,,,,,,,,,,,fuel,,,Aygaz,Q4831225,en:Royal Dutch Shell,,,,,,,,,,,,,,,,,,,,,,,,,,Aygaz,,,,,,,,,,,,,,,,,,,bing,,,,,,,,node
+,,9283105745,41.0125326,28.5413531,,İstanbul,TR,Büyükçekmece,113,Ekinoba Mahallesi,,34535,,E-5 Londra Asfaltı Caddesi,,fuel,,,Opet,Q7072824,en:Opet,,,,,,+90 2128634242,+90 2128634545,,,,,,,yes,,,,yes,,,,,,,,Opet Büyükçekmece Ekinoba,,,,,Opet Petrolcülük A.Ş.,,,,,,,,,,,,,,Yellow Pages Türkiye,,,,,,https://www.opet.com.tr/,,node
+,,9283105746,41.0145481,28.5461599,,,,,,,,,,,,fuel,,,Shell,Q110716465,en:Royal Dutch Shell,,,,,,,,,,,,,,,,,,,,,,,,,,Shell Sinanoba,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,9283105747,41.013994,28.5473981,,,,,,,,,,,,fuel,,,Lukoil,Q329347,en:Lukoil,,,,,,,,,,,,,,,,,,,,,,,,,,Lukoil Akaryakıt İstasyonu,,Lukoil Patrol Station,Lukoil Akaryakıt İstasyonu,,,,,,,,,,,,,,,,bing,,,,,,,,node
+,,5107498125,40.9893865,28.6188569,,,,,,,,,,,,fuel,,,Alpet,Q62131561,,,,,,,,,,,,,,,,,,,,,,,,,,,Alpet,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,4699018252,40.99775,28.6052587,,İstanbul,TR,Büyükçekmece,1,Pınartepe Mahallesi,,34500,,Turgut Özal 1. Caddesi,,fuel,,,Opet,Q7072824,tr:Opet,,,,,,+90 2128809083,+90 2128809080,,,,,,,yes,,,,yes,,,,,,,,Opet Beylikdüzü,,,,,Opet Petrolcülük A.Ş.,,,,,,,,,,,,,,Yellow Pages Türkiye,,,,,,https://www.opet.com.tr/,,node
+,,11597376277,41.0010194,28.6181483,,,,,,,,,,,,fuel,,,BP,Q152057,,,,,,,,,,,,"check brand, BP in Turkey is acquired by Petrol Ofisi. Don't delete fixme if still BP please.",,,,,,,,,,,,,,,BP,,,,,Veysi Genç Akaryakıt,,,,,,,,,,,,,,,,,,,,,,node
+,,2277832475,40.9961049,28.6252197,,,,,,,,,,,,fuel,,,Alpet,Q62131561,,,,,,,,,,,,,,,,,,,,,,,,,,,Alpet Gürpınar,,,,,Alpet,,,,,,,,,,,,,,,,,,,,,,node
+,,11597376278,41.0058414,28.6223911,,İstanbul,,Beylikdüzü,94,Adnan Kahveci,,34528,,Avrupa Caddesi,,fuel,,Gürpınar Merkez Mahallesi,Shell,Q110716465,,,,,,,,,,,,,,,,,,,,,,,,,,,Shell,,,,24/7,,,,,,,,,,,+90 212 856 2019,,,,,,,,,,https://find.shell.com/tr/fuel/12688373-gurpinar-merkez-mahallesi/tr_TR,,node
+,,5107401717,40.98367,28.6439262,,,,,,,,,,,,fuel,,,Petrol Ofisi,Q1278087,en:Petrol Ofisi,,,,,,,,,,,,,,,,,,,,,,,,,,Petrol Ofisi,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,7506071047,40.9894325,28.6573616,,,,,,,,,,,,fuel,,,TotalEnergies,Q154037,,,2025-05-04,,,,,,,,,,,,,,,,,,,,,,,,TotalEnergies,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,5108791878,40.9887409,28.6676454,,,,,,,,,,,,fuel,,,Petrol Ofisi,Q1278087,en:Petrol Ofisi,,,,,,,,,,,,,,,,,,,,,,,,,,Petrol Ofisi,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,7498451381,40.993182,28.6303116,,,,,,,,,,,,fuel,,,Energy,,,,,,,,,,,,,,,,,,,,,,,,,,,,Energy,,,,,Energy,,,,,,,,,,,,,,,,,,,,,,node
+,,7501444291,41.0048016,28.6376236,,İstanbul,TR,Beylikdüzü,16,Cumhuriyet Mahallesi,,34520,,Atatürk Bulvarı,,fuel,,,Opet,Q7072824,tr:Opet,,,,,,+90 2128735755,+90 2128710666,,,,,,,yes,,,,yes,,,,,,,,Opet Beylikdüzü,,,,,Opet Petrolcülük A.Ş.,,,,,,,,,,,,,,Yellow Pages Türkiye,,,,,,https://www.opet.com.tr/,,node
+,,9177606423,41.0143393,28.6469932,,,,,,,,,,,,fuel,,,BP,Q152057,en:BP,,,,,,,,,,,"check brand, BP in Turkey is acquired by Petrol Ofisi. Don't delete fixme if still BP please.",,,,,,,,,,,,,,,BP Büyükçekmece Yakuplu,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,3170739257,40.9897124,28.6651997,,,,,3,,,,,,,fuel,,,Shell,,,,,,,,,,,,,,,,,,,,,,,,,,,,Shell - Karma Grup,,,,Mo-Su 00:00-12:00,,,,,,,,,,,,,,,,,,,,,,,node
+,,4699018264,40.989872,28.668452,,İstanbul,TR,Beylikdüzü,161/A D: 1,Yakuplu Mahallesi,,34524,,Hürriyet Bulvarı,,fuel,,,Opet,Q7072824,tr:Opet,,,,,,+90 2128761131,+90 2128761113,,,,,,,yes,,,,yes,,,,,,,,Opet Beylikdüzü,,,,,Opet Petrolcülük A.Ş.,,,,,,,,,,,,,,Yellow Pages Türkiye,,,,,,https://www.opet.com.tr/,,node
+,,10923543911,41.0059156,28.6596976,,,,,,,,,,,,fuel,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,11597376322,41.009743,28.6550438,,İstanbul,,Beylikdüzü,34,Barış,,34520,,Belediye Caddesi,,fuel,,Beylikdüzü Yanyol,Shell,Q110716465,,,,,,,,,,,,,,,,,,,,,,,,,,,Shell,,,,24/7,,,,,,,,,,,+90 212 854 1717,,,,,,,,,,https://find.shell.com/tr/fuel/10054979-beylikduzu-yan-yol/tr_TR,,node
+,,4699018284,41.006514,28.6676766,,İstanbul,TR,Esenyurt,19,Güzelyurt Mahallesi,,34515,,Haramidere Caddesi,,fuel,,,Opet,Q7072824,tr:Opet,,,,,,+90 2128543648,+90 2128543642,,,,,,,yes,,,,yes,,,,,,,,Opet Esenyurt Güzelyurt,,,,,Opet Petrolcülük A.Ş.,,,,,,,,,,,,,,Yellow Pages Türkiye,,,,,,https://www.opet.com.tr/,,node
+,,9299860561,40.9882554,28.7187248,,,,,,,,,,,,fuel,,,Shell,Q110716465,en:Royal Dutch Shell,,,,,,,,,,,,,,,,,,,,,,,,,,Shell Avcılar,,,,,,,,,,,,,,,,no,,,,,,yes,,,,,node
+,,9548958716,41.0005436,28.6914835,,,,,,,,,,,,fuel,,,Opet,Q7072824,en:Opet,,,,yes,,,,,,,,,,,,,,,,,,,,,,Opet,,,,,,,,,,,,,,,,,,,bing,,,,,,,,node
+,,9548958715,40.9954061,28.7046971,,,,,,,,,,,,fuel,,,BP,Q152057,en:BP,,,,,,,,,,,"check brand, BP in Turkey is acquired by Petrol Ofisi. Don't delete fixme if still BP please.",,,,,,,,,,,,,,,BP Avcılar,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,9299860560,41.0001016,28.6950441,,İstanbul,,Esenyurt,32,Turgut Özal Mahallesi,,,,68. Sokak,,fuel,,,,,,,,,yes,,,,,,,,,,,,,,,,,,,,,,Türk Petrol,,,,,,,,,,,,,,,,,,,bing,,,,,,,,node
+,,1695103519,41.0042734,28.6841172,,,,,,,,,,,,fuel,,,TotalEnergies,Q154037,fr:TotalEnergies,,,,,,,,,,,,,,,,,,,,,,,,,,Total,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,7523601250,41.0120959,28.6818702,,,,,,,,,,,,fuel,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,bing,,,,,,,,node
+,,10310472766,41.011561,28.679358,,İstanbul,,Esenyurt,,Zafer,,34513,,,,fuel,,Esenyurt Namık Kemal,Petrol Ofisi,Q1278087,,,,,,,,,,,,,,,,,,,,,,,,,,,Petrol Ofisi,,,,24/7,Başak Petrol,,,,,,,,,,,,,,,,,,,,,,node
+,,5048210226,41.0134315,28.695405,,,,,,,,,,,,fuel,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,9548982818,41.01155,28.698086,,,,,,,,,,,,fuel,,,TotalEnergies,Q154037,fr:TotalEnergies,,,,yes,,,,,,,,,,,,,,,,,,,,,,Total,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,9548982817,41.0093769,28.7014502,,,,,,,,,,,,fuel,,,Shell,Q110716465,,,,,,,,,,,,,,,,,,,,,,,,,,,Shell,,,,,,,,,,,,,,,,,,,bing,,,,,,,,node
+,,4855516912,40.9936173,28.7095758,,,,,,,,,,,,fuel,,,Alpet,Q62131561,,,,,,,,,,,,,,,,,,,,,,,,,,,Alpet,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,9164830220,40.9950191,28.7052039,,Istanbul,,avcılar,,Üniversite Mahallesi,,,,,,fuel,,,Aygaz,Q4831225,,,,,,,,,,,,,,,,,,,,,,,,,,,Aygaz,,,,,Aygaz,,,,,,,,,,,,,,,,,,,,,,node
+,,2928531148,40.9994399,28.7135734,,,,,,,,,,,,fuel,,,Opet,Q7072824,en:Royal Dutch Shell,,,2022-12-25,yes,,,,,,,,,,,,,,,,,,,,,,Opet,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,9299860562,40.990692,28.7184232,,İstanbul,,Avcılar,,Üniversite Mah.,,,,Televizyon Sokağı,,fuel,,,Petrol Ofisi,Q1278087,en:Petrol Ofisi,,,,,,,,,,,,,,,,,,,,,,,,,,Petrol Ofisi,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,9283105748,41.0170614,28.557399,,,,,,,,,,,,fuel,,,TotalEnergies,Q154037,fr:TotalEnergies,,,,yes,,,,,,,,,,,,,,,,,,,,,,Total Mimarsinan,,,,,,,,,,,,,,,,,,,bing,,,,,,,,node
+,,9299860551,41.0201144,28.5593928,,,,,,,,,,,,fuel,,,Petrol Ofisi,Q1278087,en:Petrol Ofisi,,,,,,,,,,,,,,,,,,,,,,,,,,Petrol Ofisi,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,9283105753,41.0258567,28.5565171,,,,,,,,,,,,fuel,,,Shell,Q110716465,en:Royal Dutch Shell,,,,yes,,,,,,,,,,,,,,,,,,,,,,Shell Büyükçekmece Ulus,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,9283105749,41.0172978,28.5622313,,,,,,,,,,,,fuel,,,Shell,Q110716465,en:Royal Dutch Shell,,,,,,,,,,,,,,,,,,,,,,,,,,Shell Mimarsinan,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,9283105750,41.0185701,28.5639545,,,,,,,,,,,,fuel,,,Petrol Ofisi,Q1278087,en:BP,,,,yes,,,,,,,"check brand, BP in Turkey is acquired by Petrol Ofisi. Don't delete fixme if still BP please.",,,,,,,,,,,,,,,Petrol Ofisi,,,,,Batular Petrol,,,,,,,,,,,,,,,,,,,,,,node
+,,9283105751,41.0196623,28.5636778,,,,,,,,,,,,fuel,,,Petrol Ofisi,Q1278087,,,,,yes,,,,,,,"check brand, BP in Turkey is acquired by Petrol Ofisi. Don't delete fixme if still BP please.",,,,,,,,,,,,,,,Petrol Ofisi,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,9283105752,41.02096,28.5631501,,,,,,,,,,,,fuel,,,Opet,Q7072824,en:Opet,,,,,,,,,,,,,,,,,,,,,,,,,,Opet Büyükçekmece Mimar Sinan,,,,,,,,,,,,,,,,,,,bing,,,,,,,,node
+,,9299860552,41.0217351,28.5840546,,İstanbul,TR,Büyükçekmece,42,Fatıh Mahallesi,,34500,,Rıza Küçükoğlupaşa Caddesi,,fuel,,,Opet,Q7072824,en:Opet,,,,,,+90 212 883 20 72,+90 212 883 20 72,,,,,,,yes,,,,yes,,,,,,,,Opet Büyükçekmece Fatih,,,,,Opet Petrolcülük A.Ş.,,,,,,,,,,,,,,Yellow Pages Türkiye,,,,,,https://www.opet.com.tr/,,node
+,,11597376279,41.0163417,28.6259075,,İstanbul,,Büyükçekmece,,Pınartepe,,34500,,Yavuz Sultan Selim Bulvarı,,fuel,,Büyükçekmece Pınartepe,Opet,Q7072824,,,,,,,,,,,+90 212 871 2425,,,,,,,,,,,,,,,,Opet,,,,24/7,Cob Petrol,,,,,,,,,,+90 212 871 2325,,,,,,,,,,,,node
+,,9299860553,41.0231782,28.6188261,,,,,,,,,,,,fuel,,,Kadoil,Q126901221,,,,,,,,,,,,,,,yes,,,,yes,yes,,,,,,,Kadoil,,,,,Lipetgaz,,,,,,,,,,,,,,bing,,,,,,,,node
+,,8739742042,41.0243095,28.6235887,,,,,,,,,,,,fuel,,,TotalEnergies,Q154037,,,,,,,,,,,,,,,,,,,,,,,,,,,TotalEnergies,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,4992280809,41.0408294,28.6259466,,,,,,,,,,,,fuel,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,4992280814,41.0370171,28.6247136,,,,,,,,,,,,fuel,,,Shell,Q110716465,en:Royal Dutch Shell,,,,,,,,,,,,,,,,,,,,,,,,,,Shell,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,4992280808,41.0598337,28.6251746,,,,,,,,,,,,fuel,,,Aytemiz,Q62274352,,,,,,,,,,,,,,,,,,,,,,,,,,,Aytemiz,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,4699022971,41.064034,28.621961,,İstanbul,TR,Büyükçekmece,89/A,Çakmaklı Mahallesi,,34500,,Hadımköy Yolu Caddesi,,fuel,,,Opet,Q7072824,en:Opet,,,,,,+90 2128867467,+90 2128867464,,,,,,,yes,,,,yes,,,,,,,,Opet Büyükçekmece,,,,,Opet Petrolcülük A.Ş.,,,,,,,,,,,,,,Yellow Pages Türkiye,,,,,,https://www.opet.com.tr/,,node
+,,9312170590,41.0795466,28.62606,,İstanbul,,Esenyurt,,Akçaburgaz,,34522,,Hadımköy Yolu Caddesi,,fuel,,Alıcı Petrol,Petrol Ofisi,Q1278087,en:Petrol Ofisi,,,,,,,,,,,,,,,,,,,,,,,,,,Petrol Ofisi,,,,,Alıcı Petrol,,,,,,,,,,+90 212 886 6420,,,,,,,,,,,,node
+,,9312170591,41.079205,28.6248376,,İstanbul,,Esenyurt,,Alkent 2000,,34500,,Hadımköy Yolu Caddesi,,fuel,,Alkent,Shell,Q110716465,en:Royal Dutch Shell,,,,,,,,,,,,,,,,,,,,,,,,,,Shell,,,,24/7,,,,,,,,,,,,,,,,,,,,,https://find.shell.com/tr/fuel/10050816-alkent/tr_TR,,node
+,,8739798441,41.01835,28.632575,,,,,,,,,,,,fuel,,,Shell,Q110716465,en:Royal Dutch Shell,,,,,,,,,,,,,,,,,,,,,,,,,,Shell Gürpınar Kavşak,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,11251039127,41.0195398,28.6294897,,,,,,,,,,,,fuel,,,Petrol Ofisi,Q1278087,,,,,,,,,,,,,,,,,,,,,,,,,,,Petrol Ofisi,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,11597376320,41.0189519,28.6311127,,İstanbul,,Büyükçekmece,372,Cumhuriyet,,34536,,,,fuel,,Büyükçekmece Cumhuriyet,Opet,Q7072824,,,,,,,,,,,+90 212 872 1128,,,,,,,,,,,,,,,,Opet,,,,24/7,Renk Petrol,,,,,,,,,,+90 212 872 1035,,,,,,,,,,,,node
+,,11597376321,41.0199328,28.6316143,,İstanbul,,Esenyurt,8,Gökevler,,34516,,2312. Sokak,,fuel,,Esenyurt E-5 Yanyol,Petrol Ofisi,Q1278087,,,,,,,,,,,,,,,,,,,,,,,,,,,Petrol Ofisi,,,,24/7,Esenpet Petrol,,,,,,,,,,,,,,,,,,,,,,node
+,,4992280815,41.0270519,28.6266991,,,,,,,,,,,,fuel,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,9299860557,41.016821,28.6392375,,,,,,,,,,,,fuel,,,BP,Q152057,en:BP,,,,,,,,,,,"check brand, BP in Turkey is acquired by Petrol Ofisi. Don't delete fixme if still BP please.",,,,,,,,,,,,,,,BP,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,4699023919,41.0179351,28.6462917,,İstanbul,TR,Esenyurt,82,Cumhuriyet Mahallesi,,34515,,Nazım Hikmet Bulvarı,,fuel,,,Opet,Q7072824,tr:Opet,,,,,,+90 2128530974,+90 2128530368,,,,,,,yes,,,,yes,,,,,,,,Opet Esenyurt,,,,,Opet Petrolcülük A.Ş.,,,,,,,,,,,,,,Yellow Pages Türkiye,,,,,,https://www.opet.com.tr/,,node
+,,5707360358,41.0250023,28.6592596,,,,,,,,,,,,fuel,,,BP,Q152057,,,,,,,,,,,,"check brand, BP in Turkey is acquired by Petrol Ofisi. Don't delete fixme if still BP please.",,,,,,,,,,,,,,,BP,,,,24/7,,,,,,,,,,,,,,,,,,,,,,,node
+,,4855518349,41.019443,28.6768201,,,,,,,,,,,,fuel,,,Shell,Q110716465,,,,,,,,,,,,,,,yes,,,,yes,yes,,,,,,,Shell,,,,,,,,,,,,,,,,no,,,,,,,,,,,node
+,,5108170071,41.0316929,28.6575073,,,,,,,,,,,,fuel,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,limited,node
+,,5108169540,41.0306299,28.6625701,,,,,,,,,,,,fuel,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,11597376326,41.0319562,28.674315,,İstanbul,,Esenyurt,,Bağlarçeşme,,34517,,,,fuel,,Esenyurt 2. Bölge,Shell,Q110716465,,,,,,,,,,,,,,,,,,,,,,,,,,,Shell,,,,24/7,,,,,,,,,,,+90 212 620 3686,,,,,,,,,,https://find.shell.com/tr/fuel/10049437-esenyurt-2-bolge/tr_TR,,node
+,,4699019952,41.05038,28.62848,,İstanbul,TR,Esenyurt,52,Akçaburgaz Mahallesi,,34522,,Hadımköy Yolu Caddesi,,fuel,,,Opet,Q7072824,en:Opet,,,,yes,,+90 2128866255,+90 2128865355,,,,,,,yes,,,,yes,,,,,,,,Opet Esenyurt,,,,,Opet Petrolcülük A.Ş.,,,,,,,,,,,,,,Yellow Pages Türkiye,,,,,,https://www.opet.com.tr/,,node
+,,9300286799,41.0672924,28.6494303,,,,,,,,,,,,fuel,,,BP,Q152057,en:BP,,,,,,,,,,,"check brand, BP in Turkey is acquired by Petrol Ofisi. Don't delete fixme if still BP please.",,,,,,,,,,,,,,,BP Esenyurt Akçaburgaz,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,5112306755,41.0423654,28.676434,,,,,,,,,,,,fuel,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,yes,node
+,,4699022963,41.0554191,28.6719297,,İstanbul,TR,Esenyurt,3,Esenkent Mahallesi,,34538,,Cemal Paşa Caddesi,,fuel,,,Opet,Q7072824,en:Opet,,,,,,+90 2126721525,+90 2126721317,,,,,,yes,yes,,,yes,yes,,,,,,,,Opet Esenkent,,,,,Opet Petrolcülük A.Ş.,,,,,,,,,,,,,,Yellow Pages Türkiye,,,,,,https://www.opet.com.tr/,,node
+,,5048210016,41.0216485,28.6875944,,,,,,,,,,,,fuel,,,Aytemiz,Q62274352,,,,,,,,,,,,,,,,,,,,,,,,,,,Aytemiz Esenyurt Tabela,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,4699018234,41.023118,28.686603,,İstanbul,TR,Esenyurt,86,İncirtepe Mahallesi,,34510,,Doğan Araslı Bulvarı,,fuel,,,Opet,Q7072824,tr:Opet,,,,,,+90 2126208868,+90 2125967301,,,,,,,yes,,,,yes,,,,,,,,Opet,,,,,Opet Petrolcülük A.Ş.,,,,,,,,,,,,,,Yellow Pages Türkiye,,,,,,https://www.opet.com.tr/,,node
+,,5707236740,41.0222354,28.7011184,,,,,,,,,,,,fuel,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,4992027984,41.033828,28.6801411,,,,,,,,,,,,fuel,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,7518367166,41.0306413,28.6825978,,,,,,,,,,,,fuel,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Teco,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,11597376324,41.0293532,28.6825976,,İstanbul,,Esenyurt,107,Fatih,,34513,,Doğan Araslı Bulvarı,,fuel,,Esenyurt Fatih,Aytemiz,Q62274352,,,,,,,,,,,,,,,,,,,,,,,,,,,Aytemiz,,,,24/7,Esenyurt Petrol,,,,,,,,,,+90 541 507 5201,,,,,,,,,,,,node
+,,11597376325,41.0321617,28.6819427,,,,,,,,,,,,fuel,,,Shell,Q110716465,,,,,,,,,,,,,,,,,,,,,,,,,,,Shell,,,,24/7,,,,,,,,,,,,,,,,,,,,,,,node
+,,11597376328,41.0510066,28.6877366,,İstanbul,,Esenyurt,14,Yeşilkent,,34515,,Bahçeşehir Yanyol Caddesi,,fuel,,Anafarta Petrol,Opet,Q7072824,,,,,,,,,,,+90 212 699 0771,,,,,,,,,,,,,,,,Opet,,,,24/7,Anafarta Petrol,,,,,,,,,,+90 212 699 0770,,,,,,,,,,,,node
+,,3996188487,41.0601831,28.6884886,,,,,,,,,,,,fuel,,,BP,Q152057,en:BP,,,,,,,,,,,"check brand, BP in Turkey is acquired by Petrol Ofisi. Don't delete fixme if still BP please.",,,,,,,,,,,,,,,BP,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,3996189675,41.0600444,28.6880999,,,,,,,,,,,,fuel,,,BP,Q152057,en:BP,,,,,,,,,,,"check brand, BP in Turkey is acquired by Petrol Ofisi. Don't delete fixme if still BP please.",,,,,,,,,,,,,,,BP,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,6039017188,41.0598711,28.6992785,,,,,,,,,,,,fuel,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,7167510127,41.0603468,28.6987055,,,,,,,,,,,,fuel,,,Petrol Ofisi,Q1278087,en:Petrol Ofisi,,,,,,,,,,,,,,,,,,,,,,,,,,Petrol Ofisi,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,6437087001,41.0578137,28.7127623,,,,,,,,,,,,fuel,,,TotalEnergies,Q154037,fr:TotalEnergies,,,,,,,,,,,,,,,,,,,,,,,,,,Total,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,4699018232,41.0582146,28.7307071,,İstanbul,TR,Avcılar,6/A,Tahtakale Mahallesi,,34320,,Kuzey Yan Yolu,,fuel,,,Aytemiz,Q62274352,,,,,,,,,,,,,,,yes,,,,yes,,,,,,,,Aytemiz,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,5132939928,41.0568105,28.7280349,,,,,,,,,,,,fuel,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,4699018051,41.080441,28.652694,,İstanbul,TR,Esenyurt,1,Esenkent Mahallesi,,34510,,Hadımköy Altınşehir Yolu,,fuel,,,Opet,Q7072824,en:Opet,,,,,,+90 2126722636,+90 5343564204,,,,,,,yes,,,,yes,,,,,,,,Opet Hoşdere Petrol,,,,,Opet Petrolcülük A.Ş.,,,,,,,,,,,,,,Yellow Pages Türkiye,,,,,,https://www.opet.com.tr/,,node
+,,5686970042,41.1173181,28.6282691,,,,,,,,,,,,fuel,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,5686970066,41.1174784,28.629389,,,,,,,,,,,,fuel,,,TotalEnergies,Q154037,,,,,,,,,,,,,,,,,,,,,,,,,,,TotalEnergies,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,9300286790,41.0716662,28.6938781,,,,,,,,,,,,fuel,,,Shell,Q110716465,en:Royal Dutch Shell,,,,,,,,,,,,,,,,,,,,,,,,,,Shell,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,9299860563,40.9868352,28.7699299,,,,,,,,,,,,fuel,,,Shell,Q110716465,en:Royal Dutch Shell,,,,,,,,,,,,,,,,,,,,,,,,,,Shell Küçükçekmece,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,9809647745,41.0145162,28.768116,,,,,,,,,,,,fuel,,,Petrol Ofisi,Q1278087,,,,,,,,,,,,,,,,,,,,,,,,,,,Petrol Ofisi,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,9312187482,40.9725654,28.7899492,,,,,,,,,,,,fuel,,,Shell,Q110716465,en:Royal Dutch Shell,,,,,,,,,,,,,,,,,,,,,,,,,,Shell Florya,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,4979178070,40.9853444,28.785827,,,,,,,,,,,,fuel,,,Opet,Q7072824,,,,,,,,,,,,,,,,,,,,,,,,,,,Opet,,,,,,,,,,,,,,,,no,,,,,,,,,,,node
+,,9299860564,40.9859369,28.7839188,,,,,,,,,,,,fuel,,,Petrol Ofisi,Q1278087,en:Petrol Ofisi,,,,,,,,,,,,,,,,,,,,,,,,,,Petrol Ofisi Küçükçekmece Cennet,,,,,,,,,,,,,,,,,,,bing,,,,,,,,node
+,,2716711598,40.9879309,28.7960684,,,,,,,,,,,,fuel,,,Shell,Q110716465,en:Royal Dutch Shell,,,,,,,,,,,,,,,,,,,,,,,,,,Shell Şenlikköy,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,9299860565,40.9885513,28.7909023,,,,,,,,,,,,fuel,,,BP,Q152057,en:BP,,,,,,,,,,,"check brand, BP in Turkey is acquired by Petrol Ofisi. Don't delete fixme if still BP please.",,,,,,,,,,,,,,,BP Küçükçekmece Gültepe,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,9299860568,40.9863951,28.8196684,,,,,,,,,,,,fuel,,,Shell,Q110716465,en:Royal Dutch Shell,,,,yes,,,,,,,,,,,,,,,,,,,,,,Shell Atatürk Havalimanı,,,,24/7,,,,,,,,,,,,,,,,,,,,,,yes,node
+,,9312187483,40.9929402,28.793514,,,,,,,,,,,,fuel,,,Opet,Q7072824,en:Opet,,,,,,,,,,,,,,yes,yes,,,yes,yes,,,,,,,Opet Küçükçekmece Gültepe,,,,,,,,,,,,,,,,no,,,,,,,,,,,node
+,,4908865216,41.002535,28.7874784,,İstanbul,,Küçükçekmece,121,Sultan Murat Mah.,,34295,,Sultan Murat Caddesi,,fuel,,,Opet,Q7072824,en:Opet,,,,,,,,,,,,,,,,,,,,,,,,,,Opet,,,,,,,,,,,,,,,+90 2124267844,,,,,,,,,,,,node
+,,446288239,41.0001901,28.8007381,,,,,,,,,,,,fuel,,,Class Petrol,,,,,,,,,,,,,,,,,,,,,,,,,,,,Class Petrol,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,11594829628,40.9963146,28.7966461,,,,,,,,,,,,fuel,,,Shell,Q110716465,,,,,,,,,,,,,,,,,,,,,,,,,,,Shell Sefaköy,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,5057698664,41.0080791,28.7949318,,,,,,,,,,,,fuel,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Milangaz,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,5038130206,41.0133611,28.7874587,,,,,,,,,,,,fuel,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,4965256366,41.0099945,28.7944248,,,,,,,,,,,,fuel,,,Petrol Ofisi,Q1278087,en:Royal Dutch Shell,,,,,,,,,,,,,,,,,,,,,,,,,,Petrol Ofisi,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,8857110730,41.0009743,28.8226446,,,,,,,,,,,,fuel,,,Aytemiz,Q62274352,,,,,,,,,,,,,,,,,,,,,,,,,,,Aytemiz Bahçelievler Çobançeşme,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,4699018226,40.9930848,28.8272163,,İstanbul,TR,Bahçelievler,56,Çobançeşme Mahallesi,,34197,,Dumlupınar caddesi,,fuel,,,Opet,Q7072824,en:Opet,,,,,,+90 2124527136,+90 2125030470,,,,,,,yes,,,,yes,,,,,,,,Opet Bahçelievler Çobançeşme,,,,,Erhan Dedeoğlu Petrol,,,,,,,,,,,,,,Yellow Pages Türkiye,,,,,,https://www.opet.com.tr/,,node
+,,5038131041,40.9920052,28.8332033,,,,,,,,,,,,fuel,,,Shell,Q110716465,en:Royal Dutch Shell,,,,yes,,,,,,,,,,,,,,,,,,,,,,Shell,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,4846902293,41.0118047,28.8178457,,,,,,,,,,,,fuel,,,TotalEnergies,Q154037,fr:TotalEnergies,,,,,,,,,,,,,,,,,,,,,,,,,,Total,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,4699018265,41.0115506,28.828365,,İstanbul,TR,Bahçelievler,248/A,Yenibosna Merkez Mahallesi,,34197,,Yıldırım Beyazıt Caddesi,,fuel,,,Opet,Q7072824,en:Opet,,,,,,+90 2124512196,+90 2124512195,,,,,,,yes,,,,yes,,,,,,,,Opet Bahçelievler,,,,,Opet Petrolcülük A.Ş.,,,,,,,,,,,,,,Yellow Pages Türkiye,,,,,,https://www.opet.com.tr/,,node
+,,4846902294,41.0154366,28.8243738,,,,,,,,,,,,fuel,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,4846902295,41.0138923,28.8259069,,,,,,,,,,,,fuel,,,BP,Q152057,en:BP,,,,,,,,,,,"check brand, BP in Turkey is acquired by Petrol Ofisi. Don't delete fixme if still BP please.",,,,,,,,,,,,,,,BP,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,5057669024,41.0098412,28.8310577,,,,,,,,,,,,fuel,,,Shell,Q110716465,en:Royal Dutch Shell,,,,,,,,,,,,,,,,,,,,,,,,,,Shell,,,,24/7,,,,,,,,,,,,,,,,,,,,,,,node
+,,6696452665,41.0143136,28.8321043,,,,,,,,,,,,fuel,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,9312871375,40.9743342,28.8740989,,,,,,,,,,,,fuel,,,Shell,Q110716465,en:Royal Dutch Shell,,,,yes,,,,,,,,,,,,,,,,,,,,,,Shell Ataköy Sahil,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,12250435536,40.9740305,28.8731698,,İstanbul,,Bakırköy,8/5,Ataköy 1. Kısım,,34158,,Rauf Orbay Caddesi,,fuel,,Sahil Yolu,Opet,Q7072824,,,,,,,+90 212 560 7271,+90 212 560 3931,,,,,,,,,,,,,,,,,,,Opet,,,,24/7,Ataköy Petrol,,,,,,,,,,,,,,,,,,yes,,,,node
+,,12205869388,40.9815951,28.884321,,,,,,,,,,,,fuel,,,Petrol Ofisi,Q1278087,,,,,,,,,,,,,,,,,,,,,,,,,,,Petrol Ofisi,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,4699018204,40.9877235,28.883948,,İstanbul,TR,Bakırköy,40,Kartaltepe Mahallesi,,34145,,Aksu Caddesi,,fuel,,,Opet,Q7072824,tr:Opet,,,,,,+90 2125439332,+90 2125836161,,,,,,,yes,,,,yes,,,,,,,,Opet Bakırköy,,,,,Opet Petrolcülük A.Ş.,,,,,,,,,,,,,,Yellow Pages Türkiye,,,,,,https://www.opet.com.tr/,,node
+,,5008916861,40.9881116,28.8842153,,İstanbul,,Bakırköy,50,Kartaltepe Mahallesi,,34145,,Koşuyolu Caddesi,,fuel,,,BP,Q152057,,,,,,veliefendiyolu@bp.com.tr,,+90 212 466 10 00,,,,"check brand, BP in Turkey is acquired by Petrol Ofisi. Don't delete fixme if still BP please.",,,,,,,,,,,,,,,BP Veliefendi,,,,,BP,,,,,,,,,,,,,,,,,,,,,yes,node
+,,4978760118,40.9916607,28.8380623,,,,,,,,,,,,fuel,,,Petrol Ofisi,Q1278087,en:Petrol Ofisi,,,,yes,,,,,,,,,,,,,,,,,,,,,,Petrol Ofisi,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,11405572353,41.014193,28.8420492,,,,,,,,,,,,fuel,,,BP,Q152057,,,,,,,,,,,,"check brand, BP in Turkey is acquired by Petrol Ofisi. Don't delete fixme if still BP please.",,,,,,,,,,,,,,,BP,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,5057636838,41.0131146,28.8468078,,,,,,,,,,,,fuel,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,5418808042,40.9909695,28.8708226,,,,,,,,,,,,fuel,,,Moil,Q62296914,,,,,yes,,,,,,,,,,,,,,,,,,,,,,Moil,,,,24/7,,,,,,,,,,,,,,,,,,,,,,,node
+,,12250404051,40.9969726,28.8716266,,İstanbul,,Bakırköy,31,Kartaltepe,,34145,,Pembe Ay Sokağı,,fuel,,İncirli,TotalEnergies,Q154037,,,,,,,,,,,,,,,,,,,,,,,,,,,Total,,,,24/7,,,,,,,,,,,,,,,,,,,,,,,node
+,,8745873184,41.0023361,28.8860995,,,,,,,,,,,,fuel,,,Class,,,,,,,,,,,,,,,,,,,,,,,,,,,,Class,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,9312167481,41.002278,28.8829966,,,,,,,,,,,,fuel,,,Petrol Ofisi,Q1278087,en:Petrol Ofisi,,,,,,,,,,,,,,,,,,,,,,,,,,Petrol Ofisi Bahçelievler Mehmet Akif,,,,,Kavuklar Petrol,,,,,,,,,,,,,,,,,,,,,,node
+,,9312167478,41.0033205,28.8663906,,,,,,,,,,,,fuel,,,BP,Q152057,en:BP,,,,,,,,,,,"check brand, BP in Turkey is acquired by Petrol Ofisi. Don't delete fixme if still BP please.",,,,,,,,,,,,,,,BP,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,9312167479,41.0069657,28.8713178,,,,,,,,,,,,fuel,,,Shell,Q110716465,en:Royal Dutch Shell,,,,,,,,,,,,,,,,,,,,,,,,,,Shell,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,3130909268,41.0080248,28.8816979,,,,,,,,,,,,fuel,,,Opet,Q7072824,en:BP,,,,,,,,,,,,,,,,,,,,,,,,,,Opet,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,4807075794,40.9816359,28.8908742,,,,,,,,,,,,fuel,,,Aygaz,Q4831225,,,,,,,,,,,,,,,,,,,,,,,,,,,Aygaz,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,5667661771,40.9821539,28.8937035,,İstanbul,,Zeytinburnu,,,,,,,,fuel,,,BP,Q152057,,,,,,,,,,,,"check brand, BP in Turkey is acquired by Petrol Ofisi. Don't delete fixme if still BP please.",,,,,,,,,,,,,,,bp taşıtmatık,bp محطة وقود وغسيل سيارات,,,24/7,,,,,,,,,,,,,,,,,,,,,,,node
+,,5253548270,40.9939415,28.8945802,,,,,,çırpıcı,,,,,,fuel,,,Shell,Q110716465,,,,,,,,,,,,,,,,,,,,,,,,,,,Shell benzinci,,,,24/7,shell,,,,,,,,,,,,,,,,,,,,,,node
+,,4908893564,40.9950934,28.8950522,,İstanbul,,Zeytinburnu,,,,,,Prof. Dr.turan Güneş Caddesi,,fuel,,,BP,Q152057,en:BP,,,,,,,,,,,"check brand, BP in Turkey is acquired by Petrol Ofisi. Don't delete fixme if still BP please.",,,,,,,,,,,,,,,BP,محطة وقود ب ب اولتيمات,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,5707508888,41.0047978,28.8923178,,,,,,,,,,,,fuel,,,BP,Q152057,en:BP,,,,,,,,,,,"check brand, BP in Turkey is acquired by Petrol Ofisi. Don't delete fixme if still BP please.",,,,,,,,,,,,,,,BP,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,5707508889,41.0049447,28.8920028,,,,,,,,,,,,fuel,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,5370265112,41.0080712,28.8970539,,,,,,,,,,,,fuel,,,Shell,Q110716465,en:Royal Dutch Shell,,,,yes,,,,,,,,,,,,,,,,,,,,,,Shell,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,4846948582,41.0127401,28.9006253,,,,,,,,,,,,fuel,,,Opet,Q7072824,en:Opet,,,,,,,,,,,,,,,,,,,,,,,,,,Opet,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,9312199669,41.0151848,28.9078086,,,,,,,,,,,,fuel,,,Petrol Ofisi,Q1278087,en:Petrol Ofisi,,,,yes,,,,,,,,,,,,,,,,,,,,,,Petrol Ofisi Zeytinburnu Maltepe,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,11586204358,40.9912822,28.9195654,,İstanbul,,Zeytinburnu,1,Kazlıçeşme,,34020,,Genç Osman Sokağı,,fuel,,Yedikule,BP,Q152057,,,,,,,,,,,,"check brand, BP in Turkey is acquired by Petrol Ofisi. Don't delete fixme if still BP please.",,,,,,,,,,,,,,,BP,,,,24/7,Kazdallar Petrol,,,,,,,,,,+90 212 582 6944,,,,,,,,,,,,node
+,,11586204359,41.0022429,28.9198623,,İstanbul,,Zeytinburnu,43,Kazlıçeşme,,34020,,10. Yıl Caddesi,,fuel,,Zeytinburnu Merkez,Shell,Q110716465,,,,,,,,,,,,,,,,,,,,,,,,,,,Shell,,,,24/7,,,,,,,,,,,+90 212 546 8483,,,,,,,,,,https://find.shell.com/tr/fuel/10048825-zeytinburnu-merkez/tr_TR,,node
+,,5115935420,41.0072114,28.9284307,,İstanbul,,Fatih,,,,,,Silivrikapı Caddesi,,fuel,,,Opet,Q7072824,,,,,,,,,,,,,,,,,,,,,,,,,,,Opet,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,5113592145,41.0070444,28.9368651,,İstanbul,,Fatih,,,,,,Kızılelma Caddesi,,fuel,,,BP,Q152057,en:BP,,,,,,,,,,,"check brand, BP in Turkey is acquired by Petrol Ofisi. Don't delete fixme if still BP please.",,,,,,,,,,,,,,,BP,BP,,,,,,,,,,,,,,02125881958,,,,,,,,,,,,node
+,,9299860573,41.0336744,28.7681455,,,,,,,,,,,,fuel,,,Shell,Q110716465,en:Royal Dutch Shell,,,,,,,,,,,,,,,,,,,,,,,,,,Shell,,,,,,,,,,,,,,,,,,,bing,,,,,,,,node
+,,9809647732,41.0348065,28.7668233,,,,,,,,,,,,fuel,,,Opet,Q7072824,,,,,,,,,,,,,,,,,,,,,,,,,,,Opet,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,9299860574,41.0426641,28.7563563,,,,,,,,,,,,fuel,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,bing,,,,,,,,node
+,,5057699129,41.0443621,28.7820226,,,,,,,,,,,,fuel,,,Shell,Q110716465,en:Royal Dutch Shell,,,,,,,,,,,,,,,,,,,,,,,,,,Shell,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,9312859986,41.0612672,28.7767168,,,,,,,,,,,,fuel,,,TotalEnergies,Q154037,fr:TotalEnergies,,,,,,,,,,,,,,,,,,,,,,,,,,Total Atakent,,,,,Güzel Enerji Akaryakıt Anonim Şirketi,,,,,,,,,,,,,,,,,,,,,,node
+,,4699022981,41.028799,28.790782,,İstanbul,TR,Küçükçekmece,234,Halkalı Merkez Mahallesi,,34303,,Halkalı Caddesi,,fuel,,,Shell,Q110716465,en:Shell plc,,,,,,+90 2124705259,+90 2124705256,,,,,,,yes,,,,yes,,,,,,,,Shell,,,,,Shell & Turcas,,,,,,,,,,,,,,Yellow Pages Türkiye,,,,,,https://www.opet.com.tr/,,node
+,,5375211991,41.0245829,28.8064335,,,,,,,,,,,,fuel,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,4965256582,41.0293707,28.795751,,,,,,,,,,,,fuel,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,5042266233,41.0321189,28.8002098,,,,,,,,,,,,fuel,,,TotalEnergies,Q154037,fr:Total (entreprise),,,,,,,,,,,,,,,,,,,,,,,,,,Total,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,4699018057,41.0292155,28.8065018,,İstanbul,TR,Küçükçekmece,101,Halkalı Merkez Mahallesi,,34303,,Fatih Caddesi,,fuel,,,Opet,Q7072824,tr:Opet,,,,,,+90 2126988899,+90 2126988800,,,,,,,yes,,,,yes,,,,,,,,Opet Küçükçekmece Halkalı,,,,,Opet Petrolcülük A.Ş.,,,,,,,,,,,,,,Yellow Pages Türkiye,,,,,,https://www.opet.com.tr/,,node
+,,5992890598,41.0336295,28.8074676,,,,,,,,,,,,fuel,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,9299860572,41.0366263,28.7971332,,İstanbul,,Küçükçekmece,34/A,Halkalı Merkez,,34303,,Mahmutbey Caddesi,,fuel,,,BP,Q152057,en:BP,,,,,,,,,,,"check brand, BP in Turkey is acquired by Petrol Ofisi. Don't delete fixme if still BP please.",,,,,,,,,,,,,,,BP,,,,,,,,,,,,,,,+90 212 693 59 85,,,,,,,,,,,,node
+,,9299860569,41.0164732,28.8116205,,,,,,,,,,,,fuel,,,Opet,Q7072824,en:Opet,,,,,,,,,,,,,,,,,,,,,,,,1,,Opet Ceynak Lojistik,,,,,Ceynak Lojistik,,,,,,,,,,,,,,,,,,,,,,node
+,,9107841647,41.0274062,28.8125769,,,,,,,,,,,,fuel,,,Opet,Q7072824,en:Opet,,,,,,,,,,,,,,,,,,,,,,,,,,Opet Bağcılar 15 Temmuz,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,9299860570,41.0260494,28.8141226,,,,,,,,,,,,fuel,,,BP,Q152057,en:BP,,,,,,,,,,,"check brand, BP in Turkey is acquired by Petrol Ofisi. Don't delete fixme if still BP please.",,,,,,,,,,,,,,,BP Bağcılar Kirazlı Bağlar,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,11586251541,41.0244923,28.8283443,,İstanbul,,Bağcılar,,,,,,Atatürk Caddesi,,fuel,,,BP,Q152057,en:BP,,,,,,,,,,,"check brand, BP in Turkey is acquired by Petrol Ofisi. Don't delete fixme if still BP please.",,,,,,,,,,,,,,,BP,محطة BP للوقود,,,,,,,,,,,,,,,,,,microsoft/BuildingFootprints,,,,,,,limited,node
+,,11586243850,41.030962,28.814632,,İstanbul,,Bağcılar,3,15 Temmuz,,34212,,Gülbahar Caddesi,,fuel,,Güneşli METRO,BP,Q152057,,,,,,,,,,,,"check brand, BP in Turkey is acquired by Petrol Ofisi. Don't delete fixme if still BP please.",,,,,,,,,,,,,,,BP,,,,24/7,Akceylan Petrol,,,,,,,,,,+90 212 550 7256,,,,,,,,,,,,node
+,,4986401524,41.0313261,28.8229913,,İstanbul,,Bağcılar,,,,,,Koçman Caddesi,,fuel,,,TotalEnergies,Q154037,fr:TotalEnergies,,,,,,,,,,,,,,,,,,,,,,,,,,Total,توتال,,Total,,,,,,,,,,,,,,,,,,,,,,,,node
+,,4908865534,41.0345575,28.8333113,,İstanbul,,Bağcılar,,,,,,Mahmutbey Caddesi,,fuel,,,Petrol Ofisi,Q1278087,,,,,,,,,,,,,,,,,,,,,,,,,,,Petrol Ofisi,ب,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,5667689774,41.032617,28.8341154,,İstanbul,,Bağcılar,,,,,,Mahmutbey caddesi,,fuel,,,Opet,Q7072824,en:Opet,,,,,,,,,,,,,,,,,,,,,,,,,,Opet,غازية اوبيت,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,2429198871,41.041378,28.832275,,,,,,,,,,,,fuel,,,TotalEnergies,Q154037,,,,,,,,,,,,,,,yes,,,,yes,,yes,,,,,,Total,,,,,,,,,,,,,,,,,,,,,,,no,,,yes,node
+,,4908865535,41.0399047,28.833644,,,,,,,,,,,,fuel,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,9299860571,41.0432544,28.8030705,,İstanbul,,Küçükçekmece,7,Halkalı Merkez,,34303,,Gökmen Sokağı,,fuel,,,Shell,Q110716465,en:Royal Dutch Shell,,,,,,,,,,,,,,,,,,,,,,,,,,Shell Halkalı,,,,,,,,,,,,,,,+90 212 471 38 38,,,,,,,,,,,,node
+,,4699018940,41.060352,28.78946,,İstanbul,TR,Küçükçekmece,245,Atatürk Mahallesi,,34307,,İkitelli Caddesi,,fuel,,,Opet,Q7072824,en:Opet,,,,,,+90 2126963099,+90 2124957223,,,,,,,yes,,,,yes,,,,,,,,Opet İkitelli,,,,24/7,Opet Petrolcülük A.Ş.,,,,,,,,,,,,,,Yellow Pages Türkiye,,,,,,https://www.opet.com.tr/,,node
+,,5375237948,41.044584,28.8207294,,,,,,,,,,,,fuel,,,Shell,Q110716465,en:Royal Dutch Shell,,,,,,,,,,,,,,,,,,,,,,,,,,Shell,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,5375237950,41.0448318,28.8169805,,,,,,,,,,,,fuel,,,Aytemiz,Q62274352,,,,,,,,,,,,,,,,,,,,,,,,,,,Aytemiz,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,4699022955,41.050131,28.812081,,Istanbul,TR,Bağcılar,11,Mahmutbey Mahallesi,,34218,,Taşocağı Caddesi Tanyeli Sokak,,fuel,,,Opet,Q7072824,en:Opet,,,,,,+90 2124474073,+90 2124474071,,,,,,,yes,,,,yes,,,,,,,,Opet Bağcılar,اوبيت باغجلر,,,,Opet Petrolcülük A.Ş.,,,,,,,,,,,,,,Yellow Pages Türkiye,,,,,,https://www.opet.com.tr/,,node
+,,5462596529,41.0449926,28.8230339,,,,,,,,,,,,fuel,,,BP,Q152057,en:BP,,,,,,,,,,,"check brand, BP in Turkey is acquired by Petrol Ofisi. Don't delete fixme if still BP please.",,,,,,,,,,,,,,,BP,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,4908865540,41.045908,28.8298889,,,,,,,,,,,,fuel,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,5057636755,41.0540287,28.8335832,,,,,,,,,,,,fuel,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,4926375965,41.0679112,28.8110015,,,,,,,,,,,,fuel,,,Petrol Ofisi,Q1278087,en:Petrol Ofisi,,,,,,,,,,,,,,,,,,,,,,,,,,Petrol Ofisi,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,4908865541,41.0567651,28.830478,,,,,,,,,,,,fuel,,,BP,Q152057,en:BP,,,,,,,,,,,"check brand, BP in Turkey is acquired by Petrol Ofisi. Don't delete fixme if still BP please.",,,,,,,,,,,,,,,BP,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,4908865542,41.058061,28.830917,,,,,,,,,,,,fuel,,,Kadoil,,,,,,,,,,,,,,,,,,,,,,,,,,,,Kadoil,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,4908865547,41.0588357,28.8311038,,,,,,,,,,,,fuel,,,Opet,Q7072824,en:Opet,,,,,,,,,,,,,,,,,,,,,,,,,,Opet,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,4908865548,41.059952,28.8314074,,,,,,,,,,,,fuel,,,Shell,Q110716465,,,,,,,,,,,,,,,,,,,,,,,,,,,Shell,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,4908865549,41.0599766,28.8321172,,,,,,,,,,,,fuel,,,Aytemiz,Q62274352,,,,,,,,,,,,,,,,,,,,,,,,,,,Aytemiz,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,9312867385,41.0996573,28.7666233,,,,,,,,,,,,fuel,,,Opet,Q7072824,en:Opet,,,,,,,,,,,,,,,,,,,,,,,,,,Opet,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,4303169790,41.0800851,28.7940823,,,,,,,,,,,,fuel,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Türkiye Petrolleri,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,11044421379,41.069131,28.8108143,,,,,,,,,,,,fuel,,,Shell,Q110716465,,,,,,,,,,,,,,,,,,,,,,,,,,,Shell,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,9398672062,41.069683,28.8251047,,İstanbul,TR,Bağcılar,2,Mahmutbey Mahallesi,İSTOÇ Sanayi Sitesi,34218,,2442. Sokak,,fuel,,İSTOÇ,Opet,Q7072824,en:Opet,,,,,,,,,,,,,,,,,,,,,,,,,,Opet,,,,,,,,,,,,,,,,,,,Yellow Pages Türkiye,,,,,,,,node
+,,6597112256,41.0955329,28.7908182,,,,,,,,,,,,fuel,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,9311068418,41.104532,28.8042785,,,,,,,,,,,,fuel,,,Petrol Ofisi,Q1278087,en:Petrol Ofisi,,,,,,,,,,,,,,yes,,,,,yes,yes,,,,,,Petrol Ofisi,,,,,,,,,,,,,,,,no,,,,,,,,,,,node
+,,12243925975,41.1111874,28.7962122,,,,,,,,,,,,fuel,,,TotalEnergies,Q154037,,,,,,,,,,,,,,,,,,,,,,,,,,,TotalEnergies,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,5057611913,41.0274482,28.8475262,,İstanbul,,Bağcılar,,,,,,Mehmet Akif Bulvarı,,fuel,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Petrol Ofisi Benzin İstasyonu,محطة وقود,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,5057611914,41.0285322,28.846468,,,,,,,,,,,,fuel,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,5667687574,41.0285248,28.8464788,,İstanbul,,Bağcılar,,,,,,Mehmet Akif Bulvarı,,fuel,,,Shell,Q154950,en:Royal Dutch Shell,,,,,,,,,,,,,,,,,,,,,,,,,,Shell,محطة وقود,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,4699023938,41.0275113,28.8574214,,İstanbul,TR,Bağcılar,81,Merkez Mahallesi,,34200,,Bağcılar Caddesi,,fuel,,,Opet,Q7072824,en:Opet,,,,,,+90 2126347151,+90 2126345877,,,,,,,yes,,,,yes,,,,,,,,Opet Bağcılar,,,,,Opet Petrolcülük A.Ş.,,,,,,,,,,,,,,Yellow Pages Türkiye,,,,,,https://www.opet.com.tr/,,node
+,,4956703288,41.027129,28.8568809,,,,,,,,,,,,fuel,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,5667747971,41.0283367,28.856824,,İstanbul,,Bağcılar,,,,,,Bağcılar Caddesi,,fuel,,,TotalEnergies,Q154037,fr:Total Énergies,,,,,,,,,,,,,,,,,,,,,,,,,,Total Bağcılar-2,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,4846902318,41.0334125,28.8513955,,,,,,,,,,,,fuel,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,4846915123,41.0367739,28.852891,,,,,,,,,,,,fuel,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,5057611934,41.0417944,28.8497953,,,,,,,,,,,,fuel,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,5105359497,41.0283367,28.878253,,,,,,,,,,,,fuel,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,5909868367,41.0298186,28.8635582,,,,,,,,,,,,fuel,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,غازية,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,11586794393,41.0296484,28.8668127,,İstanbul,,Bağcılar,,,,,,5.sokak,,fuel,,,Petrol Ofisi,Q1278087,en:Petrol Ofisi,,,,,,,,,,,,,,,,,,,,,,,,,,Petrol Ofisi,غازية,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,4699018475,41.032443,28.883817,,İstanbul,TR,Güngören,4,Gençosman Mahallesi,,34165,,Orgeneral Eşref Bitlis Caddesi,,fuel,,,,,tr:Opet,,,,,,,,,,,,,,yes,,,,yes,,,,,,,,Mehmetçik Petrol,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,9550991677,41.0367809,28.8872845,,İstanbul,,Esenler,33,Mimar Sinan,,34220,,İstanbul Caddesi,,fuel,,Emre Petrol,Opet,Q7072824,en:Opet,,,,,,,,,,+90 212 568 8185,,,,yes,,,,yes,,,,,,,,Opet,,,,,Emre Petrol,,,,,,,,,,+90 212 611 3063,,,,Yellow Pages Türkiye,,,,,,https://www.opet.com.tr/,yes,node
+,,9169578683,41.0425372,28.8466338,,,,,,,,,,,,fuel,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,4699018227,41.0547206,28.8405747,,İstanbul,TR,Bağcılar,58,Fatih Mahallesi,,34218,,Maslak Caddesi,,fuel,,,Opet,Q7072824,en:Opet,,,,,,+90 2124456281,+90 2124470624,,,,,,,yes,,,,yes,,,,,,,,Opet Bağcılar,,,,,Opet Petrolcülük A.Ş.,,,,,,,,,,,,,,Yellow Pages Türkiye,,,,,,https://www.opet.com.tr/,,node
+,,4846915132,41.0420795,28.8510572,,,,,,,,,,,,fuel,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,4699018255,41.0477,28.859748,,İstanbul,TR,Bağcılar,171,Fevziçakmak Mahallesi,,34200,,Osmangazi Caddesi,,fuel,,,Opet,Q7072824,tr:Opet,,,,,,+90 2124329697,+90 2124329696,,,,,,,yes,,,,yes,,,,,,,,Opet Bağcılar,,,,,Opet Petrolcülük A.Ş.,,,,,,,,,,,,,,Yellow Pages Türkiye,,,,,,https://www.opet.com.tr/,,node
+,,5128217780,41.0540279,28.8544678,,,,,,,,,,,,fuel,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,5128217778,41.0502394,28.859229,,,,,,,,,,,,fuel,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,5128217779,41.0522075,28.8581586,,,,,,,,,,,,fuel,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,4699019343,41.0601373,28.8410873,,İstanbul,TR,Bağcılar,93,Göztepe Mahallesi,,34218,,Oruç Sokak,,fuel,,,Opet,Q7072824,en:Opet,,,,,,+90 2124450517,+90 2124450507,,,,,,,yes,,,,yes,,,,,,,,Opet Bağcılar Göztepe,,,,,Opet Petrolcülük A.Ş.,,,,,,,,,,,,,,Yellow Pages Türkiye,,,,,,https://www.opet.com.tr/,,node
+,,5667673366,41.0562669,28.8526468,,İstanbul,,Bağcılar,,,,,,Matbaacilar caddesi,,fuel,,,Petrol Ofisi,Q1278087,en:Petrol Ofisi,,,,,,,,,,,,,,,,,,,,,,,,,,Petrol Ofisi Bağcılar 100. Yıl,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,9312874511,41.0538729,28.8664719,,,,,,,,,,,,fuel,,,Shell,Q110716465,en:Royal Dutch Shell,,,,,,,,,,,,,,,,,,,,,,,,,,Shell,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,9312874512,41.0546792,28.8639486,,,,,,,,,,,,fuel,,,Aytemiz,Q62274352,,,,,,,,,,,,,,,,,,,,,,,,,,,Aytemiz,,,,,,,,,,,,,,,,,,,bing,,,,,,,,node
+,,4699018254,41.0490769,28.8768088,,İstanbul,TR,Esenler,164,Fevzi Çakmak Mahallesi,,34220,,Atışalanı Caddesi,,fuel,,,Opet,Q7072824,en:Opet,,,,,,+90 2124319150,+90 2124321616,,,,,,,yes,,,,yes,,,,,,,,Opet Esenler Fevzi Çakmak,,,,,Opet Petrolcülük A.Ş.,,,,,,,,,,,,,,Yellow Pages Türkiye,,,,,,https://www.opet.com.tr/,,node
+,,4901564418,41.0548455,28.8759011,,,,,,,,,,,,fuel,,,Shell,Q110716465,en:Royal Dutch Shell,,,,,,,,,,,,,,,,,,,,,,,,,,Shell,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,9551045187,41.0562456,28.8756497,,İstanbul,,Esenler,33,Havaalanı,,34190,,Kışla Caddesi,,fuel,,Metris Yolu,BP,Q152057,en:BP,,,,,,,,,,,"check brand, BP in Turkey is acquired by Petrol Ofisi. Don't delete fixme if still BP please.",,,,,,,,,,,,,,,BP,,,,,,,,,,,,,,,+90 212 430 3940,,,,,,,,,,,,node
+,,5418842117,41.0173023,28.8904511,,,,,,,,,,,,fuel,,,TotalEnergies,Q154037,fr:TotalEnergies,,,,,,,,,,,,,,,,,,,,,,,,,,Total,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,11586204363,41.028186,28.899395,,İstanbul,,Bayrampaşa,,Terazidere,,34035,,,,fuel,,Davutpaşa Altyol,Shell,Q110716465,,,,,,,,,,,,,,,,,,,,,,,,,1,,Shell,,,,24/7,,,,,,,,,,,+90 212 493 1700,,fuel,,,,,,,,https://find.shell.com/tr/fuel/10049371-davutpasa-altyol,,node
+,,11586204364,41.0280911,28.9007152,,İstanbul,,Bayrampaşa,,Terazidere,,34035,,,,fuel,,Davutpaşa Üstyol,Shell,Q110716465,,,,,,,,,,,,,,,,,,,,,,,,,,,Shell,,,,24/7,Shell,,,,,,,,,,+90 212 493 1600,,fuel,,,,,,,,https://find.shell.com/tr/fuel/10049373-davutpasa-ustyol,,node
+,,5667618755,41.020533,28.9066419,,İstanbul,,Zeytinburnu,,,,,,Davutpaşa Caddesi,,fuel,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Starpet,محطة بنزين ستاربت,,,24/7,,,,,,,,,,,,,,,,,,,,,,,node
+,,4699022956,41.019717,28.9088162,,İstanbul,TR,Zeytinburnu,117,Maltepe Mahallesi,,34010,,Davut Paşa Caddesi Serçe Kale Sokak,,fuel,,,Opet,Q7072824,en:Opet,,,,,,+90 2124813772,+90 2124818143,,,,,,,yes,,,,yes,,,,,,,,Opet Topkapı,,,,,Opet Petrolcülük A.Ş.,,,,,,,,,,,,,,Yellow Pages Türkiye,,,,,,https://www.opet.com.tr/,,node
+,,9312199670,41.0162795,28.9116473,,,,,,,,,,,,fuel,,,Opet,Q7072824,en:Opet,,,,,,,,,,,,,,,,,,,,,,,,,,Opet Zeytinburnu Merkezefendi,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,9312199671,41.0167833,28.9128377,,İstanbul,,Zeytinburnu,5,Maltepe,,34010,,Londra Asfaltı Caddesi,,fuel,,Cevizlibağ,Shell,Q110716465,en:Royal Dutch Shell,,,,,,,,,,,,,,,,,,,,,,,,,,Shell,,,,24/7,Cem Otomotiv,,,,,,,,,,+90 212 679 6912,,,,,,,,,,https://find.shell.com/tr/fuel/10054997-cevizlibag/tr_TR,,node
+,,5283668028,41.027751,28.9084234,,,,,,,,,,,,fuel,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,11586204367,41.0340694,28.8969993,,İstanbul,,Bayrampaşa,,Terazidere,,34035,,,,fuel,,Otogar İstanbul,Shell,Q110716465,,,,,,,,,,,,,,,,,,,,,,,,,,,Shell,,,,24/7,,,,,,,,,,,+90 212 501 69 42,,,,,,,,,,https://find.shell.com/tr/fuel/10050070-otogar-istanbul/tr_TR,,node
+,,11586254469,41.0365006,28.8937404,,İstanbul,,Bayrampaşa,,Altıntepsi,,34035,,,,fuel,,Otogar Güney,Petrol Ofisi,Q1278087,,,,,,,,,,,,,,,,,,,,,,,,,,,Petrol Ofisi,,,,,Petrol Ofisi,,,,,,,,,,,,,,,,,,,,,,node
+,,6854402223,41.0319161,28.9058591,,,,,,,,,,,,fuel,,,Petrol Ofisi,Q1278087,en:Petrol Ofisi,,,,,,,,,,,,,,,,,,,,,,,,,,Petrol Ofisi,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,6854402224,41.0319758,28.9055397,,,,,,,,,,,,fuel,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Starpet,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,9549153211,41.0395929,28.9113175,,İstanbul,,Bayrampaşa,,Yenidoğan,,34030,,,,fuel,,Bayrampaşa,Shell,Q110716465,,,,,,,,,,,,,,,,,,,,,,,,,,,Shell,,,,24/7,,,,,,,,,,,+90 212 674 6458,,,,,,,,,,https://find.shell.com/tr/fuel/10050119-bayrampasa/tr_TR,,node
+,,11586254471,41.0405545,28.9117371,,İstanbul,,Bayrampaşa,4,İsmet Paşa,,34040,,İsmet Paşa Caddesi,,fuel,,Sağmalcılar,Petrol Ofisi,Q1278087,,,,,,,,,,,,,,,,,,,,,,,,,,,Petrol Ofisi,,,,24/7,Kongu Petrol,,,,,,,,,,+90 542 487 7103,,,,,,,,,,,,node
+,,11232727522,41.0191556,28.9178318,,İstanbul,,Zeytinburnu,,Maltepe,,34010,,,,fuel,,,Opet,Q7072824,,,,,,,,,,,,,,,,,,,,,,,,,,,Opet,,,,,Fildişi Petrol,,,,,,,,,,,,,,,,,,,,,,node
+,,6854402244,41.0283233,28.9168122,,,,,,,,,,,,fuel,,,Petrol Ofisi,Q1278087,en:Petrol Ofisi,,,,,,,,,,,,,,,,,,,,,,,,,,Petrol Ofisi,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,5113486747,41.0286169,28.9369637,,İstanbul,,Fatih,,,,,,Fevzi paşa caddesi,,fuel,,,TotalEnergies,Q154037,fr:TotalEnergies,,,,,,,,,,,,,,,,,,,,,,,,,,Total,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,11586797677,41.0391741,28.9173024,,İstanbul,,Eyüpsultan,2,Topçular,,34055,,Ferhatpaşa Caddesi,,fuel,,Eyüpsultan,BP,Q152057,,,,,,,,,,,,"check brand, BP in Turkey is acquired by Petrol Ofisi. Don't delete fixme if still BP please.",,,,,,,,,,,,,,,BP,,,,24/7,Enes Akaryakıt,,,,,,,,,,+90 212 493 2575,,,,,,,,,,,,node
+,,11586797681,41.0416669,28.9199626,,İstanbul,,Eyüpsultan,66,Topçular,,34055,,Rami Kışla Caddesi,,fuel,,Topçular,Türkiye Petrolleri,Q15946806,,,,,,,,,,,,,,,,,,,,,,,,,,,Türkiye Petrolleri,,,,24/7,Merense Petrol,,,,,,,,,,,,,,,,,,,,,,node
+,,9549151422,41.0374652,28.9257148,,İstanbul,,Eyüpsultan,38,Topçular,,34055,,Eyüp Sultan Bulvarı,,fuel,,Eyüpsultan,Petrol Ofisi,Q1278087,en:Petrol Ofisi,,,,,,,,,,,,,,,,,,,,,,,,,,Petrol Ofisi,,,,,Minapet Petrol,,,,,,,,,,+90 533 053 5469,,,,,,,,,,,,node
+,,11586797679,41.0386246,28.9217428,,İstanbul,,Eyüpsultan,35,Topçular,,34055,,Rami Kışla Caddesi,,fuel,,Eyüpsultan Topçular,Petrol Ofisi,Q1278087,,,,,,,,,,,,,,,,,,,,,,,,,,,Petrol Ofisi,,,,24/7,Tuğal Kollektif Şirketi Mustafa Onur ve Ortakları,,,,,,,,,,+90 555 963 1673,,,,,,,,,,,,node
+,,5113615724,41.0297906,28.939052,,İstanbul,,Fatih,,,,,,Borazan tevfik sokak,,fuel,,,Aytemiz,Q62274352,,,,,,,,,,,,,,,,,,,,,,,,,,,Aytemiz,آي تيميز,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,11586254470,41.0426227,28.8959656,,İstanbul,,Bayrampaşa,,Altıntepsi,,34035,,,,fuel,,Otogar Kuzey,Petrol Ofisi,Q1278087,,,,,,,,,,,,,,,,,,,,,,,,,,,Petrol Ofisi,,,,24/7,Petrol Ofisi,,,,,,,,,,,,,,,,,,,,,,node
+,,11586843989,41.0501035,28.8998117,,İstanbul,,Bayrampaşa,3,Kocatepe,,34045,,50. Yıl Caddesi,,fuel,,Yavuz,BP,Q152057,,,,,,,,,,,,"check brand, BP in Turkey is acquired by Petrol Ofisi. Don't delete fixme if still BP please.",,,,,,,,,,,,,,,BP,,,,24/7,,,,,,,,,,,+90 212 640 0480,,,,,,,,,,,,node
+,,11586944901,41.051054,28.9076389,,İstanbul,,Bayrampaşa,18,Muratpaşa,,34040,,Fabrikalar Caddesi,,fuel,,Bayrampaşa Muratpaşa,Opet,Q7072824,,,,,,,,,,,+90 212 578 5260,,,,,,,,,,,,,,,,Opet,,,,24/7,İshakoğlu Petrol,,,,,,,,,,+90 850 455 6565,,,,,,,,,,,,node
+,,12240988992,41.0517471,28.9106435,,İstanbul,,Bayrampaşa,101,Muratpaşa,,34040,,Rami Kışla Caddesi,,fuel,,İstanbul Bayrampaşa,İpragaz,,,,,,,,,,,,,,,,,,,,,,,,,,,,GO Yakıt,,,,24/7,NCP Akaryakıt,,,,,,,,,,,,,,,,,,,,https://www.goyakit.com.tr/,,node
+,,11586843992,41.0610413,28.8921509,,İstanbul,,Bayrampaşa,146,Yıldırım,,34045,,Ali Fuat Başgil Caddesi,,fuel,,Bayrampaşa,TotalEnergies,Q154037,,,,,,,,,,,,,,,,,,,,,,,,,,,Total,,,,24/7,Güzel Enerji Akaryakıt,,,,,,,,,,+90 212 640 9970,,,,,,,,,,,,node
+,,11586843991,41.0557261,28.896849,,İstanbul,,Bayrampaşa,86,Kartaltepe,,34040,,50. Yıl Caddesi,,fuel,,50. Yıl,BP,Q152057,,,,,,,,,,,,"check brand, BP in Turkey is acquired by Petrol Ofisi. Don't delete fixme if still BP please.",,,,,,,,,,,,,,,BP,,,,24/7,,,,,,,,,,,+90 212 545 6355,,,,,,,,,,,,node
+,,11586797691,41.0581266,28.9062807,,İstanbul,,Gaziosmanpaşa,36,Merkez,,34245,,Eski Edirne Asfaltı,,fuel,,Gaziosmanpaşa Merkez,Aytemiz,Q62274352,,,,,,,,,,muhasebe@adarakaryakit.com,+90 212 545 2365,,,,,,,,,,,,,,,,Aytemiz,,,,24/7,Adar Akaryakıt,,,,,,,,,,+90 212 545 2366,,,,,,,,,,http://www.adarakaryakit.com/#,,node
+,,12240988994,41.055581,28.9096727,,İstanbul,,Gaziosmanpaşa,12,Merkez,,34245,,Eski Edirne Asfaltı,,fuel,,Gaziosmanpaşa Bereç,Petrol Ofisi,Q1278087,,,,,,,,,,,,,,,,,,,,,,,,,,,Petrol Ofisi,,,,24/7,Niyazi Öztürk Petrol,,,,,,,,,,+90 533 270 67 79,,,,,,,,,,,,node
+,,11586797692,41.0618394,28.9023144,,İstanbul,,Gaziosmanpaa,68,Hürriyet,,34250,,Eski Edirne Asfaltı,,fuel,,Gaziosmanpaşa Küçükköy,Petrol Ofisi,Q1278087,,,,,,,,,,,,,,,,,,,,,,,,,,,Petrol Ofisi,,,,24/7,Selahattin Tuğçay Akaryakıt,,,,,,,,,,+90 850 225 6306,,,,,,,,,,,,node
+,,11586797684,41.04616,28.9154492,,İstanbul,,Bayrampaşa,89,Yenidoğan,,34030,,Rami Kışla Caddesi,,fuel,,Topçular,BP,Q152057,,,,,,,,,,,,"check brand, BP in Turkey is acquired by Petrol Ofisi. Don't delete fixme if still BP please.",,,,,,,,,,,,,,,BP,,,,24/7,,,,,,,,,,,+90 212 544 2472,,,,,,,,,,,,node
+,,9551014699,41.0456765,28.9313796,,İstanbul,,Eyüpsultan,77,Düğmeciler,,34055,,Eyüp Sultan Bulvarı,,fuel,,Eyüpsultan Düğmeciler,Opet,Q7072824,en:Opet,,,,,,,,,,+90 212 576 6560,,,,,,,,,,,,,,,,Opet,,,,,Öztaş Petrol,,,,,,,,,,+90 212 674 2674,,,,,,,,,,,,node
+,,11586920372,41.056679,28.9391349,,İstanbul,,Eyüpsultan,49,Merkez,,34050,,Silahtarağa Caddesi,,fuel,,Eyüpsultan Bahariye,Opet,Q7072824,,,,,,,,,,,,,,,,,,,,,,,,,,,Opet,,,,24/7,Rumeli Akaryakıt,,,,,,,,,,,,,,,,,,,,,,node
+,,11594831193,41.0657354,28.9334658,,İstanbul,,Gaziosmanpaşa,167-169,Yıldıztabya,,34240,,Yıldıztabya Alibeyköy Caddesi,,fuel,,Gaziosmanpaşa Yıldıztabya,Petrol Ofisi,Q1278087,,,,,,,,,,,,,,,,,,,,,,,,,,,Petrol Ofisi,,,,24/7,Kaptanlar Turizm,,,,,,,,,,+90 533 635 4588,,,,,,,,,,,,node
+,,9549572617,41.071343,28.8679143,,İstanbul,,Esenler,4/A,Oruçreis,,34235,,Giyimkent Caddesi,,fuel,,Esenler Oruçreis,Petrol Ofisi,Q1278087,en:Petrol Ofisi,,,,,,,,,,,,,,,,,,,,,,,,,,Petrol Ofisi,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,11586843994,41.0729681,28.8867081,,İstanbul,,Bayrampaşa,383/385,Cevatpaşa,,34045,,Eski Edirne Asfaltı,,fuel,,Beşyüzevler,BP,Q152057,,,,,,,,,,,,"check brand, BP in Turkey is acquired by Petrol Ofisi. Don't delete fixme if still BP please.",,,,,,,,,,,,,,,BP,,,,24/7,Birikim Petrol,,,,,,,,,,+90 212 649 4232,,,,,,,,,,,,node
+,,11586843995,41.0761488,28.8807542,,İstanbul,,Gaziosmanpaşa,374,Karadeniz,,34250,,Eski Edirne Asfaltı,,fuel,,Beşyüzevler,TotalEnergies,Q154037,,,,,,,,,,,,,,,,,,,,,,,,,,,Total,,,,24/7,,,,,,,,,,,,,,,,,,,,,,yes,node
+,,9549600017,41.0870737,28.8689191,,İstanbul,,Sultangazi,456,50. Yıl,,34265,,Eski Edirne Asfaltı,,fuel,,Mesah Petrol,Petrol Ofisi,Q1278087,en:Petrol Ofisi,,,,,,,,,,,,,,,,,,,,,,,,,,Petrol Ofisi,,,,,Mesah Petrol,,,,,,,,,,+90 554 240 5564,,,,bing,,,,,,,,node
+,,6594719435,41.0917254,28.8645145,,,,,,,,,,,,fuel,,,Petrol Ofisi,Q1278087,en:Petrol Ofisi,,,,,,,,,,,,,,,,,,,,,,,,,,Petrol Ofisi,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,9311013309,41.093562,28.8634524,,,,,,,,,,,,fuel,,,Shell,Q110716465,en:Royal Dutch Shell,,,,yes,,,,,,,,,,,,,,,,,,,,,,Shell,,,,24/7,,,,,,,,,,,,,,,bing,,,,,,,,node
+,,11586900365,41.089917,28.8831084,,İstanbul,,Sultangazi,67,Cumhuriyet,,34265,,Ertuğrul Gazi Caddesi,,fuel,,Sultangazi,Aytemiz,Q62274352,,,,,,,,,,,,,,,,,,,,,,,,,,,Aytemiz,,,,24/7,Aytemiz Petrolcülük,,,,,,,,,,+90 212 475 6666,,,,,,,,,,,,node
+,,11586900367,41.0912923,28.8843124,,İstanbul,,Sultangazi,214/A,Cumhuriyet,,34265,,,,fuel,,Cumhuriyet Mahallesi İstanbul,Shell,Q110716465,,,,,,,,,,,,,,,,,,,,,,,,,,,Shell,,,,24/7,,,,,,,,,,,+90 212 476 9890,,,,,,,,,,https://find.shell.com/tr/fuel/10049713-cumhuriyet-mahallesi-istanbul,,node
+,,6594719428,41.1039881,28.8619681,,İstanbul,,,,,,,,,,fuel,,,Petrol Ofisi,Q1278087,en:Petrol Ofisi,,,,,,,,,,,,,,,,,,,,,,,,,,Petrol Ofisi,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,9311013308,41.1088426,28.8596474,,İstanbul,TR,Sultangazi,714,Cebeci Mahallesi,,34270,,Eski Edirne Asfaltı,,fuel,,,Opet,Q7072824,en:Opet,,,,,,+90 2124759818,+90 2125943006,,,,,,,yes,,,,yes,,,,,,,,Opet Sultangazi,,,,,Opet Petrolcülük A.Ş.,,,,,,,,,,,,,,Yellow Pages Türkiye,,,,,,https://www.opet.com.tr/,,node
+,,6594719434,41.0948562,28.8632641,,,,,,,,,,,,fuel,,,Petrol Ofisi,Q1278087,en:Petrol Ofisi,,,,,,,,,,,,,,,,,,,,,,,,,,Petrol Ofisi,,,,,,,,,,,,,,,,,,,bing,,,,,,,,node
+,,11586946749,41.0700559,28.8925457,,İstanbul,,Bayrampaşa,301-303,Yıldırım,,34045,,Eski Edirne Asfaltı,,fuel,,Bayrampaşa,Opet,Q7072824,,,,,,,,,,,+90 212 538 1590,,,,,,,,,,,,,,,,Opet,,,,24/7,Öztürkler Madeni Yağ,,,,,,,,,,+90 212 538 1577,,,,,,,,,,,,node
+,,11586904373,41.0808264,28.8933585,,İstanbul,,Gaziosmanpaşa,119,Barbaros Hayrettinpaşa,,34250,,Cebeci Caddesi,,fuel,,Gaziosmanpaşa Barbaros Hayrettinpaşa,Opet,Q7072824,,,,,,,,,,,+90 212 609 0349,,,,,,,,,,,,,,,,Opet,,,,24/7,Hilal Petrol,,,,,,,,,,+90 212 609 3738,,,,,,,,,,,,node
+,,12241268039,41.0807449,28.8941561,,,,,,,,,,,,fuel,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,11586904374,41.0785947,28.8955669,,İstanbul,,Gaziosmanpaşa,103-105,Barbaros Hayrettinpaşa,,34250,,Cebeci Caddesi,,fuel,,Gaziosmanpaşa Barbaros Hayrettinpaşa,Petrol Ofisi,Q1278087,,,,,,,,,,,,,,,,,,,,,,,,,,,Petrol Ofisi,,,,24/7,Tapet Petrol,,,,,,,,,,+90 850 225 2911,,,,,,,,,,,,node
+,,11586904376,41.0780506,28.8990355,,İstanbul,,Gaziosmanpaşa,68-70/A,Yenimahalle,,34270,,Cebeci Caddesi,,fuel,,Gaziosmanpaşa Yeni,Aytemiz,Q62274352,,,,,,,,,,,,,,,,,,,,,,,,,,,Aytemiz,,,,,ADR Akaryakıt,,,,,,,,,,+90 212 479 1919,,,,,,,,,,,,node
+,,8990639673,41.0704898,28.902302,,İstanbul,,Gaziosmanpaşa,143,Hürriyet,,34250,,Cengiz Topel Caddesi,,fuel,,,Aytemiz,Q62274352,,,,,,,,,,,,,,,,,,,,,,,,,,,Aytemiz Gaziosmanpaşa Hürriyet,,,,,Küçükköy Petrol,,,,,,,,,,+90 212 477 5737,,,,,,,,,,,,node
+,,11586904378,41.0743185,28.9050783,,İstanbul,,Gaziosmanpaşa,19,Yeni Mahalle,,34250,,Hekimsuyu Caddesi,,fuel,,Küçükköy,Shell,Q110716465,,,,,,,,,,,,,,,,,,,,,,,,,,,Shell,,,,24/7,,,,,,,,,,,+90 212 649 3489,,,,,,,,,,https://find.shell.com/tr/fuel/12484287-kucukkoy,,node
+,,11586904405,41.0700316,28.9065991,,İstanbul,,Gaziosmanpaşa,,Şemsipaşa,,34250,,İstanbul Caddesi,,fuel,,İstanbul Caddesi Küçükköy,Shell,Q110716465,,,,,,,,,,,,,,,,,,,,,,,,,,,Shell,,,,24/7,,,,,,,,,,,+90 212 609 1575,,,,,,,,,,https://find.shell.com/tr/fuel/10050050-istanbul-cad-kucukkoy/tr_TR,,node
+,,9311065240,41.0806741,28.9072787,,,,,,,,,,,,fuel,,,Kadoil,Q126901221,,,,,,,,,,,,,,,,,,,,,,,,,,,Kadoil,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,11586904369,41.0869954,28.8893126,,İstanbul,,Gaziosmanpaşa,168,Karayolları,,34255,,Cebeci Caddesi,,fuel,,Küçükköy,TotalEnergies,Q154037,,,,,,,,,,info@esiyoklarpetrol.com,+90 212 535 6208,,,,,,,,,,,,,,,,Total,,,,24/7,Eşiyoklar Petrol,,,,,,,,,,+90 212 617 1310,,,,,,,,,,http://esiyoklarpetrol.com/,,node
+,,11586904371,41.082074,28.8930849,,İstanbul,,Gaziosmanpaşa,108/A,Yeni Mahalle,,34250,,Cebeci Caddesi,,fuel,,,Kadoil,Q126901221,,,,,,,,,,,,,,,,,,,,,,,,,,,Kadoil,,,,,Gazipet Akaryakıt,,,,,,,,,,,,,,,,,,,,,,node
+,,11586946751,41.0815516,28.8961251,,İstanbul,,Gaziosmanpaşa,,Yenimahalle,,34250,,542/1. Sokak,,fuel,,Galeri Caddesi,Opet,Q7072824,,,,,,,,,,,+90 212 479 7712,,,,,,,,,,,,,,,,Opet,,,,24/7,Abat Enerji,,,,,,,,,,+90 212 649 5700,,,,,,,,,,,,node
+,,11586916173,41.0837014,28.909015,,İstanbul,,Gaziosmanpaşa,114,Kazım Karabekir,,34255,,Hekimsuyu Caddesi,,fuel,,Gaziosmanpaşa Kazım Karabekir,Petrol Ofisi,Q1278087,,,,,,,,,,,,,,,,,,,,,,,,,,,Petrol Ofisi,,,,24/7,Dolu Akaryakıt,,,,,,,,,,+90 850 220 3562,,,,,,,,,,,,node
+,,11594829620,41.0695795,28.916474,,İstanbul,,Eyüpsultan,168,Yeşilpınar,,34065,,Gaziosmanpaşa Caddesi,,fuel,,Eyüpsultan Yeşilpınar,Opet,Q7072824,,,,,,,,,,,+90 212 538 9065,,,,,,,,,,,,,,,,Opet,,,,24/7,Paye Petrol,,,,,,,,,,+90 212 538 9050,,,,,,,,,,,,node
+,,11586920375,41.0693304,28.9331484,,İstanbul,,Eyüpsultan,150/A,Karadolap,,34065,,Gaziosmanpaşa Caddesi,,fuel,,Alibeyköy,TotalEnergies,Q154037,,,,,,,,,,,,,,,,,,,,,,,,,,,Total,,,,24/7,Güzel Enerji Akartyakıt,,,,,,,,,,,,,,,,,,,,,,node
+,,11586915455,41.0794953,28.9304409,,İstanbul,,Eyüpsultan,15,Karadolap,,34065,,Mustafa Kemal Bulvarı,,fuel,,,Opet,Q7072824,,,,,,,,,,,,,,,,,,,,,,,,,,,Opet,,,,24/7,Convey Petrol,,,,,,,,,,,,,,,,,,,,,,node
+,,11586915454,41.0825089,28.9167443,,İstanbul,,Gaziosmanpaşa,,Mevlana,,34255,,,,fuel,,Yeşilpınar,Shell,Q110716465,,,,,,,,,,,,,,,,,,,,,,,,,,,Shell,,,,24/7,,,,,,,,,,,+90 212 650 9132,,,,,,,,,,https://find.shell.com/tr/fuel/11914523-yesilpinar,,node
+,,9311065220,41.098707,28.9003775,,,,,,,,,,,,fuel,,,Shell,Q110716465,en:Royal Dutch Shell,,,,,,,,,,,,,,yes,,,,yes,yes,,,,,,,Shell,,,,,Shell,,,,,,,,,,,,,,,,,,,,,,node
+,,11597506824,41.0950742,28.8959035,,İstanbul,,Sultangazi,55,Yunus Emre,,34260,,Şehit Murat Celep Caddesi,,fuel,,Gazi Mahallesi,BP,Q152057,,,,,,,,,,,,"check brand, BP in Turkey is acquired by Petrol Ofisi. Don't delete fixme if still BP please.",,,,,,,,,,,,,,,BP,,,,24/7,Yeni Topçooğlu Petrol,,,,,,,,,,+90 212 536 0130,,,,,,,,,,,,node
+,,6068995091,41.0972265,28.9046329,,,,,,,,,,,,fuel,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,11744840531,40.8982602,29.1641302,,,,,,,,,,,,fuel,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,12961307634,40.9044049,29.163743,,,,,184,,,,,Üsküdar Caddesi,,fuel,,,TotalEnergies,Q154037,,,,,,,,,,,,,,,,,,,,,,,,,,,TotalEnergies,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,4580488790,40.8892845,29.1811831,,,,,,,,,,,,fuel,,Kartal,Shell,Q110716465,en:Royal Dutch Shell,,,,,,,,,,,,,,,,,,,,,,,,,,Shell,,,,,,,,,,,,,,,+90 216 353 24 18,,,,,,,,,,,,node
+,,4699018248,40.891269,29.17731,,İstanbul,TR,Kartal,55,Petroliş Mahallesi,,34862,,Üsküdar Caddesi,,fuel,,,Petrol Ofisi,Q1278087,,,,,,,+90 2163873468,+90 2163068306,,,,,,,yes,,,,yes,,,,,,,,Petrol Ofisi,,,,,,,,,,,,,,,,,,,,,,,,,https://www.petrolofisi.com.tr/,,node
+,,5316011367,40.8875592,29.1917101,,,,,,,,,,,,fuel,,,BP,Q152057,en:BP,,,,,,,,,,,"check brand, BP in Turkey is acquired by Petrol Ofisi. Don't delete fixme if still BP please.",,,,,,,,,,,,,,,BP,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,4720232022,40.8940497,29.1988693,,,,,,,,,,,,fuel,,Çavuşoğlu,Shell,Q110716465,,,,,,,,,,,,,,,,,,,,,,,,,,,Shell,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,4718488093,40.9089065,29.2027174,,,,,,,,,,,,fuel,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,12240935663,40.9108193,29.1991062,,,,,,,,,,,,fuel,,,BP,Q152057,,,,,,,,,,,,,,,,,,,,,,,,,,,BP,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,5229773921,40.8792929,29.2204988,,,,,,,,,,,,fuel,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,1905900747,40.8756773,29.2328762,,,,,,,,,,,,fuel,,,Shell,Q110716465,en:Royal Dutch Shell,,,,,,,,,,,,,,,,,,,,,,,,,,Shell,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,4699018247,40.881089,29.2323267,,İstanbul,TR,Pendik,14,Yeni Mahalle Mahallesi,,34893,,Abdulhalik Renda Caddesi,,fuel,,,Opet,Q7072824,en:Royal Dutch Shell,,2024-09-07,,,,,,,,,,,,yes,,,,yes,,,,,,,,Opet,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,1905650685,40.8815155,29.2403352,,,,,,,,,,,,fuel,,,Opet,Q7072824,en:Opet,,,,,,,,,,,,,,,,,,,,,,,,,,Opet,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,5281796616,40.8843453,29.2359312,,,,,,,,,,,,fuel,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Class Petrol,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,5022817283,40.8751897,29.2543039,,İstanbul,,Pendik,,Kaynarca Mahallesi,,,,Aydınlı Yolu Caddesi,,fuel,,,Shell,Q110716465,fr:TotalEnergies,,,,,,,,,,,,,,yes,,,,,yes,,,,,,,Shell,,,,,,,,,,,,,,,,no,,,,,,,,,,,node
+,,8520542077,40.8806693,29.255162,,,,,,,,,,,,fuel,,,Shell,Q110716465,en:Royal Dutch Shell,,,,,,,,,,,,,,,,,,,,,,,,,,Shell,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,11578262694,40.8807816,29.2499652,,,,,,,,,,,,fuel,,,Petrol Ofisi,Q1278087,,,,,,,,,,,,,,yes,yes,,,,yes,yes,,,,,,,Petrol Ofisi,,,,,Modoğlu,,,,,,,,,,,,,,,,,,,,,,node
+,,9308433308,40.8895343,29.2067711,,,,,,,,,,,,fuel,,,Petrol Ofisi,Q1278087,,,,,,,,,,,,,,,,,,,,,,,,,,,Petrol Ofisi,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,9312145700,40.8967672,29.203426,,İstanbul,,Kartal,61,Çavuşoğlu Mahallesi,,34873,,Spor Caddesi,,fuel,,,Petrol Ofisi,Q1278087,,,,,,,,,,,,,,,,,,,,,,,,,,,Petrol Ofisi,,,,,,,,b06c7d62-fdf1-4281-9169-9be6317b6215,,,,,,,,,,,,,,,,,,,node
+,,266753132,40.8968375,29.2249513,,İstanbul,,Pendik,2,Yeşilbağlar Mahallesi,,,,D100 Bulvarı,,fuel,,Pendik,Aytemiz,Q62274352,,,,,,,,,,,,,,,,,,,,,,,,,,,Aytemiz,,,,,Shell,,,,,,,,,,,,,,,,,,,,,,node
+,,4718488104,40.8943224,29.2284918,,,,,,,,,,,,fuel,,,TotalEnergies,Q154037,fr:TotalEnergies,,,,,,,,,,,,,,,,,,,,,,,,,,Total,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,5022636557,40.896725,29.2226562,,,,,,,,,,,,fuel,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,9308461062,40.8970717,29.2257208,,,,,,,,,,,,fuel,,,Aytemiz,Q62274352,,,,,,,,,,,,,,,,,,,,,,,,,,,Aytemiz,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,4699022950,40.9104,29.211534,,İstanbul,TR,Kartal,8,Orta Mahallesi,,34880,,Yalnız Selvi Caddesi,,fuel,,,Opet,Q7072824,tr:Opet,,,,,,+90 2163774435,+90 2163774405,,,,,,,yes,,,,yes,,,,,,,,Opet Kartal,,,,,Opet Petrolcülük A.Ş.,,,,,,,,,,,,,,Yellow Pages Türkiye,,,,,,https://www.opet.com.tr/,,node
+,,4718488098,40.902499,29.2174843,,,,,,,,,,,,fuel,,Yanyol Kartal,Shell,Q110716465,en:Royal Dutch Shell,,,,,,,,,,,,,,,,,,,,,,,,,,Shell,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,6390459922,40.8999268,29.2199557,,,,,,,,,,,,fuel,,Yakacık Kartal,Shell,Q110716465,,,,,,,,,,,,,,,,,,,,,,,,,,,Shell,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,6318139757,40.9105568,29.2161373,,,,,,,,,,,,fuel,,,TotalEnergies,Q154037,fr:TotalEnergies,,,,,,,,,,,,,,,,,,,,,,,,,,Total,,,,24/7,,,,,,,,,,,,,,,,,,,,,,,node
+,,5292281495,40.890674,29.2342555,,,,,,,,,,,,fuel,,,TotalEnergies,Q154037,fr:TotalEnergies,,,,,,,,,,,,,,,,,,,,,,,,,,Total,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,2610629148,40.8868524,29.2399111,,,,,,,,,,,,fuel,,,Shell,Q110716465,en:Royal Dutch Shell,,,,,,,,,,,,,,,,,,,,,,,,,,Shell,,,Shell,,,,,,,,,,,,,,,,,,,,,,,,node
+,,4699023925,40.8865592,29.2418964,,İstanbul,TR,Pendik,30,Orta Mahallesi,,34896,,E-5 Yanyol Caddesi Latife Hanım Sokak,,fuel,,,Opet,Q7072824,en:Opet,,,,,,+90 2163793894,+90 2165980708,,,,,,,yes,,,,yes,,,,,,,,Opet,,,,,Opet Petrolcülük A.Ş.,,,,,,,,,,,,,,Yellow Pages Türkiye,,,,,,https://www.opet.com.tr/,,node
+,,5022629333,40.8903882,29.2360378,,İstanbul,,Pendik,89,Çınardere Mahallesi,,,,Gönenli Mehmet Efendi Caddesi,,fuel,,Pendik-2,TotalEnergies,Q154037,,,,,yes,,,,,,,,,,,,,,,,,,,,,,TotalEnergies,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,6518087485,40.886222,29.236328,,İstanbul,,Pendik,70/1,Bahçelievler Mahallesi,,,,Nazım Hikmet Caddesi,,fuel,,,Türkiye Petrolleri,Q15946806,,,,,,,,,,,,,,,,,,,,,,,,,,,Türkiye Petrolleri,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,4699022975,40.891373,29.233194,,İstanbul,TR,Pendik,32,Bahçelievler Mahallesi,,34893,,D-100 Güney Yanyolu,,fuel,,,Opet,Q7072824,en:Opet,,,,,,+90 2163543392,+90 2163543390,,,,,,,yes,,,,yes,,,,,,,,Opet Pendik,,,,,Opet Petrolcülük A.Ş.,,,,,,,,,,,,,,Yellow Pages Türkiye,,,,,,https://www.opet.com.tr/,,node
+,,4699019968,40.895696,29.2490574,,İstanbul,TR,Pendik,53 D: 1,Çınardere Mahallesi,,34896,,Ankara Caddesi,,fuel,,,Opet,Q7072824,en:Opet,,,,,,+90 2163799178,+90 2163799177,,,,,,,yes,,,,yes,,,,,,,,Opet,,,,,Opet Petrolcülük A.Ş.,,,,,,,,,,,,,,Yellow Pages Türkiye,,,,,,https://www.opet.com.tr/,,node
+,,5022629118,40.8975594,29.2541411,,,,,,,,,,,,fuel,,,Türkiye Petrolleri,Q15946806,,,,,,,,,,,,,,,,,,,,,,,,,,,Türkiye Petrolleri,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,4699019947,40.9015949,29.2470027,,İstanbul,TR,Pendik,60,Çınardere Mahallesi,,34896,,Olimpiyat Caddesi,,fuel,,,Opet,Q7072824,tr:Opet,,,,,,+90 2163534498,+90 2163872727,,,,,,,yes,,,,yes,,,,,,,,Opet Pendik,,,,,Opet Petrolcülük A.Ş.,,,,,,,,,,,,,,Yellow Pages Türkiye,,,,,,https://www.opet.com.tr/,,node
+,,4699018428,40.9067741,29.2527557,,İstanbul,TR,Pendik,81,Velibaba Mahallesi,,34896,,Yakacık Caddesi,,fuel,,,Petrol Ofisi,Q1278087,,,,,yes,,+90 2163078182,+90 2163078181,,,,,,,yes,,,,yes,,,,,,,,Petrol Ofisi,,,,,Opet Petrolcülük A.Ş.,,,,,,,,,,,,,,Yellow Pages Türkiye,,,,,,https://www.opet.com.tr/,,node
+,,9283133184,40.8194752,29.3062437,,İstanbul,TR,Tuzla,59,Postane Mahallesi,,34940,,İstasyon Caddesi,,fuel,,,Opet,Q7072824,en:Opet,,,,,,+90 2163956013,+90 2163956013,,,,,,,yes,,,,yes,,,,,,,,Opet Tuzla,,,,,Opet Petrolcülük A.Ş.,,,,,,,,,,,,,,Yellow Pages Türkiye,,,,,,https://www.opet.com.tr/,,node
+,,4699020285,40.8374032,29.2960611,,İstanbul,TR,Tuzla,51/A,Evliya Çelebi Mahallesi,,34944,,Rauf Orbay Caddesi,,fuel,,,Opet,Q7072824,en:Opet,,,,,,+90 2164474848,+90 2164474849,,,,,,,yes,,,,yes,,,,,,,,Opet Tuzla,,,,,Opet Petrolcülük A.Ş.,,,,,,,,,,,,,,Yellow Pages Türkiye,,,,,,https://www.opet.com.tr/,,node
+,,5968860779,40.8390872,29.2954604,,,,,,,,,,,,fuel,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,9282741027,40.844676,29.3058965,,,,,,,,,,,,fuel,,,Shell,Q110716465,en:Petrol Ofisi,,,,,,,,,,,,,,,,,,,,,,,,,,Shell,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,4720232036,40.856096,29.2912778,,,,,,,,,,,,fuel,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,4720232050,40.824074,29.3519893,,,,,,,,,,,,fuel,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,2363493667,40.8358408,29.323905,,,,,,,,,,,,fuel,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,8585585831,40.8731683,29.2652568,,,,,,,,,,,,fuel,,Aria Petrol,Türkiye Petrolleri,Q15946806,,,,,,,,,,,,,,,,,,,,,,,,,,,Türkiye Petrolleri,,,,,,,,,,,,,,,,,,,bing,,,,,,,,node
+,,8585585832,40.8736907,29.26607,,İstanbul,,Pendik,169,Fevzi Çakmak,,,,Tevfik İleri Caddesi,,fuel,,Akgünler Petrol,Türkiye Petrolleri,Q15946806,,,,,,,,,,,,,,,,,,,,,,,,,,,Türkiye Petrolleri,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,9282741028,40.8760027,29.2630048,,,,,,,,,,,,fuel,,,Shell,Q110716465,en:Royal Dutch Shell,,,,,,,,,,,,,,,,,,,,,,,,,,Shell,,,,,,,,,,,,,,,,,,,bing,,,,,,,,node
+,,4442145256,40.8811477,29.2553456,,,,,,,,,,,,fuel,,,Opet,Q7072824,en:Opet,,,,,,,,,,,,,,,,,,,,,,,,,,Opet,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,9282741029,40.8800399,29.2594429,,,,,,,,,,,,fuel,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,4699022952,40.859498,29.2815455,,İstanbul,TR,Pendik,2,Güzelyalı Mahallesi,,34903,,İbrahim Hakkı Caddesi,,fuel,,,Opet,Q7072824,en:Opet,,,,,,,+90 2163785900,,,,,,,yes,,yes,,yes,,,,,,,,Opet Pendik,,,,,Opet Petrolcülük A.Ş.,,,,,,,,,,,,,,Yellow Pages Türkiye,,,,,,https://www.opet.com.tr/,,node
+,,5291682316,40.8908871,29.2632647,,,,,,,,,,,,fuel,,,Petrol Ofisi,Q1278087,en:Petrol Ofisi,,,,,,,,,info@arasena.com,,,,,,,,,,,,,,,,,Petrol Ofisi Arasena,,,,24/7,Arasena Enerji Petrol A.Ş.,,,,,,,,,,+90 216 397 0901,,,,,,,,,,http://www.arasena.com,,node
+,,9300226844,40.8942418,29.2593302,,İstanbul,,Pendik,,,,,,Hukukçular Caddesi,,fuel,,,,,,,,,,,,,,,,,,,yes,,,,yes,yes,,,,,,,Energy,,,,24/7,Energy,,,,yes,yes,yes,yes,yes,yes,,,,,,,,,,,,,node
+,,5022629117,40.8986284,29.2596818,,,,,,,,,,,,fuel,,,Shell,Q110716465,,,,,,,,,,,,,,,,,,,,,,,,,,,Shell,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,4779890036,40.899134,29.2686629,,,,,,,,,,,,fuel,,,Shell,Q110716465,en:Royal Dutch Shell,,,,,,,,,,,,,,,,,,,,,,,,,,Shell,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,4718712547,40.904372,29.2786929,,,,,,,,,,,,fuel,,,Opet,Q7072824,en:Opet,,,,yes,,,,,,,,,,,,,,,,,,,,,,Opet,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,4699023934,40.885945,29.286563,,İstanbul,TR,Pendik,214,Kavakpınar Mahallesi,,34899,,Abdi İpekçi Caddesi,,fuel,,,Opet,Q7072824,tr:Opet,,,,,,+90 2165964246,+90 2165964245,,,,,,,yes,,,,yes,,,,,,,,Opet Pendik,,,,,Opet Petrolcülük A.Ş.,,,,,,,,,,,,,,Yellow Pages Türkiye,,,,,,https://www.opet.com.tr/,,node
+,,4699018235,40.9053415,29.2853766,,İstanbul,TR,Pendik,4,Şeyhli Mahallesi,,34906,,Ankara Caddesi,,fuel,,Şeyhli,Shell,Q110716465,en:Royal Dutch Shell,,,,yes,,+90 2163780526,+90 2163785900,,,,,,,yes,,,,yes,,,,,,,,Shell,,,,"Mo-Su,PH 08:00+",,,,,,,,,,,,,,,,,,,,,https://www.shell.com.tr/,limited,node
+,,4718712560,40.9079618,29.2933732,,,,,,,,,,,,fuel,,,TotalEnergies,Q154037,,,,,,,,,,,,,,,,,,,,,,,,,,,Total,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,4699018050,40.9093711,29.2951636,,İstanbul,TR,Pendik,275,Kurtköy Mahallesi,,34912,,Ankara Caddesi,,fuel,,,Opet,Q7072824,en:Opet,,,,,,+90 2165951087,+90 2165951085,,,,,,,yes,,,,yes,,,,,,,,Opet Pendik,,,,,Opet Petrolcülük A.Ş.,,,,,,,,,,,,,,Yellow Pages Türkiye,,,,,,https://www.opet.com.tr/,,node
+,,9164767329,40.871259,29.3314775,,İstanbul,,Tuzla,,Aydınlı Mahallesi,,34953,,Dersaadet Cad.,,fuel,,,Shell,Q110716465,en:Royal Dutch Shell,,,,,,,,,,,,,,,,,,,,,,,,,,Shell,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,4699019969,40.866335,29.3348073,,İstanbul,TR,Tuzla,56,Aydınlı Mahallesi,,34953,,Aydın Yolu Caddesi,,fuel,,,Opet,Q7072824,en:Opet,,,,,,+90 2163933857,+90 2163933856,,,,,,,yes,,,,yes,,,,,,,,Opet Tuzla,,,Opet Tuzla mirap,,Opet Petrolcülük A.Ş.,,,,,,,,,,,,,,Yellow Pages Türkiye,,,,,,https://www.opet.com.tr/,,node
+,,10772615935,40.8690844,29.3347683,,,,,,,,,,,,fuel,,,Petrol Ofisi,Q1278087,,,,,,,,,,,,,,,,,,,,,,,,,,,Petrol Ofisi,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,5948284506,40.8811717,29.3451289,,,,,,,,,,,,fuel,,,Shell,Q110716465,en:Royal Dutch Shell,,,,,,,,,,,,,,,,,,,,,,,,,,Shell,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,4699022965,40.883978,29.349287,,İstanbul,TR,Tuzla,9,Mescit Mahallesi,,34956,,Atatürk Caddesi,,fuel,,,Opet,Q7072824,en:Opet,,,,,,+90 2163945412,+90 2163945410,,,,,,,yes,,,,yes,,,,,,,,Opet Tuzla,,,,,Opet Petrolcülük A.Ş.,,,,,,,,,,,,,,Yellow Pages Türkiye,,,,,,https://www.opet.com.tr/,,node
+,,4309080389,40.893878,29.3550994,,,,,38,,,,,demokrasi caddesi,,fuel,,,Petrol Ofisi,Q1278087,en:Petrol Ofisi,,,,,,,,,,,,,,,,,,,,,wlan,,,,,Petrol Ofisi,,,,24/7,Petropark,,,,,,,,,,,,,,,,,,,,,,node
+,,4699018213,40.9076681,29.3433329,,İstanbul,TR,Tuzla,85/A,Orhanlı Mahallesi,,34956,,Fettah Başaran Caddesi,,fuel,,,Opet,Q7072824,tr:Opet,,,,,,+90 2163945620,+90 2163945615,,,,,,,yes,,,,yes,,,,,,,,Opet Tuzla,,,,,Opet Petrolcülük A.Ş.,,,,,,,,,,,,,,Yellow Pages Türkiye,,,,,,https://www.opet.com.tr/,,node
+,,5022629078,40.899745,29.3511643,,,,,,,,,,,,fuel,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Aytepe petrol,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,4835446168,40.9086602,29.358626,,,,,,,,,,,,fuel,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,11409079450,41.0037021,28.9499428,,İstanbul,,Fatih,80,Aksaray,,34096,,Namık Kemal Caddesi,,fuel,,Yenikapı,Opet,Q7072824,,,,,,,,,,,+90 212 529 0591,,,,,,,,,,,,,,,,Opet,,,,24/7,İstanbul Enerji,,,,,,,,,,+90 212 529 1109,,,,,,,,,,,,node
+,,5244801830,41.0017886,28.9725372,,İstanbul,,Fatih,,,,,,Kennedy Avenue,,fuel,,,TotalEnergies,Q154037,,,2025-09-30,,,,,,,,,,,,,,,,,,,,,,,,Kumkapi TotalEnergies,كازية مويل كومكابي,,,,TotalEnergies,private,Q154037,,,,,,,,,,,,,,,,,,,,node
+,,5244796137,41.0151886,28.968297,,İstanbul,,Fatih,,,,,,Vasıf Çınar Caddesi,,fuel,,,Opet,Q7072824,en:Opet,,,,no,,,,,,,,,,,,,,,,,,,,,,Opet Tahtakale,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,9308547296,40.9806612,29.0418373,,,,,,,,,,,,fuel,,,Petrol Ofisi,Q1278087,,,,,,,,,,,,,,,yes,,,,,yes,,,,,,,Petrol Ofisi,,,,24/7,,,,,,,,,,,,,,,,,,,,,,,node
+,,6512531400,40.9894463,29.0421754,,,,,,,,,,,,fuel,,,BP,Q152057,en:BP,,,,,,,,,,,,,,,,,,,,,,,,,,BP,,BP Ziverbey,,,,,,,,,,,,,,,,,,,,,,,,yes,node
+,,9308547309,40.9839354,29.0400899,,İstanbul,TR,Kadıköy,37,Zühtüpaşa Mahallesi,,34724,,Bağdat Caddesi,,fuel,,,Opet,Q7072824,en:Opet,,,,yes,,+90 2163473608,+90 2163362665,,,,,,,yes,,,,yes,,,,,,,,Opet Kızıltoprak,,,,,Opet Petrolcülük A.Ş.,,,,,,,,,,,,,,Yellow Pages Türkiye,,,,,,https://www.opet.com.tr/,,node
+,,4699023930,41.009864,29.012243,,İstanbul,TR,Üsküdar,121/2,Selimiye Mahallesi,,34668,,Harem Sahil Yolu,,fuel,,,Opet,Q7072824,en:Opet,,,,,,+90 2164950721,+90 5531090575,,,,,,,yes,,,,yes,,,,,,,,Opet Üsküdar,,,,,Opet Petrolcülük A.Ş.,,,,,,,,,,,,,,Yellow Pages Türkiye,,,,,,https://www.opet.com.tr/,,node
+,,4699018244,41.00829,29.02304,,İstanbul,TR,Üsküdar,10,Selimiye Mahallesi,,34668,,Tıbbiye Caddesi Atölyeler Sokak,,fuel,,,Petrol Ofisi,Q1278087,en:Petrol Ofisi,,,,yes,,,+90 2163107452,,,,,,,yes,,yes,,yes,,,,,,,,Petrol Ofisi,,,,,Opet Petrolcülük A.Ş.,,,,,,,,,,,,,,Yellow Pages Türkiye,,,,,,https://www.opet.com.tr/,,node
+,,9283216813,41.0068267,29.0251505,,,,,,,,,,,,fuel,,,Shell,Q110716465,en:Royal Dutch Shell,,,,yes,,,,,,,,,,,,,,,,,,,,,,Shell,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,772439779,41.0050371,29.0307907,,,,,,,,,,,,fuel,,,Shell,Q110716465,en:Royal Dutch Shell,,,,,,,,,,,,,,,,,,,,,,,,,,Shell Baban Petrol,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,12198501225,41.0044928,29.030382,,,,,,,,,,,,fuel,,Haydarpaşa E5,Shell,Q110716465,,,,,,,,,,,,,,,,,,,,,,,,,,,Shell,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,5107315776,41.0047684,29.0353401,,,,,,,,,,,,fuel,,,Aytemiz,Q62274352,,,,,,,,,,,,,,,,,,,,,,,,,,,Aytemiz,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,9283216811,41.0029931,29.0362236,,,,,,,,,,,,fuel,,,TotalEnergies,Q154037,fr:TotalEnergies,,,,,,,,,,,,,,,,,,,,,,,,,,Total,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,9283216812,41.0031836,29.0341387,,,,,,,,,,,,fuel,,Acıbadem,Shell,Q110716465,en:Royal Dutch Shell,,,,,,,,,,,,,,,,,,,,,,,,,,Shell,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,5272471198,40.9573939,29.0976751,,,,,,,,,,,,fuel,,Bostancı Merkez,Shell,Q110716465,en:Royal Dutch Shell,,,,,,,,,,,,,,,,,,,,,,,,,,Shell,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,4826423021,40.9144783,29.140873,,,,,,,,,,,,fuel,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,5022636573,40.9164725,29.1466453,,,,,,,,,,,,fuel,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,4718485057,40.9202486,29.1476072,,,,,,,,,,,,fuel,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,7740567851,40.9176914,29.1440382,,,,,,,,,,,,fuel,,,Best,Q127592740,,,,,,,,,,,,,,,,,,,,,,,,,,,Best,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,5056240692,40.9293369,29.1295388,,,,,,,,,,,,fuel,,Maltepe,Shell,Q110716465,en:Royal Dutch Shell,,,,,,,,,,,,,,,,,,,,,,,,,,Shell,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,6000017192,40.9279097,29.1329757,,,,,,,,,,,,fuel,,,Petrol Ofisi,Q1278087,en:Petrol Ofisi,,,,,,,,,,,,,,,,,,,,,,,,,,Petrol Ofisi,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,11586206717,40.9290485,29.1462548,,,,,,,,,,,,fuel,,,Opet,Q7072824,,,,,,,,,,,,,,,,,,,,,,,,,,,Opet Maltepe,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,9308541967,40.9478483,29.1064953,,,,,,,,,,,,fuel,,,Petrol Ofisi,Q1278087,en:Petrol Ofisi,,,,,,,,,,,,,,,,,,,,,,,,,,Petrol Ofisi,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,4718388548,40.9388796,29.1361722,,,,,,,,,,,,fuel,,Altayçeşme,Shell,Q110716465,en:Royal Dutch Shell,,,,,,,,,,,,,,,,,,,,,,,,,,Shell,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,4718388549,40.9397682,29.1332185,,,,,,,,,,,,fuel,,,TotalEnergies,Q154037,fr:TotalEnergies,,,,,,,,,,,,,,,,,,,,,,,,,,Total,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,5385354921,40.9458545,29.1274403,,,,,,,,,,,,fuel,,,Opet,Q7072824,,,,,,,,,,,,,,,,,,,,,,,,,,,Opet,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,3955643614,40.937381,29.1410698,,,,,,,,,,,,fuel,,Zümrütevler,Shell,Q110716465,en:Royal Dutch Shell,,,,,,,,,,,,,,,,,,,,,,,,,,Shell,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,4718388547,40.9377236,29.138014,,,,,,,,,,,,fuel,,,Opet,Q7072824,en:Opet,,,,,,,,,,,,,,,,,,,,,,,,,,Opet,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,5282028235,40.9382947,29.1408662,,,,,,,,,,,,fuel,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,4699018488,40.9426842,29.1438714,,İstanbul,TR,Maltepe,2,Girne Mahallesi,,34852,,Narlıdere Caddesi,,fuel,,,Opet,Q7072824,en:Opet,,,,,,+90 2164573676,+90 2164573670,,,,,,,yes,,,,yes,,,,,,,,Opet Maltepe,,,onur dis tic 065,,Opet Petrolcülük A.Ş.,,,,,,,,,,,,,,Yellow Pages Türkiye,,,,,,https://www.opet.com.tr/,,node
+,,11578580141,40.9841631,29.0569144,,İstanbul,TR,Kadıköy,140,Feneryolu Mahallesi,,34724,,Fahrettin Kerim Gökay Caddesi,,fuel,,,Opet,Q7072824,en:Opet,,,,,,+90 2165664468,+90 2165664467,,,,,,,yes,,,,yes,,,,,retail,,,Opet,,,hamidi petrol 077,,Opet Petrolcülük A.Ş.,,,,,,,,,,,,,,Yellow Pages Türkiye,,,,,,https://www.opet.com.tr/,,node
+,,5283303556,40.981511,29.0686312,,,,,,,,,,,,fuel,,,Petrol Ofisi,Q1278087,en:Petrol Ofisi,,,,yes,,,,,,,,,,,,,,,,,,,,,,Petrol Ofisi,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,2999419474,40.97084,29.083573,,,,,,,,,,,,fuel,,Erenköy,Shell,Q110716465,en:Royal Dutch Shell,,,,,,,,,,,,,,,,,,,,,,,,,,Shell,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,5616649534,40.9814332,29.0811831,,,,,,,,,,,,fuel,,,BP,Q152057,en:BP,,,,,,,,,,,"check brand, BP in Turkey is acquired by Petrol Ofisi. Don't delete fixme if still BP please.",,,,,,,,,,,,,,,BP,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,7523622408,40.9775719,29.0971615,,İstanbul,,Kadıköy,111,19 Mayıs Mahallesi,,34736,,İnönü Caddesi,,fuel,,,Shell,Q110716465,,,,,,,,,,,,,,,,,,,,,,,,,,,Shell,,,,24/7,,,,,,,,,,,,,,,,,,,,,https://find.shell.com/tr/fuel/13220488-kozyatagi-e5/tr_TR,,node
+,,1670461592,40.9876439,29.087031,,,,,,,,,,,,fuel,,,TotalEnergies,Q154037,fr:TotalEnergies,,,,,,,,,,,,,,,,,,,,,,,,,,Total,محطة توتال للوقود,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,1755203245,40.9835054,29.0919078,,,,,,,,,,,,fuel,,,TotalEnergies,Q154037,fr:Total Énergies,,,,,,,,,,,,,,,,,,,,,,,,,,Total,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,5316391220,40.9905592,29.0767874,,,,,,,,,,,,fuel,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Uspet,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,5316393025,40.9899507,29.0820974,,,,,,,,,,,,fuel,,,Petrol Ofisi,Q1278087,en:Petrol Ofisi,,,,,,,,,,,,,,,,,,,,,,,,,,Petrol Ofisi,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,7656054264,41.0015329,29.0780713,,İstanbul,,ataşehir,,,,,,Adnan Menderes Caddesi,,fuel,,,Shell,Q110716465,en:Royal Dutch Shell,,,,yes,,,,,,,,,,,,,,,,,,,,,,Shell,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,5316393026,40.9980508,29.0915291,,,,,,,,,,,,fuel,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,2392986716,41.0156405,29.074591,,,,,,,,,,,,fuel,,,Opet,Q7072824,,yes,,,yes,,,,,,,,,,,,,,,,,,,,,,Opet,,,,,,,,,,,,,,,,,,,,,,,,,,yes,node
+,,4699018077,41.0112488,29.0752818,,İstanbul,TR,Üsküdar,43,Bulgurlu Mahallesi,,34696,,Libadiye Caddesi,,fuel,,,Petrol Ofisi,Q1278087,en:Petrol Ofisi,,,,yes,,+90 2163284441,+90 5302429181,,,,,,,yes,,,,yes,yes,,,,,,,Petrol Ofisi,,,,,Petrol Ofisi,,,,yes,yes,yes,,,,,,,,,,,,,,https://www.petrolofisi.com.tr/,,node
+,,6805146202,41.0145892,29.0756042,,,,,,,,,,,,fuel,,,TotalEnergies,Q154037,,,,,no,,,,,,,,,,,,,,,,,,,,,,Total,,,,,,,,,,,,,,,,,,,,,,,,,,yes,node
+,,2257504633,40.9676174,29.1026273,,,,,,,,,,,,fuel,,,Aytemiz,Q62274352,,,,,,,,,,,,,,,,,,,,,,,,,,,Aytemiz,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,2257505250,40.9664225,29.1033193,,,,,,,,,,,,fuel,,,BP,Q152057,en:BP,,,,,,,,,,,,,,,,,,,,,,,,,,BP,,BP GAS STATION,BP AKARYAKIT,,,,,,,,,,,,,,,,,,,,,,,,node
+,,5940640333,40.96645,29.103328,,,,,,,,,,,,fuel,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,5940682543,40.9670745,29.104211,,,,,,,,,,,,fuel,,,BP,Q152057,en:BP,,,,,,,,,,,,,,,,,,,,,,,,,,BP,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,2257506320,40.966139,29.1047838,,,,,,,,,,,,fuel,,,TotalEnergies,Q154037,fr:TotalEnergies,,,,,,,,,,,,,,,,,,,,,,,,,,Total,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,11331739897,40.9705543,29.1009385,,İstanbul,TR,Kadıköy,115,Kozyatağı Mahallesi,,34742,,Bayar Caddesi,,fuel,,,Opet,Q7072824,en:Opet,,,,,,+90 2163844750,+90 2163844747,,,,,,,yes,,,,yes,,,,,,,,Opet Kadıköy,,,,,Opet Petrolcülük A.Ş.,,,,,,,,,,,,,,Yellow Pages Türkiye,,,,,,https://www.opet.com.tr/,,node
+,,4699019379,40.982402,29.106104,,İstanbul,TR,Ataşehir,1,Küçükbakkalköy Mahallesi,,34750,,Merdivenköy Yolu Caddesi,,fuel,,,Opet,Q7072824,en:Opet,,,,,,+90 2165726346,+90 2165732222,,,,,,,yes,,,,yes,,,,,,,,Opet Ataşehir,,,bozok petrol 044,,Opet Petrolcülük A.Ş.,,,,,,,,,,,,,,Yellow Pages Türkiye,,,,,,https://www.opet.com.tr/,limited,node
+,,9300325266,40.9790501,29.1046565,,İstanbul,,Ataşehir,8,İçerenköy,,,,Kayışdağı Caddesi,,fuel,,TP Ataşehir DOCO,Türkiye Petrolleri,Q15946806,,,,,,,,,,,,,,,,,,,,,,,,,,,Türkiye Petrolleri,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,9300325267,40.9853132,29.107179,,,,,,,,,,,,fuel,,,Shell,Q110716465,en:Royal Dutch Shell,,,,,,,,,,,,,,,,,,,,,,,,,,Shell,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,9300325268,40.9859873,29.108754,,,,,,,,,,,,fuel,,,Petrol Ofisi,Q1278087,en:Petrol Ofisi,,,,,,,,,,,,,,,,,,,,,,,,,,Petrol Ofisi,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,1713488174,40.9783258,29.1235487,,,,,,,,,,,,fuel,,,Opet,Q7072824,en:Opet,,,,,,,,,,,,,,,,,,,,,,,,,,Opet,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,9300325253,40.9793625,29.1271977,,,,,,,,,,,,fuel,,,BP,Q152057,en:BP,,,,,,,,,,,,,,,,,,,,,,,,,,BP Kayışdağı,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,9300325252,40.9810361,29.1311204,,,,,,,,,,,,fuel,,,Shell,Q110716465,en:Royal Dutch Shell,,,,,,,,,,,,,,,,,,,,,,,,,,Shell,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,4699022953,40.987731,29.143805,,İstanbul,TR,Ataşehir,30,Kayışdağı Mahallesi,,34755,,Dudullu Caddesi,,fuel,,,Opet,Q7072824,en:Opet,,,,,,,+90 2165266077,,,,,,,yes,,yes,,yes,,,,,,,,Opet Ataşehir,,,,,Opet Petrolcülük A.Ş.,,,,,,,,,,,,,,Yellow Pages Türkiye,,,,,,https://www.opet.com.tr/,,node
+,,11578383440,40.9884588,29.1455518,,,,,,,,,,,,fuel,,,Petrol Ofisi,Q1278087,,,,,,,,,,,,,,,,,,,,,,,,,,,Petrol Ofisi,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,9311961847,41.0132643,29.1072865,,,,,,,,,,,,fuel,,,Petrol Ofisi,Q1278087,en:Petrol Ofisi,,,,,,,,,,,,,,,,,,,,,,,,,,Petrol Ofisi,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,9311961846,41.0055207,29.1463068,,,,,,,,,,,,fuel,,,Petrol Ofisi,Q1278087,en:Petrol Ofisi,,,,,,,,,,,,,,,,,,,,,,,,,,Erk Petrol,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,5075961008,41.0164313,28.9492848,,İstanbul,,Fatih,,,,,,Sofular caddesi,,fuel,,,BP,Q152057,en:BP,,,,,,,,,,,"check brand, BP in Turkey is acquired by Petrol Ofisi. Don't delete fixme if still BP please.",,,,,,,,,,,,,,,BP,محطة بترول Bp,,,,BP,,,,,,,,,,02125216873,,,,,,,,,,,,node
+,,5113465273,41.0177752,28.9509568,,İstanbul,,Fatih,,,,,,Aslanhane Sokağı,,fuel,,,BP,Q152057,en:BP,,,,,,,,,,,"check brand, BP in Turkey is acquired by Petrol Ofisi. Don't delete fixme if still BP please.",,,,,,,,,,,,,,,BP,bp,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,11127294727,41.0166336,28.9550416,,İstanbul,,Fatih,8-10,Zeyrek Mahallesi,,34083,,Kovacılar Sokağı,,fuel,,Fatih İstanbul,Shell,Q110716465,,,,,,,,,,,,,,,,,,,,,,,,,,,Shell,,,,24/7,,,,,,,,,,,+90 212 635 9188,,,,,,,,,,https://find.shell.com/tr/fuel/10049471-fatih-istanbul/tr_TR,,node
+,,9312906913,41.0383282,28.9567532,,İstanbul,TR,Beyoğlu,13-15,Keçeci Piri Mahallesi,,34445,,Hasköy Sütlüce Yolu Donanma Caddesi,,fuel,,,Opet,Q7072824,en:Opet,,,,yes,,+90 2122553697,+90 2122547725,,,,,,,yes,,,,yes,,,,,,,,Opet Beyoğlu,,,,,Opet Petrolcülük A.Ş.,,,,,,,,,,,,,,Yellow Pages Türkiye,,,,,,https://www.opet.com.tr/,,node
+,,4845792521,41.0416582,28.9664429,,,,,,,,,,,,fuel,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Petro Ofisi,,,,,,,,,,,,,,,,,yes,,,,,,,,,,node
+,,269367213,41.0260804,28.9797859,,,,,,,,,,,,fuel,,,Opet,Q7072824,,,,,,,,,,,,,,,,,,,,,,,,,,,Opet,ألبِت,,,,Alpet,,,,,,,,,,,,,,,,,,,,,,node
+,,4419028247,41.0337252,28.9758177,,İstanbul,,,34,,,34435,,Meşrutiyet Caddesi,,fuel,,,Occidental,Q15148996,,,,,,,,,"Boutique hotels in Istanbul City Center, Beyoglu.",,,,,,,,,,,,,yes,no,,,,occidental pees hotel Istanbul,,,,,Room Mate,,,,,,,,,,,,,no,,4,,,,hotel,https://room-matehotels.com/en/kerem/,limited,node
+,,4699018205,41.041235,28.967225,,İstanbul,TR,Beyoğlu,20/A,İstiklal Mahallesi,,34440,,Piyale Paşa Bulvarı,,fuel,,,Opet,Q7072824,tr:Opet,,,,,,+90 2122530118,+90 2122560547,,,,,,,yes,,,,yes,,,,,,,,Opet Beyoğlu,,,,,Opet Petrolcülük A.Ş.,,,,,,,,,,,,,,Yellow Pages Türkiye,,,,,,https://www.opet.com.tr/,,node
+,,4845792420,41.0405187,28.9673371,,,,,,,,,,,,fuel,,,Shell,Q110716465,,,,,,,,,,,,,,,,,,,,,,,,,,,Shell,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,4845792522,41.0381426,28.9680383,,,,,,,,,,,,fuel,,,Shell,Q110716465,,,,,,,,,,,,,,,,,,,,,,,,,,,Shell,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,4845792524,41.0388062,28.9726479,,,,,,,,,,,,fuel,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,4845792383,41.0414243,28.9796462,,,,,,,,,,,,fuel,,,BP,Q152057,en:BP,,,,yes,,,,,,,"check brand, BP in Turkey is acquired by Petrol Ofisi. Don't delete fixme if still BP please.",,,,,,,,,,,,,,,BP,,,,24/7,,,,,,,,,,,,,,,,,,,,,,,node
+,,4845792523,41.0384552,28.9734829,,,,,,,,,,,,fuel,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,4845792525,41.0398116,28.9775232,,,,,,,,,,,,fuel,,,TotalEnergies,Q154037,,,2022-08-22,,yes,,,,,,,,,,,,,,,,,,,,,,Total Milangaz,,,,24/7,,,,,,,,,,,,,,,,,,,,,,yes,node
+,,5482975722,41.0437082,28.9479541,,,,,,,,,,,,fuel,,,,,,,,,yes,,,,,,,,,,,,,,,,,,,,,,PO,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,11586920373,41.0576209,28.9419382,,İstanbul,,Eyüpsultan,65,Merkez,,34050,,Silahtarağa Caddesi,,fuel,,Bahariye,BP,Q152057,,,,,,,,,,,,"check brand, BP in Turkey is acquired by Petrol Ofisi. Don't delete fixme if still BP please.",,,,,,,,,,,,,,,BP,,,,24/7,,,,,,,,,,,+90 212 418 2838,,,,,,,,,,,,node
+,,4963093911,41.0569121,28.951107,,,,,86,,,,,İmrahor Caddesi,,fuel,,Etiler Petrol,Türkiye Petrolleri,Q15946806,,,,,,,,,,,,,,,,,,,,,,,,,,,Türkiye Petrolleri,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,11586920374,41.0662352,28.9429632,,İstanbul,,Eyüpsultan,,,,,,,,fuel,,Silahtar,Shell,Q110716465,,,,,,,,,,,,,,,,,,,,,,,,,,,Shell,,,,24/7,,,,,,,,,,,+90 212 626 3933,,,,,,,,,,https://find.shell.com/tr/fuel/10049426-silahtar/tr_TR,,node
+,,4255747089,41.062944,28.9508759,,,,,,,,,,,,fuel,,,Aytemiz,Q62274352,,,,,,,,,,,,,,,,,,,,,,,,,,,Aytemiz,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,9312906914,41.0585181,28.9657014,,,,,,,,,,Darülaceze Caddesi,,fuel,,,Aytemiz,Q62274352,,,,,,,,,,,,,,,,,,,,,,,,,,,Aytemiz,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,11586915845,41.0565105,28.9651124,,İstanbul,,Şişli,,Halil Rıfat Paşa,,34384,,Arel Aralığı Sokağı,,fuel,,Şişli Halil Rıfat Paşa,Opet,Q7072824,,,,,,,,,,,+90 212 222 1746,,,,,,,,,,,,,,,,Opet,,,,24/7,Çetay Akaryakıt,,,,,,,,,,+90 212 220 0350,,,,,,,,,,,,node
+,,5110198325,41.0478767,28.9685879,,,,,,,,,,,,fuel,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,3728846486,41.0446779,28.9783544,,,,,,,,,,,,fuel,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Kurtuluş Total,,,,24/7,,,,,,,,,,,,,,,,,,,,,,yes,node
+,,4699019354,41.048424,28.984989,,İstanbul,TR,Şişli,197,Bozkurt Mahallesi,1. Bölge Bozkurt Mah.,34375,,Dolapdere Caddesi,,fuel,,,Opet,Q7072824,tr:Opet,,,,,,+90 2122914648,+90 2122913020,,,,,,,yes,,,,yes,,,,,,,,Opet,,,,,Opet,,,,,,,,,,,,,,Yellow Pages Türkiye,,,,,,https://www.opet.com.tr/,,node
+,,11586915844,41.0595306,28.9761503,,,,,,Halide Edip Adıvar,,,,,,fuel,,Halide Edip,Aytemiz,Q62274352,,,,,,,,,,,,,,,,,,,,,,,,,,,Aytemiz,,,,24/7,Şişli Petrol,,,,,,,,,,+90 212 320 1250,,,,,,,,,,,,node
+,,5393139681,41.0642078,28.9822451,,,,,,,,,,,,fuel,,,Opet,Q7072824,en:Opet,,,,,,,,,,,,,,yes,,,,yes,yes,,,,,,,Opet,,,,,Opet,,,,,,,,,,,no,,,,,,,,,,,node
+,,11586915843,41.0656572,28.9874809,,İstanbul,,Şişli,144,Merkez,,34384,,Abide-i Hürriyet Caddesi,,fuel,,Şişli,Opet,Q7072824,,,,,,,,,,,+90 212 230 2565,,,,,,,,,,,,,,,,Opet,,,,24/7,Kampet Petrol Ürünleri,,,,,,,,,,+90 212 234 1325,,,,,,,,,,,,node
+,,278335431,41.0288378,29.0174396,,,,,,,,,,,,fuel,,,Petrol Ofisi,Q1278087,,,,,yes,,,,,,,,,,,,,,,,,,,,,,Petrol Ofisi,,,,"Mo-Su,PH 00:00-00:00",,,,,,,,,,,,,,,,,,,,,,,node
+,,5107277905,41.0165067,29.0302075,,,,,,,,,,,,fuel,,,,,,,,,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,7562999678,41.0275668,29.026192,,,,,,,,,,,,fuel,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,9283195049,41.0221984,29.0429366,,İstanbul,,Üsküdar,,Altunizade Mahallesi,,,,Mahir İz Caddesi,,fuel,,,TotalEnergies,Q154037,fr:TotalEnergies,,,,,,,,,,,,,,,,,,,,,,,,,,Total,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,9283195050,41.0230199,29.0430475,,İstanbul,,Üsküdar,,Altunizade Mahallesi,,,,Kısıklı Caddesi,,fuel,,,TotalEnergies,Q154037,fr:TotalEnergies,,,,yes,,,,,,,,,,yes,,,,yes,yes,,,,,,,Total,,,,,total,,,,,,,,,,,,,,,,,,,,,,node
+,,9283195051,41.0237064,29.041962,,İstanbul,TR,Üsküdar,25,Altunizade Mahallesi,,34662,,Kısıklı Caddesi,,fuel,,,Opet,Q7072824,en:Opet,,,,yes,,+90 2164747032,+90 2164747023,,,,,,,yes,,,,yes,,,,,,,,Opet Üsküdar,,,,,Opet Petrolcülük A.Ş.,,,,,,,,,,,,,,Yellow Pages Türkiye,,,,,,https://www.opet.com.tr/,,node
+,,568011021,41.0550943,28.9992938,,,,,,,,,,,,fuel,,,Opet,Q7072824,en:Opet,,,,,,,,,,,,,,,,,,,,,,,,,,Opet,محطة اوبت للوقود,,,,Artek Petrol,,,,,,,,,,,,,,,,,,,,,,node
+,,932363710,41.05594,28.9977006,,,,,,,,,,,,fuel,,,Shell,Q110716465,en:Royal Dutch Shell,,,,yes,,,,,,,,,,,,,,,,,,,,,,Shell,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,12871111807,41.056844,28.9964243,,İstanbul,,Şişli,,19 Mayıs,,34363,,Öğretmen Haşim Çeken Caddesi,,fuel,,,S Oil,,,,,,,,,,,,,,,,,,,,,,,,,,,,S Oil,,,,09:30-18:30,Turer Petrol,,,,,,,,,,,,,,,,,,,,,,node
+,,4952623932,41.0612495,29.0012598,,,,,,,,,,,,fuel,,,Petrol Ofisi,Q1278087,en:Petrol Ofisi,,,,,,,,,,,,,,,,,,,,,,,,,,Petrol Ofisi,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,4730251788,41.0657131,29.0022542,,,,,,,,,,,,fuel,,,Shell,Q110716465,,,2025-04-12,,yes,,,,,,,,,,,,,,,,,,,,,,Shell,,,,24/7,,,,,,,,,,,,,,,,,,,,,,,node
+,,5098722412,41.0614084,29.0110721,,,,,,,,,,,,fuel,,,Shell,Q110716465,en:Royal Dutch Shell,,,,yes,,,,,,,,,,,,,,,,,,,,,,Shell,,,,,Balmumcu,,,,,,,,,,,,,,,,,,,,,,node
+,,4165097565,41.0501819,29.0237229,,,,,,,,,,,,fuel,,,Best,Q127592740,,,,,,,,,,,,,,,,,,,,,,,,,,,Best House rental of apartment,,,,,,,,,,,,,,,,,,,,,,,,,,limited,node
+,,11586239235,41.0544147,29.0337873,,İstanbul,,Beşiktaş,85,Ortaköy,,34347,,Muallim Naci Caddesi,,fuel,,Kuruçeşme,Opet,Q7072824,,,,,,,,,,,+90 212 263 5677,,,,,,,,,,,,,,,,Opet,,,,24/7,Alev Petrol,,,,,,,,,,+90 212 265 5709,,,,,,,,,,,,node
+,,5708413680,41.0834384,28.9487993,,,,,,,,,,,,fuel,,,Türkiye Petrolleri,Q15946806,,,,,,,,,,,,,,,,,,,,,,,,,,,Türkiye Petrolleri,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,11594777248,41.0869448,28.9504627,,,,,,,,,,,,fuel,,,Opet,Q7072824,,,,,,,,,,,,,,,,,,,,,,,,,,,Opet,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,12185834427,41.083835,28.9488526,,,,,,,,,,,,fuel,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,6842721097,41.0716227,28.9798973,,,,,,,,,,,,fuel,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,5336994052,41.0751507,28.9696221,,,,,,,,,,,,fuel,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,11586879391,41.0785749,28.9720234,,İstanbul,,Kağıthane,1,Merkez,,34406,,Develi Caddesi,,fuel,,Kağıthane,Petrol Ofisi,Q1278087,,,,,yes,,,,,,,,,,,,,,,,,,,,,,Petrol Ofisi,,,,24/7,,,,,,,,,,,,,,,,,,,,,,,node
+,,5336994069,41.0811679,28.9865705,,,,,,,,,,,,fuel,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,5393139853,41.0855779,28.9685793,,,,,,,,,,,,fuel,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,4963094240,41.0852259,28.9781424,,,,,,,,,,,,fuel,,,Petrol Ofisi,Q1278087,,,,,yes,,,,,,,,,,,,,,,,,,,,,,Petrol Ofisi,,,,24/7,,,,,,,,,,,,,,,,,,,,,,,node
+,,9312905236,41.0841918,28.9783031,,,,,,,,,,,,fuel,,,Shell,Q110716465,en:Royal Dutch Shell,,,,yes,,,,,,,,,,,,,,,,,,,,,,Shell,,,,24/7,,,,,,,,,,,,,,,,,,,,,,,node
+,,9312905237,41.0889002,28.9849858,,İstanbul,TR,Kağıthane,2,Yahyakemal Mahallesi,,34410,,Güzeldere Caddesi,,fuel,,,Opet,Q7072824,en:Opet,,,,,,+90 2123213614,+90 2123213610,,,,,,,yes,,,,yes,,,,,,,,Opet Kağıthane,,,,,Opet Petrolcülük A.Ş.,,,,,,,,,,,,,,Yellow Pages Türkiye,,,,,,https://www.opet.com.tr/,,node
+,,9312905238,41.0937938,28.9927287,,,,,,,,,,,,fuel,,,Shell,Q110716465,en:Royal Dutch Shell,,,,,,,,,,,,,,,,,,,,,,,,,1065336560944540,Shell,,,,,,,,,,,,,,,,,,,bing,,2021-10-04,,,,,,node
+,,12213415959,41.1013536,28.9659513,,İstanbul,,Kağıthane,23,Hamidiye,,34408,,Selçuklu Caddesi,,fuel,,Kağıthane Vadi,Shell,Q110716465,,,,,,,,,,,,,,,,,,,,,,,,,,,Shell,,,,,,,,,,,,,,,+90 543 779 3308,yes,,,,,,,,,https://find.shell.com/tr/fuel/13105478-kagithane-vadi/tr_TR,,node
+,,11594848769,41.1013118,28.9799955,,İstanbul,,Kağıthane,97,Hamidiye,,34408,,Cendere Caddesi,,fuel,,Kağıthane Hamidiye,Opet,Q7072824,,,,,,,,,,,+90 212 289 6900,,,,,,,,,,,,,,,,Opet,,,,24/7,Zengin Petrol,,,,,,,,,,+90 212 289 6969,,,,,,,,,,,,node
+,,6146383487,41.078851,29.0029586,,İstanbul,,Kağıthane,76,Ortabayir Mah.,,34413,,Talatpaşa Caddesi,,fuel,,,BP,Q152057,en:BP,,,,yes,,,,,,,"check brand, BP in Turkey is acquired by Petrol Ofisi. Don't delete fixme if still BP please.",,,,,,,,,,,,,,,BP,,,,"PH,Mo-Su 06:00",Benzin İstasyonu,,,,,,,,,,,,,,,,,,,,,,node
+,,11586239236,41.0738872,29.0159579,,İstanbul,,Beşiktaş,132,Nisbetiye,,34340,,Büyükdere Caddesi,,fuel,,Levent,BP,Q152057,,,,,,,,,,,,"check brand, BP in Turkey is acquired by Petrol Ofisi. Don't delete fixme if still BP please.",,,,,,,,,,,,,,,BP,,,,24/7,Dost Petrol,,,,,,,,,,+90 212 264 1440,,,,,,,,,,,,node
+,,11586239237,41.0698742,29.0152452,,İstanbul,,Beşiktaş,96,Nisbetiye,,34340,,Barbaros Bulvarı,,fuel,,Zincirlikuyu,Shell,Q110716465,,,,,,,,,,,,,,,,,,,,,,,,,,,Shell,,,,24/7,,,,,,,,,,,+90 212 211 5002,,,,,,,,,,https://find.shell.com/tr/fuel/10049493-zincirlikuyu/tr_TR,,node
+,,1672420097,41.0877238,29.0177524,,,,,,,,,,,,fuel,,,Shell,Q110716465,en:Royal Dutch Shell,,,,,,,,,,,,,,,,,,,,,,,,,,Shell,محطة شيل للوقود,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,12217538551,41.1028138,29.0000549,,,,,,,,,,,,fuel,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,11594805019,41.1074455,29.0152133,,İstanbul,,Sarıyer,221,Reşitpaşa,,34467,,Büyükdere Caddesi,,fuel,,TSK Mehmetçik Vakfı - Maslak,TotalEnergies,Q154037,,,,,,,,,,,,,,,,,,,,,,,,,,,Total,,,,24/7,,,,,,,,,,,,,,,,,,,,,,,node
+,,11594805021,41.1084252,29.0233092,,İstanbul,,Sarıyer,102,Pınar,,34485,,Büyükdere Caddesi,,fuel,,Maslak,BP,Q152057,,,,,,,,,,,,"check brand, BP in Turkey is acquired by Petrol Ofisi. Don't delete fixme if still BP please.",,,,,,,,,,,,,,,BP,,,,24/7,,,,,,,,,,,+90 212 328 3340,,,,,,,,,,,,node
+,,3790969409,41.1175416,29.0234658,,,,,,,,,,,,fuel,,,Opet,Q7072824,en:Royal Dutch Shell,,,,,,,,,,,,,,,,,,,,,,,,,,Opet,,,,,,,,,,,,,,,,,,,GPS,,,,,,,,node
+,,11594805023,41.1157315,29.0232159,,İstanbul,,Sarıyer,,Maslak,,34475,,,,fuel,,Maslak İstanbul,Shell,Q110716465,,,,,,,,,,,,,,,,,,,,,,,,,,,Shell,,,,24/7,,,,,,,,,,,+90 212 346 3307,,,,,,,,,,https://find.shell.com/tr/fuel/13031024-maslak-istanbul/tr_TR,,node
+,,5959790503,41.1123996,29.0407526,,,,,,,,,,,,fuel,,,Aytemiz,Q62274352,,,,,,,,,,,,,,,,,,,,,,,,,,,Aytemiz,,,,,Aytemiz,,,,,,,,,,,,,,,,,,,,,,node
+,,9283195052,41.0241529,29.0548718,,,,,,,,,,,,fuel,,,Opet,Q7072824,,,,,,,,,,,,,,,,,,,,,,,,,,,Opet,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,2392986717,41.0167626,29.0760902,,,,,,,,,,,,fuel,,,Shell,Q110716465,en:Royal Dutch Shell,yes,,,yes,,,,,,,,,,,,,,,,,,,,,,Shell,,,,24/7,,,,,,,,,,,,,,,,,,,,,,limited,node
+,,7145762135,41.018544,29.0845768,,,,,,,,,,,,fuel,,,Petrol Ofisi,Q1278087,en:Petrol Ofisi,,,,yes,,,,,,,,,,,,,,,,,,,,,,Petrol Ofisi,,,,,,,,,,,,,,,,,,,,,,,,,,yes,node
+,,5954059533,41.0225451,29.0753284,,,,,,,,,,,,fuel,,,Petrol Ofisi,Q1278087,,,,,,,,,,,,,,,,,,,,,,,,,,,Petrol Ofisi,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,9283195053,41.023903,29.0815897,,,,,,,,,,,,fuel,,,TotalEnergies,Q154037,fr:TotalEnergies,,,,,,,,,,,,,,,,,,,,,,,,,,Total,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,4699022962,41.031458,29.079681,,İstanbul,TR,Üsküdar,59,Ferah Mahallesi,,34692,,Bosna Bulvarı,,fuel,,,Opet,Q7072824,tr:Opet,,,,,,+90 2164434818,+90 2164434898,,,,,,,yes,,,,yes,,,,,,,,Opet,,,,,Opet Petrolcülük A.Ş.,,,,,,,,,,,,,,Yellow Pages Türkiye,,,,,,https://www.opet.com.tr/,,node
+,,7631483620,41.0489227,29.0545563,,İstanbul,TR,Üsküdar,59/A,Çengelköy Mahallesi,,34680,,Çengelköy Caddesi,,fuel,,,Opet,Q7072824,tr:Opet,,,,,,+90 2163215711,+90 2163215710,,,,,,,yes,,,,yes,,,,,,,,Opet,,,,,Opet Petrolcülük A.Ş.,,,,,,,,,,,,,,Yellow Pages Türkiye,,,,,,https://www.opet.com.tr/,,node
+,,12199038026,41.0512982,29.0644395,,,,,,,,,,,,fuel,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,1920258400,41.0492898,29.0768296,,,,,,,,,,,,fuel,,,Petrol Ofisi,Q1278087,,,,,,,,,,,,,,,,,,,,,,,,,,,Petrol Ofisi,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,5362917722,41.0231146,29.1079509,,,,,,,,,,,,fuel,,,Opet,Q7072824,en:Opet,,,,,,,,,,,,,,,,,,,,,,,,,,Opet Gültepe,,,Opet Gültepe,,,,,,,,,,,,,,,,,,,,,,,,node
+,,5479470554,41.0227995,29.1096406,,,,,,,,,,,,fuel,,,Petrol Ofisi,Q1278087,en:Petrol Ofisi,,,,,,,,,,,,,,,,,,,,,,,,,,Petrol Ofisi,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,5479470622,41.0221955,29.1126822,,,,,,,,,,,,fuel,,,TotalEnergies,Q154037,,,,,,,,,,,,,,,,,,,,,,,,,,,TotalEnergies,,,,,,,,,,,,,,,,,,,,,,,,,,yes,node
+,,4699018229,41.0225022,29.1159204,,İstanbul,TR,Ümraniye,175,İnkılap Mahallesi,,34768,,Alemdağ Caddesi,,fuel,,,Opet,Q7072824,en:Opet,,,,yes,,+90 2166302205,+90 2166302200,,,,,,,yes,,,,yes,,,,,,,,Opet Ümraniye,,,Opet Bengi,"Mo-Su,PH 00:00-00:00",Opet Petrolcülük A.Ş.,,,,,,,,,,,,,,Yellow Pages Türkiye,,,,,,https://www.opet.com.tr/,,node
+,,11586206756,41.0330705,29.1107764,,,,,,,,,,,,fuel,,,Shell Express,Q2289188,,,,,,,,,,,,,,,,,,,,,,,,,,,Shell Express,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,11586230277,41.0205482,29.1296114,,İstanbul,,Ümraniye,225,Ihlamurkuyu,,34771,,Alemdağ Caddesi,,fuel,,Ümraniye Tepeüstü,Shell,Q110716465,,,,,yes,,,,,,,,,,,,,,,,,,,,,,Shell,,,,24/7,,,,,,,,,,,+90 216 611 0439,,,,,,,,,,https://find.shell.com/tr/fuel/10050044-umraniye-tepeustu/tr_TR,,node
+,,9311961844,41.0160928,29.1503703,,,,,,,,,,,,fuel,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,bing,,,,,,,,node
+,,9311961845,41.01646,29.1460319,,,,,,,,,,,,fuel,,,Opet,Q7072824,en:Opet,,,,,,,,,,,,,,,,,,,,,,,,,,Opet Ortaş,,,Opet Ortaş,,,,,,,,,,,,,,,,bing,,,,,,,,node
+,,3474488524,41.0799651,29.0708251,,,,,,,,,,,,fuel,,,Shell,Q110716465,en:Royal Dutch Shell,,,,,,,,,,,,,,,,,,,,,,,,,,Shell,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,3474488526,41.081143,29.0770445,,,,,,,,,,,,fuel,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,288789439,41.1141944,29.0599219,,,,,,,,,,,,fuel,,,Petrol Ofisi,Q1278087,,,,,,,,,,,,,,,,,,,,,,,,,,,Petrol Ofisi,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,6000889519,41.1177047,29.0644015,,,,,,,,,,,,fuel,,,Shell,Q110716465,,,,,,,,,,,,,,,,,,,,,,,,,,,Shell,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,4699020193,41.094793,29.090877,,İstanbul,TR,Beykoz,59,Çubuklu Mahallesi,,34805,,Orhan Veli Kanık Caddesi 119. Sokak,,fuel,,,Opet,Q7072824,tr:Opet,,,,,,+90 2165379014,+90 2165379010,,,,,,,yes,,,,yes,,,,,,,,Opet Beykoz,,,,,Opet Petrolcülük A.Ş.,,,,,,,,,,,,,,Yellow Pages Türkiye,,,,,,https://www.opet.com.tr/,,node
+,,3474488522,41.0947275,29.0975854,,,,,,,,,,,,fuel,,,BP,Q152057,en:BP,,,,,,,,,,,"check brand, BP in Turkey is acquired by Petrol Ofisi. Don't delete fixme if still BP please.",,,,,,,,,,,,,,,BP,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,5686793717,41.0795924,29.1425113,,,,,,,,,,,,fuel,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,7865342719,41.0863729,29.1364115,,,,,,,,,,,,fuel,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,5022636564,40.9134792,29.1515461,,,,,,,,,,,,fuel,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,5050081268,40.9234235,29.151039,,,,,,,,,,,,fuel,,Gülsuyu,Shell,Q110716465,,,,,,,,,,,,,,,,,,,,,,,,,,,Shell,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,11741162818,40.9161243,29.169956,,,,,,,,,,,,fuel,,Cevizli,Shell,Q110716465,,,,,,,,,,,,,,,,,,,,,,,,,,,Shell,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,4718176989,40.9240928,29.151085,,,,,,,,,,,,fuel,,,Petrol Ofisi,Q1278087,,,,,,,,,,,,,,,,,,,,,,,,,,,Petrol Ofisi - Bulut Petrol,,,Petrol Ofisi - Bulut Petrol,,,,,,,,,,,,,,,,,,,,,,,,node
+,,6577151296,40.9110485,29.1818113,,İstanbul,TR,Kartal,68,Cevizli Mahallesi,,34865,,Mustafa Kemal Caddesi,,fuel,,,Opet,Q7072824,tr:Opet,,,,,,+90 2163718789,+90 2163718787,,,,,,,yes,,,,yes,,,,,,,,Opet,,,,,Opet Petrolcülük A.Ş.,,,,,,,,,,,,,,Yellow Pages Türkiye,,,,,,https://www.opet.com.tr/,,node
+,,4699018282,40.912108,29.191968,,İstanbul,TR,Kartal,27,Esentepe Mahallesi,,34870,,D-100 Yanyol Caddesi,,fuel,,,Opet,Q7072824,tr:Opet,,,,,,+90 2163897250,+90 2163897252,,,,,,,yes,,,,yes,,,,,,,,Opet Kartal,,,,,Opet Petrolcülük A.Ş.,,,,,,,,,,,,,,Yellow Pages Türkiye,,,,,,https://www.opet.com.tr/,,node
+,,4718488092,40.9111444,29.1953199,,,,,,,,,,,,fuel,,Soğanlık,Shell,Q110716465,en:Royal Dutch Shell,,,,,,,,,,,,,,,,,,,,,,,,,,Shell,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,5295378910,40.9168959,29.195766,,,,,,,,,,,,fuel,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,5052683541,40.9504382,29.1627223,,,,,,,,,,,,fuel,,,Petrol Ofisi,Q1278087,,,,,,,,,,,,,,,,,,,,,,,,,,,Petrol Ofisi,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,6507504085,40.9567108,29.2138795,,,,,,,,,,,,fuel,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,133 imes petrol,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,9312162023,40.9585228,29.2148183,,,,,,,,,,,,fuel,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,bing,,,,,,,,node
+,,12821056291,40.9813442,29.1650507,,İstanbul,,Ataşehir,14,Ferhatpaşa,,,,Üsküdar Caddesi,,fuel,,Feba Petrol Ataşehir,Türkiye Petrolleri,Q15946806,,,,,,,,,,,,,,,,,,,,,,,,,,,Türkiye Petrolleri,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,4699022951,40.98387,29.165959,,İstanbul,TR,Ataşehir,1 D: 3,Küçükbakkalköy Mahallesi,,34750,,Üsküdar Caddesi,,fuel,,,Opet,Q7072824,tr:Opet,,,,yes,,+90 2166600010,+90 2166601222,,,,,,,yes,,,,yes,,,,,,,,Opet Ümraniye,,,,,Opet Petrolcülük A.Ş.,,,,,,,,,,,,,,Yellow Pages Türkiye,,,,,,https://www.opet.com.tr/,,node
+,,6805337406,40.9894307,29.1953675,,,,,,,,,,,,fuel,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,552869782,40.9989931,29.1549337,,,,,,,,,,,,fuel,,,Shell,Q110716465,en:Royal Dutch Shell,,,,,,,,,,,,,,,,,,,,,,,,,,Shell,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,5244129822,40.9902534,29.1758465,,,,,,,,,,,,fuel,,,Lukoil,Q329347,en:Lukoil,,,,,,,,,,,,,,,,,,,,,,,,,,Lukoil,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,5362917723,41.0020489,29.1636539,,,,,,,,,,,,fuel,,,Opet,Q7072824,en:Opet,,,,,,,,,,,,,,,,,,,,,,,,,,Opet imes 1,,,Opet imes 1,,,,,,,,,,,,,,,,,,,,,,,,node
+,,5385351123,41.0018496,29.1643045,,,,,,,,,,,,fuel,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,imes petrol 089,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,9311961842,41.0141227,29.1637819,,İstanbul,TR,Ümraniye,6,Necip Fazıl Mahallesi,,34773,,Necip Fazıl Bulvarı,,fuel,,,Opet,Q7072824,en:Opet,,,,,,+90 2164153041,+90 2165263860,,,,,,,yes,,,,yes,,,,,,,,Opet Ümraniye,,,,,Opet Petrolcülük A.Ş.,,,,,,,,,,,,,,bing,,,,,,https://www.opet.com.tr/,,node
+,,7046396315,40.9936151,29.1889906,,İstanbul,TR,Ümraniye,2 D: 2,Esenşehir Mahallesi,Kadosan Oto Sanayi Sitesi,34776,,1. Caddesi 10. Sokak,,fuel,,,Opet,Q7072824,en:Opet,,,,,,+90 2165264312,+90 2165264304,,,,,,,yes,,,,yes,,,,,,,,Opet Ümraniye,,,,,Opet Petrolcülük A.Ş.,,,,,,,,,,,,,,Yellow Pages Türkiye,,,,,,https://www.opet.com.tr/,,node
+,,5462640316,41.0079027,29.1808357,,,,,,,,,,,,fuel,,,BP,Q152057,,,,,,,,,,,,,,,,,,,,,,,,,,,BP,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,4838961896,41.0071529,29.1882859,,,,,,,,,,,,fuel,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Class,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,5290533598,41.007132,29.1903445,,,,,,,,,,,,fuel,,,Shell,Q110716465,en:Royal Dutch Shell,,,,,,,,,,,,,,,,,,,,,,,,,,Shell,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,6862518820,41.0078954,29.1928866,,,,,,,,,,,,fuel,,,Opet,Q7072824,en:Opet,,,,,,,,,,,,,,,,,,,,,,,,,,Opet,,,,24/7,,,,,,,,,,,,,,,,,,,,,,,node
+,,4416266553,41.0085765,29.2016649,,,,,,,,,,,,fuel,,,Petrol Ofisi,Q1278087,en:Petrol Ofisi,,,,,,,,,,,,,,,,,,,,,,,,,,Petrol Ofisi,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,4699019360,41.0079553,29.2016636,,İstanbul,TR,Sancaktepe,18,Sarıgazi Mahallesi,,34785,,Atatürk Caddesi,,fuel,,,Opet,Q7072824,en:Opet,,,,,,+90 2166225767,+90 2166225757,,,,,,,yes,,,,yes,,,,,,,,Opet Ümraniye,,,,,Opet Petrolcülük A.Ş.,,,,,,,,,,,,,,Yellow Pages Türkiye,,,,,,https://www.opet.com.tr/,,node
+,,5053409386,41.0136153,29.1912113,,,,,,,,,,,,fuel,,,,,,,,,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,7046396309,41.0144577,29.1904016,,,,,,,,,,,,fuel,,,Opet,Q7072824,,,,,yes,,,,,,,,,,,,,,,,,,,,,,Opet,,,,,Yamaç Petrol,,,,,,,,,,,,,,,,,,,,,,node
+,,5052765899,40.9667645,29.2156254,,,,,,,,,,,,fuel,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,5052765904,40.9664324,29.2164926,,,,,,,,,,,,fuel,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,5052766527,40.9695598,29.2201602,,,,,,,,,,,,fuel,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,4699023905,40.9776,29.2206066,,İstanbul,TR,Sancaktepe,1,Eyüp Sultan Mahallesi,,34885,,Yakacık Caddesi,,fuel,,,Opet,Q7072824,en:Opet,,,,,,+90 2165614986,+90 2165614980,,,,,,,yes,,,,yes,,,,,,,,Opet Sancaktepe,,,,,Opet Petrolcülük A.Ş.,,,,,,,,,,,,,,Yellow Pages Türkiye,,,,,,https://www.opet.com.tr/,,node
+,,5052766554,40.9806034,29.2202745,,,,,,,,,,,,fuel,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,7668596055,40.9816004,29.2215046,,,,,,,,,,,,fuel,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,5052766565,40.986969,29.2261047,,,,,,,,,,,,fuel,,,Opet,Q7072824,,,,,,,,,,,,,,,,,,,,,,,,,,,Opet,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,4779867647,40.9748828,29.2406807,,İstanbul,,Sancaktepe,,Veysel Karani,,34885,,Osmangazi,,fuel,,,Petrol Ofisi,Q1278087,en:Petrol Ofisi,,,,,,,,,,,,,,,,,,,,,,,,,,Petrol Ofisi,,,,,Petrol Ofisi,,,,,,,,,,,,,,,,,,,,,,node
+,,4699022949,40.9681282,29.2531294,,İstanbul,TR,Sultanbeyli,64,Hasanpaşa Mahallesi,,34920,,Fatih Bulvarı,,fuel,,,Opet,Q7072824,en:Opet,,,,,,+90 2163986511,+90 2163986232,,,,,,,yes,,,,yes,,,,,,,,Opet Sultanbeyli,,,Üç Kardeşler 191,,Opet Petrolcülük A.Ş.,,,,,,,,,,,,,,,,,,,,https://www.opet.com.tr/,,node
+,,5149577694,40.9717653,29.2485139,,İstanbul,,Sultanbeyli,,,,,,Fatih Bulvarı,,fuel,fuel,,Petrol Ofisi,Q1278087,en:Petrol Ofisi,,,,,,,,,,,,,,,,,,,,,,,,,,Petrol Ofisi,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,5385351124,40.971905,29.2491636,,,,,,,,,,,,fuel,,,Opet,Q7072824,en:Opet,,,,,,,,,,,,,,,,,,,,,,,,,,Opet,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,5052833560,40.9927015,29.2231235,,,,,,,,,,,,fuel,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,4699022970,41.008467,29.2159064,,İstanbul,TR,Sancaktepe,145,İnönü Mahallesi,,34785,,Atatürk Caddesi,,fuel,,,Opet,Q7072824,en:Opet,,,,yes,,+90 2166209632,+90 2166218682,,,,,,,yes,,,,yes,,,,,,,,Opet Ümraniye,,,,,Opet Petrolcülük A.Ş.,,,,,,,,,,,,,,Yellow Pages Türkiye,,,,,,https://www.opet.com.tr/,yes,node
+,,5053408898,41.0125502,29.2073884,,,,,,,,,,,,fuel,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,5053408890,41.0097306,29.210874,,,,,,,,,,,,fuel,,,BP,Q152057,en:BP,,,,,,,,,,,,,,,,,,,,,,,,,,BP,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,5053408891,41.0103626,29.2103946,,,,,,,,,,,,fuel,,,Petrol Ofisi,Q1278087,en:Petrol Ofisi,,,,no,,,,,,,,,,,,,,,,,,,,,,Petrol Ofisi,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,5053328286,41.0038954,29.2168851,,,,,,,,,,,,fuel,,,,,,,,,no,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,4699023892,41.007237,29.244293,,İstanbul,TR,Sancaktepe,1,Merve Mahallesi,Yenidoğan,34791,,Mübacir Caddesi,,fuel,,,Opet,Q7072824,en:Opet,,,,,,+90 2165614300,+90 2165614312,,,,,,,yes,,,,yes,,,,,,,,Opet Sancaktepe,,,Opet Sancaktepe,,Opet Petrolcülük A.Ş.,,,,,,,,,,,,,,Yellow Pages Türkiye,,,,,,https://www.opet.com.tr/,,node
+,,5437546261,41.0154297,29.2437366,,,,,,,,,,,,fuel,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,9300226842,40.9194604,29.2866564,,,,,,,,,,,,fuel,,,Petrol Ofisi,Q1278087,,,,,yes,,,,,,,,,,,,,,,,,,,,,,Petrol Ofisi,,,,,,,,,,,,,,,,no,,,,,,,,,,,node
+,,4718712575,40.914902,29.303618,,,,,,,,,,,,fuel,,,Petrol Ofisi,Q1278087,,,,,,,,,,,,,,,,,,,,,,,,,,,Petrol Ofisi,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,5158327351,40.9406294,29.2852556,,,,,,,,,,,,fuel,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,5329319844,40.9424888,29.3020362,,İstanbul,,Pendik,,,,,,Fatih Bulvarı,,fuel,,,Petrol Ofisi,Q1278087,en:Petrol Ofisi,,,,,,,,,,,,,,,,,,,,,,,,,,Petrol Ofisi,بو,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,5344919571,40.9422553,29.30125,,İstanbul,,Pendik,,,,,,Fatih Bulvarı,,fuel,,,Lukoil,Q329347,en:Lukoil,,,,,,,,,,,,,,,,,,,,,,,,,,Lukoil,لوك اويل,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,5542883589,40.9419343,29.30161,,İstanbul,,Pendik,,,,,,Eşref bitlis blv,,fuel,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Bulvar girişi,بولفار كيريشا;بولفا كيريش,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,5542883633,40.948057,29.2996747,,İstanbul,,Pendik,,,,,,Fatih bulguru,,fuel,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Akşamsettin,محطة حافلات)اكشام ستين,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,4699018047,40.9612,29.282842,,İstanbul,TR,Sultanbeyli,221,Turgut Reis Mahallesi,,34930,,Demokrasi Caddesi,,fuel,,,Opet,Q7072824,en:Opet,,,,,,+90 2164194242,+90 2163984764,,,,,,,yes,,,,yes,,,,,,,,Opet Sultanbeyli,,,,,Opet Petrolcülük A.Ş.,,,,,,,,,,,,,,Yellow Pages Türkiye,,,,,,https://www.opet.com.tr/,,node
+,,5208250439,40.9605351,29.2916233,,,,,,,,,,,,fuel,,,Shell,Q110716465,en:Royal Dutch Shell,,,,,,,,,,,,,,,,,,,,,,,,,,Shell,,,,,Shell,,,,,,,,,,,,,,,,,,,,,,node
+,,5542886345,40.951119,29.2976145,,İstanbul,,Pendik,,,,,,sanayiye,,fuel,,,TotalEnergies,Q154037,fr:Total Énergies,,,,,,,,,,,,,,,,,,,,,,,,,,total Emkar petrol sanayi karsì,بترول,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,4699022966,40.9266858,29.3175598,,İstanbul,TR,Pendik,172,Harmandere Mahallesi,Kurtköy,34912,,Yeni Ankara Caddesi,,fuel,,,Shell,Q110716465,,,,,,,+90 2164826365,+90 2164826364,,,,,,,yes,,,,yes,yes,,,,,,,Shell Sabiha Gökçen,,,,24/7,Shell Türkiye,,,,,,,,,,,no,,,Yellow Pages Türkiye,,,,,,https://www.shell.com.tr/,,node
+,,4779866887,40.9264845,29.3156064,,,,,,,,,,,,fuel,,,Opet,Q7072824,en:Opet,,,,,,,,,,,,,,yes,,,,,yes,,,,,,,Opet,,,,24/7,Opet,,,,,,,,,,,,,,,,,,,,,,node
+,,9283139717,40.9350119,29.3288072,,İstanbul,TR,Pendik,21,Yenişehir Mahallesi,,34912,,Dedepaşa Caddesi,,fuel,,,TotalEnergies,Q154037,,,,,,,,,,,,,,,yes,,,,yes,yes,,,,,,,TotalEnergies TSK Mehmetcik Vakfı,,,,24/7,Güzel Enerji,,,,,,,,,,,,,,,,,,,,https://totalenergiesistasyonlari.com.tr/,,node
+,,12240815361,40.9172131,29.3543737,,,,,,,,,,,,fuel,,,TotalEnergies,Q154037,,,,,,,,,,,,,,,,,,,,,,,,,,,Total Energies,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,9272881832,40.9183976,29.3514665,,İstanbul,TR,Tuzla,6,Fatih Mahallesi,,34956,,Çelebi Caddesi,,fuel,,,TotalEnergies,Q154037,en:Opet,,2025-04-27,,,,+90 2164824973,+90 2164825011,,,,,,,yes,,,,yes,,,,,,,,Total Tuzla,,,mehmetcik vakfi 552,24/7,Opet Petrolcülük A.Ş.,,,,,,,,,,,,,,Yellow Pages Türkiye,,,,,,https://www.opet.com.tr/,,node
+,,12240815362,40.9206579,29.3502175,,İstanbul,TR,Tuzla,2,Fatih Mahallesi,,34956,,Katip Çelebi Caddesi,,fuel,,,TotalEnergies,Q154037,tr:Opet,,2025-04-27,,,,+90 2164824973,+90 2164824983,,,,,,,yes,,,,yes,,,,,,,,Total Tuzla,,,,24/7,Opet Petrolcülük A.Ş.,,,,,,,,,,,,,,Yellow Pages Türkiye,,,,,,https://www.opet.com.tr/,,node
+,,6863696019,40.9274927,29.3469241,,,,,,,,,,,,fuel,,,Petrol Ofisi,Q1278087,en:Petrol Ofisi,,,,,,,,,,,,,,,,,,,,,,,,,,Petrol Ofisi,,,,,,,,,,,,,,,,,,,bing,,,,,,,,node
+,,8852452641,40.931674,29.3389549,,İstanbul,TR,Tuzla,,Fatih Mahallesi,,34956,,Eski Ankara Caddesi Tepeören Yolu,,fuel,,,Opet,Q7072824,tr:Opet,,,,,,+90 2164829608,+90 2164829606,,,,,,,yes,,,,yes,,,,,,,,Opet Tuzla,,,Opet Tuzla hedef 2,,Opet Petrolcülük A.Ş.,,,,,,,,,,,,,,Yellow Pages Türkiye,,,,,,https://www.opet.com.tr/,,node
+,,7621910819,40.9393933,29.3172635,,,,,,,,,,,,fuel,,,Petrol Ofisi,Q1278087,en:Petrol Ofisi,,,,,,,,,,,,,,,,,,,,,,,,,,Petrol Ofisi,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,5542883570,40.9694406,29.2571926,,İstanbul,,Sultanbeyli,,,,,,faith bulvarı Caddesi,,fuel,,,TotalEnergies,Q154037,fr:TotalEnergies,,,,,,,,,,,,,,,,,,,,,,,,,,Total,محطة وقود توتال,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,5151430409,40.9697013,29.2659915,,,,,,,,,,,,fuel,,,TotalEnergies,Q154037,fr:TotalEnergies,,,,,,,,,,,,,,,,,,,,,,,,,,Total,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,5542883408,40.9711613,29.2575172,,İstanbul,,Sultanbeyli,,,,,,Atatürk Caddesi,,fuel,,,Opet,Q7072824,en:Opet,,,,,,,,,,,,,,,,,,,,,,,,,,Opet,محطة وقود اوبيت,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,5329320553,40.9727059,29.2622919,,İstanbul,,Sultanbeyli,,,,,,,,fuel,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,P MAX,ب ماكس,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,4779867627,40.9650131,29.2720354,,,,,,,,,,,,fuel,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,5151220720,40.967791,29.2699856,,,,,,,,,,,,fuel,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,5329338009,40.9643618,29.2742466,,İstanbul,,Sultanbeyli,,,,,,Erdoğan caddesi,,fuel,,,Aytemiz,Q62274352,,,,,,,,,,,,,,,,,,,,,,,,,,,Aytemiz,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,5542883356,40.9643673,29.281366,,İstanbul,,Sultanbeyli,,,,,,Fatih Bulvarı Caddesi,,fuel,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Onex,محطة وقود اونكس,,,,,,,,,,,,,,02164985028,,,,,,,,,,,,node
+,,5542883700,40.9825628,29.2667627,,İstanbul,,Sultanbeyli,,,,,,bosna Caddesi,,fuel,,,Shell,Q110716465,en:Royal Dutch Shell,,,,,,,,,,,,,,,,,,,,,,,,,,Shell,محطة وقود سيليجت,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,5542889147,40.9638346,29.2844653,,İstanbul,,Pendik,,,,,,Fatih Bulvarı Caddesi,,fuel,,,Türkiye Petrolleri,Q15946806,,,,,,,,,,,,,,,,,,,,,,,,,,,TP - Türkiye Petrolleri,محطة استاسيون,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,4699023914,40.990082,29.263793,,İstanbul,TR,Sultanbeyli,4,Battalgazi Mahallesi,,34935,,Mimar Sinan Caddesi,,fuel,,,Opet,Q7072824,tr:Opet,,,,,,+90 2165926987,+90 2165926252,,,,,,,yes,,,,yes,,,,,,,,Opet Sultanbeyli,محطة وقود اوبيت,,,,Opet Petrolcülük A.Ş.,,,,,,,,,,,,,,Yellow Pages Türkiye,,,,,,https://www.opet.com.tr/,,node
+,,9311961843,41.0157593,29.1531253,,,,,,,,,,,,fuel,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,bing,,,,,,,,node
+,,5053458360,41.0181927,29.171658,,,,,,,,,,,,fuel,,,BP,Q152057,,,,,,,,,,,,,,,,,,,,,,,,,,,BP,,,,24/7,,,,,,,,,,,,,,,,,,,,,https://www.bp.com/tr_tr/turkey/retail.html,,node
+,,2264750239,41.0370814,29.1556729,,,,,,,,,,,,fuel,,,Shell,Q110716465,en:Royal Dutch Shell,,,,,,,,,,,,,,,,,,,,,,,,,,Shell,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,6012596061,41.0322908,29.1736573,,,,,,,,,,,,fuel,,,Shell,Q110716465,en:Royal Dutch Shell,,,,,,,,,,,,,,,,,,,,,,,,,,Shell,,,,,,,,,,,,,,,,,,,,,,,,,,yes,node
+,,5053409725,41.0165644,29.1777204,,,,,,,,,,,,fuel,,,Petrol Ofisi,Q1278087,en:Petrol Ofisi,,,,yes,,,,,,,,,,,,,,,,,,,,,,Petrol Ofisi,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,9312925430,41.0449576,29.1771714,,,,,,,,,,,,fuel,,,TotalEnergies,Q154037,fr:TotalEnergies,,,,,,,,,,,,,,,,,,,,,,,,,,Total,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,12169841706,41.0554432,29.1887592,,,,,,,,,,,,fuel,,,Opet,Q7072824,,,,,,,,,,,,,,,,,,,,,,,,,,,Opet,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,12169841707,41.0552294,29.1847871,,,,,,,,,,,,fuel,,,Opet,Q7072824,,,,,,,,,,,,,,,,,,,,,,,,,,,Opet,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,6380773887,41.0248356,29.2256803,,,,,,,,,,,,fuel,,,BP,Q152057,en:BP,,,,,,,,,,,,,,,,,,,,,,,,,,BP,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,5437546316,41.0269115,29.2397661,,,,,,,,,,,,fuel,,,Shell,Q110716465,,,,,,,,,,,,,,,,,,,,,,,,,,,Shell,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,7125660786,41.026754,29.2427586,,,,,,,,,,,,fuel,,,Opet,Q7072824,,,,,,,,,,,,,,,,,,,,,,,,,,,Opet,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,12307722101,41.0310203,29.230925,,,,,,,,,,,,fuel,,,Shell,Q110716465,,,,,,,,,,,,,,,,,,,,,,,,,,,Shell,,,,24/7,,,,,,,,,,,,,,,,,,,,,https://www.shell.com.tr/,,node
+,,5437672597,41.0396942,29.2345379,,,,,,,,,,,,fuel,,,Petrol Ofisi,Q1278087,fr:Total (entreprise),,,,,,,,,,,,,,,,,,,,,,,,,,Petrol Ofisi,,,,24/7,,,,,,,,,,,,,,,,,,,,,https://www.petrolofisi.com.tr/,,node
+,,4724575294,41.0521545,29.2397197,,,,,,,,,,,,fuel,,,TotalEnergies,Q154037,fr:Total (entreprise),,,,,,,,,,,,,,,,,,,,,,,,,,TotalEnergies,توتال,,,,Baltacıoğlu Petrol,,,,,,,,,,,,,,,,,,,,https://tr.totalenergies.com/,,node
+,,5031730251,41.0437708,29.2791974,,,,,,,,,,,,fuel,,,Petrol Ofisi,Q1278087,en:Petrol Ofisi,,,,,,,,,,,,,,,,,,,,,,,,,,Petrol Ofisi,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,4371188640,41.0920655,29.2878451,,,,,,,,,,,,fuel,,,Shell,Q110716465,,,,,,,,,,,,,,,,,,,,,,,,,,,Shell,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,4371188639,41.101313,29.2901302,,,,,,,,,,,,fuel,,,Petrol Ofisi,Q1278087,,,,,yes,,,,,,,,,,,,,,,,,,,,,,Petrol Ofisi,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,11549900108,41.0847966,29.3322251,,,,,,,,,,,,fuel,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,3095087044,41.0880723,29.3438026,,,,,,,,,,,,fuel,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,bing,,,,,,,,node
+,,9283238444,41.0880657,29.3451445,,,,,,,,,,,,fuel,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,9283238443,41.0876776,29.3476389,,,,,,,,,,,,fuel,,,TotalEnergies,Q154037,,,,,,,,,,,,,,,,,,,,,,,,,,,TotalEnergies,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,4699018970,41.109934,29.310702,,İstanbul,TR,Çekmeköy,182/A,Sırapınar Mahallesi,,34799,,Beykoz Caddesi,,fuel,,,Opet,Q7072824,tr:Opet,,,,,,+90 2164355927,+90 2164355925,,,,,,,yes,,,,yes,,,,,,,,Opet Çekmeköy,,,,,Opet Petrolcülük A.Ş.,,,,,,,,,,,,,,Yellow Pages Türkiye,,,,,,https://www.opet.com.tr/,,node
+,,5686969979,41.1234795,28.6248907,,,,,,,,,,,,fuel,,,BP,Q152057,,,,,,,,,,,,"check brand, BP in Turkey is acquired by Petrol Ofisi. Don't delete fixme if still BP please.",,,,,,,,,,,,,,,BP-Artı Kurumsal Kart Ve Petrol,,,,,Artı Kurumsal Kart Ve Petrol,,,,,,,,,,,,,,,,,,,,,,node
+,,5686940428,41.1365841,28.6230491,,,,,,,,,,,,fuel,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,5686970001,41.1525006,28.6170195,,,,,,,,,,,,fuel,,,Shell,Q110716465,,,,,,,,,,,,,,,,,,,,,,,,,,,Shell,,,,,Shell,,,,,,,,,,,,,,,,,,,,,,node
+,,5995243483,41.1582212,28.6135003,,,,,,,,,,,,fuel,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,11597382608,41.1921501,28.5708984,,İstanbul,,Çatalca,,Nakkaş,,34540,,,,fuel,,Edirne Yönü (Güney),Opet,Q7072824,,,,,,,,,,,,,,,,,,,,,,,,,,,Opet,,,,24/7,Opet Market ve Akaryakıt İstasyon İşletmeciliği Anonim Şirketi,,,,,,,,,,,,,,,,,,,,,,node
+,,11597382610,41.1955155,28.5699581,,İstanbul,,Çatalca,,Nakkaş,,34540,,,,fuel,,Edirne Yönü (Kuzey),Opet,Q7072824,,,,,,,,,,,,,,,,,,,,,,,,,,,Opet,,,,24/7,Opet Market ve Akaryakıt İstasyon İşletmeciliği Anonim Şirketi,,,,,,,,,,,,,,,,,,,,,,node
+,,4699019380,41.183317,28.597697,,İstanbul,TR,Arnavutköy,193,Hadımköy Mahallesi,Yassıören Köyü,34555,,Hadımköy Caddesi,,fuel,,,Opet,Q7072824,tr:Opet,,,,,,+90 2127801329,+90 2127801330,,,,,,,yes,,,,yes,,,,,,,,Opet Arnavutköy,,,,,Opet Petrolcülük A.Ş.,,,,,,,,,,,,,,Yellow Pages Türkiye,,,,,,https://www.opet.com.tr/,,node
+,,9311088544,41.1568163,28.6723328,,,,,,,,,,,,fuel,,,Petrol Ofisi,Q1278087,en:Petrol Ofisi,,,,,,,,,,,,,,,,,,,,,,,,,,Petrol Ofisi,,,,,Petrol Ofisi,,,,,,,,,,,,,,,,,,,,,,node
+,,8903542274,41.1791462,28.703004,,,,,,,,,,,,fuel,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,4699022960,41.205103,28.728262,,İstanbul,TR,Arnavutköy,406,Yavuz Selim Mahallesi,,34275,,Fatih Caddesi,,fuel,,,Opet,Q7072824,tr:Opet,,,,,,444 6 738,+90 2125975800,,,,,,,yes,,,,yes,yes,,,,,,,Opet Islah Petrol,,,,,Opet Petrolcülük A.Ş.,,,,,,,,,,,,,,Yellow Pages Türkiye,,,,,,https://www.opet.com.tr/,,node
+,,11048382462,41.2318491,28.5996615,,,,,,,,,,,,fuel,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Sunpet,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,11597382612,41.2770965,28.6124561,,,,,,,,,,,,fuel,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Turkish Petrol,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,11597382614,41.2450241,28.7014848,,İstanbul,,Arnavutköy,,Tayakadın,,34277,,Kuzey Marmara Otoyolu,,fuel,,Havalimanı Kavşağı - 1,TotalEnergies,Q154037,,,,,,,,,,,,,,,,,,,,,,,,,,,Total,,,,24/7,Güneş Enerji,,,,,,,,,,,,,,,,,,,,,,node
+,,11597382616,41.2435451,28.7040755,,İstanbul,,Arnavutköy,,Tayakadın,,34277,,Kuzey Marmara Otoyolu,,fuel,,Havalimanı Kavşağı - 2,TotalEnergies,Q154037,,,,,,,,,,,,,,,,,,,,,,,,,,,Total,,,,24/7,,,,,,,,,,,,,,,,,,,,,,,node
+,,9551068442,41.1402781,28.7728915,,,,,,,,,,,,fuel,,,Shell,Q110716465,,,,,,,,,,,,,,,,,,,,,,,,,,,Shell,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,4699018420,41.131936,28.826931,,İstanbul,TR,Sultangazi,1/1,Eski Habipler Mahallesi,,34270,,Arnavutköy Habibler Yolu,,fuel,,,Opet,Q7072824,tr:Opet,,,,,,+90 2125951526,+90 2125951521,,,,,,,yes,,,,yes,,,,,,,,Opet Sultangazi,,,,,Opet Petrolcülük A.Ş.,,,,,,,,,,,,,,Yellow Pages Türkiye,,,,,,https://www.opet.com.tr/,,node
+,,5147134748,41.1366543,28.8170534,,,,,,,,,,,,fuel,,,Alpet,Q62131561,,,,,,,,,,,,,,,,,,,,,,,,,,,Alpet,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,5455133252,41.1528607,28.7875335,,,,,,,,,,,,fuel,,,TotalEnergies,Q154037,,,,,,,,,,,,,,,,,,,,,,,,,,,Total,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,6528483391,41.1511698,28.7877841,,İstanbul,TR,Arnavutköy,1222,Boğazköy İstiklal,,34285,,Eski Edirne Caddesi,,fuel,,,Opet,Q7072824,en:Opet,,,,,,+90 212 683 81 23,+90 212 683 81 20,,,,,,,,,,,,,,,,,,,Opet,,,,24/7,Opet Petrolcülük A.Ş.,,,,,,,,,,,,,,,,,,,,https://www.opet.com.tr/,,node
+,,4924075282,41.1859346,28.7392703,,,,,,,,,,,,fuel,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,6029343475,41.1819955,28.7429251,,,,,,,,,,,,fuel,,,Petrol Ofisi,Q1278087,en:Petrol Ofisi,,,,,,,,,,,,,,,,,,,,,,,,,,Petrol Ofisi,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,9311075163,41.1775159,28.7479725,,,,,,,,,,,,fuel,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,6029343474,41.1813769,28.7448117,,,,,,,,,,,,fuel,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,İloil,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,10564354703,41.2033847,28.7597825,,,,,,,,,,,,fuel,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,12438991422,41.129753,28.8377788,,,,,,,,,,,,fuel,,,Petrol Ofisi,Q1278087,,,,,,,,,,,,,,,,,,,,,,,,,,,Petrol Ofisi,,,,,,,,,,,,,,,,,,,bing;streetlevel imagery,,,,,,,,node
+,,9283226128,41.1692589,28.9050021,,,,,,,,,,,,fuel,,,TotalEnergies,Q154037,,,,,,,,,,,,,,,,,,,,,,,,,,,Total,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,11597382625,41.179233,28.8840084,,,,,,,,,,,,fuel,,Kemerburgaz,Petrol Ofisi,Q1278087,,,,,,,,,,,,,,,,,,,,,,,,,,,Petrol Ofisi,,,,24/7,,,,,,,,,,,,,,,,,,,,,,,node
+,,5254108623,41.176591,28.8902738,,,,,,,,,,İstanbul Cd.,,fuel,,,Shell,Q110716465,en:Royal Dutch Shell,,,,,,,,,,,,,,,,,,,,,,,,,,Shell,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,10282037429,41.2478541,28.7521214,,,,,,,,,,,,fuel,,,SOCAR,Q1622293,,,,,,,,,,,,,,,,,,,,,,,,,,,SOCAR,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,9311073254,41.2345213,28.8880194,,,,,,,,,,,,fuel,,,Shell,Q110716465,en:Royal Dutch Shell,,,,,,,,,,,,,,,,,,,,,,,,,,Shell,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,6720423076,41.236291,28.9051683,,,,,,,,,,,,fuel,,,Aytemiz,Q62274352,,,,,,,,,,,,,,,,,,,,,,,,,,,Aytemiz,,,,,Aytemiz,,,,,,,,,,,,,,,,,,,,,,node
+,,11597382626,41.1560027,29.0357557,,İstanbul,,Sarıyer,,Çayırbaşı,,34453,,,,fuel,,Çayırbaşı,Shell,Q110716465,,,,,,,,,,,,,,,,,,,,,,,,,,,Shell,,,,24/7,,,,,,,,,,,+90 212 242 3871,,,,,,,,,,https://find.shell.com/tr/fuel/10050064-cayirbasi/tr_TR,,node
+,,9293419410,41.1914264,29.0368874,,,,,,,,,,,,fuel,,,BP,Q152057,en:BP,,,,,,,,,,,"check brand, BP in Turkey is acquired by Petrol Ofisi. Don't delete fixme if still BP please.",,,,,,,,,,,,,,,BP,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,9283180208,41.1278316,29.0961848,,,,Beykoz,25A,Gümüşsuyu Mahallesi,,,,Kelle İbrahim Caddesi,,fuel,,,BP,Q152057,en:BP,,,,,,,,,,,"check brand, BP in Turkey is acquired by Petrol Ofisi. Don't delete fixme if still BP please.",,,,,,,,,,,,,,,BP,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,9283180209,41.1305879,29.0935792,,İstanbul,TR,Beykoz,,Gümüşsuyu Mahallesi,,34820,,,,fuel,,,Shell,Q110716465,en:Royal Dutch Shell,,,,,,,,,,,,,,,,,,,,,,,,,,Shell,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,9312156123,41.1661931,29.056493,,,,,,,,,,,,fuel,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,bing,,,,,,,,node
+,,5686793935,41.1216431,29.1462166,,,,,,,,,,,,fuel,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,5411633625,41.1732022,29.054004,,,,,,,,,,,,fuel,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,4720232051,40.8171858,29.3625531,,,,,,,,,,,,fuel,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,4699020197,40.871794,29.371641,,İstanbul,TR,Tuzla,D: 40,Deri OSB Mahallesi,,34956,,Kumpas Caddesi,,fuel,,,,Q7072824,tr:Opet,,,,,,+90 2165043922,+90 2165043919,,,,,,,yes,,,,yes,,,,,,,,Opet Tuzla,,,,,Opet Petrolcülük A.Ş.,,,,,,,,,,,,,,Yellow Pages Türkiye,,,,,,https://www.opet.com.tr/,,node
+,,13058788561,40.8882781,29.3751917,,,,,,,,,,,,fuel,,,Opet,Q7072824,,,,,,,,,,,,,,,,,,,,,,,,,,,OPET,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,1907466158,40.8988275,29.3692152,,İstanbul,,Tuzla,9,,,,,Demokrasi Caddesi,,fuel,,Feba Petrol Tuzla,Türkiye Petrolleri,Q15946806,,,,,,,,,,,,,,,,,,,,,,,,,,,Türkiye Petrolleri,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,1907466259,40.9085841,29.3609713,,,,,,,,,,,,fuel,,,Türkiye Petrolleri,Q15946806,,,,,,,,,,,,,,,,,,,,,,,,,,,Türkiye Petrolleri,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,5022546237,40.903528,29.3945702,,,,,,,,,,,,fuel,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,9283139107,40.9358432,29.3611401,,İstanbul,,Tuzla,48,Tepeören Mahallesi,,34959,,İstanbul Park Bulvarı,,fuel,,,BP,Q152057,,,,,,,,,,,,"check brand, BP in Turkey is acquired by Petrol Ofisi. Don't delete fixme if still BP please.",,,,,,,,,,,,,,,BP,,,,,,,,,,,,,,,+90 216 677 16 29,,,,,,,,,,https://map.bp.com/tr-TR/TR/petrol-istasyonu/istanbul/formula/431015519,,node
+,,9283139109,40.9405618,29.3698716,,İstanbul,,Tuzla,21,Tepeören,,34959,,İstanbul Park Bulvarı,,fuel,,,Shell,Q110716465,,,,,,,,,,,,,,,,,,,,,,,,,,,Shell,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,9283139110,40.9426442,29.373383,,İstanbul,,,36,Tepeören Mahallesi,,34959,,İstanbul Park Bulvarı,,fuel,,,Petrol Ofisi,Q1278087,en:Petrol Ofisi,,,,,,,,,,,,,,,,,,,,,,,,,,Petrol Ofisi,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,9283139116,40.9445864,29.3880242,,,,,,,,,,,,fuel,,,Lukoil,Q329347,en:Lukoil,,,,,,,,,,,,,,,,,,,,,,,,,,Lukoil,,,,,,,,,,,,,,,,,,,bing,,,,,,,,node
+,,9283139111,40.9283857,29.4360139,,,,,,,,,,,,fuel,,,Opet,Q7072824,,,,,,,,,,,,,,,,,,,,,,,,,,,Opet,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,6973615085,40.9288418,29.4395912,,,,,,,,,,,,fuel,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,11491643319,40.9827619,29.6657486,,,,,,,,,,,,fuel,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,9293353315,41.1908234,29.4472343,,,,,,,,,,,,fuel,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,5956671712,41.1245795,29.4808701,,,,,,,,,,,,fuel,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,5084178833,41.1674095,29.5420488,,,,,,,,,,,,fuel,,,Shell,Q154950,en:Royal Dutch Shell,,,,,,,,,,,,,,,,,,,,,,,,,,Shell,,,,,Shell,,,,,,,,,,,,,,,,,,,,,,node
+,,9293393454,41.1679444,29.5613628,,,,,,,,,,,,fuel,,,Bpet,,,,,,,,,,,,,,,,,,,,,,,,,,,,BPet,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,9283238437,41.1558455,29.6043713,,,,,,,,,,,,fuel,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+,,4699023902,41.156979,29.628344,,İstanbul,TR,Şile,,Çavuş Mahallesi,,34980,,Ağva Caddesi,,fuel,,,Opet,Q7072824,tr:Opet,,,,,,+90 2167102386,+90 2167102380,,,,,,,yes,,,,yes,,,,,,,,Opet Şile,,,elif petrol opet,,Opet Petrolcülük A.Ş.,,,,,,,,,,,,,,Yellow Pages Türkiye,,,,,,https://www.opet.com.tr/,,node
+,,11176613539,41.1291236,29.8533349,,,,,,,,,,,,fuel,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,node
+41.0563547,28.3703412,1468004382,,,"[9399630295, 13464234631, 13464234632, 13464234626, 13464234627, 13464234628, 13464234629, 13464234630, 9399630295]",İstanbul,,Silivri,,Selimpaşa,,34590,,Londra Asfaltı,,fuel,,Selimpaşa Merkez,Shell,Q110716465,en:Royal Dutch Shell,,,,,,,,,,,,,,,,,,,,,,,,,,Shell,,,,24/7,,,,,,,,,,,+90 212 731 20 41,,,,bing,,,,,,https://find.shell.com/tr/fuel/12487978-selimpasa-merkez/tr_TR,,way
+41.4100924,28.1854179,1424199385,,,"[13090094732, 13090094733, 13090094734, 13090094735, 13090094732]",,,,,,,,,,,fuel,,,Sunpet,Q113579553,,,,,,,,,,,,,,,,,,,,,,,,,,,Sunpet,,,,,,,,,,,,,,,,,,,,,,,,,,,way
+41.4103585,28.1848709,1424199386,,,"[13090094736, 8635592538, 13090094733, 13090094732, 13090094737, 13090094738, 13090094740, 13090094743, 13090094739, 13090094741, 13090094736]",,,,,,,,,,,fuel,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Energy,,,,,,,,,,,,,,,,,,,,,,,,,,,way
+40.9819902,28.6824242,1363626790,,,"[12626078358, 12626078359, 12626078360, 12626078361, 12626078362, 12626078363, 12626078358]",,,,,,,,,,,fuel,,,TotalEnergies,Q154037,,,,,,,,,,,,,,,,,,,,,,,,,,,TotalEnergies,,,,,,,,,,,,,,,,,,,,,,,,,,,way
+41.0647311,28.6716933,1000476249,,,"[9235014662, 9235014663, 9235014664, 9235014669, 9235014665, 9235014662]",,,,,,,,,,,fuel,,,Opet,Q7072824,,roof,,,,,,,,,,,,,,,,,,,,,,,,,Opet,,,,,,,,,,,,,,,,,,,,,,,,,,,way
+41.091562,28.6342045,1392693608,,,"[12892038950, 12892038951, 12892038952, 12892038953, 13043574543, 12892038954, 12892038955, 12892038956, 12892038957, 12892038958, 12892038959, 12892038960, 12892038961, 12892038950]",İstanbul,,Arnavutköy,280,Ömerli,,24279,,Hadımköy - İstanbul Caddesi,,fuel,,,Petrol Ofisi,Q1278087,,,,,,,,,,,,,,,,,,,,,,,,,,,Petrol Ofisi,,,,24/7,Dinç Petrol ve Ticaret Limited Şirketi,,,,,,,,,,+90 212 798 24 25,,,,,,,,,,,,way
+41.0902612,28.6341511,1424454806,,,"[13092944992, 13092944993, 13092944994, 13092944995, 13092944996, 13092944997, 13092944998, 13092944999, 13092945000, 13092960923, 13092960917, 13092944992]",İstanbul,,Arnavutköy,277,Ömerli,,24279,,Hadımköy - İstanbul Caddesi,,fuel,,Ömerli Hadımköy,Shell,Q110716465,,,,,,,,,,,,,,,,,,,,,,,,,,,Shell,,,,24/7,,,,,,,,,,,+90 212 623 23 77,,,,,,,,,,https://find.shell.com/tr/fuel/10056596-omerli-hadimkoy/tr_TR,,way
+41.0686901,28.6606461,1449719989,,,"[12520916585, 5761897087, 2145832921, 13297240173, 12520916586, 12520916585]",,,,,,,,,,,fuel,,,Petrol Ofisi,Q1278087,,,,,,,,,,,,,yes,,yes,,,,yes,yes,,,,,,,Petrol Ofisi,,,,,Petrol Ofisi,,,,,,,,,,,no,,,,,,,,,,,way
+41.0129288,28.7917857,554699358,,,"[5353052167, 5353052168, 5353052169, 5353052170, 5353052171, 5353052172, 5353052167]",,,,,,,,,,,fuel,,,Petrol Ofisi,Q1278087,,yes,,,,,,,,,,,,,,,,,,,,,,,,,Petrol Ofisi,,,,,,,,,,,,,,,,,,,,,,,,,,,way
+41.0495087,28.8205087,1375210243,,,"[12732942276, 12732942277, 12732942299, 12732942300, 12732942278, 12732942279, 12732942280, 12732942281, 12732942282, 12732942283, 12732942276]",İstanbul,,Bağcılar,92,Mahmutbey,,34218,,Peyami Safa Caddesi,,fuel,,Bağcılar,Shell,Q110716465,,,,,,,,,,,,,,,,,,,,,,,,,,,Shell,,,,24/7,,,,,,,,,,,+90 533 304 69 23,,,,,,,,,,https://find.shell.com/tr/fuel/12771275-bagcilar/tr_TR,,way
+41.1039976,28.7829606,1425442035,,,"[13102296741, 13507835301, 13102296742, 13102296743, 13102296744, 13102296745, 13102296746, 13102296741]",,,,,,,,,,,fuel,,,Petrol Ofisi,Q1278087,,,,,,,,,,,,,,,,,,,,,,,,,,,Petrol Ofisi,,,,,,,,,,,,,,,,,,,,,,,,,,,way
+41.1204568,28.7824643,1471445387,,,"[13502471501, 13502471505, 13502471506, 13502471507, 13502471508, 13502471502, 13502471501]",,,,,,,,,,,fuel,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,way
+41.084085,28.7844624,1424261394,,,"[13090813027, 13090813028, 13090813029, 13090813030, 13090813031, 13090813032, 13090813033, 13090813034, 13090813035, 13090813027]",,,,,,,,,,,fuel,,,Opet,Q7072824,,,,,,,,,,,,,,,,,,,,,,,,,,,Opet,,,,,,,,,,,,,,,,,,,,,,,,,,,way
+41.083839,28.8122704,1331301679,,,"[12317914429, 13038153653, 12317914434, 13038153654, 12317914430, 12317914431, 12317914433, 12317914429]",,,,,,,,,,,fuel,,,Opet,Q7072824,,,,,,,,,,,,,,,,,,,,,,,,,,,Opet,,,,,,,,,,,,,,,,,,,,,,,,,,,way
+41.0840749,28.8105147,1334760761,,,"[12348325168, 9311036216, 12348325170, 12348325171, 12348325172, 12348325173, 12348325174, 12348325175, 12348325176, 12320254123, 12348325168]",,,,,,,,,,,fuel,,,Shell,Q110716465,en:Royal Dutch Shell,,,,yes,,,,,,,,,,yes,,,,yes,yes,yes,,,,1,,Shell,,,,,,,,,,,,,,,,,,,,,,,,,,,way
+41.0987516,28.7891186,1338333199,,,"[12379201113, 12379201114, 12379201115, 12379201116, 12379201113]",,,,,,,,,,,fuel,,,Shell,Q110716465,,,,,,,,,,,,,,,,,,,,,,,,,,,Shell,,,,,,,,,,,,,,,,no,,,,,,,,,,,way
+41.0983924,28.7910556,1323152130,,,"[12243925961, 12243925962, 12243925963, 12243925964, 12243925965, 12243925966, 12243925967, 12243925968, 12243925961]",,,,,,,,,,,fuel,,,Shell,Q110716465,,roof,,,,,,,,,,,,,,,,,,,,,,,,,Shell,,,,,,,,,,,,,,,,,,,,,,,,,,,way
+41.1135019,28.7979874,1418767436,,,"[13038153647, 13038153648, 13038153649, 13038153608, 13038153609, 13038153650, 13038153647]",,,,,,,,,,,fuel,,,Opet,Q7072824,,,,,,,,,,,,,,,,,,,,,,,,,,,Opet,,,,,,,,,,,,,,,,,,,,,,,,,,,way
+41.0519538,28.9112213,1331735729,,,"[11586797688, 12321543163, 11897549591, 12321543164, 12321543165, 12321543166, 11586797688]",İstanbul,,Gaziosmanpaşa,154,Merkez,,34245,,Rami Kışla Caddesi,,fuel,,Rami,Opet,Q7072824,,,,,,,,,,,,,,,,,,,,,,,,,,,Opet,,,,24/7,Özden Akaryakıt,,,,,,,,,,,,,,,,,,,,,,way
+41.054143,28.9104477,1331735730,,,"[12240988993, 12321543170, 12321543171, 12321543172, 12240988993]",İstanbul,,Gaziosmanpaşa,,Merkez,,34245,,,,fuel,,,Energy,,,,,,,,,,,,,,,,,,,,,,,,,,,,Energy,,,,24/7,Kuranlar Petrol,,,,,,,,,,,,,,,,,,,,,,way
+41.0453417,28.9170198,1341105372,,,"[12240988991, 12405696020, 12405696021, 12405696022, 12405696023, 12405696024, 12405696025, 12405696028, 12405696026, 12405696027, 12240988991]",İstanbul,,Eyüpsultan,,Rami Cuma,,34055,,,,fuel,,Rami,Shell,Q110716465,,,,,,,,,,,,,,,,,,,,,,,,,,,Shell,,,,24/7,Gökkuşağı Petrol,,,,,,,,,,+90 212 613 36 05,no,,,,,,,,,https://find.shell.com/tr/fuel/12475913-rami/tr_TR,yes,way
+41.0696317,28.9031435,1330404728,,,"[12309458987, 12309458988, 12309458989, 12309458990, 12309458987]",İstanbul,,Gaziosmanpaşa,146,Fevzi Çakmak,,34255,,Cengiz Topel Caddesi,,fuel,,,termo,Q113565581,,,,,,,,,,,,,,,,,,,,,,,,,,,Termo,,,,24/7,,,,,,,,,,,,,,,,,,,,,,,way
+41.0926542,28.9172461,1327932392,,,"[12243953558, 12285956296, 12285956297, 13481938434, 13594008823, 13594008822, 13594008821, 13594008820, 13594008824, 13481938425, 12286005902, 12286005903, 12286005904, 12286005908, 12286005907, 12286005906, 12286005905, 12243953558]",İstanbul,,Gaziosmanpaşa,11,Mevlana,,34255,,881. Sokak,,fuel,,,Opet,Q7072824,,,,,,,,,,,,,,,,,,,,,,,,,,,Opet,,,,24/7,Güven Elif Otoyol İşletmeleri Anonim Şirketi,,,,,,,,,,+90 212 890 65 81,,,,,,,,,,,,way
+40.8521033,29.3115774,1363924454,,,"[12629234595, 12629234596, 12629234592, 12629234593, 12629235209, 12629234594, 12629234595]",,,,,,,,,,,fuel,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,way
+40.9172729,29.1437507,1426428474,,,"[13112680047, 13112680048, 13112680049, 13112680050, 13112680047]",,,,,,,,,,,fuel,,,Opet,Q7072824,,,,,,,,,,,,,,,,,,,,,,,,,,,Opet,,,,,,,,,,,,,,,,,,,,,,,,,,,way
+40.9314128,29.1287879,404568673,,,"[4068422886, 4068422887, 4068422888, 4068446089, 4068422886]",,,,,,,,,,,fuel,,,BP,Q152057,,roof,,,,,,,,,,,,,,,,,,,,,,,,,BP,,,,,,,,,,,,,,,,,,,,,,,,,,,way
+40.9752336,29.0522882,499316078,,,"[4906013471, 4906013751, 4906013566, 4906013461, 4906013565, 4906013750, 4906013471]",,,,,,,,,,,fuel,,Bağdat Caddesi,Shell,Q110716465,en:Royal Dutch Shell,roof,,,yes,,,,,,,,,,,,,,,,,,,,1,,Shell,,,,,,,,,,,,,,,,,,,,,,,,,,,way
+40.987698,29.1438224,1383516712,,,"[12809284067, 12809284122, 10261146657, 12809284066, 12809284067]",,,,,,,,,,,fuel,,,Opet,Q7072824,,,,,,,,,,,,,,,,,,,,,,,,,,,Opet,,,,,,,,,,,,,,,,,,,,,,,,,,,way
+40.9885285,29.1455384,1383516714,,,"[10261146679, 12809284124, 10261146680, 10261146679]",,,,,,,,,,,fuel,,,Petrol Ofisi,Q1278087,,,,,,,,,,,,,,,,,,,,,,,,,,,Petrol Ofisi,,,,,,,,,,,,,,,,,,,,,,,,,,,way
+41.0352907,28.9936989,225470928,,,"[2342422510, 2342422502, 2342422499, 2342422540, 2342422555, 2342422551, 2342422517, 2342422510]",,,,,,,,,,,fuel,,,Türkiye Petrolleri,Q15946806,,,,,,,,,,,,,,,,,,,,,,,,,,,Türkiye Petrolleri,,,,,,,,,,,,,,,,,,,,,,,,,,,way
+41.0833601,28.9998088,1457542359,,,"[13367475296, 13367475295, 13367475294, 13367475293, 13367475296]",,,,,,,,,,,fuel,,,Opet,Q7072824,,yes,,,,,,,,,,,,yes,,,,,,yes,,,,,,,Opet,,,,,,,,,,,,,,,,,,,,,,,,,,,way
+41.0242908,29.0549021,1463906395,,,"[6824870927, 13428445591, 6824870909, 6824870923, 6824870925, 6824870927]",,,,,,,,,,,fuel,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,way
+41.0364956,29.0654622,1457608138,,,"[1632509666, 13368160446, 13368160447, 12019788121, 12019754554, 1632509666]",,,,,,,,,,,fuel,,,TotalEnergies,Q154037,,,,,,,,,,,,,,,,,,,,,,,,,,,TotalEnergies,,,,,,,,,,,,,,,,,,,,,,,,,,,way
+41.0168551,29.076225,1463902928,,,"[12979188228, 7145762089, 13428414666, 13428414667, 13428414668, 12979188227, 12979188228]",,,,,,,,,,,fuel,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,way
+41.0225385,29.0753418,229914140,,,"[2384495345, 2384495346, 2384495347, 2384495348, 2384495345]",,,,,,,,,,,fuel,,,Petrol Ofisi,Q1278087,,roof,,,,,,,,,,,,,,,,,,,,,,,1,,Petrol Ofisi,,,,,Petrol Ofisi,,,,,,,,,,,,,,,,,,,,,,way
+41.0329489,29.1108854,1472906656,,,"[13514020129, 4553844241, 10316677592, 6837199412, 13514020129]",,,,,,,,,,,fuel,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,way
+41.0205186,29.1296318,1466829137,,,"[13453332615, 13453332616, 13453332614, 13453332617, 12979188363, 13453332615]",,,,,,,,,,,fuel,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,way
+41.0167684,29.1415353,1384283545,,,"[12293965659, 12816554023, 12816554024, 12816554025, 12816554026, 12293965659]",,,,,,,,,,,fuel,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,way
+41.0164513,29.1459069,1384283544,,,"[12816554021, 12293965662, 12816554022, 8630882668, 12816554021]",,,,,,,,,,,fuel,,,Opet,Q7072824,,,,,,,,,,,,,,,,,,,,,,,,,,,Opet,,,,,,,,,,,,,,,,,,,,,,,,,,,way
+40.9892906,29.1952693,1383512553,,,"[12809245677, 12809245680, 12809245681, 12809245682, 12809245683, 12809245678, 12809245677]",,,,,,,,,,,fuel,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,way
+40.9890925,29.1940295,1395490267,,,"[12917243219, 12917243221, 12917243222, 12917243220, 12917243219]",,,,,,,,,,,fuel,,,,,,roof,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,way
+40.988065,29.1931268,1395490271,,,"[12917243239, 12917243240, 12917243241, 12917243242, 12917243239]",,,,,,,,,,,fuel,,,,,,roof,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,way
+41.0141006,29.1636497,1466829119,,,"[13453323559, 13453323560, 13453323561, 13453323562, 13453323559]",,,,,,,,,,,fuel,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,way
+40.9993212,29.1816253,363637322,,,"[3678063462, 3678063463, 3678063464, 3678063465, 3678063466, 3678063467, 3678063462]",,,,,,,,,,,fuel,,,,,,industrial,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,way
+41.008602,29.2016653,1384652933,,,"[8637968534, 8637968533, 12819711204, 9794657780, 8637968534]",,,,,,,,,,,fuel,,,Petrol Ofisi,Q1278087,,,,,,,,,,,,,,,,,,,,,,,,,,,Petrol Ofisi,,,,,,,,,,,,,,,,,,,,,,,,,,,way
+40.9694396,29.2201763,1468074280,,,"[13464813130, 13464813131, 13464813132, 13464813133, 13464813137, 13464813130]",,,,,,,,,,,fuel,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,way
+40.9777426,29.22051,1468074266,,,"[13464809455, 13464809466, 13464809467, 13464809468, 13464809464, 13464809465, 13464809455]",,,,,,,,,,,fuel,,,Opet,Q7072824,,,,,,,,,,,,,,,,,,,,,,,,,,,Opet,,,,,,,,,,,,,,,,,,,,,,,,,,,way
+40.9749913,29.2407212,1383338957,,,"[12806840025, 12806840028, 12806840029, 12806840030, 12806840031, 12806840026, 12806840025]",,,,,,,,,,,fuel,,,Petrol Ofisi,Q1278087,,,,,,,,,,,,,,,,,,,,,,,,,,,Petrol Ofisi,,,,,,,,,,,,,,,,,,,,,,,,,,,way
+40.9916928,29.2238494,1328615126,,,"[12292231682, 12022188640, 9796710593, 12292231683, 12292231682]",,,,,,,,,,,fuel,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,way
+41.0096292,29.2108598,1458245698,,,"[7569789948, 7817431980, 13373595470, 9631017031, 9723710749, 7817432108, 7817432107, 7569789947, 7569789948]",,,,,,,,,,,fuel,,,BP,Q152057,,,,,,,,,,,,,,,,,,,,,,,,,,,BP,,,,,,,,,,,,,,,,,,,,,,,,,,,way
+41.003927,29.2168552,1348957922,,,"[7590353437, 7590353435, 12478150157, 12478150158, 7593132264, 7590353437]",,,,,,,,,,,fuel,,,,,,,,,no,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,way
+41.0136909,29.2462526,1466816205,,,"[12805030602, 13453151643, 13453151640, 13453151641, 7569789962, 12805030602]",,,,,,,,,,,fuel,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,way
+40.9261964,29.3510894,499614869,,,"[4908710739, 4908710549, 4908710548, 4908710483, 4908710484, 4908710738, 4908710739]",,,,,,,,,,,fuel,,,Shell,Q110716465,,yes,,,,,,,,,,,,,,,,,,,,,,,,,Shell,,,,,,,,,,,,,,,,,,,bing,,,,,,,,way
+41.036882,29.1555844,1365202373,,,"[12642261088, 12642261089, 12642261090, 12642261091, 12642261088]",,,,,,,,,,,fuel,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,way
+41.0370596,29.1556618,1365202374,,,"[12642261092, 12642261093, 12642261094, 12642261095, 12642261092]",,,,,,,,,,,fuel,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,way
+41.0370436,29.1553228,1471776252,,,"[13505006430, 13505006438, 13505006440, 13505006439, 13505006431, 13505006432, 12642516514, 12642516503, 13505006433, 13505006430]",,,,,,,,,,,fuel,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,way
+41.0164743,29.1776657,1472906878,,,"[9794662364, 13514014864, 13514014865, 13514014866, 13514014867, 9794662364]",,,,,,,,,,,fuel,,,Petrol Ofisi,Q1278087,,,,,,,,,,,,,,,,,,,,,,,,,,,Petrol Ofisi,,,,,,,,,,,,,,,,,,,,,,,,,,,way
+41.1365953,28.6229659,1476871584,,,"[13546231789, 13546231790, 13546231791, 13546231792, 13546231789]",,,,,,,,,,,fuel,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,way
+41.2574997,28.7025077,1326208723,,,"[12178023244, 12178023243, 12178023242, 12178023241, 12178023240, 12178023262, 12278155361, 12270583337, 12178023244]",İstanbul,,Arnavutköy,30,Tayakadın,,34277,,Vecihi Hürkuş Caddesi,,fuel,,İstanbul Havalimanı Kargo,SOCAR,Q1622293,,,,,,,,,,,,,,,,,,,,,,,,,,,SOCAR,,,,24/7,Azoil Petrolcülük,,,,,,,,,,,,,,,,,,,,,,way
+41.137158,28.8113126,1362930977,,,"[9678420412, 12618972479, 12618972480, 12618972481, 12618972482, 12618972483, 9678420411, 12618972484, 9678420412]",İstanbul,,Arnavutköy,1152,Boğazköy İstiklal,,34285,,Eski Edirne Asfaltı Caddesi,,fuel,,Boğazköy Girişi,Shell,Q110716465,,,,,,,,,,,,,,,,,,,,,,,,,,,Shell,,,,24/7,Zıngıl Akaryakıt,,,,,,,,,,+90 212 595 19 29,,,,,,,,,,https://find.shell.com/tr/fuel/12139468-bogazkoy-girisi/tr_TR,,way
+41.2034191,28.7598629,1411773074,,,"[12973017948, 12973017949, 12973017950, 12973017951, 12973017948]",,,,,,,,,,,fuel,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,way
+41.1958837,28.8222872,1365252225,,,"[6029246063, 12642861645, 12642861871, 11597382619, 12642861591, 12642861592, 12642861593, 12642861594, 12642861595, 12642861601, 12642861596, 12642861600, 12642861599, 12642861598, 12642861597, 6029246061, 12642861649, 12642861637, 6029246063]",İstanbul,,Eyüpsultan,,Pirinççi,,34076,,,,fuel,,Fenertepe OHT,Shell,Q110716465,,,,,,,,,,,,,,,,,,,,,,,,,,,Shell,,,,,,,,,,,,,,,+90 212 206 53 69,,,,,,,,,,https://find.shell.com/tr/fuel/12532383-isiklar-fenertepe-oht/tr_TR,,way
+41.1992848,28.8261295,1365252224,,,"[11597382624, 12642861581, 12642861582, 12642861583, 12642861584, 12642861585, 12642861586, 12642861587, 12642861588, 12642861739, 12642861589, 12642861744, 12642861590, 11597382624]",İstanbul,,Eyüpsultan,14/2,Pirinççi,,34076,,Ziyade Sokağı,,fuel,,OHT1 - Doğu,Aytemiz,Q62274352,,,,,,,,,,,,,,,,,,,,,,,,,,,Aytemiz,,,,24/7,,,,,,,,,,,+90 212 206 52 88,,,,,,,,,,,,way
+41.25183,28.7384002,1342730996,,,"[7928619856, 7928619857, 7928619858, 7928619859, 12278146470, 12423226035, 12423226036, 12243991774, 7928619856]",İstanbul,,Arnavutköy,4,İmrahor,,34275,,Terminal Caddesi,,fuel,,İstanbul Havalimanı,TotalEnergies,Q154037,,,,,,,,,,,,,,,,,,,,,,,,,,,TotalEnergies,,,,24/7,OYAK Enerji,,,,,,,,,,+90 543 221 07 08,,,,,,,,,,,,way
+41.1990644,29.1485537,1470145896,,,"[13482835748, 13482835749, 13482835750, 13482835751, 13482835752, 13482835753, 13482835754, 13482835755, 13482835756, 13482835757, 13482835758, 13482835759, 13482835748]",,,,,,,,,,,fuel,,Poyrazköy Kuzey,Opet,Q7072824,,,,,,,,,,,,,,,,,,,,,,,,,,,Opet,,,,,,,,,,,,,,,,,,,,,,,,,,,way
+41.1974456,29.1462511,1349551960,,,"[12484433363, 13482835747, 13482835746, 13482835745, 13482835743, 13482835744, 13482835742, 13482835741, 13061815734, 12484433365, 12484433366, 12484433363]",,,,,,,,,,,fuel,,Poyrazköy Güney,Opet,Q7072824,,,,,,,,,,,,,,,,,,,,,,,,,,,Opet,,,,,,,,,,,,,,,,,,,,,,,,,,,way
+40.9405848,29.3698435,1466274094,,,"[13448592038, 13448592039, 13448592040, 13448592041, 13448592042, 13448592038]",,,,,,,,,,,fuel,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,way
+40.9427977,29.3734955,1466274095,,,"[2793721861, 2793721862, 13448592044, 13448592045, 2793721859, 2793721861]",,,,,,,,,,,fuel,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,way
