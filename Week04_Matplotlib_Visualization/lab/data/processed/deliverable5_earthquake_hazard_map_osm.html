@@ -17,7 +17,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_9895347631be12c505321d5943b324b4 {
+                #map_46f298febdb8c998e0305ccdfd0ffa0a {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -55,14 +55,14 @@
 <body>
     
     
-            <div class="folium-map" id="map_9895347631be12c505321d5943b324b4" ></div>
+            <div class="folium-map" id="map_46f298febdb8c998e0305ccdfd0ffa0a" ></div>
         
 </body>
 <script>
     
     
-            var map_9895347631be12c505321d5943b324b4 = L.map(
-                "map_9895347631be12c505321d5943b324b4",
+            var map_46f298febdb8c998e0305ccdfd0ffa0a = L.map(
+                "map_46f298febdb8c998e0305ccdfd0ffa0a",
                 {
                     center: [41.02501570512821, 28.950261302564105],
                     crs: L.CRS.EPSG3857,
@@ -74,13 +74,13 @@
 
                 }
             );
-            L.control.scale().addTo(map_9895347631be12c505321d5943b324b4);
+            L.control.scale().addTo(map_46f298febdb8c998e0305ccdfd0ffa0a);
 
             
 
         
     
-            var tile_layer_052edc428dad637352fa3feea40467a6 = L.tileLayer(
+            var tile_layer_dfefe5dec05e75f18f812a5c2841f654 = L.tileLayer(
                 "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
                 {
   "minZoom": 0,
@@ -97,46 +97,46 @@
             );
         
     
-            tile_layer_052edc428dad637352fa3feea40467a6.addTo(map_9895347631be12c505321d5943b324b4);
+            tile_layer_dfefe5dec05e75f18f812a5c2841f654.addTo(map_46f298febdb8c998e0305ccdfd0ffa0a);
         
     
-    var color_map_99b9d1f9fa4995e5e6c38b9e16375847 = {};
+    var color_map_a9d0eeb8bff69240d5ec771e37b06c2a = {};
 
     
-    color_map_99b9d1f9fa4995e5e6c38b9e16375847.color = d3.scale.threshold()
+    color_map_a9d0eeb8bff69240d5ec771e37b06c2a.color = d3.scale.threshold()
               .domain([2.563447073306566, 2.6656573437068447, 2.7678676141071232, 2.8700778845074018, 2.97228815490768, 3.0744984253079584, 3.176708695708237, 3.2789189661085154, 3.3811292365087935, 3.483339506909072, 3.5855497773093505, 3.687760047709629, 3.7899703181099076, 3.892180588510186, 3.9943908589104646, 4.096601129310743, 4.198811399711021, 4.301021670111299, 4.403231940511578, 4.505442210911856, 4.607652481312135, 4.709862751712413, 4.812073022112692, 4.91428329251297, 5.016493562913249, 5.118703833313527, 5.220914103713806, 5.323124374114084, 5.425334644514363, 5.527544914914641, 5.629755185314919, 5.731965455715198, 5.834175726115475, 5.936385996515755, 6.0385962669160325, 6.140806537316312, 6.2430168077165895, 6.345227078116869, 6.447437348517147, 6.549647618917425, 6.651857889317704, 6.754068159717982, 6.856278430118261, 6.958488700518539, 7.060698970918817, 7.162909241319095, 7.265119511719374, 7.367329782119652, 7.469540052519932, 7.571750322920209, 7.673960593320488, 7.7761708637207665, 7.878381134121045, 7.980591404521323, 8.082801674921601, 8.185011945321879, 8.28722221572216, 8.389432486122438, 8.491642756522715, 8.593853026922993, 8.696063297323272, 8.798273567723552, 8.90048383812383, 9.002694108524107, 9.104904378924385, 9.207114649324666, 9.309324919724943, 9.411535190125221, 9.513745460525499, 9.615955730925778, 9.718166001326058, 9.820376271726335, 9.922586542126613, 10.024796812526892, 10.127007082927172, 10.22921735332745, 10.331427623727727, 10.433637894128005, 10.535848164528284, 10.638058434928563, 10.740268705328841, 10.84247897572912, 10.944689246129398, 11.046899516529676, 11.149109786929955, 11.251320057330233, 11.353530327730512, 11.45574059813079, 11.557950868531067, 11.660161138931347, 11.762371409331625, 11.864581679731904, 11.966791950132182, 12.06900222053246, 12.171212490932739, 12.273422761333018, 12.375633031733297, 12.477843302133575, 12.580053572533853, 12.682263842934132, 12.78447411333441, 12.886684383734687, 12.988894654134967, 13.091104924535244, 13.193315194935524, 13.295525465335801, 13.39773573573608, 13.499946006136359, 13.602156276536636, 13.704366546936916, 13.806576817337193, 13.90878708773747, 14.010997358137752, 14.11320762853803, 14.215417898938309, 14.317628169338587, 14.419838439738864, 14.522048710139144, 14.624258980539421, 14.726469250939699, 14.828679521339978, 14.930889791740256, 15.033100062140536, 15.135310332540813, 15.23752060294109, 15.33973087334137, 15.441941143741648, 15.544151414141927, 15.646361684542205, 15.748571954942484, 15.850782225342764, 15.952992495743041, 16.05520276614332, 16.1574130365436, 16.259623306943876, 16.361833577344157, 16.464043847744435, 16.566254118144712, 16.66846438854499, 16.770674658945268, 16.872884929345545, 16.975095199745823, 17.0773054701461, 17.179515740546382, 17.28172601094666, 17.38393628134694, 17.48614655174722, 17.588356822147496, 17.690567092547774, 17.79277736294805, 17.894987633348332, 17.99719790374861, 18.099408174148888, 18.20161844454917, 18.303828714949447, 18.406038985349724, 18.508249255750002, 18.61045952615028, 18.71266979655056, 18.81488006695084, 18.917090337351116, 19.019300607751394, 19.121510878151675, 19.223721148551952, 19.32593141895223, 19.428141689352508, 19.530351959752785, 19.632562230153066, 19.734772500553344, 19.83698277095362, 19.9391930413539, 20.041403311754177, 20.143613582154458, 20.245823852554736, 20.348034122955013, 20.45024439335529, 20.55245466375557, 20.65466493415585, 20.756875204556128, 20.859085474956405, 20.961295745356683, 21.06350601575696, 21.16571628615724, 21.26792655655752, 21.370136826957797, 21.472347097358075, 21.574557367758352, 21.676767638158633, 21.77897790855891, 21.881188178959192, 21.98339844935947, 22.085608719759747, 22.18781899016003, 22.290029260560306, 22.392239530960584, 22.49444980136086, 22.59666007176114, 22.698870342161417, 22.801080612561698, 22.903290882961976, 23.005501153362253, 23.10771142376253, 23.20992169416281, 23.31213196456309, 23.414342234963367, 23.516552505363645, 23.618762775763923, 23.7209730461642, 23.82318331656448, 23.92539358696476, 24.027603857365037, 24.129814127765314, 24.232024398165592, 24.334234668565873, 24.43644493896615, 24.53865520936643, 24.640865479766706, 24.743075750166984, 24.845286020567265, 24.947496290967543, 25.04970656136782, 25.151916831768098, 25.254127102168376, 25.35633737256866, 25.458547642968938, 25.560757913369216, 25.662968183769493, 25.76517845416977, 25.867388724570052, 25.96959899497033, 26.071809265370607, 26.174019535770885, 26.276229806171163, 26.378440076571444, 26.48065034697172, 26.582860617372, 26.685070887772277, 26.787281158172554, 26.889491428572832, 26.991701698973113, 27.09391196937339, 27.19612223977367, 27.298332510173946, 27.400542780574224, 27.502753050974505, 27.604963321374782, 27.70717359177506, 27.809383862175338, 27.911594132575615, 28.013804402975897, 28.116014673376174, 28.218224943776452, 28.32043521417673, 28.422645484577007, 28.52485575497729, 28.627066025377566, 28.729276295777844, 28.83148656617812, 28.933696836578402, 29.035907106978684, 29.13811737737896, 29.24032764777924, 29.342537918179517, 29.444748188579794, 29.546958458980075, 29.649168729380353, 29.75137899978063, 29.85358927018091, 29.955799540581186, 30.058009810981467, 30.160220081381745, 30.262430351782022, 30.3646406221823, 30.466850892582578, 30.56906116298286, 30.671271433383136, 30.773481703783414, 30.87569197418369, 30.97790224458397, 31.080112514984247, 31.182322785384528, 31.284533055784806, 31.386743326185083, 31.48895359658536, 31.59116386698564, 31.69337413738592, 31.795584407786198, 31.897794678186475, 32.00000494858675, 32.10221521898703, 32.20442548938731, 32.30663575978759, 32.408846030187874, 32.51105630058815, 32.61326657098843, 32.71547684138871, 32.817687111788985, 32.91989738218926, 33.02210765258954, 33.12431792298982, 33.226528193390095, 33.32873846379037, 33.43094873419065, 33.53315900459093, 33.635369274991206, 33.73757954539149, 33.83978981579177, 33.942000086192046, 34.04421035659232, 34.1464206269926, 34.248630897392886, 34.35084116779316, 34.45305143819344, 34.55526170859372, 34.657471978993996, 34.759682249394274, 34.86189251979455, 34.96410279019483, 35.06631306059511, 35.168523330995384, 35.27073360139566, 35.37294387179594, 35.47515414219622, 35.577364412596495, 35.67957468299679, 35.78178495339705, 35.88399522379734, 35.986205494197606, 36.0884157645979, 36.190626034998175, 36.29283630539845, 36.39504657579873, 36.49725684619901, 36.599467116599286, 36.70167738699956, 36.80388765739984, 36.90609792780012, 37.008308198200396, 37.110518468600674, 37.21272873900095, 37.31493900940123, 37.41714927980151, 37.519359550201784, 37.62156982060206, 37.723780091002354, 37.82599036140263, 37.92820063180291, 38.03041090220319, 38.132621172603464, 38.23483144300374, 38.33704171340402, 38.4392519838043, 38.541462254204575, 38.64367252460485, 38.74588279500513, 38.84809306540541, 38.950303335805685, 39.05251360620596, 39.15472387660624, 39.25693414700653, 39.359144417406796, 39.46135468780709, 39.56356495820735, 39.66577522860764, 39.76798549900792, 39.8701957694082, 39.972406039808476, 40.074616310208754, 40.17682658060903, 40.27903685100931, 40.38124712140959, 40.483457391809864, 40.58566766221014, 40.68787793261042, 40.7900882030107, 40.892298473410975, 40.99450874381125, 41.09671901421153, 41.19892928461182, 41.3011395550121, 41.40334982541238, 41.505560095812655, 41.60777036621293, 41.70998063661321, 41.81219090701349, 41.914401177413765, 42.01661144781404, 42.11882171821432, 42.2210319886146, 42.323242259014876, 42.42545252941515, 42.52766279981543, 42.62987307021571, 42.732083340615986, 42.834293611016264, 42.93650388141654, 43.03871415181683, 43.1409244222171, 43.24313469261739, 43.34534496301765, 43.447555233417944, 43.54976550381822, 43.6519757742185, 43.75418604461878, 43.856396315019055, 43.95860658541933, 44.06081685581961, 44.16302712621989, 44.265237396620165, 44.36744766702044, 44.46965793742072, 44.571868207821, 44.674078478221276, 44.77628874862157, 44.87849901902183, 44.98070928942212, 45.0829195598224, 45.18512983022268, 45.287340100622956, 45.38955037102323, 45.49176064142351, 45.59397091182379, 45.696181182224066, 45.798391452624344, 45.90060172302462, 46.0028119934249, 46.10502226382518, 46.207232534225454, 46.30944280462573, 46.41165307502601, 46.51386334542629, 46.61607361582658, 46.71828388622684, 46.820494156627134, 46.9227044270274, 47.02491469742769, 47.12712496782797, 47.229335238228245, 47.33154550862852, 47.4337557790288, 47.53596604942908, 47.638176319829356, 47.74038659022963, 47.84259686062991, 47.94480713103019, 48.047017401430466, 48.14922767183076, 48.25143794223102, 48.35364821263131, 48.45585848303158, 48.55806875343187, 48.660279023832146, 48.762489294232424, 48.8646995646327, 48.96690983503298, 49.06912010543326, 49.171330375833534, 49.27354064623381, 49.37575091663409, 49.47796118703437, 49.580171457434645, 49.68238172783492, 49.7845919982352, 49.88680226863548, 49.989012539035755, 50.09122280943603, 50.193433079836325, 50.29564335023659, 50.39785362063688, 50.50006389103714, 50.602274161437435, 50.7044844318377, 50.80669470223799, 50.90890497263827, 51.011115243038546, 51.113325513438824, 51.2155357838391, 51.31774605423938, 51.41995632463966, 51.522166595039934, 51.62437686544021, 51.72658713584049, 51.82879740624077, 51.93100767664106, 52.03321794704132, 52.135428217441614, 52.23763848784188, 52.33984875824217, 52.44205902864245, 52.544269299042725, 52.646479569443, 52.74868983984328, 52.85090011024356, 52.953110380643835, 53.05532065104411, 53.15753092144439, 53.25974119184467, 53.361951462244946, 53.46416173264522, 53.5663720030455])
               .range(['#ffffccff', '#ffffccff', '#ffffcbff', '#ffffcaff', '#fffec9ff', '#fffec9ff', '#fffec8ff', '#fffdc7ff', '#fffdc7ff', '#fffdc6ff', '#fffdc5ff', '#fffcc5ff', '#fffcc4ff', '#fffcc3ff', '#fffbc2ff', '#fffbc2ff', '#fffbc1ff', '#fffbc0ff', '#fffac0ff', '#fffabfff', '#fffabeff', '#fff9bdff', '#fff9bdff', '#fff9bcff', '#fff9bbff', '#fff8bbff', '#fff8baff', '#fff8b9ff', '#fff7b8ff', '#fff7b8ff', '#fff7b7ff', '#fff7b6ff', '#fff6b6ff', '#fff6b5ff', '#fff6b4ff', '#fff5b4ff', '#fff5b3ff', '#fff5b2ff', '#fff4b1ff', '#fff4b1ff', '#fff4b0ff', '#fff4afff', '#fff3afff', '#fff3aeff', '#fff3adff', '#fff2acff', '#fff2acff', '#fff2abff', '#fff2aaff', '#fff1aaff', '#fff1a9ff', '#fff1a8ff', '#fff0a7ff', '#fff0a7ff', '#fff0a6ff', '#fff0a5ff', '#ffefa5ff', '#ffefa4ff', '#ffefa3ff', '#ffeea3ff', '#ffeea2ff', '#ffeea1ff', '#ffeea0ff', '#ffeda0ff', '#ffed9fff', '#ffed9eff', '#ffec9eff', '#ffec9dff', '#ffec9cff', '#ffeb9cff', '#ffeb9bff', '#ffeb9aff', '#ffea9aff', '#ffea99ff', '#ffea98ff', '#ffe998ff', '#ffe997ff', '#ffe996ff', '#ffe896ff', '#ffe895ff', '#ffe894ff', '#ffe794ff', '#ffe793ff', '#ffe792ff', '#ffe692ff', '#ffe691ff', '#ffe690ff', '#ffe68fff', '#ffe58fff', '#ffe58eff', '#ffe58dff', '#ffe48dff', '#ffe48cff', '#ffe48bff', '#ffe38bff', '#ffe38aff', '#ffe389ff', '#ffe289ff', '#ffe288ff', '#ffe287ff', '#ffe187ff', '#ffe186ff', '#ffe185ff', '#ffe085ff', '#ffe084ff', '#ffe083ff', '#ffdf83ff', '#ffdf82ff', '#ffdf81ff', '#ffde81ff', '#ffde80ff', '#ffde7fff', '#ffdd7fff', '#ffdd7eff', '#ffdd7dff', '#ffdc7dff', '#ffdc7cff', '#ffdc7bff', '#ffdc7bff', '#ffdb7aff', '#ffdb79ff', '#ffdb78ff', '#ffda78ff', '#ffda77ff', '#ffda76ff', '#fed976ff', '#fed975ff', '#fed874ff', '#fed774ff', '#fed773ff', '#fed672ff', '#fed572ff', '#fed571ff', '#fed470ff', '#fed470ff', '#fed36fff', '#fed26eff', '#fed26eff', '#fed16dff', '#fed06cff', '#fed06cff', '#fecf6bff', '#fecf6aff', '#fece6aff', '#fecd69ff', '#fecd68ff', '#fecc68ff', '#fecb67ff', '#fecb66ff', '#feca66ff', '#feca65ff', '#fec964ff', '#fec864ff', '#fec863ff', '#fec762ff', '#fec662ff', '#fec661ff', '#fec560ff', '#fec45fff', '#fec45fff', '#fec35eff', '#fec35dff', '#fec25dff', '#fec15cff', '#fec15bff', '#fec05bff', '#febf5aff', '#febf59ff', '#febe59ff', '#febe58ff', '#febd57ff', '#febc57ff', '#febc56ff', '#febb55ff', '#feba55ff', '#feba54ff', '#feb953ff', '#feb953ff', '#feb852ff', '#feb751ff', '#feb751ff', '#feb650ff', '#feb54fff', '#feb54fff', '#feb44eff', '#feb44dff', '#feb34dff', '#feb24cff', '#feb24cff', '#feb14bff', '#feb04bff', '#feb04bff', '#feaf4bff', '#feaf4aff', '#feae4aff', '#feae4aff', '#fead4aff', '#feac49ff', '#feac49ff', '#feab49ff', '#feab48ff', '#feaa48ff', '#fea948ff', '#fea948ff', '#fea847ff', '#fea847ff', '#fea747ff', '#fea647ff', '#fea646ff', '#fea546ff', '#fea546ff', '#fea446ff', '#fea345ff', '#fea345ff', '#fea245ff', '#fea245ff', '#fea144ff', '#fea044ff', '#fea044ff', '#fe9f44ff', '#fe9f43ff', '#fe9e43ff', '#fe9d43ff', '#fe9d43ff', '#fe9c42ff', '#fe9c42ff', '#fe9b42ff', '#fe9a42ff', '#fe9a41ff', '#fe9941ff', '#fe9941ff', '#fe9840ff', '#fe9740ff', '#fe9740ff', '#fe9640ff', '#fe963fff', '#fe953fff', '#fe943fff', '#fe943fff', '#fe933eff', '#fe933eff', '#fe923eff', '#fe923eff', '#fe913dff', '#fe903dff', '#fe903dff', '#fe8f3dff', '#fe8f3cff', '#fe8e3cff', '#fe8d3cff', '#fd8d3cff', '#fd8c3bff', '#fd8b3bff', '#fd8a3bff', '#fd883aff', '#fd873aff', '#fd863aff', '#fd853aff', '#fd8439ff', '#fd8339ff', '#fd8239ff', '#fd8138ff', '#fd8038ff', '#fd7f38ff', '#fd7e38ff', '#fd7d37ff', '#fd7c37ff', '#fd7b37ff', '#fd7a36ff', '#fd7936ff', '#fd7836ff', '#fd7736ff', '#fd7635ff', '#fd7535ff', '#fd7435ff', '#fd7334ff', '#fd7234ff', '#fd7134ff', '#fd7033ff', '#fd6f33ff', '#fd6e33ff', '#fd6d33ff', '#fd6c32ff', '#fd6b32ff', '#fd6a32ff', '#fd6931ff', '#fd6831ff', '#fd6731ff', '#fd6631ff', '#fd6530ff', '#fd6430ff', '#fd6330ff', '#fd622fff', '#fd612fff', '#fd602fff', '#fd5f2fff', '#fd5e2eff', '#fd5d2eff', '#fd5c2eff', '#fd5b2dff', '#fd5a2dff', '#fd592dff', '#fd582dff', '#fd572cff', '#fd562cff', '#fd552cff', '#fd542bff', '#fd532bff', '#fd522bff', '#fd512aff', '#fd502aff', '#fd4f2aff', '#fc4e2aff', '#fc4d29ff', '#fc4c29ff', '#fb4b29ff', '#fb4a29ff', '#fa4a29ff', '#fa4928ff', '#fa4828ff', '#f94728ff', '#f94628ff', '#f84527ff', '#f84427ff', '#f84427ff', '#f74327ff', '#f74226ff', '#f64126ff', '#f64026ff', '#f63f26ff', '#f53f26ff', '#f53e25ff', '#f43d25ff', '#f43c25ff', '#f43b25ff', '#f33a24ff', '#f33a24ff', '#f23924ff', '#f23824ff', '#f23724ff', '#f13623ff', '#f13523ff', '#f03523ff', '#f03423ff', '#f03322ff', '#ef3222ff', '#ef3122ff', '#ee3022ff', '#ee3022ff', '#ee2f21ff', '#ed2e21ff', '#ed2d21ff', '#ec2c21ff', '#ec2b20ff', '#ec2b20ff', '#eb2a20ff', '#eb2920ff', '#ea281fff', '#ea271fff', '#ea261fff', '#e9261fff', '#e9251fff', '#e8241eff', '#e8231eff', '#e8221eff', '#e7211eff', '#e7211dff', '#e6201dff', '#e61f1dff', '#e61e1dff', '#e51d1dff', '#e51c1cff', '#e41b1cff', '#e41b1cff', '#e31a1cff', '#e3191cff', '#e2191cff', '#e2181cff', '#e1181cff', '#e0181cff', '#e0171dff', '#df171dff', '#df161dff', '#de161dff', '#dd161dff', '#dd151dff', '#dc151eff', '#dc141eff', '#db141eff', '#da131eff', '#da131eff', '#d9131eff', '#d9121eff', '#d8121fff', '#d7111fff', '#d7111fff', '#d6111fff', '#d5101fff', '#d5101fff', '#d40f20ff', '#d40f20ff', '#d30e20ff', '#d20e20ff', '#d20e20ff', '#d10d20ff', '#d10d21ff', '#d00c21ff', '#cf0c21ff', '#cf0b21ff', '#ce0b21ff', '#ce0b21ff', '#cd0a22ff', '#cc0a22ff', '#cc0922ff', '#cb0922ff', '#ca0922ff', '#ca0822ff', '#c90822ff', '#c90723ff', '#c80723ff', '#c70623ff', '#c70623ff', '#c60623ff', '#c60523ff', '#c50524ff', '#c40424ff', '#c40424ff', '#c30424ff', '#c30324ff', '#c20324ff', '#c10225ff', '#c10225ff', '#c00125ff', '#bf0125ff', '#bf0125ff', '#be0025ff', '#be0026ff', '#bd0026ff', '#bc0026ff', '#bb0026ff', '#ba0026ff', '#b90026ff', '#b80026ff', '#b70026ff', '#b60026ff', '#b50026ff', '#b40026ff', '#b30026ff', '#b20026ff', '#b10026ff', '#b00026ff', '#af0026ff', '#ae0026ff', '#ad0026ff', '#ac0026ff', '#ab0026ff', '#aa0026ff', '#a90026ff', '#a80026ff', '#a70026ff', '#a60026ff', '#a50026ff', '#a40026ff', '#a30026ff', '#a20026ff', '#a10026ff', '#a00026ff', '#9f0026ff', '#9e0026ff', '#9d0026ff', '#9c0026ff', '#9b0026ff', '#9b0026ff', '#9a0026ff', '#990026ff', '#980026ff', '#970026ff', '#960026ff', '#950026ff', '#940026ff', '#930026ff', '#920026ff', '#910026ff', '#900026ff', '#8f0026ff', '#8e0026ff', '#8d0026ff', '#8c0026ff', '#8b0026ff', '#8a0026ff', '#890026ff', '#880026ff', '#870026ff', '#860026ff', '#850026ff', '#840026ff', '#830026ff', '#820026ff', '#810026ff', '#800026ff']);
     
 
-    color_map_99b9d1f9fa4995e5e6c38b9e16375847.x = d3.scale.linear()
+    color_map_a9d0eeb8bff69240d5ec771e37b06c2a.x = d3.scale.linear()
               .domain([2.563447073306566, 53.5663720030455])
               .range([0, 450 - 50]);
 
-    color_map_99b9d1f9fa4995e5e6c38b9e16375847.legend = L.control({position: 'topright'});
-    color_map_99b9d1f9fa4995e5e6c38b9e16375847.legend.onAdd = function (map) {var div = L.DomUtil.create('div', 'legend'); return div};
-    color_map_99b9d1f9fa4995e5e6c38b9e16375847.legend.addTo(map_9895347631be12c505321d5943b324b4);
+    color_map_a9d0eeb8bff69240d5ec771e37b06c2a.legend = L.control({position: 'topright'});
+    color_map_a9d0eeb8bff69240d5ec771e37b06c2a.legend.onAdd = function (map) {var div = L.DomUtil.create('div', 'legend'); return div};
+    color_map_a9d0eeb8bff69240d5ec771e37b06c2a.legend.addTo(map_46f298febdb8c998e0305ccdfd0ffa0a);
 
-    color_map_99b9d1f9fa4995e5e6c38b9e16375847.xAxis = d3.svg.axis()
-        .scale(color_map_99b9d1f9fa4995e5e6c38b9e16375847.x)
+    color_map_a9d0eeb8bff69240d5ec771e37b06c2a.xAxis = d3.svg.axis()
+        .scale(color_map_a9d0eeb8bff69240d5ec771e37b06c2a.x)
         .orient("top")
         .tickSize(1)
         .tickValues([2.563447073306566, 8.938812689523933, 15.3141783057413, 21.68954392195867, 28.064909538176035, 34.440275154393404, 40.81564077061077, 47.191006386828136, 53.5663720030455]);
 
-    color_map_99b9d1f9fa4995e5e6c38b9e16375847.svg = d3.select(".legend.leaflet-control").append("svg")
+    color_map_a9d0eeb8bff69240d5ec771e37b06c2a.svg = d3.select(".legend.leaflet-control").append("svg")
         .attr("id", 'legend')
         .attr("width", 450)
         .attr("height", 40);
 
-    color_map_99b9d1f9fa4995e5e6c38b9e16375847.g = color_map_99b9d1f9fa4995e5e6c38b9e16375847.svg.append("g")
+    color_map_a9d0eeb8bff69240d5ec771e37b06c2a.g = color_map_a9d0eeb8bff69240d5ec771e37b06c2a.svg.append("g")
         .attr("class", "key")
         .attr("fill", "black")
         .attr("transform", "translate(25,16)");
 
-    color_map_99b9d1f9fa4995e5e6c38b9e16375847.g.selectAll("rect")
-        .data(color_map_99b9d1f9fa4995e5e6c38b9e16375847.color.range().map(function(d, i) {
+    color_map_a9d0eeb8bff69240d5ec771e37b06c2a.g.selectAll("rect")
+        .data(color_map_a9d0eeb8bff69240d5ec771e37b06c2a.color.range().map(function(d, i) {
           return {
-            x0: i ? color_map_99b9d1f9fa4995e5e6c38b9e16375847.x(color_map_99b9d1f9fa4995e5e6c38b9e16375847.color.domain()[i - 1]) : color_map_99b9d1f9fa4995e5e6c38b9e16375847.x.range()[0],
-            x1: i < color_map_99b9d1f9fa4995e5e6c38b9e16375847.color.domain().length ? color_map_99b9d1f9fa4995e5e6c38b9e16375847.x(color_map_99b9d1f9fa4995e5e6c38b9e16375847.color.domain()[i]) : color_map_99b9d1f9fa4995e5e6c38b9e16375847.x.range()[1],
+            x0: i ? color_map_a9d0eeb8bff69240d5ec771e37b06c2a.x(color_map_a9d0eeb8bff69240d5ec771e37b06c2a.color.domain()[i - 1]) : color_map_a9d0eeb8bff69240d5ec771e37b06c2a.x.range()[0],
+            x1: i < color_map_a9d0eeb8bff69240d5ec771e37b06c2a.color.domain().length ? color_map_a9d0eeb8bff69240d5ec771e37b06c2a.x(color_map_a9d0eeb8bff69240d5ec771e37b06c2a.color.domain()[i]) : color_map_a9d0eeb8bff69240d5ec771e37b06c2a.x.range()[1],
             z: d
           };
         }))
@@ -146,36 +146,36 @@
         .attr("width", function(d) { return d.x1 - d.x0; })
         .style("fill", function(d) { return d.z; });
 
-    color_map_99b9d1f9fa4995e5e6c38b9e16375847.g.call(color_map_99b9d1f9fa4995e5e6c38b9e16375847.xAxis).append("text")
+    color_map_a9d0eeb8bff69240d5ec771e37b06c2a.g.call(color_map_a9d0eeb8bff69240d5ec771e37b06c2a.xAxis).append("text")
         .attr("class", "caption")
         .attr("y", 21)
         .attr("fill", "black")
         .text("Composite Earthquake Risk Score");
     
-            var circle_marker_fa3df3be6727dcae1701b7b12297b52a = L.circleMarker(
+            var circle_marker_eb3dbc000951bddebbec00bede378f79 = L.circleMarker(
                 [40.9918737, 28.7711956],
                 {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#800026ff", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20.310401761144746, "stroke": true, "weight": 1}
-            ).addTo(map_9895347631be12c505321d5943b324b4);
+            ).addTo(map_46f298febdb8c998e0305ccdfd0ffa0a);
         
     
-        var popup_41e6adb4e8d7bbf14cef7dbeb9cc4425 = L.popup({
+        var popup_d3c7c6fd7004bec41f1de23b865cd6c4 = L.popup({
   "maxWidth": 260,
 });
 
         
             
-                var html_2ad855ba2ed2f6f47b1702e95d396ff9 = $(`<div id="html_2ad855ba2ed2f6f47b1702e95d396ff9" style="width: 100.0%; height: 100.0%;">     <b>District:</b> KÜÇÜKÇEKMECE<br>     <b>Composite Risk Score:</b> 53.57<br>     <b>Building Metric:</b> 3856<br>     <b>Hazard Score:</b> 97.77<br><b>Population:</b> 789033<br></div>`)[0];
-                popup_41e6adb4e8d7bbf14cef7dbeb9cc4425.setContent(html_2ad855ba2ed2f6f47b1702e95d396ff9);
+                var html_0073f66886bcc9a9c2d7422cb748c60a = $(`<div id="html_0073f66886bcc9a9c2d7422cb748c60a" style="width: 100.0%; height: 100.0%;">     <b>District:</b> KÜÇÜKÇEKMECE<br>     <b>Composite Risk Score:</b> 53.57<br>     <b>Building Metric:</b> 3856<br>     <b>Hazard Score:</b> 97.77<br><b>Population:</b> 789033<br></div>`)[0];
+                popup_d3c7c6fd7004bec41f1de23b865cd6c4.setContent(html_0073f66886bcc9a9c2d7422cb748c60a);
             
         
 
-        circle_marker_fa3df3be6727dcae1701b7b12297b52a.bindPopup(popup_41e6adb4e8d7bbf14cef7dbeb9cc4425)
+        circle_marker_eb3dbc000951bddebbec00bede378f79.bindPopup(popup_d3c7c6fd7004bec41f1de23b865cd6c4)
         ;
 
         
     
     
-            circle_marker_fa3df3be6727dcae1701b7b12297b52a.bindTooltip(
+            circle_marker_eb3dbc000951bddebbec00bede378f79.bindTooltip(
                 `<div>
                      KÜÇÜKÇEKMECE | Risk: 53.6
                  </div>`,
@@ -185,30 +185,30 @@
             );
         
     
-            var circle_marker_71e06b4fa866679f8c04e03bea0483f1 = L.circleMarker(
+            var circle_marker_c9256750c2653f85a71e648c3a6e4a6b = L.circleMarker(
                 [41.0192846, 28.9479296],
                 {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#850026ff", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 26.0, "stroke": true, "weight": 1}
-            ).addTo(map_9895347631be12c505321d5943b324b4);
+            ).addTo(map_46f298febdb8c998e0305ccdfd0ffa0a);
         
     
-        var popup_bd5af5fca51f9eef8d2ccb3492fe4894 = L.popup({
+        var popup_2b44fa892ccce4cf52770aa7b652a3f6 = L.popup({
   "maxWidth": 260,
 });
 
         
             
-                var html_8ed30c1757acc0d848ae35ae818fa176 = $(`<div id="html_8ed30c1757acc0d848ae35ae818fa176" style="width: 100.0%; height: 100.0%;">     <b>District:</b> FATİH<br>     <b>Composite Risk Score:</b> 53.02<br>     <b>Building Metric:</b> 5579<br>     <b>Hazard Score:</b> 98.93<br><b>Population:</b> 354472<br></div>`)[0];
-                popup_bd5af5fca51f9eef8d2ccb3492fe4894.setContent(html_8ed30c1757acc0d848ae35ae818fa176);
+                var html_0f61e7d3e6092f8fa349e1afbe467055 = $(`<div id="html_0f61e7d3e6092f8fa349e1afbe467055" style="width: 100.0%; height: 100.0%;">     <b>District:</b> FATİH<br>     <b>Composite Risk Score:</b> 53.02<br>     <b>Building Metric:</b> 5579<br>     <b>Hazard Score:</b> 98.93<br><b>Population:</b> 354472<br></div>`)[0];
+                popup_2b44fa892ccce4cf52770aa7b652a3f6.setContent(html_0f61e7d3e6092f8fa349e1afbe467055);
             
         
 
-        circle_marker_71e06b4fa866679f8c04e03bea0483f1.bindPopup(popup_bd5af5fca51f9eef8d2ccb3492fe4894)
+        circle_marker_c9256750c2653f85a71e648c3a6e4a6b.bindPopup(popup_2b44fa892ccce4cf52770aa7b652a3f6)
         ;
 
         
     
     
-            circle_marker_71e06b4fa866679f8c04e03bea0483f1.bindTooltip(
+            circle_marker_c9256750c2653f85a71e648c3a6e4a6b.bindTooltip(
                 `<div>
                      FATİH | Risk: 53.0
                  </div>`,
@@ -218,30 +218,30 @@
             );
         
     
-            var circle_marker_006f13e6b833501312d730b32b5c0e9f = L.circleMarker(
+            var circle_marker_7ef9eb747e34ad605c5f9ef9a4a65002 = L.circleMarker(
                 [40.8741659, 29.1293251],
                 {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#900026ff", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 11.394606494221243, "stroke": true, "weight": 1}
-            ).addTo(map_9895347631be12c505321d5943b324b4);
+            ).addTo(map_46f298febdb8c998e0305ccdfd0ffa0a);
         
     
-        var popup_5e2351ff409e3c71dfc71280f1d2ccf4 = L.popup({
+        var popup_fd20121ba6729c1488de78c607382b75 = L.popup({
   "maxWidth": 260,
 });
 
         
             
-                var html_c2071992990ac6ae64bcfdc7385aed2f = $(`<div id="html_c2071992990ac6ae64bcfdc7385aed2f" style="width: 100.0%; height: 100.0%;">     <b>District:</b> ADALAR<br>     <b>Composite Risk Score:</b> 51.93<br>     <b>Building Metric:</b> 1156<br>     <b>Hazard Score:</b> 5.49<br><b>Population:</b> 16979<br></div>`)[0];
-                popup_5e2351ff409e3c71dfc71280f1d2ccf4.setContent(html_c2071992990ac6ae64bcfdc7385aed2f);
+                var html_da69b55c68d88091672498976527ec79 = $(`<div id="html_da69b55c68d88091672498976527ec79" style="width: 100.0%; height: 100.0%;">     <b>District:</b> ADALAR<br>     <b>Composite Risk Score:</b> 51.93<br>     <b>Building Metric:</b> 1156<br>     <b>Hazard Score:</b> 5.49<br><b>Population:</b> 16979<br></div>`)[0];
+                popup_fd20121ba6729c1488de78c607382b75.setContent(html_da69b55c68d88091672498976527ec79);
             
         
 
-        circle_marker_006f13e6b833501312d730b32b5c0e9f.bindPopup(popup_5e2351ff409e3c71dfc71280f1d2ccf4)
+        circle_marker_7ef9eb747e34ad605c5f9ef9a4a65002.bindPopup(popup_fd20121ba6729c1488de78c607382b75)
         ;
 
         
     
     
-            circle_marker_006f13e6b833501312d730b32b5c0e9f.bindTooltip(
+            circle_marker_7ef9eb747e34ad605c5f9ef9a4a65002.bindTooltip(
                 `<div>
                      ADALAR | Risk: 51.9
                  </div>`,
@@ -251,30 +251,30 @@
             );
         
     
-            var circle_marker_8d7e4e234e3a404492359639fb8f8ffa = L.circleMarker(
+            var circle_marker_63f7fe201af29b9430675da7542fec36 = L.circleMarker(
                 [41.0030495, 28.8657701],
                 {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ce0b21ff", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15.126031920748487, "stroke": true, "weight": 1}
-            ).addTo(map_9895347631be12c505321d5943b324b4);
+            ).addTo(map_46f298febdb8c998e0305ccdfd0ffa0a);
         
     
-        var popup_4dfffecdf5bba644703d1a28dcec41fb = L.popup({
+        var popup_fc28c23270e353261a6e03251b84bbf6 = L.popup({
   "maxWidth": 260,
 });
 
         
             
-                var html_56fd4392c14d909ddb364888687af31a = $(`<div id="html_56fd4392c14d909ddb364888687af31a" style="width: 100.0%; height: 100.0%;">     <b>District:</b> BAHÇELİEVLER<br>     <b>Composite Risk Score:</b> 44.37<br>     <b>Building Metric:</b> 2286<br>     <b>Hazard Score:</b> 100.00<br><b>Population:</b> 560086<br></div>`)[0];
-                popup_4dfffecdf5bba644703d1a28dcec41fb.setContent(html_56fd4392c14d909ddb364888687af31a);
+                var html_ae308143770c31154b79bcabeafd117e = $(`<div id="html_ae308143770c31154b79bcabeafd117e" style="width: 100.0%; height: 100.0%;">     <b>District:</b> BAHÇELİEVLER<br>     <b>Composite Risk Score:</b> 44.37<br>     <b>Building Metric:</b> 2286<br>     <b>Hazard Score:</b> 100.00<br><b>Population:</b> 560086<br></div>`)[0];
+                popup_fc28c23270e353261a6e03251b84bbf6.setContent(html_ae308143770c31154b79bcabeafd117e);
             
         
 
-        circle_marker_8d7e4e234e3a404492359639fb8f8ffa.bindPopup(popup_4dfffecdf5bba644703d1a28dcec41fb)
+        circle_marker_63f7fe201af29b9430675da7542fec36.bindPopup(popup_fc28c23270e353261a6e03251b84bbf6)
         ;
 
         
     
     
-            circle_marker_8d7e4e234e3a404492359639fb8f8ffa.bindTooltip(
+            circle_marker_63f7fe201af29b9430675da7542fec36.bindTooltip(
                 `<div>
                      BAHÇELİEVLER | Risk: 44.4
                  </div>`,
@@ -284,30 +284,30 @@
             );
         
     
-            var circle_marker_57e763c1999df866e1788938c308e36c = L.circleMarker(
+            var circle_marker_1f53edcc6483a2fa7f603e90dc765d55 = L.circleMarker(
                 [41.034547, 28.8567558],
                 {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e8231eff", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 16.232250963126035, "stroke": true, "weight": 1}
-            ).addTo(map_9895347631be12c505321d5943b324b4);
+            ).addTo(map_46f298febdb8c998e0305ccdfd0ffa0a);
         
     
-        var popup_b2e0ca7805057af83dbd747e74d5b5dc = L.popup({
+        var popup_cb4bae676314b7feccad49dacc166f6b = L.popup({
   "maxWidth": 260,
 });
 
         
             
-                var html_0bd94eeef421876982222f0b58ce68f2 = $(`<div id="html_0bd94eeef421876982222f0b58ce68f2" style="width: 100.0%; height: 100.0%;">     <b>District:</b> BAĞCILAR<br>     <b>Composite Risk Score:</b> 39.62<br>     <b>Building Metric:</b> 2621<br>     <b>Hazard Score:</b> 73.37<br><b>Population:</b> 713594<br></div>`)[0];
-                popup_b2e0ca7805057af83dbd747e74d5b5dc.setContent(html_0bd94eeef421876982222f0b58ce68f2);
+                var html_6fc03ce9743dfe6a3805b1efd3d53d5d = $(`<div id="html_6fc03ce9743dfe6a3805b1efd3d53d5d" style="width: 100.0%; height: 100.0%;">     <b>District:</b> BAĞCILAR<br>     <b>Composite Risk Score:</b> 39.62<br>     <b>Building Metric:</b> 2621<br>     <b>Hazard Score:</b> 73.37<br><b>Population:</b> 713594<br></div>`)[0];
+                popup_cb4bae676314b7feccad49dacc166f6b.setContent(html_6fc03ce9743dfe6a3805b1efd3d53d5d);
             
         
 
-        circle_marker_57e763c1999df866e1788938c308e36c.bindPopup(popup_b2e0ca7805057af83dbd747e74d5b5dc)
+        circle_marker_1f53edcc6483a2fa7f603e90dc765d55.bindPopup(popup_cb4bae676314b7feccad49dacc166f6b)
         ;
 
         
     
     
-            circle_marker_57e763c1999df866e1788938c308e36c.bindTooltip(
+            circle_marker_1f53edcc6483a2fa7f603e90dc765d55.bindTooltip(
                 `<div>
                      BAĞCILAR | Risk: 39.6
                  </div>`,
@@ -317,30 +317,30 @@
             );
         
     
-            var circle_marker_5bab274621512a23dce0bf8234d7fd0b = L.circleMarker(
+            var circle_marker_a4d4053881b524d996dc79e17af0ef72 = L.circleMarker(
                 [41.0342862, 28.6801113],
                 {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f03323ff", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15.274628508530544, "stroke": true, "weight": 1}
-            ).addTo(map_9895347631be12c505321d5943b324b4);
+            ).addTo(map_46f298febdb8c998e0305ccdfd0ffa0a);
         
     
-        var popup_4eb4dfb678db1fc4cbc812e0571ab28a = L.popup({
+        var popup_fb04c2731dfe54c9a74394468fd0cf4f = L.popup({
   "maxWidth": 260,
 });
 
         
             
-                var html_a180823d3d53d598293317e57fb23b4f = $(`<div id="html_a180823d3d53d598293317e57fb23b4f" style="width: 100.0%; height: 100.0%;">     <b>District:</b> ESENYURT<br>     <b>Composite Risk Score:</b> 37.66<br>     <b>Building Metric:</b> 2331<br>     <b>Hazard Score:</b> 61.95<br><b>Population:</b> 988369<br></div>`)[0];
-                popup_4eb4dfb678db1fc4cbc812e0571ab28a.setContent(html_a180823d3d53d598293317e57fb23b4f);
+                var html_da1b8dc065cd231baccc078b2a78e7b9 = $(`<div id="html_da1b8dc065cd231baccc078b2a78e7b9" style="width: 100.0%; height: 100.0%;">     <b>District:</b> ESENYURT<br>     <b>Composite Risk Score:</b> 37.66<br>     <b>Building Metric:</b> 2331<br>     <b>Hazard Score:</b> 61.95<br><b>Population:</b> 988369<br></div>`)[0];
+                popup_fb04c2731dfe54c9a74394468fd0cf4f.setContent(html_da1b8dc065cd231baccc078b2a78e7b9);
             
         
 
-        circle_marker_5bab274621512a23dce0bf8234d7fd0b.bindPopup(popup_4eb4dfb678db1fc4cbc812e0571ab28a)
+        circle_marker_a4d4053881b524d996dc79e17af0ef72.bindPopup(popup_fb04c2731dfe54c9a74394468fd0cf4f)
         ;
 
         
     
     
-            circle_marker_5bab274621512a23dce0bf8234d7fd0b.bindTooltip(
+            circle_marker_a4d4053881b524d996dc79e17af0ef72.bindTooltip(
                 `<div>
                      ESENYURT | Risk: 37.7
                  </div>`,
@@ -350,30 +350,30 @@
             );
         
     
-            var circle_marker_68378abb3deb02dd9dbc972ff0f1f359 = L.circleMarker(
+            var circle_marker_a9640a853baba03b198c9db12e2a0685 = L.circleMarker(
                 [40.9782585, 28.8744461],
                 {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fb4b29ff", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.47220693450743, "stroke": true, "weight": 1}
-            ).addTo(map_9895347631be12c505321d5943b324b4);
+            ).addTo(map_46f298febdb8c998e0305ccdfd0ffa0a);
         
     
-        var popup_d8354036ebbee3febc68de0715b1b5d9 = L.popup({
+        var popup_26f2a6f90a57367e7e2031e1caa6be63 = L.popup({
   "maxWidth": 260,
 });
 
         
             
-                var html_83681ce439ab88a14cbc19304e37e1d0 = $(`<div id="html_83681ce439ab88a14cbc19304e37e1d0" style="width: 100.0%; height: 100.0%;">     <b>District:</b> BAKIRKÖY<br>     <b>Composite Risk Score:</b> 34.72<br>     <b>Building Metric:</b> 2088<br>     <b>Hazard Score:</b> 65.19<br><b>Population:</b> 219893<br></div>`)[0];
-                popup_d8354036ebbee3febc68de0715b1b5d9.setContent(html_83681ce439ab88a14cbc19304e37e1d0);
+                var html_1aaa165648ca4fedd080c128495c9ad2 = $(`<div id="html_1aaa165648ca4fedd080c128495c9ad2" style="width: 100.0%; height: 100.0%;">     <b>District:</b> BAKIRKÖY<br>     <b>Composite Risk Score:</b> 34.72<br>     <b>Building Metric:</b> 2088<br>     <b>Hazard Score:</b> 65.19<br><b>Population:</b> 219893<br></div>`)[0];
+                popup_26f2a6f90a57367e7e2031e1caa6be63.setContent(html_1aaa165648ca4fedd080c128495c9ad2);
             
         
 
-        circle_marker_68378abb3deb02dd9dbc972ff0f1f359.bindPopup(popup_d8354036ebbee3febc68de0715b1b5d9)
+        circle_marker_a9640a853baba03b198c9db12e2a0685.bindPopup(popup_26f2a6f90a57367e7e2031e1caa6be63)
         ;
 
         
     
     
-            circle_marker_68378abb3deb02dd9dbc972ff0f1f359.bindTooltip(
+            circle_marker_a9640a853baba03b198c9db12e2a0685.bindTooltip(
                 `<div>
                      BAKIRKÖY | Risk: 34.7
                  </div>`,
@@ -383,30 +383,30 @@
             );
         
     
-            var circle_marker_e386c8c1154d37ee5829c2bb75bce728 = L.circleMarker(
+            var circle_marker_1a487504994eabcee5323e053c9bc2fd = L.circleMarker(
                 [40.8161732, 29.3034194],
                 {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fd6a32ff", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 13.574023115024765, "stroke": true, "weight": 1}
-            ).addTo(map_9895347631be12c505321d5943b324b4);
+            ).addTo(map_46f298febdb8c998e0305ccdfd0ffa0a);
         
     
-        var popup_bf23998fc43f07999653dbb520c1d813 = L.popup({
+        var popup_7749e5a72558cfa95f343c8c1f9f7b82 = L.popup({
   "maxWidth": 260,
 });
 
         
             
-                var html_1bed89472e6a4d9c060ba58a914f46c8 = $(`<div id="html_1bed89472e6a4d9c060ba58a914f46c8" style="width: 100.0%; height: 100.0%;">     <b>District:</b> TUZLA<br>     <b>Composite Risk Score:</b> 31.59<br>     <b>Building Metric:</b> 1816<br>     <b>Hazard Score:</b> 17.51<br><b>Population:</b> 301400<br></div>`)[0];
-                popup_bf23998fc43f07999653dbb520c1d813.setContent(html_1bed89472e6a4d9c060ba58a914f46c8);
+                var html_384d83a365396afecfd6d66f67fecf0a = $(`<div id="html_384d83a365396afecfd6d66f67fecf0a" style="width: 100.0%; height: 100.0%;">     <b>District:</b> TUZLA<br>     <b>Composite Risk Score:</b> 31.59<br>     <b>Building Metric:</b> 1816<br>     <b>Hazard Score:</b> 17.51<br><b>Population:</b> 301400<br></div>`)[0];
+                popup_7749e5a72558cfa95f343c8c1f9f7b82.setContent(html_384d83a365396afecfd6d66f67fecf0a);
             
         
 
-        circle_marker_e386c8c1154d37ee5829c2bb75bce728.bindPopup(popup_bf23998fc43f07999653dbb520c1d813)
+        circle_marker_1a487504994eabcee5323e053c9bc2fd.bindPopup(popup_7749e5a72558cfa95f343c8c1f9f7b82)
         ;
 
         
     
     
-            circle_marker_e386c8c1154d37ee5829c2bb75bce728.bindTooltip(
+            circle_marker_1a487504994eabcee5323e053c9bc2fd.bindTooltip(
                 `<div>
                      TUZLA | Risk: 31.6
                  </div>`,
@@ -416,30 +416,30 @@
             );
         
     
-            var circle_marker_48ee60110d85c6360f9545d47a5af72f = L.circleMarker(
+            var circle_marker_56b4fef7d0962084e177fa47465d95d3 = L.circleMarker(
                 [40.8768715, 29.2349672],
                 {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fd863aff", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 11.919647771051183, "stroke": true, "weight": 1}
-            ).addTo(map_9895347631be12c505321d5943b324b4);
+            ).addTo(map_46f298febdb8c998e0305ccdfd0ffa0a);
         
     
-        var popup_d1c5abb3a3eceb2102a15e65c8e5b4f9 = L.popup({
+        var popup_1b7ccd0a0b4863f86e329e567eb5198c = L.popup({
   "maxWidth": 260,
 });
 
         
             
-                var html_95f0c9128aa0449a4d456519da9a0b78 = $(`<div id="html_95f0c9128aa0449a4d456519da9a0b78" style="width: 100.0%; height: 100.0%;">     <b>District:</b> PENDİK<br>     <b>Composite Risk Score:</b> 28.74<br>     <b>Building Metric:</b> 1315<br>     <b>Hazard Score:</b> 11.86<br><b>Population:</b> 749356<br></div>`)[0];
-                popup_d1c5abb3a3eceb2102a15e65c8e5b4f9.setContent(html_95f0c9128aa0449a4d456519da9a0b78);
+                var html_1357358434d72e94a20de290adb2a67a = $(`<div id="html_1357358434d72e94a20de290adb2a67a" style="width: 100.0%; height: 100.0%;">     <b>District:</b> PENDİK<br>     <b>Composite Risk Score:</b> 28.74<br>     <b>Building Metric:</b> 1315<br>     <b>Hazard Score:</b> 11.86<br><b>Population:</b> 749356<br></div>`)[0];
+                popup_1b7ccd0a0b4863f86e329e567eb5198c.setContent(html_1357358434d72e94a20de290adb2a67a);
             
         
 
-        circle_marker_48ee60110d85c6360f9545d47a5af72f.bindPopup(popup_d1c5abb3a3eceb2102a15e65c8e5b4f9)
+        circle_marker_56b4fef7d0962084e177fa47465d95d3.bindPopup(popup_1b7ccd0a0b4863f86e329e567eb5198c)
         ;
 
         
     
     
-            circle_marker_48ee60110d85c6360f9545d47a5af72f.bindTooltip(
+            circle_marker_56b4fef7d0962084e177fa47465d95d3.bindTooltip(
                 `<div>
                      PENDİK | Risk: 28.7
                  </div>`,
@@ -449,30 +449,30 @@
             );
         
     
-            var circle_marker_5f2ebfc3a5a379361973b94f9f883e8a = L.circleMarker(
+            var circle_marker_a248ff404ce2178a9457b2f043ca4d7f = L.circleMarker(
                 [40.9898653, 28.9037467],
                 {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fea144ff", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12.646119977985691, "stroke": true, "weight": 1}
-            ).addTo(map_9895347631be12c505321d5943b324b4);
+            ).addTo(map_46f298febdb8c998e0305ccdfd0ffa0a);
         
     
-        var popup_939a76098b6bbaaeb7e95963594ee829 = L.popup({
+        var popup_59c6570bf966b66cfe62712aaf4266f2 = L.popup({
   "maxWidth": 260,
 });
 
         
             
-                var html_9a48a647ce43fed8612b33c0cfaddde8 = $(`<div id="html_9a48a647ce43fed8612b33c0cfaddde8" style="width: 100.0%; height: 100.0%;">     <b>District:</b> ZEYTİNBURNU<br>     <b>Composite Risk Score:</b> 24.69<br>     <b>Building Metric:</b> 1535<br>     <b>Hazard Score:</b> 41.75<br><b>Population:</b> 278344<br></div>`)[0];
-                popup_939a76098b6bbaaeb7e95963594ee829.setContent(html_9a48a647ce43fed8612b33c0cfaddde8);
+                var html_86429bdc6b4fb06f6a051d1544d40c1c = $(`<div id="html_86429bdc6b4fb06f6a051d1544d40c1c" style="width: 100.0%; height: 100.0%;">     <b>District:</b> ZEYTİNBURNU<br>     <b>Composite Risk Score:</b> 24.69<br>     <b>Building Metric:</b> 1535<br>     <b>Hazard Score:</b> 41.75<br><b>Population:</b> 278344<br></div>`)[0];
+                popup_59c6570bf966b66cfe62712aaf4266f2.setContent(html_86429bdc6b4fb06f6a051d1544d40c1c);
             
         
 
-        circle_marker_5f2ebfc3a5a379361973b94f9f883e8a.bindPopup(popup_939a76098b6bbaaeb7e95963594ee829)
+        circle_marker_a248ff404ce2178a9457b2f043ca4d7f.bindPopup(popup_59c6570bf966b66cfe62712aaf4266f2)
         ;
 
         
     
     
-            circle_marker_5f2ebfc3a5a379361973b94f9f883e8a.bindTooltip(
+            circle_marker_a248ff404ce2178a9457b2f043ca4d7f.bindTooltip(
                 `<div>
                      ZEYTİNBURNU | Risk: 24.7
                  </div>`,
@@ -482,30 +482,30 @@
             );
         
     
-            var circle_marker_83e977896ea1c4af5ae179975688f20d = L.circleMarker(
+            var circle_marker_165bf2bb8a32baadd7726819633b52b9 = L.circleMarker(
                 [40.9799389, 28.7216689],
                 {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fea948ff", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12.51073197578426, "stroke": true, "weight": 1}
-            ).addTo(map_9895347631be12c505321d5943b324b4);
+            ).addTo(map_46f298febdb8c998e0305ccdfd0ffa0a);
         
     
-        var popup_e67461bac861da7f8264a36ccabf3b4a = L.popup({
+        var popup_75bb9f5ea2680c5d036c5a6abc3f42ee = L.popup({
   "maxWidth": 260,
 });
 
         
             
-                var html_ef43e7ecdb8aae2304a4b284d0dcb633 = $(`<div id="html_ef43e7ecdb8aae2304a4b284d0dcb633" style="width: 100.0%; height: 100.0%;">     <b>District:</b> AVCILAR<br>     <b>Composite Risk Score:</b> 23.33<br>     <b>Building Metric:</b> 1494<br>     <b>Hazard Score:</b> 28.21<br><b>Population:</b> 440934<br></div>`)[0];
-                popup_e67461bac861da7f8264a36ccabf3b4a.setContent(html_ef43e7ecdb8aae2304a4b284d0dcb633);
+                var html_4e0c9aab208d5006da0fc670166bba36 = $(`<div id="html_4e0c9aab208d5006da0fc670166bba36" style="width: 100.0%; height: 100.0%;">     <b>District:</b> AVCILAR<br>     <b>Composite Risk Score:</b> 23.33<br>     <b>Building Metric:</b> 1494<br>     <b>Hazard Score:</b> 28.21<br><b>Population:</b> 440934<br></div>`)[0];
+                popup_75bb9f5ea2680c5d036c5a6abc3f42ee.setContent(html_4e0c9aab208d5006da0fc670166bba36);
             
         
 
-        circle_marker_83e977896ea1c4af5ae179975688f20d.bindPopup(popup_e67461bac861da7f8264a36ccabf3b4a)
+        circle_marker_165bf2bb8a32baadd7726819633b52b9.bindPopup(popup_75bb9f5ea2680c5d036c5a6abc3f42ee)
         ;
 
         
     
     
-            circle_marker_83e977896ea1c4af5ae179975688f20d.bindTooltip(
+            circle_marker_165bf2bb8a32baadd7726819633b52b9.bindTooltip(
                 `<div>
                      AVCILAR | Risk: 23.3
                  </div>`,
@@ -515,30 +515,30 @@
             );
         
     
-            var circle_marker_3327cef1a1f164ee64a2b8424946883d = L.circleMarker(
+            var circle_marker_51c180e1976a86da0cca9300ef88acf3 = L.circleMarker(
                 [41.0376175, 28.8824519],
                 {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#feac49ff", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 11.553109521188773, "stroke": true, "weight": 1}
-            ).addTo(map_9895347631be12c505321d5943b324b4);
+            ).addTo(map_46f298febdb8c998e0305ccdfd0ffa0a);
         
     
-        var popup_a15eda7138c7ebec4517125ceb0a25c0 = L.popup({
+        var popup_b47aa38022663d0f12c60f519d7064cc = L.popup({
   "maxWidth": 260,
 });
 
         
             
-                var html_d5cc38e0c08e6990e4812be646231ee8 = $(`<div id="html_d5cc38e0c08e6990e4812be646231ee8" style="width: 100.0%; height: 100.0%;">     <b>District:</b> ESENLER<br>     <b>Composite Risk Score:</b> 22.71<br>     <b>Building Metric:</b> 1204<br>     <b>Hazard Score:</b> 39.67<br><b>Population:</b> 423625<br></div>`)[0];
-                popup_a15eda7138c7ebec4517125ceb0a25c0.setContent(html_d5cc38e0c08e6990e4812be646231ee8);
+                var html_ab4b2245da91085631f2e6346ea5ab74 = $(`<div id="html_ab4b2245da91085631f2e6346ea5ab74" style="width: 100.0%; height: 100.0%;">     <b>District:</b> ESENLER<br>     <b>Composite Risk Score:</b> 22.71<br>     <b>Building Metric:</b> 1204<br>     <b>Hazard Score:</b> 39.67<br><b>Population:</b> 423625<br></div>`)[0];
+                popup_b47aa38022663d0f12c60f519d7064cc.setContent(html_ab4b2245da91085631f2e6346ea5ab74);
             
         
 
-        circle_marker_3327cef1a1f164ee64a2b8424946883d.bindPopup(popup_a15eda7138c7ebec4517125ceb0a25c0)
+        circle_marker_51c180e1976a86da0cca9300ef88acf3.bindPopup(popup_b47aa38022663d0f12c60f519d7064cc)
         ;
 
         
     
     
-            circle_marker_3327cef1a1f164ee64a2b8424946883d.bindTooltip(
+            circle_marker_51c180e1976a86da0cca9300ef88acf3.bindTooltip(
                 `<div>
                      ESENLER | Risk: 22.7
                  </div>`,
@@ -548,30 +548,30 @@
             );
         
     
-            var circle_marker_b9b8f8d87ad813e0a6a625db7b19c9fe = L.circleMarker(
+            var circle_marker_37d283d0a0b9f9d411cef188a269b7d6 = L.circleMarker(
                 [41.0345549, 28.9118417],
                 {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fead49ff", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 13.507980187121628, "stroke": true, "weight": 1}
-            ).addTo(map_9895347631be12c505321d5943b324b4);
+            ).addTo(map_46f298febdb8c998e0305ccdfd0ffa0a);
         
     
-        var popup_d0b3c4756b450069b16f45a968730792 = L.popup({
+        var popup_19cf66f5a2a64b211e6e5db367807278 = L.popup({
   "maxWidth": 260,
 });
 
         
             
-                var html_76bd4ca3b9caca8680cfc9865f3da753 = $(`<div id="html_76bd4ca3b9caca8680cfc9865f3da753" style="width: 100.0%; height: 100.0%;">     <b>District:</b> BAYRAMPAŞA<br>     <b>Composite Risk Score:</b> 22.65<br>     <b>Building Metric:</b> 1796<br>     <b>Hazard Score:</b> 34.46<br><b>Population:</b> 268303<br></div>`)[0];
-                popup_d0b3c4756b450069b16f45a968730792.setContent(html_76bd4ca3b9caca8680cfc9865f3da753);
+                var html_7385c170d023f0a7897caf7ce374c32e = $(`<div id="html_7385c170d023f0a7897caf7ce374c32e" style="width: 100.0%; height: 100.0%;">     <b>District:</b> BAYRAMPAŞA<br>     <b>Composite Risk Score:</b> 22.65<br>     <b>Building Metric:</b> 1796<br>     <b>Hazard Score:</b> 34.46<br><b>Population:</b> 268303<br></div>`)[0];
+                popup_19cf66f5a2a64b211e6e5db367807278.setContent(html_7385c170d023f0a7897caf7ce374c32e);
             
         
 
-        circle_marker_b9b8f8d87ad813e0a6a625db7b19c9fe.bindPopup(popup_d0b3c4756b450069b16f45a968730792)
+        circle_marker_37d283d0a0b9f9d411cef188a269b7d6.bindPopup(popup_19cf66f5a2a64b211e6e5db367807278)
         ;
 
         
     
     
-            circle_marker_b9b8f8d87ad813e0a6a625db7b19c9fe.bindTooltip(
+            circle_marker_37d283d0a0b9f9d411cef188a269b7d6.bindTooltip(
                 `<div>
                      BAYRAMPAŞA | Risk: 22.6
                  </div>`,
@@ -581,30 +581,30 @@
             );
         
     
-            var circle_marker_b806a721292e4453a3d5d18c412061ac = L.circleMarker(
+            var circle_marker_eb9b9eba56409849500dccc4a5b7d515 = L.circleMarker(
                 [41.0252832, 28.8726498],
                 {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#feaf4bff", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.724270776004403, "stroke": true, "weight": 1}
-            ).addTo(map_9895347631be12c505321d5943b324b4);
+            ).addTo(map_46f298febdb8c998e0305ccdfd0ffa0a);
         
     
-        var popup_9c32c66bef5ab8484fa713455a0835a5 = L.popup({
+        var popup_4d1fa7a9248563d0813c6c45b41b3080 = L.popup({
   "maxWidth": 260,
 });
 
         
             
-                var html_0d13153e4320ca3ea440ce6e3f79dbd0 = $(`<div id="html_0d13153e4320ca3ea440ce6e3f79dbd0" style="width: 100.0%; height: 100.0%;">     <b>District:</b> GÜNGÖREN<br>     <b>Composite Risk Score:</b> 22.20<br>     <b>Building Metric:</b> 953<br>     <b>Hazard Score:</b> 46.84<br><b>Population:</b> 264831<br></div>`)[0];
-                popup_9c32c66bef5ab8484fa713455a0835a5.setContent(html_0d13153e4320ca3ea440ce6e3f79dbd0);
+                var html_332b47adb643ae2662be13f296a7f1bd = $(`<div id="html_332b47adb643ae2662be13f296a7f1bd" style="width: 100.0%; height: 100.0%;">     <b>District:</b> GÜNGÖREN<br>     <b>Composite Risk Score:</b> 22.20<br>     <b>Building Metric:</b> 953<br>     <b>Hazard Score:</b> 46.84<br><b>Population:</b> 264831<br></div>`)[0];
+                popup_4d1fa7a9248563d0813c6c45b41b3080.setContent(html_332b47adb643ae2662be13f296a7f1bd);
             
         
 
-        circle_marker_b806a721292e4453a3d5d18c412061ac.bindPopup(popup_9c32c66bef5ab8484fa713455a0835a5)
+        circle_marker_eb9b9eba56409849500dccc4a5b7d515.bindPopup(popup_4d1fa7a9248563d0813c6c45b41b3080)
         ;
 
         
     
     
-            circle_marker_b806a721292e4453a3d5d18c412061ac.bindTooltip(
+            circle_marker_eb9b9eba56409849500dccc4a5b7d515.bindTooltip(
                 `<div>
                      GÜNGÖREN | Risk: 22.2
                  </div>`,
@@ -614,30 +614,30 @@
             );
         
     
-            var circle_marker_c3a510c61f1c56d07cc9a1e55b3eb6d0 = L.circleMarker(
+            var circle_marker_c253d53ccf756507bb250d227373dc26 = L.circleMarker(
                 [40.88858, 29.1856536],
                 {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#feb14bff", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.19262520638415, "stroke": true, "weight": 1}
-            ).addTo(map_9895347631be12c505321d5943b324b4);
+            ).addTo(map_46f298febdb8c998e0305ccdfd0ffa0a);
         
     
-        var popup_4d6c929896b943f809a0185aee0eb104 = L.popup({
+        var popup_c2896e2a6ea7f6386181ec4c70c2ba01 = L.popup({
   "maxWidth": 260,
 });
 
         
             
-                var html_f6de8195187bd28cc1a12f6c461da641 = $(`<div id="html_f6de8195187bd28cc1a12f6c461da641" style="width: 100.0%; height: 100.0%;">     <b>District:</b> KARTAL<br>     <b>Composite Risk Score:</b> 21.88<br>     <b>Building Metric:</b> 792<br>     <b>Hazard Score:</b> 10.54<br><b>Population:</b> 475859<br></div>`)[0];
-                popup_4d6c929896b943f809a0185aee0eb104.setContent(html_f6de8195187bd28cc1a12f6c461da641);
+                var html_e17aab5a946109d1633de969bc2d9fa3 = $(`<div id="html_e17aab5a946109d1633de969bc2d9fa3" style="width: 100.0%; height: 100.0%;">     <b>District:</b> KARTAL<br>     <b>Composite Risk Score:</b> 21.88<br>     <b>Building Metric:</b> 792<br>     <b>Hazard Score:</b> 10.54<br><b>Population:</b> 475859<br></div>`)[0];
+                popup_c2896e2a6ea7f6386181ec4c70c2ba01.setContent(html_e17aab5a946109d1633de969bc2d9fa3);
             
         
 
-        circle_marker_c3a510c61f1c56d07cc9a1e55b3eb6d0.bindPopup(popup_4d6c929896b943f809a0185aee0eb104)
+        circle_marker_c253d53ccf756507bb250d227373dc26.bindPopup(popup_c2896e2a6ea7f6386181ec4c70c2ba01)
         ;
 
         
     
     
-            circle_marker_c3a510c61f1c56d07cc9a1e55b3eb6d0.bindTooltip(
+            circle_marker_c253d53ccf756507bb250d227373dc26.bindTooltip(
                 `<div>
                      KARTAL | Risk: 21.9
                  </div>`,
@@ -647,30 +647,30 @@
             );
         
     
-            var circle_marker_25ae6019c69ca528d9120a1ef38216ac = L.circleMarker(
+            var circle_marker_f35f6c8d7aa6c65b816eb372ce00f40f = L.circleMarker(
                 [41.0037541, 28.6372583],
                 {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#feb953ff", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 11.774353329664281, "stroke": true, "weight": 1}
-            ).addTo(map_9895347631be12c505321d5943b324b4);
+            ).addTo(map_46f298febdb8c998e0305ccdfd0ffa0a);
         
     
-        var popup_b51d281c37cdaf39adf58620884be2e3 = L.popup({
+        var popup_c728cdbc5d18941df7b7c7dfec641478 = L.popup({
   "maxWidth": 260,
 });
 
         
             
-                var html_2d31673574a43323c5df676e2ccaa39b = $(`<div id="html_2d31673574a43323c5df676e2ccaa39b" style="width: 100.0%; height: 100.0%;">     <b>District:</b> BEYLİKDÜZÜ<br>     <b>Composite Risk Score:</b> 20.63<br>     <b>Building Metric:</b> 1271<br>     <b>Hazard Score:</b> 32.18<br><b>Population:</b> 415290<br></div>`)[0];
-                popup_b51d281c37cdaf39adf58620884be2e3.setContent(html_2d31673574a43323c5df676e2ccaa39b);
+                var html_d3be6b802a3dbd3c21cd9611f69159c1 = $(`<div id="html_d3be6b802a3dbd3c21cd9611f69159c1" style="width: 100.0%; height: 100.0%;">     <b>District:</b> BEYLİKDÜZÜ<br>     <b>Composite Risk Score:</b> 20.63<br>     <b>Building Metric:</b> 1271<br>     <b>Hazard Score:</b> 32.18<br><b>Population:</b> 415290<br></div>`)[0];
+                popup_c728cdbc5d18941df7b7c7dfec641478.setContent(html_d3be6b802a3dbd3c21cd9611f69159c1);
             
         
 
-        circle_marker_25ae6019c69ca528d9120a1ef38216ac.bindPopup(popup_b51d281c37cdaf39adf58620884be2e3)
+        circle_marker_f35f6c8d7aa6c65b816eb372ce00f40f.bindPopup(popup_c728cdbc5d18941df7b7c7dfec641478)
         ;
 
         
     
     
-            circle_marker_25ae6019c69ca528d9120a1ef38216ac.bindTooltip(
+            circle_marker_f35f6c8d7aa6c65b816eb372ce00f40f.bindTooltip(
                 `<div>
                      BEYLİKDÜZÜ | Risk: 20.6
                  </div>`,
@@ -680,30 +680,30 @@
             );
         
     
-            var circle_marker_fe6197c6f7507b31af3359f2a1ce923f = L.circleMarker(
+            var circle_marker_2ecbe03395de7d0ccfbf04a9a2af560d = L.circleMarker(
                 [40.9247539, 29.1310782],
                 {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#feba54ff", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.638414969730325, "stroke": true, "weight": 1}
-            ).addTo(map_9895347631be12c505321d5943b324b4);
+            ).addTo(map_46f298febdb8c998e0305ccdfd0ffa0a);
         
     
-        var popup_5694730a187d32297f02548f566a1df4 = L.popup({
+        var popup_f57bead7270d2b6882bdd640179a2138 = L.popup({
   "maxWidth": 260,
 });
 
         
             
-                var html_d526e3435fc4eb1bea39f10a6a741e75 = $(`<div id="html_d526e3435fc4eb1bea39f10a6a741e75" style="width: 100.0%; height: 100.0%;">     <b>District:</b> MALTEPE<br>     <b>Composite Risk Score:</b> 20.44<br>     <b>Building Metric:</b> 927<br>     <b>Hazard Score:</b> 14.59<br><b>Population:</b> 524921<br></div>`)[0];
-                popup_5694730a187d32297f02548f566a1df4.setContent(html_d526e3435fc4eb1bea39f10a6a741e75);
+                var html_89685a1876c1fa4e1da6958fec65cdfc = $(`<div id="html_89685a1876c1fa4e1da6958fec65cdfc" style="width: 100.0%; height: 100.0%;">     <b>District:</b> MALTEPE<br>     <b>Composite Risk Score:</b> 20.44<br>     <b>Building Metric:</b> 927<br>     <b>Hazard Score:</b> 14.59<br><b>Population:</b> 524921<br></div>`)[0];
+                popup_f57bead7270d2b6882bdd640179a2138.setContent(html_89685a1876c1fa4e1da6958fec65cdfc);
             
         
 
-        circle_marker_fe6197c6f7507b31af3359f2a1ce923f.bindPopup(popup_5694730a187d32297f02548f566a1df4)
+        circle_marker_2ecbe03395de7d0ccfbf04a9a2af560d.bindPopup(popup_f57bead7270d2b6882bdd640179a2138)
         ;
 
         
     
     
-            circle_marker_fe6197c6f7507b31af3359f2a1ce923f.bindTooltip(
+            circle_marker_2ecbe03395de7d0ccfbf04a9a2af560d.bindTooltip(
                 `<div>
                      MALTEPE | Risk: 20.4
                  </div>`,
@@ -713,30 +713,30 @@
             );
         
     
-            var circle_marker_9e1d956cb7f466a3365b172515181464 = L.circleMarker(
+            var circle_marker_aedafcf62e55fe6e3fa449d32b3f43e6 = L.circleMarker(
                 [41.021654, 28.579757],
                 {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fec661ff", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.425976884975233, "stroke": true, "weight": 1}
-            ).addTo(map_9895347631be12c505321d5943b324b4);
+            ).addTo(map_46f298febdb8c998e0305ccdfd0ffa0a);
         
     
-        var popup_9db91a97b3256aa47e9a8d4dd8ee058f = L.popup({
+        var popup_019c6dd0f7481190ba0b7c02faf739f1 = L.popup({
   "maxWidth": 260,
 });
 
         
             
-                var html_12c7aacb82acaef56fa5402c168e39ff = $(`<div id="html_12c7aacb82acaef56fa5402c168e39ff" style="width: 100.0%; height: 100.0%;">     <b>District:</b> BÜYÜKÇEKMECE<br>     <b>Composite Risk Score:</b> 18.48<br>     <b>Building Metric:</b> 2074<br>     <b>Hazard Score:</b> 17.71<br><b>Population:</b> 280528<br></div>`)[0];
-                popup_9db91a97b3256aa47e9a8d4dd8ee058f.setContent(html_12c7aacb82acaef56fa5402c168e39ff);
+                var html_80f80575534c537f58b3730535207d38 = $(`<div id="html_80f80575534c537f58b3730535207d38" style="width: 100.0%; height: 100.0%;">     <b>District:</b> BÜYÜKÇEKMECE<br>     <b>Composite Risk Score:</b> 18.48<br>     <b>Building Metric:</b> 2074<br>     <b>Hazard Score:</b> 17.71<br><b>Population:</b> 280528<br></div>`)[0];
+                popup_019c6dd0f7481190ba0b7c02faf739f1.setContent(html_80f80575534c537f58b3730535207d38);
             
         
 
-        circle_marker_9e1d956cb7f466a3365b172515181464.bindPopup(popup_9db91a97b3256aa47e9a8d4dd8ee058f)
+        circle_marker_aedafcf62e55fe6e3fa449d32b3f43e6.bindPopup(popup_019c6dd0f7481190ba0b7c02faf739f1)
         ;
 
         
     
     
-            circle_marker_9e1d956cb7f466a3365b172515181464.bindTooltip(
+            circle_marker_aedafcf62e55fe6e3fa449d32b3f43e6.bindTooltip(
                 `<div>
                      BÜYÜKÇEKMECE | Risk: 18.5
                  </div>`,
@@ -746,30 +746,30 @@
             );
         
     
-            var circle_marker_4f9e42eba8130fbcf11593c61dce821a = L.circleMarker(
+            var circle_marker_dc747e8631f7f541577408c9e175cf81 = L.circleMarker(
                 [41.0256362, 29.0963049],
                 {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fed976ff", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.68739680792515, "stroke": true, "weight": 1}
-            ).addTo(map_9895347631be12c505321d5943b324b4);
+            ).addTo(map_46f298febdb8c998e0305ccdfd0ffa0a);
         
     
-        var popup_baf638349a35a7e74d4638a59932943d = L.popup({
+        var popup_a2a92aba34dfea1215af21829722a88e = L.popup({
   "maxWidth": 260,
 });
 
         
             
-                var html_320cf14776f4b82c54922e570e0ff06b = $(`<div id="html_320cf14776f4b82c54922e570e0ff06b" style="width: 100.0%; height: 100.0%;">     <b>District:</b> ÜMRANİYE<br>     <b>Composite Risk Score:</b> 15.38<br>     <b>Building Metric:</b> 639<br>     <b>Hazard Score:</b> 2.36<br><b>Population:</b> 727819<br></div>`)[0];
-                popup_baf638349a35a7e74d4638a59932943d.setContent(html_320cf14776f4b82c54922e570e0ff06b);
+                var html_59128f76a6a7d2d5d621efa0e68d3d35 = $(`<div id="html_59128f76a6a7d2d5d621efa0e68d3d35" style="width: 100.0%; height: 100.0%;">     <b>District:</b> ÜMRANİYE<br>     <b>Composite Risk Score:</b> 15.38<br>     <b>Building Metric:</b> 639<br>     <b>Hazard Score:</b> 2.36<br><b>Population:</b> 727819<br></div>`)[0];
+                popup_a2a92aba34dfea1215af21829722a88e.setContent(html_59128f76a6a7d2d5d621efa0e68d3d35);
             
         
 
-        circle_marker_4f9e42eba8130fbcf11593c61dce821a.bindPopup(popup_baf638349a35a7e74d4638a59932943d)
+        circle_marker_dc747e8631f7f541577408c9e175cf81.bindPopup(popup_a2a92aba34dfea1215af21829722a88e)
         ;
 
         
     
     
-            circle_marker_4f9e42eba8130fbcf11593c61dce821a.bindTooltip(
+            circle_marker_dc747e8631f7f541577408c9e175cf81.bindTooltip(
                 `<div>
                      ÜMRANİYE | Risk: 15.4
                  </div>`,
@@ -779,30 +779,30 @@
             );
         
     
-            var circle_marker_d3feab68bd2ce5e138aa37d01358560e = L.circleMarker(
+            var circle_marker_34a4755337d6ef26a382198b413b9990 = L.circleMarker(
                 [41.0742476, 28.2481709],
                 {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffda78ff", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.680242157402311, "stroke": true, "weight": 1}
-            ).addTo(map_9895347631be12c505321d5943b324b4);
+            ).addTo(map_46f298febdb8c998e0305ccdfd0ffa0a);
         
     
-        var popup_203bd831dbf6b69d28df97bc40aa9180 = L.popup({
+        var popup_abc5993161fe65354925a6b4250a2bfa = L.popup({
   "maxWidth": 260,
 });
 
         
             
-                var html_3425699eefcc69c515348a115b87445c = $(`<div id="html_3425699eefcc69c515348a115b87445c" style="width: 100.0%; height: 100.0%;">     <b>District:</b> SİLİVRİ<br>     <b>Composite Risk Score:</b> 15.07<br>     <b>Building Metric:</b> 2151<br>     <b>Hazard Score:</b> 3.41<br><b>Population:</b> 232156<br></div>`)[0];
-                popup_203bd831dbf6b69d28df97bc40aa9180.setContent(html_3425699eefcc69c515348a115b87445c);
+                var html_111036d4b68fa8a42cb038cea090c951 = $(`<div id="html_111036d4b68fa8a42cb038cea090c951" style="width: 100.0%; height: 100.0%;">     <b>District:</b> SİLİVRİ<br>     <b>Composite Risk Score:</b> 15.07<br>     <b>Building Metric:</b> 2151<br>     <b>Hazard Score:</b> 3.41<br><b>Population:</b> 232156<br></div>`)[0];
+                popup_abc5993161fe65354925a6b4250a2bfa.setContent(html_111036d4b68fa8a42cb038cea090c951);
             
         
 
-        circle_marker_d3feab68bd2ce5e138aa37d01358560e.bindPopup(popup_203bd831dbf6b69d28df97bc40aa9180)
+        circle_marker_34a4755337d6ef26a382198b413b9990.bindPopup(popup_abc5993161fe65354925a6b4250a2bfa)
         ;
 
         
     
     
-            circle_marker_d3feab68bd2ce5e138aa37d01358560e.bindTooltip(
+            circle_marker_34a4755337d6ef26a382198b413b9990.bindTooltip(
                 `<div>
                      SİLİVRİ | Risk: 15.1
                  </div>`,
@@ -812,30 +812,30 @@
             );
         
     
-            var circle_marker_7b2e6499b92a88dec55f3e2215daf5ba = L.circleMarker(
+            var circle_marker_03d0cdfcffdbbaccb917eae64e94d7b0 = L.circleMarker(
                 [41.0478358, 28.9327383],
                 {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffdc7cff", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 11.345074298293891, "stroke": true, "weight": 1}
-            ).addTo(map_9895347631be12c505321d5943b324b4);
+            ).addTo(map_46f298febdb8c998e0305ccdfd0ffa0a);
         
     
-        var popup_6ba85a35a123285982c426632ce29bbe = L.popup({
+        var popup_e7bfc067fe8128b76bbbc694d04a0b12 = L.popup({
   "maxWidth": 260,
 });
 
         
             
-                var html_55abe65952d240b631c3c629f8a9588e = $(`<div id="html_55abe65952d240b631c3c629f8a9588e" style="width: 100.0%; height: 100.0%;">     <b>District:</b> EYÜP<br>     <b>Composite Risk Score:</b> 14.41<br>     <b>Building Metric:</b> 1141<br>     <b>Hazard Score:</b> 11.14<br><b>Population:</b> 392029<br></div>`)[0];
-                popup_6ba85a35a123285982c426632ce29bbe.setContent(html_55abe65952d240b631c3c629f8a9588e);
+                var html_5418c48eb84d1524aade15892489e169 = $(`<div id="html_5418c48eb84d1524aade15892489e169" style="width: 100.0%; height: 100.0%;">     <b>District:</b> EYÜP<br>     <b>Composite Risk Score:</b> 14.41<br>     <b>Building Metric:</b> 1141<br>     <b>Hazard Score:</b> 11.14<br><b>Population:</b> 392029<br></div>`)[0];
+                popup_e7bfc067fe8128b76bbbc694d04a0b12.setContent(html_5418c48eb84d1524aade15892489e169);
             
         
 
-        circle_marker_7b2e6499b92a88dec55f3e2215daf5ba.bindPopup(popup_6ba85a35a123285982c426632ce29bbe)
+        circle_marker_03d0cdfcffdbbaccb917eae64e94d7b0.bindPopup(popup_e7bfc067fe8128b76bbbc694d04a0b12)
         ;
 
         
     
     
-            circle_marker_7b2e6499b92a88dec55f3e2215daf5ba.bindTooltip(
+            circle_marker_03d0cdfcffdbbaccb917eae64e94d7b0.bindTooltip(
                 `<div>
                      EYÜP | Risk: 14.4
                  </div>`,
@@ -845,30 +845,30 @@
             );
         
     
-            var circle_marker_9debcd04f268c45462112308b573417c = L.circleMarker(
+            var circle_marker_70e7ee8b35b2caa0061329380a2393c3 = L.circleMarker(
                 [41.0284233, 28.9736808],
                 {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffdd7dff", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 11.708310401761144, "stroke": true, "weight": 1}
-            ).addTo(map_9895347631be12c505321d5943b324b4);
+            ).addTo(map_46f298febdb8c998e0305ccdfd0ffa0a);
         
     
-        var popup_0204263964cbbf539612840df2709540 = L.popup({
+        var popup_c142b1d3d73a3ad74c6709e0018fdd09 = L.popup({
   "maxWidth": 260,
 });
 
         
             
-                var html_536af80a70e34c32a7085cc243b3d29a = $(`<div id="html_536af80a70e34c32a7085cc243b3d29a" style="width: 100.0%; height: 100.0%;">     <b>District:</b> BEYOĞLU<br>     <b>Composite Risk Score:</b> 14.29<br>     <b>Building Metric:</b> 1251<br>     <b>Hazard Score:</b> 14.71<br><b>Population:</b> 216688<br></div>`)[0];
-                popup_0204263964cbbf539612840df2709540.setContent(html_536af80a70e34c32a7085cc243b3d29a);
+                var html_ad8c93dc91e516a061b6719a4c019b34 = $(`<div id="html_ad8c93dc91e516a061b6719a4c019b34" style="width: 100.0%; height: 100.0%;">     <b>District:</b> BEYOĞLU<br>     <b>Composite Risk Score:</b> 14.29<br>     <b>Building Metric:</b> 1251<br>     <b>Hazard Score:</b> 14.71<br><b>Population:</b> 216688<br></div>`)[0];
+                popup_c142b1d3d73a3ad74c6709e0018fdd09.setContent(html_ad8c93dc91e516a061b6719a4c019b34);
             
         
 
-        circle_marker_9debcd04f268c45462112308b573417c.bindPopup(popup_0204263964cbbf539612840df2709540)
+        circle_marker_70e7ee8b35b2caa0061329380a2393c3.bindPopup(popup_c142b1d3d73a3ad74c6709e0018fdd09)
         ;
 
         
     
     
-            circle_marker_9debcd04f268c45462112308b573417c.bindTooltip(
+            circle_marker_70e7ee8b35b2caa0061329380a2393c3.bindTooltip(
                 `<div>
                      BEYOĞLU | Risk: 14.3
                  </div>`,
@@ -878,30 +878,30 @@
             );
         
     
-            var circle_marker_9dcf3bca5d3f0c8421ded40fb167c72b = L.circleMarker(
+            var circle_marker_492203d0183ba8b2369c366ed57da1c9 = L.circleMarker(
                 [40.9912955, 29.0245631],
                 {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffdd7eff", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.931755641166758, "stroke": true, "weight": 1}
-            ).addTo(map_9895347631be12c505321d5943b324b4);
+            ).addTo(map_46f298febdb8c998e0305ccdfd0ffa0a);
         
     
-        var popup_679cfc4a9ed1a1827e284705821ad8c1 = L.popup({
+        var popup_cb2514d4d3d9b130e6c78d70e4e2e72c = L.popup({
   "maxWidth": 260,
 });
 
         
             
-                var html_ce702b5eee2c7b36f608ff93b3974eb0 = $(`<div id="html_ce702b5eee2c7b36f608ff93b3974eb0" style="width: 100.0%; height: 100.0%;">     <b>District:</b> KADIKÖY<br>     <b>Composite Risk Score:</b> 14.12<br>     <b>Building Metric:</b> 713<br>     <b>Hazard Score:</b> 11.34<br><b>Population:</b> 462189<br></div>`)[0];
-                popup_679cfc4a9ed1a1827e284705821ad8c1.setContent(html_ce702b5eee2c7b36f608ff93b3974eb0);
+                var html_615d7c2be566d09a8ce4c19e1a6d6f3e = $(`<div id="html_615d7c2be566d09a8ce4c19e1a6d6f3e" style="width: 100.0%; height: 100.0%;">     <b>District:</b> KADIKÖY<br>     <b>Composite Risk Score:</b> 14.12<br>     <b>Building Metric:</b> 713<br>     <b>Hazard Score:</b> 11.34<br><b>Population:</b> 462189<br></div>`)[0];
+                popup_cb2514d4d3d9b130e6c78d70e4e2e72c.setContent(html_615d7c2be566d09a8ce4c19e1a6d6f3e);
             
         
 
-        circle_marker_9dcf3bca5d3f0c8421ded40fb167c72b.bindPopup(popup_679cfc4a9ed1a1827e284705821ad8c1)
+        circle_marker_492203d0183ba8b2369c366ed57da1c9.bindPopup(popup_cb2514d4d3d9b130e6c78d70e4e2e72c)
         ;
 
         
     
     
-            circle_marker_9dcf3bca5d3f0c8421ded40fb167c72b.bindTooltip(
+            circle_marker_492203d0183ba8b2369c366ed57da1c9.bindTooltip(
                 `<div>
                      KADIKÖY | Risk: 14.1
                  </div>`,
@@ -911,30 +911,30 @@
             );
         
     
-            var circle_marker_f7f041a1e324b6e5a3d139689c17394e = L.circleMarker(
+            var circle_marker_58eb46ac94e07c8fd9eacd6b5eabeb34 = L.circleMarker(
                 [41.0578305, 28.9122452],
                 {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffe187ff", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.334067143643368, "stroke": true, "weight": 1}
-            ).addTo(map_9895347631be12c505321d5943b324b4);
+            ).addTo(map_46f298febdb8c998e0305ccdfd0ffa0a);
         
     
-        var popup_9529bca1b4a60a39a10c9f5490181de0 = L.popup({
+        var popup_73f2eda16a3c31b8682c370b0883e984 = L.popup({
   "maxWidth": 260,
 });
 
         
             
-                var html_1fe18bafcd03881778ec6f3fa84826ff = $(`<div id="html_1fe18bafcd03881778ec6f3fa84826ff" style="width: 100.0%; height: 100.0%;">     <b>District:</b> GAZİOSMANPAŞA<br>     <b>Composite Risk Score:</b> 12.76<br>     <b>Building Metric:</b> 532<br>     <b>Hazard Score:</b> 8.94<br><b>Population:</b> 479931<br></div>`)[0];
-                popup_9529bca1b4a60a39a10c9f5490181de0.setContent(html_1fe18bafcd03881778ec6f3fa84826ff);
+                var html_80c01de399f4279474d5123bb88f6327 = $(`<div id="html_80c01de399f4279474d5123bb88f6327" style="width: 100.0%; height: 100.0%;">     <b>District:</b> GAZİOSMANPAŞA<br>     <b>Composite Risk Score:</b> 12.76<br>     <b>Building Metric:</b> 532<br>     <b>Hazard Score:</b> 8.94<br><b>Population:</b> 479931<br></div>`)[0];
+                popup_73f2eda16a3c31b8682c370b0883e984.setContent(html_80c01de399f4279474d5123bb88f6327);
             
         
 
-        circle_marker_f7f041a1e324b6e5a3d139689c17394e.bindPopup(popup_9529bca1b4a60a39a10c9f5490181de0)
+        circle_marker_58eb46ac94e07c8fd9eacd6b5eabeb34.bindPopup(popup_73f2eda16a3c31b8682c370b0883e984)
         ;
 
         
     
     
-            circle_marker_f7f041a1e324b6e5a3d139689c17394e.bindTooltip(
+            circle_marker_58eb46ac94e07c8fd9eacd6b5eabeb34.bindTooltip(
                 `<div>
                      GAZİOSMANPAŞA | Risk: 12.8
                  </div>`,
@@ -944,30 +944,30 @@
             );
         
     
-            var circle_marker_423115ac2b8dd412881ccca0b6af33cb = L.circleMarker(
+            var circle_marker_35d2ddb4d00d5346c46658bb9809cc7f = L.circleMarker(
                 [41.0265498, 29.0151321],
                 {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffe288ff", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.68739680792515, "stroke": true, "weight": 1}
-            ).addTo(map_9895347631be12c505321d5943b324b4);
+            ).addTo(map_46f298febdb8c998e0305ccdfd0ffa0a);
         
     
-        var popup_5f3d43a9fd2f9a2e7f5bf6382e835f2a = L.popup({
+        var popup_455231c050f71eb8a064335984b8c9b5 = L.popup({
   "maxWidth": 260,
 });
 
         
             
-                var html_dc81ad50c4b69a1108dbc0b8e81ebaee = $(`<div id="html_dc81ad50c4b69a1108dbc0b8e81ebaee" style="width: 100.0%; height: 100.0%;">     <b>District:</b> ÜSKÜDAR<br>     <b>Composite Risk Score:</b> 12.60<br>     <b>Building Metric:</b> 639<br>     <b>Hazard Score:</b> 5.49<br><b>Population:</b> 512981<br></div>`)[0];
-                popup_5f3d43a9fd2f9a2e7f5bf6382e835f2a.setContent(html_dc81ad50c4b69a1108dbc0b8e81ebaee);
+                var html_05462e23d486685e3b924240026a86bd = $(`<div id="html_05462e23d486685e3b924240026a86bd" style="width: 100.0%; height: 100.0%;">     <b>District:</b> ÜSKÜDAR<br>     <b>Composite Risk Score:</b> 12.60<br>     <b>Building Metric:</b> 639<br>     <b>Hazard Score:</b> 5.49<br><b>Population:</b> 512981<br></div>`)[0];
+                popup_455231c050f71eb8a064335984b8c9b5.setContent(html_05462e23d486685e3b924240026a86bd);
             
         
 
-        circle_marker_423115ac2b8dd412881ccca0b6af33cb.bindPopup(popup_5f3d43a9fd2f9a2e7f5bf6382e835f2a)
+        circle_marker_35d2ddb4d00d5346c46658bb9809cc7f.bindPopup(popup_455231c050f71eb8a064335984b8c9b5)
         ;
 
         
     
     
-            circle_marker_423115ac2b8dd412881ccca0b6af33cb.bindTooltip(
+            circle_marker_35d2ddb4d00d5346c46658bb9809cc7f.bindTooltip(
                 `<div>
                      ÜSKÜDAR | Risk: 12.6
                  </div>`,
@@ -977,30 +977,30 @@
             );
         
     
-            var circle_marker_00288b642c619851fa9f86b0245fbb2d = L.circleMarker(
+            var circle_marker_3b3bc9e528dc82e16a64923653c430aa = L.circleMarker(
                 [40.9905196, 29.2288624],
                 {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffe38bff", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.228398458998349, "stroke": true, "weight": 1}
-            ).addTo(map_9895347631be12c505321d5943b324b4);
+            ).addTo(map_46f298febdb8c998e0305ccdfd0ffa0a);
         
     
-        var popup_d457b96bf2082a96337f2cdd915d35da = L.popup({
+        var popup_cac6516ee11bc0314b9dc96a69ff1fa0 = L.popup({
   "maxWidth": 260,
 });
 
         
             
-                var html_65ae82a4f38e307abe1452a5603d0f05 = $(`<div id="html_65ae82a4f38e307abe1452a5603d0f05" style="width: 100.0%; height: 100.0%;">     <b>District:</b> SANCAKTEPE<br>     <b>Composite Risk Score:</b> 12.21<br>     <b>Building Metric:</b> 500<br>     <b>Hazard Score:</b> 2.89<br><b>Population:</b> 502077<br></div>`)[0];
-                popup_d457b96bf2082a96337f2cdd915d35da.setContent(html_65ae82a4f38e307abe1452a5603d0f05);
+                var html_11220cdfb6d9fa3358f68d4cee2451ab = $(`<div id="html_11220cdfb6d9fa3358f68d4cee2451ab" style="width: 100.0%; height: 100.0%;">     <b>District:</b> SANCAKTEPE<br>     <b>Composite Risk Score:</b> 12.21<br>     <b>Building Metric:</b> 500<br>     <b>Hazard Score:</b> 2.89<br><b>Population:</b> 502077<br></div>`)[0];
+                popup_cac6516ee11bc0314b9dc96a69ff1fa0.setContent(html_11220cdfb6d9fa3358f68d4cee2451ab);
             
         
 
-        circle_marker_00288b642c619851fa9f86b0245fbb2d.bindPopup(popup_d457b96bf2082a96337f2cdd915d35da)
+        circle_marker_3b3bc9e528dc82e16a64923653c430aa.bindPopup(popup_cac6516ee11bc0314b9dc96a69ff1fa0)
         ;
 
         
     
     
-            circle_marker_00288b642c619851fa9f86b0245fbb2d.bindTooltip(
+            circle_marker_3b3bc9e528dc82e16a64923653c430aa.bindTooltip(
                 `<div>
                      SANCAKTEPE | Risk: 12.2
                  </div>`,
@@ -1010,30 +1010,30 @@
             );
         
     
-            var circle_marker_2fb3c71e334c1d231320836e69817514 = L.circleMarker(
+            var circle_marker_99f5398655ba36b6a97e907539ea028d = L.circleMarker(
                 [41.1075794, 28.7950711],
                 {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffe38bff", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.855806274078152, "stroke": true, "weight": 1}
-            ).addTo(map_9895347631be12c505321d5943b324b4);
+            ).addTo(map_46f298febdb8c998e0305ccdfd0ffa0a);
         
     
-        var popup_32d3e2764748fb8cfac16b4e43d3e4d9 = L.popup({
+        var popup_e0346349894d156bbc63e308636a0594 = L.popup({
   "maxWidth": 260,
 });
 
         
             
-                var html_4c7ce3830e9f7b1d351606761a55d591 = $(`<div id="html_4c7ce3830e9f7b1d351606761a55d591" style="width: 100.0%; height: 100.0%;">     <b>District:</b> BAŞAKŞEHİR<br>     <b>Composite Risk Score:</b> 12.14<br>     <b>Building Metric:</b> 690<br>     <b>Hazard Score:</b> 4.65<br><b>Population:</b> 520467<br></div>`)[0];
-                popup_32d3e2764748fb8cfac16b4e43d3e4d9.setContent(html_4c7ce3830e9f7b1d351606761a55d591);
+                var html_04bacee699d56790a0d266f5884281a4 = $(`<div id="html_04bacee699d56790a0d266f5884281a4" style="width: 100.0%; height: 100.0%;">     <b>District:</b> BAŞAKŞEHİR<br>     <b>Composite Risk Score:</b> 12.14<br>     <b>Building Metric:</b> 690<br>     <b>Hazard Score:</b> 4.65<br><b>Population:</b> 520467<br></div>`)[0];
+                popup_e0346349894d156bbc63e308636a0594.setContent(html_04bacee699d56790a0d266f5884281a4);
             
         
 
-        circle_marker_2fb3c71e334c1d231320836e69817514.bindPopup(popup_32d3e2764748fb8cfac16b4e43d3e4d9)
+        circle_marker_99f5398655ba36b6a97e907539ea028d.bindPopup(popup_e0346349894d156bbc63e308636a0594)
         ;
 
         
     
     
-            circle_marker_2fb3c71e334c1d231320836e69817514.bindTooltip(
+            circle_marker_99f5398655ba36b6a97e907539ea028d.bindTooltip(
                 `<div>
                      BAŞAKŞEHİR | Risk: 12.1
                  </div>`,
@@ -1043,30 +1043,30 @@
             );
         
     
-            var circle_marker_5fa8993d917f4103778a6fbeb8444984 = L.circleMarker(
+            var circle_marker_4290d84aad5d13553fe6a2e14ddb940d = L.circleMarker(
                 [40.9670242, 29.2671314],
                 {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffe691ff", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.07705008255366, "stroke": true, "weight": 1}
-            ).addTo(map_9895347631be12c505321d5943b324b4);
+            ).addTo(map_46f298febdb8c998e0305ccdfd0ffa0a);
         
     
-        var popup_466ad342d068ce0765c3c4e5ef5b6375 = L.popup({
+        var popup_ec4ea4f43e28dae6cf75bca307e8035f = L.popup({
   "maxWidth": 260,
 });
 
         
             
-                var html_34c8267e519aa2a7a4b93933771f81e3 = $(`<div id="html_34c8267e519aa2a7a4b93933771f81e3" style="width: 100.0%; height: 100.0%;">     <b>District:</b> SULTANBEYLİ<br>     <b>Composite Risk Score:</b> 11.28<br>     <b>Building Metric:</b> 757<br>     <b>Hazard Score:</b> 4.45<br><b>Population:</b> 369193<br></div>`)[0];
-                popup_466ad342d068ce0765c3c4e5ef5b6375.setContent(html_34c8267e519aa2a7a4b93933771f81e3);
+                var html_ce9c1a62fd1b143a1f433ce2ef709b74 = $(`<div id="html_ce9c1a62fd1b143a1f433ce2ef709b74" style="width: 100.0%; height: 100.0%;">     <b>District:</b> SULTANBEYLİ<br>     <b>Composite Risk Score:</b> 11.28<br>     <b>Building Metric:</b> 757<br>     <b>Hazard Score:</b> 4.45<br><b>Population:</b> 369193<br></div>`)[0];
+                popup_ec4ea4f43e28dae6cf75bca307e8035f.setContent(html_ce9c1a62fd1b143a1f433ce2ef709b74);
             
         
 
-        circle_marker_5fa8993d917f4103778a6fbeb8444984.bindPopup(popup_466ad342d068ce0765c3c4e5ef5b6375)
+        circle_marker_4290d84aad5d13553fe6a2e14ddb940d.bindPopup(popup_ec4ea4f43e28dae6cf75bca307e8035f)
         ;
 
         
     
     
-            circle_marker_5fa8993d917f4103778a6fbeb8444984.bindTooltip(
+            circle_marker_4290d84aad5d13553fe6a2e14ddb940d.bindTooltip(
                 `<div>
                      SULTANBEYLİ | Risk: 11.3
                  </div>`,
@@ -1076,30 +1076,30 @@
             );
         
     
-            var circle_marker_c176fbf9680150641b0dc66cbae7a6f2 = L.circleMarker(
+            var circle_marker_0d5befdddad5211543fd11bc25c86758 = L.circleMarker(
                 [40.9929379, 29.1135187],
                 {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffe691ff", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.538800220143093, "stroke": true, "weight": 1}
-            ).addTo(map_9895347631be12c505321d5943b324b4);
+            ).addTo(map_46f298febdb8c998e0305ccdfd0ffa0a);
         
     
-        var popup_e2105a431e4c6dc954ea28bc5d0bb053 = L.popup({
+        var popup_04189b3c02c26e3d9cca85cf65e0b801 = L.popup({
   "maxWidth": 260,
 });
 
         
             
-                var html_d9bd9c46678922465c3d7ed80f8b40fd = $(`<div id="html_d9bd9c46678922465c3d7ed80f8b40fd" style="width: 100.0%; height: 100.0%;">     <b>District:</b> ATAŞEHİR<br>     <b>Composite Risk Score:</b> 11.15<br>     <b>Building Metric:</b> 594<br>     <b>Hazard Score:</b> 5.45<br><b>Population:</b> 414866<br></div>`)[0];
-                popup_e2105a431e4c6dc954ea28bc5d0bb053.setContent(html_d9bd9c46678922465c3d7ed80f8b40fd);
+                var html_5bcf07fc7009fc999b91b862f07603e2 = $(`<div id="html_5bcf07fc7009fc999b91b862f07603e2" style="width: 100.0%; height: 100.0%;">     <b>District:</b> ATAŞEHİR<br>     <b>Composite Risk Score:</b> 11.15<br>     <b>Building Metric:</b> 594<br>     <b>Hazard Score:</b> 5.45<br><b>Population:</b> 414866<br></div>`)[0];
+                popup_04189b3c02c26e3d9cca85cf65e0b801.setContent(html_5bcf07fc7009fc999b91b862f07603e2);
             
         
 
-        circle_marker_c176fbf9680150641b0dc66cbae7a6f2.bindPopup(popup_e2105a431e4c6dc954ea28bc5d0bb053)
+        circle_marker_0d5befdddad5211543fd11bc25c86758.bindPopup(popup_04189b3c02c26e3d9cca85cf65e0b801)
         ;
 
         
     
     
-            circle_marker_c176fbf9680150641b0dc66cbae7a6f2.bindTooltip(
+            circle_marker_0d5befdddad5211543fd11bc25c86758.bindTooltip(
                 `<div>
                      ATAŞEHİR | Risk: 11.2
                  </div>`,
@@ -1109,30 +1109,30 @@
             );
         
     
-            var circle_marker_873258b1ae1362d138611e962e64d301 = L.circleMarker(
+            var circle_marker_564892f85498322f5d886cf845ed42a3 = L.circleMarker(
                 [41.1043344, 28.8614367],
                 {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffe792ff", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.58778205833792, "stroke": true, "weight": 1}
-            ).addTo(map_9895347631be12c505321d5943b324b4);
+            ).addTo(map_46f298febdb8c998e0305ccdfd0ffa0a);
         
     
-        var popup_8bb5f8a619463b126fda960eacd50f4c = L.popup({
+        var popup_1f4cb816fb2e72724880bee078a24a89 = L.popup({
   "maxWidth": 260,
 });
 
         
             
-                var html_fd085c2fd5a580aa538fe873038c6167 = $(`<div id="html_fd085c2fd5a580aa538fe873038c6167" style="width: 100.0%; height: 100.0%;">     <b>District:</b> SULTANGAZİ<br>     <b>Composite Risk Score:</b> 11.04<br>     <b>Building Metric:</b> 306<br>     <b>Hazard Score:</b> 3.37<br><b>Population:</b> 532601<br></div>`)[0];
-                popup_8bb5f8a619463b126fda960eacd50f4c.setContent(html_fd085c2fd5a580aa538fe873038c6167);
+                var html_0e796d6938ea4b90b237fe060f271a51 = $(`<div id="html_0e796d6938ea4b90b237fe060f271a51" style="width: 100.0%; height: 100.0%;">     <b>District:</b> SULTANGAZİ<br>     <b>Composite Risk Score:</b> 11.04<br>     <b>Building Metric:</b> 306<br>     <b>Hazard Score:</b> 3.37<br><b>Population:</b> 532601<br></div>`)[0];
+                popup_1f4cb816fb2e72724880bee078a24a89.setContent(html_0e796d6938ea4b90b237fe060f271a51);
             
         
 
-        circle_marker_873258b1ae1362d138611e962e64d301.bindPopup(popup_8bb5f8a619463b126fda960eacd50f4c)
+        circle_marker_564892f85498322f5d886cf845ed42a3.bindPopup(popup_1f4cb816fb2e72724880bee078a24a89)
         ;
 
         
     
     
-            circle_marker_873258b1ae1362d138611e962e64d301.bindTooltip(
+            circle_marker_564892f85498322f5d886cf845ed42a3.bindTooltip(
                 `<div>
                      SULTANGAZİ | Risk: 11.0
                  </div>`,
@@ -1142,30 +1142,30 @@
             );
         
     
-            var circle_marker_a5acc63a148f383c93e0d4c556592cf6 = L.circleMarker(
+            var circle_marker_da5c8b0a1b8d1d5ecf01a003c2fc21f4 = L.circleMarker(
                 [41.0796544, 28.9731198],
                 {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffea98ff", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.795817281232802, "stroke": true, "weight": 1}
-            ).addTo(map_9895347631be12c505321d5943b324b4);
+            ).addTo(map_46f298febdb8c998e0305ccdfd0ffa0a);
         
     
-        var popup_dc98053aa9d2bf1f11040d7122a2aa9d = L.popup({
+        var popup_86bb262059d67b8f4542ac405c80490e = L.popup({
   "maxWidth": 260,
 });
 
         
             
-                var html_b07b2dd065b0f861eca5bc740d123b49 = $(`<div id="html_b07b2dd065b0f861eca5bc740d123b49" style="width: 100.0%; height: 100.0%;">     <b>District:</b> KAĞITHANE<br>     <b>Composite Risk Score:</b> 10.12<br>     <b>Building Metric:</b> 369<br>     <b>Hazard Score:</b> 5.13<br><b>Population:</b> 444820<br></div>`)[0];
-                popup_dc98053aa9d2bf1f11040d7122a2aa9d.setContent(html_b07b2dd065b0f861eca5bc740d123b49);
+                var html_74b46849bf829cb79e0947d95f245e61 = $(`<div id="html_74b46849bf829cb79e0947d95f245e61" style="width: 100.0%; height: 100.0%;">     <b>District:</b> KAĞITHANE<br>     <b>Composite Risk Score:</b> 10.12<br>     <b>Building Metric:</b> 369<br>     <b>Hazard Score:</b> 5.13<br><b>Population:</b> 444820<br></div>`)[0];
+                popup_86bb262059d67b8f4542ac405c80490e.setContent(html_74b46849bf829cb79e0947d95f245e61);
             
         
 
-        circle_marker_a5acc63a148f383c93e0d4c556592cf6.bindPopup(popup_dc98053aa9d2bf1f11040d7122a2aa9d)
+        circle_marker_da5c8b0a1b8d1d5ecf01a003c2fc21f4.bindPopup(popup_86bb262059d67b8f4542ac405c80490e)
         ;
 
         
     
     
-            circle_marker_a5acc63a148f383c93e0d4c556592cf6.bindTooltip(
+            circle_marker_da5c8b0a1b8d1d5ecf01a003c2fc21f4.bindTooltip(
                 `<div>
                      KAĞITHANE | Risk: 10.1
                  </div>`,
@@ -1175,30 +1175,30 @@
             );
         
     
-            var circle_marker_1507aad3e7bbeadcda6b0f52e19a47b1 = L.circleMarker(
+            var circle_marker_1c67b921bb4d476cb3e63a57163b3006 = L.circleMarker(
                 [41.1685803, 29.0572623],
                 {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fff0a6ff", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.119427627958173, "stroke": true, "weight": 1}
-            ).addTo(map_9895347631be12c505321d5943b324b4);
+            ).addTo(map_46f298febdb8c998e0305ccdfd0ffa0a);
         
     
-        var popup_7cf6cbb8bab2141846a7f92772e7de3b = L.popup({
+        var popup_1b74709198193bd1128bc10c97b67d09 = L.popup({
   "maxWidth": 260,
 });
 
         
             
-                var html_29b7aa971100f94ce134c30326b18959 = $(`<div id="html_29b7aa971100f94ce134c30326b18959" style="width: 100.0%; height: 100.0%;">     <b>District:</b> SARIYER<br>     <b>Composite Risk Score:</b> 8.06<br>     <b>Building Metric:</b> 467<br>     <b>Hazard Score:</b> 2.16<br><b>Population:</b> 342582<br></div>`)[0];
-                popup_7cf6cbb8bab2141846a7f92772e7de3b.setContent(html_29b7aa971100f94ce134c30326b18959);
+                var html_8ffbdc6bc22a874a5261ac4b6b180fe4 = $(`<div id="html_8ffbdc6bc22a874a5261ac4b6b180fe4" style="width: 100.0%; height: 100.0%;">     <b>District:</b> SARIYER<br>     <b>Composite Risk Score:</b> 8.06<br>     <b>Building Metric:</b> 467<br>     <b>Hazard Score:</b> 2.16<br><b>Population:</b> 342582<br></div>`)[0];
+                popup_1b74709198193bd1128bc10c97b67d09.setContent(html_8ffbdc6bc22a874a5261ac4b6b180fe4);
             
         
 
-        circle_marker_1507aad3e7bbeadcda6b0f52e19a47b1.bindPopup(popup_7cf6cbb8bab2141846a7f92772e7de3b)
+        circle_marker_1c67b921bb4d476cb3e63a57163b3006.bindPopup(popup_1b74709198193bd1128bc10c97b67d09)
         ;
 
         
     
     
-            circle_marker_1507aad3e7bbeadcda6b0f52e19a47b1.bindTooltip(
+            circle_marker_1c67b921bb4d476cb3e63a57163b3006.bindTooltip(
                 `<div>
                      SARIYER | Risk: 8.1
                  </div>`,
@@ -1208,30 +1208,30 @@
             );
         
     
-            var circle_marker_98133fbc25df3cc0164ec0f075743bea = L.circleMarker(
+            var circle_marker_6dc5b5a093f3e95a1df25f7088e4329f = L.circleMarker(
                 [41.1343001, 29.0920378],
                 {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fff3adff", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.413318657127133, "stroke": true, "weight": 1}
-            ).addTo(map_9895347631be12c505321d5943b324b4);
+            ).addTo(map_46f298febdb8c998e0305ccdfd0ffa0a);
         
     
-        var popup_305d19e66ce19399a512eac7c4fde61e = L.popup({
+        var popup_037eb85f5fb8a2ebaec39b7d9d838463 = L.popup({
   "maxWidth": 260,
 });
 
         
             
-                var html_0eeb88e644751550d5a18e25a6cc3dd6 = $(`<div id="html_0eeb88e644751550d5a18e25a6cc3dd6" style="width: 100.0%; height: 100.0%;">     <b>District:</b> BEYKOZ<br>     <b>Composite Risk Score:</b> 7.13<br>     <b>Building Metric:</b> 556<br>     <b>Hazard Score:</b> 1.64<br><b>Population:</b> 245440<br></div>`)[0];
-                popup_305d19e66ce19399a512eac7c4fde61e.setContent(html_0eeb88e644751550d5a18e25a6cc3dd6);
+                var html_0fc2512afa57ce7944af1141210aa4e4 = $(`<div id="html_0fc2512afa57ce7944af1141210aa4e4" style="width: 100.0%; height: 100.0%;">     <b>District:</b> BEYKOZ<br>     <b>Composite Risk Score:</b> 7.13<br>     <b>Building Metric:</b> 556<br>     <b>Hazard Score:</b> 1.64<br><b>Population:</b> 245440<br></div>`)[0];
+                popup_037eb85f5fb8a2ebaec39b7d9d838463.setContent(html_0fc2512afa57ce7944af1141210aa4e4);
             
         
 
-        circle_marker_98133fbc25df3cc0164ec0f075743bea.bindPopup(popup_305d19e66ce19399a512eac7c4fde61e)
+        circle_marker_6dc5b5a093f3e95a1df25f7088e4329f.bindPopup(popup_037eb85f5fb8a2ebaec39b7d9d838463)
         ;
 
         
     
     
-            circle_marker_98133fbc25df3cc0164ec0f075743bea.bindTooltip(
+            circle_marker_6dc5b5a093f3e95a1df25f7088e4329f.bindTooltip(
                 `<div>
                      BEYKOZ | Risk: 7.1
                  </div>`,
@@ -1241,30 +1241,30 @@
             );
         
     
-            var circle_marker_1a8836129b565c85ce1d19e3bf56e747 = L.circleMarker(
+            var circle_marker_19c2f87cdf513c628696de62c289a45d = L.circleMarker(
                 [41.0637891, 28.9831642],
                 {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fff4b1ff", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.485415520088058, "stroke": true, "weight": 1}
-            ).addTo(map_9895347631be12c505321d5943b324b4);
+            ).addTo(map_46f298febdb8c998e0305ccdfd0ffa0a);
         
     
-        var popup_5371a4bacc76738eab577c27a585f00a = L.popup({
+        var popup_ef81ea8e73715fd051cd575248611da9 = L.popup({
   "maxWidth": 260,
 });
 
         
             
-                var html_fa39f1ee50fa08ee8826ec0306335dbf = $(`<div id="html_fa39f1ee50fa08ee8826ec0306335dbf" style="width: 100.0%; height: 100.0%;">     <b>District:</b> ŞİŞLİ<br>     <b>Composite Risk Score:</b> 6.54<br>     <b>Building Metric:</b> 275<br>     <b>Hazard Score:</b> 3.29<br><b>Population:</b> 263063<br></div>`)[0];
-                popup_5371a4bacc76738eab577c27a585f00a.setContent(html_fa39f1ee50fa08ee8826ec0306335dbf);
+                var html_cad333fda5da98397f49adca4c18f50b = $(`<div id="html_cad333fda5da98397f49adca4c18f50b" style="width: 100.0%; height: 100.0%;">     <b>District:</b> ŞİŞLİ<br>     <b>Composite Risk Score:</b> 6.54<br>     <b>Building Metric:</b> 275<br>     <b>Hazard Score:</b> 3.29<br><b>Population:</b> 263063<br></div>`)[0];
+                popup_ef81ea8e73715fd051cd575248611da9.setContent(html_cad333fda5da98397f49adca4c18f50b);
             
         
 
-        circle_marker_1a8836129b565c85ce1d19e3bf56e747.bindPopup(popup_5371a4bacc76738eab577c27a585f00a)
+        circle_marker_19c2f87cdf513c628696de62c289a45d.bindPopup(popup_ef81ea8e73715fd051cd575248611da9)
         ;
 
         
     
     
-            circle_marker_1a8836129b565c85ce1d19e3bf56e747.bindTooltip(
+            circle_marker_19c2f87cdf513c628696de62c289a45d.bindTooltip(
                 `<div>
                      ŞİŞLİ | Risk: 6.5
                  </div>`,
@@ -1274,30 +1274,30 @@
             );
         
     
-            var circle_marker_f48bc03cf64a7031e332e5480461ebde = L.circleMarker(
+            var circle_marker_3139b5c8e2ae2a707ccaf58fab1e9e55 = L.circleMarker(
                 [41.0351579, 29.1739149],
                 {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fff4b1ff", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.003302146395157, "stroke": true, "weight": 1}
-            ).addTo(map_9895347631be12c505321d5943b324b4);
+            ).addTo(map_46f298febdb8c998e0305ccdfd0ffa0a);
         
     
-        var popup_eb0925a0f5477c978b5abab59054d5d2 = L.popup({
+        var popup_7f64847375d809adf390227a353b0f39 = L.popup({
   "maxWidth": 260,
 });
 
         
             
-                var html_31b28c7900323714e676d072bc336f63 = $(`<div id="html_31b28c7900323714e676d072bc336f63" style="width: 100.0%; height: 100.0%;">     <b>District:</b> ÇEKMEKÖY<br>     <b>Composite Risk Score:</b> 6.48<br>     <b>Building Metric:</b> 129<br>     <b>Hazard Score:</b> 0.04<br><b>Population:</b> 306739<br></div>`)[0];
-                popup_eb0925a0f5477c978b5abab59054d5d2.setContent(html_31b28c7900323714e676d072bc336f63);
+                var html_ca694ca97e4c8dc9ae29c2cdc32ea073 = $(`<div id="html_ca694ca97e4c8dc9ae29c2cdc32ea073" style="width: 100.0%; height: 100.0%;">     <b>District:</b> ÇEKMEKÖY<br>     <b>Composite Risk Score:</b> 6.48<br>     <b>Building Metric:</b> 129<br>     <b>Hazard Score:</b> 0.04<br><b>Population:</b> 306739<br></div>`)[0];
+                popup_7f64847375d809adf390227a353b0f39.setContent(html_ca694ca97e4c8dc9ae29c2cdc32ea073);
             
         
 
-        circle_marker_f48bc03cf64a7031e332e5480461ebde.bindPopup(popup_eb0925a0f5477c978b5abab59054d5d2)
+        circle_marker_3139b5c8e2ae2a707ccaf58fab1e9e55.bindPopup(popup_7f64847375d809adf390227a353b0f39)
         ;
 
         
     
     
-            circle_marker_f48bc03cf64a7031e332e5480461ebde.bindTooltip(
+            circle_marker_3139b5c8e2ae2a707ccaf58fab1e9e55.bindTooltip(
                 `<div>
                      ÇEKMEKÖY | Risk: 6.5
                  </div>`,
@@ -1307,30 +1307,30 @@
             );
         
     
-            var circle_marker_b2925fbd842a1d34143177c74f604992 = L.circleMarker(
+            var circle_marker_0a099d6f78dc30db7f566f5a852d479a = L.circleMarker(
                 [41.184471, 28.7412446],
                 {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fff5b3ff", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.515134837644469, "stroke": true, "weight": 1}
-            ).addTo(map_9895347631be12c505321d5943b324b4);
+            ).addTo(map_46f298febdb8c998e0305ccdfd0ffa0a);
         
     
-        var popup_003b86e6d5ba81d9b711c7800e14e521 = L.popup({
+        var popup_acd9caec24248fe92c37eb36eed7f963 = L.popup({
   "maxWidth": 260,
 });
 
         
             
-                var html_54f2f2e86425a12cb8ce2061e16d6d43 = $(`<div id="html_54f2f2e86425a12cb8ce2061e16d6d43" style="width: 100.0%; height: 100.0%;">     <b>District:</b> ARNAVUTKÖY<br>     <b>Composite Risk Score:</b> 6.23<br>     <b>Building Metric:</b> 284<br>     <b>Hazard Score:</b> 0.00<br><b>Population:</b> 344868<br></div>`)[0];
-                popup_003b86e6d5ba81d9b711c7800e14e521.setContent(html_54f2f2e86425a12cb8ce2061e16d6d43);
+                var html_a06c420a236b45bed198bc6f4c0ae294 = $(`<div id="html_a06c420a236b45bed198bc6f4c0ae294" style="width: 100.0%; height: 100.0%;">     <b>District:</b> ARNAVUTKÖY<br>     <b>Composite Risk Score:</b> 6.23<br>     <b>Building Metric:</b> 284<br>     <b>Hazard Score:</b> 0.00<br><b>Population:</b> 344868<br></div>`)[0];
+                popup_acd9caec24248fe92c37eb36eed7f963.setContent(html_a06c420a236b45bed198bc6f4c0ae294);
             
         
 
-        circle_marker_b2925fbd842a1d34143177c74f604992.bindPopup(popup_003b86e6d5ba81d9b711c7800e14e521)
+        circle_marker_0a099d6f78dc30db7f566f5a852d479a.bindPopup(popup_acd9caec24248fe92c37eb36eed7f963)
         ;
 
         
     
     
-            circle_marker_b2925fbd842a1d34143177c74f604992.bindTooltip(
+            circle_marker_0a099d6f78dc30db7f566f5a852d479a.bindTooltip(
                 `<div>
                      ARNAVUTKÖY | Risk: 6.2
                  </div>`,
@@ -1340,30 +1340,30 @@
             );
         
     
-            var circle_marker_c216100feb8a875f67e91d2a14598dec = L.circleMarker(
+            var circle_marker_b4fd47810e39ebc60216c30406524717 = L.circleMarker(
                 [41.0428465, 29.0075283],
                 {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fff9bcff", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.406164006604293, "stroke": true, "weight": 1}
-            ).addTo(map_9895347631be12c505321d5943b324b4);
+            ).addTo(map_46f298febdb8c998e0305ccdfd0ffa0a);
         
     
-        var popup_2fdd28af5a1b7bd89a52b78928f754c5 = L.popup({
+        var popup_81c1234f0956263344bc75f83e7c32f1 = L.popup({
   "maxWidth": 260,
 });
 
         
             
-                var html_eac3f16b3e79220938cd0303b06eb8f7 = $(`<div id="html_eac3f16b3e79220938cd0303b06eb8f7" style="width: 100.0%; height: 100.0%;">     <b>District:</b> BEŞİKTAŞ<br>     <b>Composite Risk Score:</b> 4.96<br>     <b>Building Metric:</b> 251<br>     <b>Hazard Score:</b> 1.60<br><b>Population:</b> 167264<br></div>`)[0];
-                popup_2fdd28af5a1b7bd89a52b78928f754c5.setContent(html_eac3f16b3e79220938cd0303b06eb8f7);
+                var html_b8b82198553b4ceb8491421c254ec025 = $(`<div id="html_b8b82198553b4ceb8491421c254ec025" style="width: 100.0%; height: 100.0%;">     <b>District:</b> BEŞİKTAŞ<br>     <b>Composite Risk Score:</b> 4.96<br>     <b>Building Metric:</b> 251<br>     <b>Hazard Score:</b> 1.60<br><b>Population:</b> 167264<br></div>`)[0];
+                popup_81c1234f0956263344bc75f83e7c32f1.setContent(html_b8b82198553b4ceb8491421c254ec025);
             
         
 
-        circle_marker_c216100feb8a875f67e91d2a14598dec.bindPopup(popup_2fdd28af5a1b7bd89a52b78928f754c5)
+        circle_marker_b4fd47810e39ebc60216c30406524717.bindPopup(popup_81c1234f0956263344bc75f83e7c32f1)
         ;
 
         
     
     
-            circle_marker_c216100feb8a875f67e91d2a14598dec.bindTooltip(
+            circle_marker_b4fd47810e39ebc60216c30406524717.bindTooltip(
                 `<div>
                      BEŞİKTAŞ | Risk: 5.0
                  </div>`,
@@ -1373,30 +1373,30 @@
             );
         
     
-            var circle_marker_5bb23aacb1db741221a883adadf52186 = L.circleMarker(
+            var circle_marker_185e7acf3d1c85e2a11467d05f109573 = L.circleMarker(
                 [41.1436804, 28.4605154],
                 {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fffac0ff", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.779306549257017, "stroke": true, "weight": 1}
-            ).addTo(map_9895347631be12c505321d5943b324b4);
+            ).addTo(map_46f298febdb8c998e0305ccdfd0ffa0a);
         
     
-        var popup_e8d09f8610fac83345e8b06a689b99a1 = L.popup({
+        var popup_48b646d7ebf7c04464eb64ab257b27e1 = L.popup({
   "maxWidth": 260,
 });
 
         
             
-                var html_0fa798f2c40c9acca9531a7d67ab3e24 = $(`<div id="html_0fa798f2c40c9acca9531a7d67ab3e24" style="width: 100.0%; height: 100.0%;">     <b>District:</b> ÇATALCA<br>     <b>Composite Risk Score:</b> 4.39<br>     <b>Building Metric:</b> 364<br>     <b>Hazard Score:</b> 0.24<br><b>Population:</b> 80399<br></div>`)[0];
-                popup_e8d09f8610fac83345e8b06a689b99a1.setContent(html_0fa798f2c40c9acca9531a7d67ab3e24);
+                var html_9886012dbfdc8f0457c82e3135eca603 = $(`<div id="html_9886012dbfdc8f0457c82e3135eca603" style="width: 100.0%; height: 100.0%;">     <b>District:</b> ÇATALCA<br>     <b>Composite Risk Score:</b> 4.39<br>     <b>Building Metric:</b> 364<br>     <b>Hazard Score:</b> 0.24<br><b>Population:</b> 80399<br></div>`)[0];
+                popup_48b646d7ebf7c04464eb64ab257b27e1.setContent(html_9886012dbfdc8f0457c82e3135eca603);
             
         
 
-        circle_marker_5bb23aacb1db741221a883adadf52186.bindPopup(popup_e8d09f8610fac83345e8b06a689b99a1)
+        circle_marker_185e7acf3d1c85e2a11467d05f109573.bindPopup(popup_48b646d7ebf7c04464eb64ab257b27e1)
         ;
 
         
     
     
-            circle_marker_5bb23aacb1db741221a883adadf52186.bindTooltip(
+            circle_marker_185e7acf3d1c85e2a11467d05f109573.bindTooltip(
                 `<div>
                      ÇATALCA | Risk: 4.4
                  </div>`,
@@ -1406,30 +1406,30 @@
             );
         
     
-            var circle_marker_72ecb743c863c38de28c123ca4a320b8 = L.circleMarker(
+            var circle_marker_0b6252c618c2f694ca06d92d9fa0f467 = L.circleMarker(
                 [41.1744067, 29.6125216],
                 {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffffccff", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.0, "stroke": true, "weight": 1}
-            ).addTo(map_9895347631be12c505321d5943b324b4);
+            ).addTo(map_46f298febdb8c998e0305ccdfd0ffa0a);
         
     
-        var popup_5578f58613a5cd2a2fcc6d73c2ddbd38 = L.popup({
+        var popup_25fb1d1bdeb4ede773f8df5d4e1cf032 = L.popup({
   "maxWidth": 260,
 });
 
         
             
-                var html_7b745d1cbfa665a63855536c0a7e4ffd = $(`<div id="html_7b745d1cbfa665a63855536c0a7e4ffd" style="width: 100.0%; height: 100.0%;">     <b>District:</b> ŞİLE<br>     <b>Composite Risk Score:</b> 2.56<br>     <b>Building Metric:</b> 128<br>     <b>Hazard Score:</b> 0.00<br><b>Population:</b> 48936<br></div>`)[0];
-                popup_5578f58613a5cd2a2fcc6d73c2ddbd38.setContent(html_7b745d1cbfa665a63855536c0a7e4ffd);
+                var html_cd6ee161e5df8732831515d64fd5bd14 = $(`<div id="html_cd6ee161e5df8732831515d64fd5bd14" style="width: 100.0%; height: 100.0%;">     <b>District:</b> ŞİLE<br>     <b>Composite Risk Score:</b> 2.56<br>     <b>Building Metric:</b> 128<br>     <b>Hazard Score:</b> 0.00<br><b>Population:</b> 48936<br></div>`)[0];
+                popup_25fb1d1bdeb4ede773f8df5d4e1cf032.setContent(html_cd6ee161e5df8732831515d64fd5bd14);
             
         
 
-        circle_marker_72ecb743c863c38de28c123ca4a320b8.bindPopup(popup_5578f58613a5cd2a2fcc6d73c2ddbd38)
+        circle_marker_0b6252c618c2f694ca06d92d9fa0f467.bindPopup(popup_25fb1d1bdeb4ede773f8df5d4e1cf032)
         ;
 
         
     
     
-            circle_marker_72ecb743c863c38de28c123ca4a320b8.bindTooltip(
+            circle_marker_0b6252c618c2f694ca06d92d9fa0f467.bindTooltip(
                 `<div>
                      ŞİLE | Risk: 2.6
                  </div>`,
@@ -1439,182 +1439,182 @@
             );
         
     
-            var marker_dedcd5ba6e89e6a37989f8087f13732e = L.marker(
+            var marker_40303c25f4713e74dbe21a50030d0174 = L.marker(
                 [40.9918737, 28.7711956],
                 {
 }
-            ).addTo(map_9895347631be12c505321d5943b324b4);
+            ).addTo(map_46f298febdb8c998e0305ccdfd0ffa0a);
         
     
-            var div_icon_92361ba72957c3cbfcf176fb075a50db = L.divIcon({
+            var div_icon_62b54c80f268de2efd0159b14260e34a = L.divIcon({
   "html": "\n            \u003cdiv style=\"\n                font-size: 12px;\n                font-weight: bold;\n                color: darkred;\n                background-color: rgba(255,255,255,0.75);\n                padding: 2px 4px;\n                border-radius: 4px;\n                white-space: nowrap;\"\u003e\n                K\u00dc\u00c7\u00dcK\u00c7EKMECE\n            \u003c/div\u003e\n        ",
   "className": "empty",
 });
         
     
-                marker_dedcd5ba6e89e6a37989f8087f13732e.setIcon(div_icon_92361ba72957c3cbfcf176fb075a50db);
+                marker_40303c25f4713e74dbe21a50030d0174.setIcon(div_icon_62b54c80f268de2efd0159b14260e34a);
             
     
-            var marker_fdf3ed445f21489fcfb4179b906a17e1 = L.marker(
+            var marker_b4b44b5114aedd978e150c465e0c23ec = L.marker(
                 [41.0192846, 28.9479296],
                 {
 }
-            ).addTo(map_9895347631be12c505321d5943b324b4);
+            ).addTo(map_46f298febdb8c998e0305ccdfd0ffa0a);
         
     
-            var div_icon_3654f6a176f0cab398811d1008dd8b7b = L.divIcon({
+            var div_icon_fc197c4c2f02c20729b47600cfa33af9 = L.divIcon({
   "html": "\n            \u003cdiv style=\"\n                font-size: 12px;\n                font-weight: bold;\n                color: darkred;\n                background-color: rgba(255,255,255,0.75);\n                padding: 2px 4px;\n                border-radius: 4px;\n                white-space: nowrap;\"\u003e\n                FAT\u0130H\n            \u003c/div\u003e\n        ",
   "className": "empty",
 });
         
     
-                marker_fdf3ed445f21489fcfb4179b906a17e1.setIcon(div_icon_3654f6a176f0cab398811d1008dd8b7b);
+                marker_b4b44b5114aedd978e150c465e0c23ec.setIcon(div_icon_fc197c4c2f02c20729b47600cfa33af9);
             
     
-            var marker_d2dcfba96bcc49cba205707bb451ac89 = L.marker(
+            var marker_1420163b0bbe666442855ffd54800633 = L.marker(
                 [40.8741659, 29.1293251],
                 {
 }
-            ).addTo(map_9895347631be12c505321d5943b324b4);
+            ).addTo(map_46f298febdb8c998e0305ccdfd0ffa0a);
         
     
-            var div_icon_bc884947c4617709473083072d479811 = L.divIcon({
+            var div_icon_18fc7bf7e3f949cd9c97227d4ac58c92 = L.divIcon({
   "html": "\n            \u003cdiv style=\"\n                font-size: 12px;\n                font-weight: bold;\n                color: darkred;\n                background-color: rgba(255,255,255,0.75);\n                padding: 2px 4px;\n                border-radius: 4px;\n                white-space: nowrap;\"\u003e\n                ADALAR\n            \u003c/div\u003e\n        ",
   "className": "empty",
 });
         
     
-                marker_d2dcfba96bcc49cba205707bb451ac89.setIcon(div_icon_bc884947c4617709473083072d479811);
+                marker_1420163b0bbe666442855ffd54800633.setIcon(div_icon_18fc7bf7e3f949cd9c97227d4ac58c92);
             
     
-            var marker_5d933265e5f128ed80a416a086c62a3f = L.marker(
+            var marker_bd9b0a2fed94366e1730aacf357149cd = L.marker(
                 [41.0030495, 28.8657701],
                 {
 }
-            ).addTo(map_9895347631be12c505321d5943b324b4);
+            ).addTo(map_46f298febdb8c998e0305ccdfd0ffa0a);
         
     
-            var div_icon_28cf2d3578d3f0d3e79f2e736461629b = L.divIcon({
+            var div_icon_fe894d1eb49bfb794cad89bc4db9e2e8 = L.divIcon({
   "html": "\n            \u003cdiv style=\"\n                font-size: 12px;\n                font-weight: bold;\n                color: darkred;\n                background-color: rgba(255,255,255,0.75);\n                padding: 2px 4px;\n                border-radius: 4px;\n                white-space: nowrap;\"\u003e\n                BAH\u00c7EL\u0130EVLER\n            \u003c/div\u003e\n        ",
   "className": "empty",
 });
         
     
-                marker_5d933265e5f128ed80a416a086c62a3f.setIcon(div_icon_28cf2d3578d3f0d3e79f2e736461629b);
+                marker_bd9b0a2fed94366e1730aacf357149cd.setIcon(div_icon_fe894d1eb49bfb794cad89bc4db9e2e8);
             
     
-            var marker_55901bf971b66075aef1d60ab135f2cf = L.marker(
+            var marker_8907b8131552b4b256d91615f3c87593 = L.marker(
                 [41.034547, 28.8567558],
                 {
 }
-            ).addTo(map_9895347631be12c505321d5943b324b4);
+            ).addTo(map_46f298febdb8c998e0305ccdfd0ffa0a);
         
     
-            var div_icon_fc526629eb8fe4beb03ea06e0193f3ee = L.divIcon({
+            var div_icon_6592b1abf1b0644b1ec2136c76fb8875 = L.divIcon({
   "html": "\n            \u003cdiv style=\"\n                font-size: 12px;\n                font-weight: bold;\n                color: darkred;\n                background-color: rgba(255,255,255,0.75);\n                padding: 2px 4px;\n                border-radius: 4px;\n                white-space: nowrap;\"\u003e\n                BA\u011eCILAR\n            \u003c/div\u003e\n        ",
   "className": "empty",
 });
         
     
-                marker_55901bf971b66075aef1d60ab135f2cf.setIcon(div_icon_fc526629eb8fe4beb03ea06e0193f3ee);
+                marker_8907b8131552b4b256d91615f3c87593.setIcon(div_icon_6592b1abf1b0644b1ec2136c76fb8875);
             
     
-            var marker_82404406dacd2fce62667fdd8bb68db8 = L.marker(
+            var marker_353307a2599e1e26afd0a2d8b3eae6a2 = L.marker(
                 [41.0342862, 28.6801113],
                 {
 }
-            ).addTo(map_9895347631be12c505321d5943b324b4);
+            ).addTo(map_46f298febdb8c998e0305ccdfd0ffa0a);
         
     
-            var div_icon_b3e650731030a1f98fa047f67f72c83e = L.divIcon({
+            var div_icon_e397ea306dc37c2d20bacb37f3b15a40 = L.divIcon({
   "html": "\n            \u003cdiv style=\"\n                font-size: 12px;\n                font-weight: bold;\n                color: darkred;\n                background-color: rgba(255,255,255,0.75);\n                padding: 2px 4px;\n                border-radius: 4px;\n                white-space: nowrap;\"\u003e\n                ESENYURT\n            \u003c/div\u003e\n        ",
   "className": "empty",
 });
         
     
-                marker_82404406dacd2fce62667fdd8bb68db8.setIcon(div_icon_b3e650731030a1f98fa047f67f72c83e);
+                marker_353307a2599e1e26afd0a2d8b3eae6a2.setIcon(div_icon_e397ea306dc37c2d20bacb37f3b15a40);
             
     
-            var marker_fecaf40f1cff2ada0e9f9bd302de5f49 = L.marker(
+            var marker_82d2afbae5c26c9402454fc1fda64be1 = L.marker(
                 [40.9782585, 28.8744461],
                 {
 }
-            ).addTo(map_9895347631be12c505321d5943b324b4);
+            ).addTo(map_46f298febdb8c998e0305ccdfd0ffa0a);
         
     
-            var div_icon_c1c8e15a0e2c9882fa36ddbf35175959 = L.divIcon({
+            var div_icon_6e39e6961c3c4a645e525dd9a4c9f86d = L.divIcon({
   "html": "\n            \u003cdiv style=\"\n                font-size: 12px;\n                font-weight: bold;\n                color: darkred;\n                background-color: rgba(255,255,255,0.75);\n                padding: 2px 4px;\n                border-radius: 4px;\n                white-space: nowrap;\"\u003e\n                BAKIRK\u00d6Y\n            \u003c/div\u003e\n        ",
   "className": "empty",
 });
         
     
-                marker_fecaf40f1cff2ada0e9f9bd302de5f49.setIcon(div_icon_c1c8e15a0e2c9882fa36ddbf35175959);
+                marker_82d2afbae5c26c9402454fc1fda64be1.setIcon(div_icon_6e39e6961c3c4a645e525dd9a4c9f86d);
             
     
-            var marker_b5399e26e38c8a6ef94b8ea1c1efeee6 = L.marker(
+            var marker_268304cb9411f0daa15b0056f751ff79 = L.marker(
                 [40.8161732, 29.3034194],
                 {
 }
-            ).addTo(map_9895347631be12c505321d5943b324b4);
+            ).addTo(map_46f298febdb8c998e0305ccdfd0ffa0a);
         
     
-            var div_icon_80ff93e96632e4c2aabb770d6170a8d1 = L.divIcon({
+            var div_icon_082d0b4263893244ef16b8e369fe83a9 = L.divIcon({
   "html": "\n            \u003cdiv style=\"\n                font-size: 12px;\n                font-weight: bold;\n                color: darkred;\n                background-color: rgba(255,255,255,0.75);\n                padding: 2px 4px;\n                border-radius: 4px;\n                white-space: nowrap;\"\u003e\n                TUZLA\n            \u003c/div\u003e\n        ",
   "className": "empty",
 });
         
     
-                marker_b5399e26e38c8a6ef94b8ea1c1efeee6.setIcon(div_icon_80ff93e96632e4c2aabb770d6170a8d1);
+                marker_268304cb9411f0daa15b0056f751ff79.setIcon(div_icon_082d0b4263893244ef16b8e369fe83a9);
             
     
-            var circle_040338ec87969a340067bc1fc980503d = L.circle(
+            var circle_459a5fa939c964582be4c715df8ac354 = L.circle(
                 [40.9918737, 28.7711956],
                 {"bubblingMouseEvents": true, "color": "darkred", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "darkred", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.9, "radius": 3500, "stroke": true, "weight": 2}
-            ).addTo(map_9895347631be12c505321d5943b324b4);
+            ).addTo(map_46f298febdb8c998e0305ccdfd0ffa0a);
         
     
-            var circle_2b8955adaa7284ea3105f3b0f172c99c = L.circle(
+            var circle_2acebddae4ce1f18c9af15e2c2cfe777 = L.circle(
                 [41.0192846, 28.9479296],
                 {"bubblingMouseEvents": true, "color": "darkred", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "darkred", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.9, "radius": 3500, "stroke": true, "weight": 2}
-            ).addTo(map_9895347631be12c505321d5943b324b4);
+            ).addTo(map_46f298febdb8c998e0305ccdfd0ffa0a);
         
     
-            var circle_266f607dfe2444abd7d50109c32572af = L.circle(
+            var circle_38e1141ea83d6c1903912063b508f9fe = L.circle(
                 [40.8741659, 29.1293251],
                 {"bubblingMouseEvents": true, "color": "darkred", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "darkred", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.9, "radius": 3500, "stroke": true, "weight": 2}
-            ).addTo(map_9895347631be12c505321d5943b324b4);
+            ).addTo(map_46f298febdb8c998e0305ccdfd0ffa0a);
         
     
-            var marker_a9bc6d3068b45e224dfe938c55fa7d79 = L.marker(
+            var marker_010edb79afb033911d2ce7df9897cc1f = L.marker(
                 [40.85, 28.85],
                 {
 }
-            ).addTo(map_9895347631be12c505321d5943b324b4);
+            ).addTo(map_46f298febdb8c998e0305ccdfd0ffa0a);
         
     
-            var div_icon_0958d9d4dd8fb9f398492fec47a08ea6 = L.divIcon({
+            var div_icon_bf58fd0b98e92aeb657ff24c0f8f7d26 = L.divIcon({
   "html": "\n        \u003cdiv style=\"font-size:14px; color:dimgray; font-style:italic;\"\u003e\n            Sea of Marmara\n        \u003c/div\u003e\n    ",
   "className": "empty",
 });
         
     
-                marker_a9bc6d3068b45e224dfe938c55fa7d79.setIcon(div_icon_0958d9d4dd8fb9f398492fec47a08ea6);
+                marker_010edb79afb033911d2ce7df9897cc1f.setIcon(div_icon_bf58fd0b98e92aeb657ff24c0f8f7d26);
             
     
-            var marker_b26f01adcb20167ee72e41229ec111a0 = L.marker(
+            var marker_b2e7a6627d3a7fcfac97e8466e9c4764 = L.marker(
                 [41.08, 29.08],
                 {
 }
-            ).addTo(map_9895347631be12c505321d5943b324b4);
+            ).addTo(map_46f298febdb8c998e0305ccdfd0ffa0a);
         
     
-            var div_icon_8d8a4f34d38e4a31211bd46846d6b8b4 = L.divIcon({
+            var div_icon_34fe93a74e4508b73b11b885e03513f3 = L.divIcon({
   "html": "\n        \u003cdiv style=\"font-size:14px; color:dimgray; font-style:italic; transform: rotate(-25deg);\"\u003e\n            Bosphorus\n        \u003c/div\u003e\n    ",
   "className": "empty",
 });
         
     
-                marker_b26f01adcb20167ee72e41229ec111a0.setIcon(div_icon_8d8a4f34d38e4a31211bd46846d6b8b4);
+                marker_b2e7a6627d3a7fcfac97e8466e9c4764.setIcon(div_icon_34fe93a74e4508b73b11b885e03513f3);
             
 </script>
 </html>
