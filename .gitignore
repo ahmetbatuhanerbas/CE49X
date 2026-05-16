@@ -9,7 +9,6 @@ __pycache__/
 # Instructor-only files
 CE49X_Class_Spring_2026.xls
 email_service/
-Final Project/
 
 # Lecture PDFs and LaTeX source
 archive/
@@ -19,3 +18,7 @@ Week*/load_displacement_curve.png
 
 # Executed notebooks
 *_Executed.ipynb
+*_executed.ipynb
+
+# Manim render cache (keep final outputs only)
+**/media/videos/**/partial_movie_files/
