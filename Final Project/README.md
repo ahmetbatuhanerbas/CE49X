@@ -9,6 +9,29 @@
 
 ---
 
+## View Online (for instructors / reviewers)
+
+GitHub stores these files correctly, but its built-in viewers have limits. Use these links instead:
+
+| Deliverable | Link |
+|---|---|
+| **Live presentation website** | https://ahmetbatuhanerbas.github.io/CE49X/ *(enable GitHub Pages first — see below)* |
+| **Jupyter notebook (full, with outputs)** | https://nbviewer.org/github/ahmetbatuhanerbas/CE49X/blob/main/Final%20Project/notebooks/final_project_analysis.ipynb |
+| **Presentation PDF** | https://github.com/ahmetbatuhanerbas/CE49X/blob/main/Final%20Project/Final_Project.pdf |
+| **Project folder** | https://github.com/ahmetbatuhanerbas/CE49X/tree/main/Final%20Project |
+
+### Enable the live website (one-time)
+
+1. Push the latest code (includes a `docs/` folder).
+2. Open **Settings → Pages** on your repo.
+3. Under **Build and deployment → Source**, choose **Deploy from a branch**.
+4. Branch: `main`, folder: **`/docs`**, then Save.
+5. Wait 1–2 minutes; the site will be at https://ahmetbatuhanerbas.github.io/CE49X/
+
+> **Note:** Clicking `.html` files inside the repo shows source code only — that is normal. GitHub Pages serves them as a real website.
+
+---
+
 ## Project Structure
 
 ```
